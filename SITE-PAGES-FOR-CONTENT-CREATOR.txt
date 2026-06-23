@@ -1,0 +1,183 @@
+================================================================
+  SCRIBE MEDIA WEBSITE — ALL PAGES & LINKS
+  Base URL: https://scribeebook.vercel.app
+  For: Content Creator Reference
+  Last Updated: June 2026
+================================================================
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  HOMEPAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Home                      https://scribeebook.vercel.app/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  NAVBAR LINKS (Top Navigation)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [Why Scribe? Dropdown]
+  Why Scribe                https://scribeebook.vercel.app/why-scribe
+  Our Team                  https://scribeebook.vercel.app/our-team
+  Reviews                   https://scribeebook.vercel.app/reviews
+
+  [Services Dropdown]
+  Compare All Services      https://scribeebook.vercel.app/services
+  --Core Services--
+  Scribe Elite              https://scribeebook.vercel.app/services/ghostwriting
+  Scribe Professional       https://scribeebook.vercel.app/services/professional-book-writers
+  Guided Author             https://scribeebook.vercel.app/services/guided-author
+  Scribe Publishing         https://scribeebook.vercel.app/services/publishing
+  --Add-Ons--
+  Scribe Compass            https://scribeebook.vercel.app/services/scribe-compass
+  Audiobook                 https://scribeebook.vercel.app/services/audiobook
+  Book Marketing            https://scribeebook.vercel.app/services/book-marketing
+  --By Industry--
+  Books for Brands          https://scribeebook.vercel.app/services/books-for-brands
+  Books for Lawyers         https://scribeebook.vercel.app/services/books-for-lawyers
+  Books for Coaches         https://scribeebook.vercel.app/services/books-for-coaches
+  All Industries            https://scribeebook.vercel.app/services/books-for-industries
+
+  [Free Resources Dropdown]
+  Blog                      https://scribeebook.vercel.app/blog
+  The Scribe Method Book    https://scribeebook.vercel.app/scribe-method-book
+  Author Hour Podcast       https://scribeebook.vercel.app/author-hour
+
+  [Books & Authors Dropdown]
+  Our Authors               https://scribeebook.vercel.app/authors
+  Published Books           https://scribeebook.vercel.app/published-books
+  New Releases              https://scribeebook.vercel.app/new-releases
+  Success Stories           https://scribeebook.vercel.app/success-stories
+  FAQs                      https://scribeebook.vercel.app/faqs
+
+  [Direct Link]
+  Pricing                   https://scribeebook.vercel.app/pricing
+
+  [CTA Button]
+  Schedule a Consult        https://scribeebook.vercel.app/consult
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  FOOTER LINKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  [About Scribe Column]
+  About                     https://scribeebook.vercel.app/why-scribe
+  How It Works              https://scribeebook.vercel.app/how-it-works
+  Scribe Team               https://scribeebook.vercel.app/scribe-team
+  Eric Jorgenson            https://scribeebook.vercel.app/eric-jorgenson
+  Origin                    https://scribeebook.vercel.app/our-origin
+  Careers                   https://scribeebook.vercel.app/careers
+  Newsroom                  https://scribeebook.vercel.app/newsroom
+  Alumni                    https://scribeebook.vercel.app/alumni
+  Contact                   https://scribeebook.vercel.app/contact
+  Ambassadors               https://scribeebook.vercel.app/ambassadors
+  FAQs                      https://scribeebook.vercel.app/faq
+
+  [ Books and Authors Column ]
+  Success Stories           https://scribeebook.vercel.app/success-stories
+  Published Books           https://scribeebook.vercel.app/published-books
+  Book Bites                https://scribeebook.vercel.app/blog/tag/book-bites
+  Reviews                   https://scribeebook.vercel.app/reviews
+  Book Directory            https://scribeebook.vercel.app/book-directory
+  Author Directory          https://scribeebook.vercel.app/author-directory
+
+  [ Free Resources Column ]
+  Author Resources Library  https://scribeebook.vercel.app/author-resources-library
+  The Scribe Method         https://scribeebook.vercel.app/scribe-method-book
+  The Scribe Blog           https://scribeebook.vercel.app/blog
+  Episode Directory         https://scribeebook.vercel.app/episode-directory
+  Author Directory          https://scribeebook.vercel.app/author-directory
+  Book Directory            https://scribeebook.vercel.app/book-directory
+  Author FAQs               https://scribeebook.vercel.app/author-faqs
+  Author Services           https://scribeebook.vercel.app/author-services
+  Interviewing Guide        https://scribeebook.vercel.app/author-guides-interviewing
+  Book Cover Tips           https://scribeebook.vercel.app/publishing-book-cover
+  Formatting Tips           https://scribeebook.vercel.app/publishing-formatting-tips
+  Audiobook Guidelines      https://scribeebook.vercel.app/audiobook-submission-guidelines
+  Ghostwriting vs Self      https://scribeebook.vercel.app/ghostwriting-vs-self-writing
+  Write Your Book           https://scribeebook.vercel.app/write-your-book
+
+  [ Services Column ]
+  All Services              https://scribeebook.vercel.app/services
+  Scribe Publishing         https://scribeebook.vercel.app/services/publishing
+  Scribe Guided Author      https://scribeebook.vercel.app/services/guided-author
+  Scribe Professional       https://scribeebook.vercel.app/services/professional-book-writers
+  Scribe Elite              https://scribeebook.vercel.app/services/ghostwriting
+  Scribe Signature          https://scribeebook.vercel.app/services/scribe-signature
+  Scribe Audiobook          https://scribeebook.vercel.app/services/audiobook
+  Scribe Marketing          https://scribeebook.vercel.app/services/book-marketing
+  Scribe Compass            https://scribeebook.vercel.app/services/scribe-compass
+  Book Coaching             https://scribeebook.vercel.app/services/book-coaching
+  Book Writing              https://scribeebook.vercel.app/services/book-writing
+  Scribe PR                 https://scribeebook.vercel.app/services/scribe-pr
+  Write a Self-Help Book    https://scribeebook.vercel.app/services/write-a-self-help-book
+  Books for Brands          https://scribeebook.vercel.app/services/books-for-brands
+  Get a Quote               https://scribeebook.vercel.app/pricing/quote
+  Audiobook Pricing         https://scribeebook.vercel.app/pricing/audiobook
+  Marketing Pricing         https://scribeebook.vercel.app/pricing/marketing
+
+  [ Compare Scribe Column ]
+  vs. Forbes Books          https://scribeebook.vercel.app/vs/forbes-books
+  vs. Kevin Anderson        https://scribeebook.vercel.app/vs/kevin-anderson-associates
+  vs. Page Two              https://scribeebook.vercel.app/vs/page-two
+  vs. Peaceful Profits      https://scribeebook.vercel.app/vs/peaceful-profits
+  vs. Self-Publishing.com   https://scribeebook.vercel.app/vs/self-publishing-com
+
+  [ Footer Bottom Bar ]
+  Privacy Policy            https://scribeebook.vercel.app/privacy
+  Terms of Service          https://scribeebook.vercel.app/terms-of-service
+
+  [ Social Media Links ]
+  Twitter / X               https://x.com/scribemediaco
+  Instagram                 https://www.instagram.com/scribemediaco/
+  LinkedIn                  https://www.linkedin.com/company/scribe-media
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ALL BUILT PAGES (App Directory)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Home                      https://scribeebook.vercel.app/
+  Alumni                    https://scribeebook.vercel.app/alumni
+  Ambassadors               https://scribeebook.vercel.app/ambassadors
+  Audiobook Guidelines      https://scribeebook.vercel.app/audiobook-submission-guidelines
+  Author Directory          https://scribeebook.vercel.app/author-directory
+  Author FAQs               https://scribeebook.vercel.app/author-faqs
+  Author Guides (Interview) https://scribeebook.vercel.app/author-guides-interviewing
+  Author Hour Podcast       https://scribeebook.vercel.app/author-hour
+  Author Resources Library  https://scribeebook.vercel.app/author-resources-library
+  Authors                   https://scribeebook.vercel.app/authors
+  Author Services           https://scribeebook.vercel.app/author-services
+  Blog                      https://scribeebook.vercel.app/blog
+  Book Directory            https://scribeebook.vercel.app/book-directory
+  Careers                   https://scribeebook.vercel.app/careers
+  Contact                   https://scribeebook.vercel.app/contact
+  Episode Directory         https://scribeebook.vercel.app/episode-directory
+  Eric Jorgenson            https://scribeebook.vercel.app/eric-jorgenson
+  FAQ                       https://scribeebook.vercel.app/faq
+  FAQs                      https://scribeebook.vercel.app/faqs
+  Ghostwriting              https://scribeebook.vercel.app/ghostwriting
+  Ghostwriting vs Self      https://scribeebook.vercel.app/ghostwriting-vs-self-writing
+  How It Works              https://scribeebook.vercel.app/how-it-works
+  New Releases              https://scribeebook.vercel.app/new-releases
+  Newsroom                  https://scribeebook.vercel.app/newsroom
+  Our Origin                https://scribeebook.vercel.app/our-origin
+  Our Team                  https://scribeebook.vercel.app/our-team
+  Pricing                   https://scribeebook.vercel.app/pricing
+  Privacy Policy            https://scribeebook.vercel.app/privacy
+  Published Books           https://scribeebook.vercel.app/published-books
+  Publishing Book Cover     https://scribeebook.vercel.app/publishing-book-cover
+  Publishing Formatting     https://scribeebook.vercel.app/publishing-formatting-tips
+  Reviews                   https://scribeebook.vercel.app/reviews
+  Scribe Method Book        https://scribeebook.vercel.app/scribe-method-book
+  Scribe Team               https://scribeebook.vercel.app/scribe-team
+  Services                  https://scribeebook.vercel.app/services
+  Success Stories           https://scribeebook.vercel.app/success-stories
+  Terms of Service          https://scribeebook.vercel.app/terms-of-service
+  vs (comparisons)          https://scribeebook.vercel.app/vs
+  Why Scribe                https://scribeebook.vercel.app/why-scribe
+  Write Your Book           https://scribeebook.vercel.app/write-your-book
+
+

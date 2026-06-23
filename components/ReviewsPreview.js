@@ -30,7 +30,7 @@ export default function ReviewsPreview() {
           </div>
         ))}
       </div>
-      <a href="#" style={{ display: 'inline-block', color: '#e02d2d', fontWeight: 600, fontSize: '16px', textDecoration: 'none', marginTop: '28px' }}>
+      <a href="/reviews" style={{ display: 'inline-block', color: '#e02d2d', fontWeight: 600, fontSize: '16px', textDecoration: 'none', marginTop: '28px' }}>
         Read All Reviews →
       </a>
     </div>
