@@ -1,0 +1,221 @@
+.bfb {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(0, 0, 0, 0.1), transparent 36%),
+    radial-gradient(circle at 88% 96%, rgba(224, 45, 45, 0.12), transparent 40%),
+    linear-gradient(180deg, var(--bg-dark-alt, #111111) 0%, var(--bg-dark, #0d0d0d) 100%);
+  color: var(--text-main, #ffffff);
+}
+
+.bfb__hero {
+  padding: 1.5rem 1.5rem 3rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bfb__hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, var(--accent-gold, #e02d2d), var(--brand-royal, #b02020));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.bfb__hero p {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bfb__cta-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--accent-gold, #e02d2d) 0%, var(--brand-royal, #b02020) 100%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.85rem 2.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  margin-top: 0.75rem;
+}
+
+.bfb__cta-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* Logos section */
+.bfb__logos-section {
+  padding: 0 1.5rem 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bfb__logos-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.85rem;
+  color: #ffffff;
+}
+
+.bfb__logos-section p {
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0 auto 1.75rem;
+  max-width: 760px;
+  line-height: 1.65;
+}
+
+.bfb__logos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 769px) {
+  .bfb__logos-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+}
+
+.bfb__logo-card {
+  background: rgba(22, 22, 22, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.25rem;
+}
+
+.bfb__logo-card img {
+  max-width: 100%;
+  max-height: 48px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Sections */
+.bfb__section {
+  padding: 4rem 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bfb__section--alt {
+  background: rgba(22, 22, 22, 0.92);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bfb__section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bfb__section .subtitle {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+}
+
+/* Process grid */
+.bfb__process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.bfb__process-card {
+  background: rgba(25, 25, 25, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.bfb__process-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-gold, #e02d2d);
+  margin-bottom: 0.75rem;
+}
+
+.bfb__process-card p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Benefits grid */
+.bfb__benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.bfb__benefit {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(22, 22, 22, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.bfb__benefit h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-gold, #e02d2d);
+  margin-bottom: 0.5rem;
+}
+
+.bfb__benefit p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Bottom CTA */
+.bfb__bottom-cta {
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.bfb__bottom-cta h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.bfb__bottom-cta p {
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .bfb__hero { padding-top: 5.5rem; }
+  .bfb__hero h1 { font-size: 2rem; }
+  .bfb__benefits-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 480px) {
+  .bfb__benefits-grid { grid-template-columns: 1fr; }
+}

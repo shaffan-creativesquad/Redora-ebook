@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #0d0d0d;
+    --color-bg-alt: #111111;
+    --color-surface: #161616;
+    --color-surface-alt: #141414;
+    --color-footer: #0a0a0a;
+    --color-icon: #1a1a1a;
+    --color-text: #f0f0f0;
+    --color-text-muted: #c8c8c8;
+    --color-text-subtle: #9ca3af;
+    --color-border: rgba(255, 255, 255, 0.08);
+    --color-border-strong: rgba(255, 255, 255, 0.12);
+    --color-accent: #e02d2d;
+    --color-accent-dark: #b02020;
+    --color-accent-soft: rgba(224, 45, 45, 0.12);
+    --color-accent-muted: rgba(220, 45, 45, 0.08);
+
+    /* legacy aliases for existing styles */
+    --bg-dark: var(--color-bg);
+    --bg-dark-alt: var(--color-bg-alt);
+    --bg-card: var(--color-surface);
+    --bg-icon: var(--color-icon);
+    --bg-surface: var(--color-surface-alt);
+    --bg-footer: var(--color-footer);
+    --text-main: var(--color-text);
+    --text-muted: var(--color-text-muted);
+    --accent: var(--color-accent);
+    --accent-gold: var(--color-accent);
+    --accent-taupe: var(--color-text-muted);
+    --brand-violet: var(--color-accent);
+    --brand-royal: var(--color-accent-dark);
+    --brand-yellow: var(--color-accent-dark);
+    --font-serif: "Playfair Display", serif;
+    --font-sans: "Inter", sans-serif;
+    --navbar-height: 84px;
+    --navbar-safe-offset: 112px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  input, textarea, select {
+    outline: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+
+  body {
+    @apply antialiased;
+    font-family: var(--font-sans);
+    background:
+      radial-gradient(circle at 12% 4%, var(--color-accent-muted), transparent 28%),
+      radial-gradient(circle at 86% 2%, rgba(80,80,80,0.06), transparent 30%),
+      radial-gradient(circle at 50% 110%, rgba(60,60,60,0.06), transparent 42%),
+      var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.5;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* ── Newsletter input focus ── */
+.newsletter-input:focus {
+  border-color: var(--color-accent) !important;
+  outline: none;
+  background: rgba(16,16,16,0.92) !important;
+}
+
+/* ── Navbar ── */
+.navbar a,
+.navbar button {
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  position: relative;
+}
+
+.navbar a::after,
+.navbar button::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: var(--color-accent);
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.35s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar a:focus,
+.navbar button:focus,
+.navbar button:focus-visible {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -28px;
+  height: 28px;
+  background: linear-gradient(to bottom, rgb(10, 10, 10), transparent);
+  pointer-events: none;
+}
+
+
+
+
+
+

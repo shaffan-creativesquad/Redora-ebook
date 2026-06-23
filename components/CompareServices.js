@@ -1,0 +1,81 @@
+import Image from 'next/image'
+
+const cards = [
+  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '#' },
+  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '#' },
+  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '#' },
+]
+
+export default function CompareServices() {
+  return (
+    <section style={{
+      padding: 'clamp(2.4rem,3.5vw,3.8rem) 1.25rem',
+      background: 'linear-gradient(180deg,#111111 0%,#161616 100%)',
+      borderTop: '1px solid rgba(168,168,168,0.2)',
+    }}>
+      <div style={{ maxWidth: '1240px', margin: '0 auto' }}>
+
+        {/* Compare card */}
+        <div style={{
+          borderRadius: '20px',
+          border: '1px solid rgba(168,168,168,0.24)',
+          padding: 'clamp(1.45rem,2.7vw,2.35rem)',
+          background: `
+            radial-gradient(circle at 82% 18%, rgba(220,45,45,0.12), transparent 42%),
+            linear-gradient(140deg,#161616 0%,#1a1a1a 52%,#141414 100%)
+          `,
+          textAlign: 'center',
+          marginBottom: 'clamp(1.1rem,2vw,1.6rem)',
+        }}>
+          <h2 className="font-playfair" style={{ margin: '0 0 0.6rem', color: '#f0f0f0', fontSize: 'clamp(1.9rem,3.1vw,2.95rem)', lineHeight: 1.14 }}>
+            Compare Scribe Services
+          </h2>
+          <p style={{ margin: '0 auto 1rem', maxWidth: '62ch', color: '#bbbbb', fontSize: '1.01rem', lineHeight: 1.6 }}>
+            We offer everything you need to professionally write, publish, and market your non-fiction book.
+          </p>
+          <a href="#" style={{
+            display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+            minHeight: '46px', padding: '0.65rem 1.2rem', borderRadius: '999px',
+            textDecoration: 'none', color: '#ffffff', fontWeight: 800,
+            background: '#e02d2d',
+            whiteSpace: 'nowrap',
+          }}>
+            All Writing and Publishing
+          </a>
+        </div>
+
+        {/* 3-card grid */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,minmax(0,1fr))', gap: 'clamp(0.75rem,1.5vw,1.05rem)' }}>
+          {cards.map((card, i) => (
+            <article key={i} style={{
+              borderRadius: '14px', overflow: 'hidden',
+              border: '1px solid rgba(168,168,168,0.22)',
+              background: 'linear-gradient(180deg,rgba(22,22,22,0.94),rgba(18,18,18,0.96))',
+            }}>
+              <Image
+                src={card.image} alt={card.alt}
+                width={988} height={500}
+                style={{ width: '100%', display: 'block', aspectRatio: '16/9', objectFit: 'cover' }}
+                unoptimized loading="lazy"
+              />
+              <div style={{ padding: '0.95rem' }}>
+                <h3 style={{ margin: '0 0 0.7rem', color: '#f0f0f0', fontSize: '1.07rem', lineHeight: 1.34, fontWeight: 700 }}>
+                  {card.title}
+                </h3>
+                <a href={card.href} style={{
+                  display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
+                  minHeight: '40px', padding: '0.45rem 0.9rem', borderRadius: '999px',
+                  textDecoration: 'none', border: '1px solid rgba(220,45,45,0.5)',
+                  background: 'rgba(220,45,45,0.1)', color: '#ffe0e0', fontWeight: 700, fontSize: '0.9rem',
+                }}>
+                  Explore Now
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  )
+}

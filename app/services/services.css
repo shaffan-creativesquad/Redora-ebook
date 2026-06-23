@@ -1,0 +1,98 @@
+/* ── Compare All Services page ── */
+:root { --svc-accent: var(--color-accent); }
+
+.sv2 { max-width: 960px; margin: 0 auto; padding: 5rem 1.5rem 4rem; }
+.sv2-heading { color: #fff; font-size: clamp(2rem,4vw,3rem); text-align: center; margin: 0 auto 1rem; font-weight: 700; }
+.sv2-intro { color: #9a9a9a; font-size: 1.1rem; text-align: center; max-width: 700px; margin: 0 auto 3rem; line-height: 1.6; }
+
+/* Toggle */
+.sv2-toggle-wrap { display: flex; justify-content: center; margin-bottom: 3rem; }
+.sv2-toggle { display: flex; background: rgba(255,255,255,0.05); border-radius: 50px; padding: 4px; gap: 4px; }
+.sv2-toggle-btn { padding: 1rem 2.5rem; border-radius: 50px; border: none; cursor: pointer; font-size: 1.5rem; font-weight: 700; transition: all 0.3s ease; background: transparent; color: rgba(255,255,255,0.5); font-family: inherit; }
+.sv2-toggle-btn.active { background: var(--svc-accent); color: #ffffff; }
+@media (max-width: 600px) { .sv2-toggle-btn { padding: 0.75rem 1.25rem; font-size: 1.1rem; } }
+
+/* Panels */
+.sv2-panel { display: none; animation: sv2FadeIn 0.4s ease; }
+.sv2-panel.active { display: block; }
+@keyframes sv2FadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Service cards */
+.sv2-cards { display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2rem; }
+@media (min-width: 768px) { .sv2-cards { grid-template-columns: repeat(2,1fr); } }
+.sv2-card { background: var(--bg-card,#161616); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2rem; position: relative; transition: border-color 0.3s; }
+.sv2-card:hover { border-color: rgba(255,255,255,0.15); }
+.sv2-card--featured { border-color: var(--svc-accent); }
+.sv2-badge { position: absolute; top: -12px; left: 2rem; background: var(--svc-accent); color: #ffffff; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.3rem 1rem; border-radius: 20px; }
+.sv2-card-label { color: var(--svc-accent); font-size: 0.85rem; font-weight: 600; margin-bottom: 0.25rem; }
+.sv2-card h3 { color: #fff; font-size: 1.5rem; margin: 0 0 1rem; }
+.sv2-card p { color: rgba(255,255,255,0.65); font-size: 0.95rem; line-height: 1.6; margin: 0 0 1.5rem; }
+.sv2-price { font-size: 1.75rem; font-weight: 700; color: var(--svc-accent); margin-bottom: 0.25rem; }
+.sv2-price-note { color: rgba(255,255,255,0.45); font-size: 0.9rem; margin-bottom: 1rem; }
+.sv2-time-box { background: rgba(255,255,255,0.04); border-radius: 8px; padding: 0.75rem 1rem; }
+.sv2-time-label { color: rgba(255,255,255,0.45); font-size: 0.8rem; margin-bottom: 0.25rem; }
+.sv2-time-value { color: #fff; font-size: 0.95rem; font-weight: 600; }
+.sv2-card-link { display: inline-block; margin-top: 1.25rem; color: var(--svc-accent); font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+.sv2-card-link:hover { text-decoration: underline; }
+
+/* Comparison table */
+.sv2-table-section { margin: 4rem 0; }
+.sv2-table-section h2 { color: #fff; font-size: 1.75rem; margin-bottom: 0.5rem; text-align: center; }
+.sv2-table-intro { color: rgba(255,255,255,0.55); margin-bottom: 2rem; text-align: center; }
+.sv2-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+.sv2-table th { color: #fff; font-weight: 700; padding: 0.75rem 0.5rem; border-bottom: 2px solid rgba(255,255,255,0.12); text-align: center; font-size: 0.85rem; }
+.sv2-table th:first-child { text-align: left; }
+.sv2-table th.sv2-hl { color: var(--svc-accent); position: relative; }
+.sv2-table th.sv2-hl::after { content: 'Most Popular'; display: block; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.25rem; }
+.sv2-table td { color: rgba(255,255,255,0.65); padding: 0.7rem 0.5rem; border-bottom: 1px solid rgba(255,255,255,0.05); text-align: center; }
+.sv2-table td:first-child { text-align: left; color: #fff; font-weight: 600; }
+.sv2-table td.sv2-hl-col { background: rgba(220,45,45,0.06); }
+@media (max-width: 600px) { .sv2-table { font-size: 0.78rem; } .sv2-table th, .sv2-table td { padding: 0.5rem 0.3rem; } }
+
+/* Included grid */
+.sv2-all-included { margin: 4rem 0; }
+.sv2-all-included h2 { color: #fff; font-size: 1.75rem; text-align: center; margin-bottom: 0.5rem; }
+.sv2-all-intro { color: rgba(255,255,255,0.55); text-align: center; margin-bottom: 2.5rem; font-size: 1.05rem; }
+.sv2-inc-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
+@media (min-width: 600px) { .sv2-inc-grid { grid-template-columns: repeat(2,1fr); } }
+@media (min-width: 900px) { .sv2-inc-grid { grid-template-columns: repeat(3,1fr); } }
+.sv2-inc-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 1.5rem; }
+.sv2-inc-icon { font-size: 1.5rem; margin-bottom: 0.75rem; }
+.sv2-inc-card h3 { color: var(--svc-accent); font-size: 1rem; font-weight: 600; margin: 0 0 0.5rem; }
+.sv2-inc-card p { color: rgba(255,255,255,0.6); font-size: 0.9rem; line-height: 1.6; margin: 0; }
+
+/* Quiz */
+.sv2-quiz { max-width: 700px; margin: 5rem auto; text-align: center; }
+.sv2-quiz > h2 { color: #fff; font-size: 2.25rem; margin-bottom: 0.75rem; }
+.sv2-quiz-sub { color: rgba(255,255,255,0.5); margin-bottom: 2.5rem; font-size: 1.05rem; line-height: 1.5; }
+.sv2-quiz-box { background: linear-gradient(145deg,rgba(20,20,20,0.95),rgba(17,17,17,0.98)); border: 1px solid rgba(220,45,45,0.15); border-radius: 20px; padding: 3rem 2.5rem; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+.sv2-quiz-step { display: none; animation: sv2FadeIn 0.4s ease; }
+.sv2-quiz-step.active { display: block; }
+.sv2-quiz-progress { display: flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 2rem; }
+.sv2-quiz-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.15); transition: all 0.3s ease; }
+.sv2-quiz-dot.active { background: var(--svc-accent); box-shadow: 0 0 8px rgba(220,45,45,0.4); }
+.sv2-quiz-dot.completed { background: var(--svc-accent); opacity: 0.5; }
+.sv2-quiz-q { color: #fff; font-size: 1.5rem; font-weight: 600; margin-bottom: 2.5rem; line-height: 1.4; }
+.sv2-quiz-options { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 0 auto; }
+.sv2-quiz-btn { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 1.35rem 1.75rem; color: #fff; font-size: 1.1rem; font-weight: 500; cursor: pointer; transition: all 0.3s ease; text-align: left; font-family: inherit; }
+.sv2-quiz-btn:hover { border-color: var(--svc-accent); background: rgba(220,45,45,0.08); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(220,45,45,0.1); }
+.sv2-quiz-back { background: none; border: none; color: rgba(255,255,255,0.35); font-size: 0.9rem; cursor: pointer; margin-top: 1.5rem; padding: 0.5rem 1rem; transition: color 0.2s; font-family: inherit; }
+.sv2-quiz-back:hover { color: rgba(255,255,255,0.6); }
+.sv2-quiz-restart { background: none; border: none; color: rgba(255,255,255,0.25); font-size: 0.85rem; cursor: pointer; margin-top: 0.5rem; padding: 0.5rem 1rem; font-family: inherit; }
+.sv2-quiz-restart:hover { color: rgba(255,255,255,0.5); }
+.sv2-quiz-result-label { color: var(--svc-accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.15em; font-weight: 700; margin-bottom: 1.5rem; }
+.sv2-quiz-result { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 2.5rem 2rem; text-align: center; }
+.sv2-quiz-result--featured { border-color: var(--svc-accent); }
+.sv2-quiz-result h3 { color: #fff; font-size: 1.5rem; margin: 0 0 0.5rem; }
+.sv2-quiz-result-price { color: var(--svc-accent); font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; }
+.sv2-quiz-result p { color: rgba(255,255,255,0.6); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.75rem; }
+.sv2-quiz-result-btns { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.sv2-quiz-link { display: inline-block; color: var(--svc-accent); font-weight: 600; font-size: 0.95rem; text-decoration: none; padding: 0.75rem 1.5rem; border: 1px solid var(--svc-accent); border-radius: 8px; transition: background 0.2s; }
+.sv2-quiz-link:hover { background: rgba(220,45,45,0.1); }
+
+/* CTA */
+.sv2-cta { text-align: center; margin: 1rem auto 0; padding: 4rem 2rem; max-width: 700px; }
+.sv2-cta h2 { color: #fff; font-size: 2rem; margin-bottom: 0.75rem; font-weight: 600; }
+.sv2-cta p { color: rgba(255,255,255,0.6); margin-bottom: 2rem; font-size: 1.1rem; line-height: 1.5; }
+.sv2-cta-btn { display: inline-block; background: var(--svc-accent); color: #ffffff; font-weight: 700; font-size: 1.05rem; padding: 1rem 2.5rem; border-radius: 8px; text-decoration: none; letter-spacing: 0.02em; }
+.sv2-cta-btn:hover { opacity: 0.9; }

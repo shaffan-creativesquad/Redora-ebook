@@ -1,0 +1,369 @@
+/* Shared CSS for pricing configurator pages */
+
+.pub-page {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  background: #111111;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ── Progress Steps ── */
+.pub-progress {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding: 40px 24px 40px;
+  background: #111111;
+}
+.pub-progress__step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #9a9a9a;
+  transition: color 0.3s;
+}
+.pub-progress__step.is-active { color: #e02d2d; font-weight: 600; }
+.pub-progress__step.is-done { color: #4ade80; }
+.pub-progress__num {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(168,168,168,0.2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 600;
+  transition: all 0.3s;
+}
+.pub-progress__step.is-active .pub-progress__num {
+  background: #e02d2d; color: #fff; border-color: #e02d2d;
+}
+.pub-progress__step.is-done .pub-progress__num {
+  background: #4ade80; color: #111; border-color: #4ade80;
+}
+.pub-progress__line {
+  width: 40px; height: 1px;
+  background: rgba(168,168,168,0.2);
+  margin: 0 8px; flex-shrink: 0;
+}
+
+/* ── Layout ── */
+.pub-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 28px;
+}
+@media (max-width: 900px) { .pub-layout { grid-template-columns: 1fr; } }
+.pub-main { min-width: 0; }
+.pub-sidebar { position: sticky; top: 120px; align-self: start; }
+
+/* ── Card ── */
+.pub-card {
+  background: #1a1a1a;
+  border: 1px solid rgba(168,168,168,0.15);
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 24px;
+}
+.pub-card h2 {
+  font-size: 22px; color: #fff; margin: 0 0 6px; font-weight: 700;
+}
+
+/* ── Section panels ── */
+.pub-section { display: none; }
+.pub-section.is-visible { display: block; }
+
+/* ── Hero ── */
+.pub-hero {
+  text-align: center;
+  padding: 40px 28px 32px;
+  background: linear-gradient(180deg, rgba(220,45,45,0.07) 0%, transparent 100%);
+  border: 1px solid rgba(220,45,45,0.18);
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+.pub-hero__badge {
+  display: inline-block;
+  font-size: 11px; font-weight: 700;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  color: #e02d2d;
+  background: rgba(220,45,45,0.1);
+  padding: 6px 16px; border-radius: 20px; margin-bottom: 16px;
+}
+.pub-hero__title {
+  font-size: 28px; color: #fff; margin: 0 0 8px; font-weight: 700;
+}
+.pub-hero__subtitle {
+  font-size: 15px; color: #bfbfbf;
+  max-width: 560px; margin: 0 auto 20px; line-height: 1.6;
+}
+.pub-hero__note {
+  font-size: 12px; color: #9a9a9a;
+  max-width: 480px; margin: 0 auto; line-height: 1.5; font-style: italic;
+}
+
+/* ── Config card ── */
+.pub-config-card {
+  background: #1a1a1a;
+  border: 1px solid rgba(168,168,168,0.15);
+  border-radius: 14px;
+  padding: 28px; margin-bottom: 24px;
+}
+.pub-config-card h3 {
+  font-size: 13px; font-weight: 700; color: #e02d2d;
+  margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.08em;
+}
+
+/* ── Radio options ── */
+.pub-radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(168,168,168,0.15);
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #bfbfbf;
+  transition: border-color 0.2s, background 0.2s;
+}
+.pub-radio:hover { border-color: rgba(220,45,45,0.35); background: rgba(255,255,255,0.02); }
+.pub-radio.is-selected { border-color: #e02d2d; background: rgba(220,45,45,0.06); }
+.pub-radio input[type="radio"] { accent-color: #e02d2d; flex-shrink: 0; }
+.pub-radio__price {
+  margin-left: auto;
+  font-weight: 600;
+  color: #e02d2d;
+  white-space: nowrap;
+  padding-left: 12px;
+}
+
+/* ── Quantity buttons ── */
+.pub-qty-btn {
+  width: 36px; height: 36px;
+  border-radius: 8px;
+  border: 1px solid rgba(168,168,168,0.15);
+  background: #1a1a1a;
+  color: #e02d2d;
+  font-size: 18px; font-weight: 700;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+}
+.pub-qty-btn:hover { background: rgba(255,255,255,0.06); border-color: #e02d2d; }
+
+/* ── Addon cards ── */
+.pub-addon-card {
+  position: relative;
+  display: flex; align-items: flex-start; gap: 14px;
+  padding: 20px; border-radius: 12px;
+  border: 1px solid rgba(168,168,168,0.15);
+  margin-bottom: 12px; cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, box-shadow 0.2s;
+  background: #111111;
+}
+.pub-addon-card:hover {
+  border-color: rgba(220,45,45,0.35); background: #1a1a1a;
+}
+.pub-addon-card.is-selected {
+  border-color: #e02d2d;
+  background: rgba(220,45,45,0.06);
+  box-shadow: 0 0 0 1px #e02d2d;
+}
+.pub-addon-card input[type="checkbox"] {
+  width: 20px; height: 20px;
+  margin-top: 2px; accent-color: #e02d2d; flex-shrink: 0;
+}
+.pub-addon-card__body { flex: 1; min-width: 0; }
+.pub-addon-card__top {
+  display: flex; justify-content: space-between;
+  align-items: flex-start; gap: 12px; margin-bottom: 4px;
+}
+.pub-addon-card__name { font-size: 16px; font-weight: 700; color: #fff; }
+.pub-addon-card__price {
+  font-size: 15px; font-weight: 700; color: #e02d2d; white-space: nowrap; flex-shrink: 0;
+}
+.pub-addon-card__desc { font-size: 13px; color: #9a9a9a; line-height: 1.5; }
+
+/* ── Review warning ── */
+.pub-review-warning {
+  background: rgba(220,45,45,0.07);
+  border: 1px solid rgba(220,45,45,0.22);
+  border-radius: 10px; padding: 16px 20px; margin-bottom: 24px;
+  font-size: 14px; color: #ffe0e0; line-height: 1.6; text-align: center;
+}
+.pub-review-warning strong {
+  display: block; margin-bottom: 4px;
+  font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; color: #e02d2d;
+}
+
+/* ── Summary sidebar ── */
+.pub-summary {
+  background: #1a1a1a;
+  border: 1px solid rgba(168,168,168,0.15);
+  border-radius: 14px; padding: 24px;
+}
+.pub-summary h3 {
+  font-size: 18px; color: #fff; margin: 0 0 16px; font-weight: 700;
+  padding-bottom: 12px; border-bottom: 1px solid rgba(168,168,168,0.15);
+}
+.pub-summary__line {
+  display: flex; justify-content: space-between; padding: 6px 0; font-size: 14px;
+}
+.pub-summary__line .label { color: #bfbfbf; }
+.pub-summary__line .value { color: #fff; font-weight: 600; }
+.pub-summary__empty { font-size: 14px; color: #9a9a9a; font-style: italic; padding: 12px 0; }
+.pub-summary__total {
+  display: flex; justify-content: space-between;
+  padding: 14px 0 0; margin-top: 10px;
+  border-top: 2px solid #e02d2d;
+  font-size: 18px; font-weight: 700;
+}
+.pub-summary__total .value { color: #e02d2d; }
+.pub-summary__payment {
+  background: rgba(220,45,45,0.07);
+  border-radius: 8px; padding: 14px; margin-top: 16px; text-align: center;
+}
+.pub-summary__payment .amount { font-size: 24px; font-weight: 700; color: #e02d2d; }
+.pub-summary__payment .term { font-size: 13px; color: #9a9a9a; margin-top: 2px; }
+
+/* ── Email quote ── */
+.pub-email-quote {
+  margin-top: 16px; padding-top: 16px;
+  border-top: 1px solid rgba(168,168,168,0.15);
+}
+.pub-email-quote__row { display: flex; gap: 8px; }
+.pub-email-quote input {
+  flex: 1; padding: 10px 12px; border-radius: 6px;
+  border: 1px solid rgba(168,168,168,0.2);
+  background: rgba(255,255,255,0.04); color: #fff;
+  font-size: 13px; font-family: 'Inter', sans-serif;
+}
+.pub-email-quote input::placeholder { color: #9a9a9a; }
+.pub-email-quote button {
+  padding: 10px 16px; border-radius: 6px; border: none;
+  background: #e02d2d; color: #fff;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  white-space: nowrap; font-family: 'Inter', sans-serif;
+  transition: background 0.2s;
+}
+.pub-email-quote button:hover { background: #c42626; }
+.pub-email-quote__status { font-size: 12px; margin-top: 6px; min-height: 16px; }
+
+/* ── Buttons ── */
+.pub-btn {
+  display: inline-block; padding: 14px 32px; border-radius: 8px;
+  font-size: 15px; font-weight: 700; text-decoration: none;
+  border: none; cursor: pointer; font-family: 'Inter', sans-serif;
+  transition: all 0.2s;
+}
+.pub-btn--red {
+  background: #e02d2d; color: #fff;
+}
+.pub-btn--red:hover { background: #c42626; box-shadow: 0 4px 16px rgba(220,45,45,0.3); transform: translateY(-1px); }
+.pub-btn--gold {
+  background: #e02d2d; color: #fff;
+}
+.pub-btn--gold:hover { background: #c42626; box-shadow: 0 4px 16px rgba(220,45,45,0.3); transform: translateY(-1px); }
+.pub-btn--outline {
+  background: transparent;
+  border: 1px solid rgba(168,168,168,0.22); color: #bfbfbf;
+}
+.pub-btn--outline:hover { border-color: rgba(220,45,45,0.4); color: #fff; }
+.pub-btn--disabled { opacity: 0.4; pointer-events: none; }
+
+/* ── Step nav ── */
+.pub-step-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 32px; padding-top: 24px;
+  border-top: 1px solid rgba(168,168,168,0.15);
+}
+
+/* ── Agreement ── */
+.pub-agreement {
+  max-height: 500px; overflow-y: auto; padding: 24px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(168,168,168,0.15);
+  border-radius: 10px; font-size: 14px; line-height: 1.8; color: #bfbfbf;
+}
+.pub-agreement h4 {
+  font-size: 15px; font-weight: 700; color: #fff; margin: 24px 0 8px;
+}
+.pub-agreement h4:first-child { margin-top: 0; }
+.pub-agreement p { margin: 0 0 12px; }
+.pub-agreement ul { padding-left: 20px; margin: 8px 0 16px; }
+.pub-agreement li { margin-bottom: 6px; }
+.pub-agreement .dynamic-field {
+  background: rgba(220,45,45,0.12);
+  padding: 1px 6px; border-radius: 3px; color: #ff6b6b; font-weight: 600;
+}
+
+/* ── Sign section ── */
+.pub-sign-field { margin-bottom: 16px; }
+.pub-sign-field label {
+  display: block; font-size: 13px; font-weight: 600;
+  color: rgba(255,255,255,0.7); margin-bottom: 6px;
+}
+.pub-sign-field input[type="text"],
+.pub-sign-field input[type="email"],
+.pub-sign-field input[type="tel"] {
+  width: 100%; padding: 12px 14px; border-radius: 8px;
+  border: 1px solid rgba(168,168,168,0.22);
+  background: rgba(12,12,12,0.78);
+  color: #fff; font-size: 15px; font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+.pub-sign-field input::placeholder { color: #9a9a9a; }
+.pub-sign-checkbox {
+  display: flex; align-items: flex-start; gap: 10px; padding: 10px 0;
+  font-size: 14px; color: #bfbfbf; cursor: pointer;
+}
+.pub-sign-checkbox input { margin-top: 3px; accent-color: #e02d2d; }
+.pub-signature-box {
+  border: 2px dashed rgba(220,45,45,0.5); border-radius: 10px;
+  padding: 20px; text-align: center; margin-top: 16px;
+}
+.pub-signature-box input {
+  width: 100%; padding: 14px; border: none; background: transparent;
+  color: #e02d2d; font-size: 28px; font-style: italic; text-align: center;
+  outline: none; box-sizing: border-box;
+}
+.pub-signature-box input::placeholder { color: rgba(220,45,45,0.3); }
+.pub-signature-box .hint { font-size: 12px; color: #9a9a9a; margin-top: 4px; }
+
+/* ── Payment ── */
+.pub-pay-summary {
+  text-align: center; padding: 32px 24px;
+  background: rgba(220,45,45,0.06);
+  border: 1px solid rgba(220,45,45,0.22);
+  border-radius: 14px; margin-bottom: 24px;
+}
+.pub-pay-summary .first-payment { font-size: 36px; font-weight: 700; color: #e02d2d; }
+.pub-pay-summary .pay-note { font-size: 14px; color: #9a9a9a; margin-top: 4px; }
+
+/* ── Responsive ── */
+@media (max-width: 900px) { .pub-sidebar { position: static; } }
+@media (max-width: 600px) {
+  .pub-progress { flex-wrap: wrap; gap: 4px; }
+  .pub-progress__step span:not(.pub-progress__num) { display: none; }
+  .pub-progress__line { width: 20px; }
+  .pub-card { padding: 20px 16px; }
+  .pub-config-card { padding: 20px 16px; }
+  .pub-agreement { max-height: 400px; padding: 16px; }
+  .pub-hero { padding: 28px 16px 24px; }
+  .pub-hero__title { font-size: 24px; }
+}
+@media (max-width: 390px) {
+  .pub-layout { padding: 0 12px 60px; }
+  .pub-hero { padding: 24px 12px 20px; }
+  .pub-addon-card { padding: 14px; gap: 10px; }
+  .pub-summary { padding: 18px; }
+  .pub-btn { padding: 12px 20px; font-size: 14px; }
+  .pub-step-nav { flex-direction: column; gap: 12px; }
+  .pub-step-nav .pub-btn { width: 100%; text-align: center; }
+}

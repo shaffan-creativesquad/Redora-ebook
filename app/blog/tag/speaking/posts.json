@@ -1,0 +1,24 @@
+{
+  "featured": {
+    "href": "https://scribemedia.com/blog/financial-planner-doubled-aum",
+    "img": "https://scribemedia.com/hs-fs/hubfs/blog-featured/scribe-media-logo-onwhite-1.jpg?width=960&height=600&name=scribe-media-logo-onwhite-1.jpg",
+    "tag": "Author Success Stories",
+    "title": "How This Financial Planner Doubled AUM (And Became A Hometown Hero)",
+    "excerpt": "Mark Baird is a Certified Financial Planner who takes a holistic approach to financial well-being. Whereas most CFPs focus on just one facet of monetary health--such as insurance or ...",
+    "author": "Scribe Media",
+    "date": "March 19, 2018",
+    "readTime": "6 min read"
+  },
+  "posts": [
+    {
+      "href": "https://scribemedia.com/blog/chris-dessi-case-study",
+      "img": "https://scribemedia.com/hs-fs/hubfs/blog-featured/2016/02/chris-dessi.jpg?width=960&height=600&name=chris-dessi.jpg",
+      "tag": "Author Success Stories",
+      "title": "How Chris Dessi's New Book Accelerated His Speaking Career",
+      "excerpt": "Chris Dessi was speaking at a prestigious event in Philadelphia when he had a realization As the CEO of Silverback Social, a social-first digital ...",
+      "author": "Scribe Media",
+      "date": "Feb 14, 2016",
+      "readTime": "7 min read"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "featured": {
+    "href": "https://scribemedia.com/blog/a-peek-into-lenas-journey",
+    "img": "/assets/VivianLiu_Twitter_Post_AvailableNow.webp",
+    "tag": "Book Bites",
+    "title": "A Peek into Lena's Journey",
+    "excerpt": "The following is an excerpt from Lena's Journey by Vivian Liu.",
+    "author": "Eric Jorgenson",
+    "date": "June 17, 2026",
+    "readTime": "7 min read"
+  },
+  "posts": [
+    {
+      "href": "https://scribemedia.com/blog/when-you-choose-your-attitude-you-choose-your-world",
+      "img": "/assets/pexels-kimmo-vainio-314143536-18386434.webp",
+      "tag": "Book Bites",
+      "title": "When You Choose Your Attitude, You Choose Your World",
+      "excerpt": "The following is an excerpt from The Stonecaster by Dillon W. Buck.",
+      "author": "Eric Jorgenson",
+      "date": "Jun 17, 2026",
+      "readTime": "4 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/float-like-a-butterfly-what-muhammad-ali-taught-me-about-being-a-black-sheep",
+      "img": "/assets/pexels-eberhardgross-32707948.webp",
+      "tag": "Book Bites",
+      "title": "Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep",
+      "excerpt": "The following is adapted from The Black Sheep Advantage by Dr. Thom LeBeau.",
+      "author": "Eric Jorgenson",
+      "date": "Jun 17, 2026",
+      "readTime": "4 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/your-price-is-your-story-and-its-telling-one-right-now",
+      "img": "/assets/pexels-leeloothefirst-8962460.webp",
+      "tag": "Book Bites",
+      "title": "Your Price Is Your Story… And It's Telling One Right Now",
+      "excerpt": "The following is adapted from The Last Mile of Trust by Edward Lee.",
+      "author": "Eric Jorgenson",
+      "date": "Jun 11, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut",
+      "img": "/assets/pexels-hyrlf-meng-317253942-18413963.webp",
+      "tag": "Book Bites",
+      "title": "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
+      "excerpt": "The following is adapted from The Brooklyn Paramount Theatre by Michael Hittman.",
+      "author": "Eric Jorgenson",
+      "date": "May 28, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/the-simple-switch-from-aimless-to-visionary",
+      "img": "/assets/pexels-cottonbro-8370867.webp",
+      "tag": "Book Bites",
+      "title": "The Simple Switch from Aimless to Visionary",
+      "excerpt": "The following is adapted from Dreams and Deadlines by Wolfram Hedrich & Sebastian Voss.",
+      "author": "Eric Jorgenson",
+      "date": "May 28, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness",
+      "img": "/assets/pexels-gustavo-fring-6285298.webp",
+      "tag": "Book Bites",
+      "title": "The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness",
+      "excerpt": "The following is adapted from Strategy Is Attitude by Ganzorig.",
+      "author": "Eric Jorgenson",
+      "date": "May 21, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/disrupt-yourself-before-someone-else-beats-you-to-it",
+      "img": "/assets/pexels-julio-lopez-75309646-29502358.webp",
+      "tag": "Book Bites",
+      "title": "Disrupt Yourself Before Someone Else Beats You to It",
+      "excerpt": "The following is adapted from Do Your Thing by Ralph Hamers.",
+      "author": "Eric Jorgenson",
+      "date": "May 21, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/inclusive-practices-that-close-the-wage-gap",
+      "img": "/assets/pexels-edmond-dantes-8068836.webp",
+      "tag": "Book Bites",
+      "title": "Inclusive Practices That Close the Wage Gap",
+      "excerpt": "The following is adapted from Equal Pay Matters by David Weaver.",
+      "author": "Eric Jorgenson",
+      "date": "May 21, 2026",
+      "readTime": "3 min read"
+    },
+    {
+      "href": "https://scribemedia.com/blog/when-birthday-cake-couldnt-sweeten-the-storm",
+      "img": "/assets/pexels-towfiqu-barbhuiya-3440682-12065625.webp",
+      "tag": "Book Bites",
+      "title": "When Birthday Cake Couldn't Sweeten the Storm",
+      "excerpt": "The following is adapted from Before Forever by Ellisa Allen.",
+      "author": "Eric Jorgenson",
+      "date": "May 07, 2026",
+      "readTime": "3 min read"
+    }
+  ]
+}

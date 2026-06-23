@@ -1,0 +1,156 @@
+/* ── How It Works page ── */
+
+.content-page {
+  padding: 6rem 1.5rem;
+  background: var(--color-bg, #0d0d0d);
+  min-height: 80vh;
+}
+
+.content-page__header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+}
+
+.content-page__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .content-page__heading { font-size: 3.5rem; }
+}
+
+.content-page__subheading {
+  color: #9ca3af;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.content-page__body {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #d1d5db;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.content-page__body h2 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 3rem 0 1rem;
+}
+
+.content-page__body p {
+  margin: 0 0 1.25rem;
+}
+
+.content-page__body ul,
+.content-page__body ol {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.content-page__body li {
+  margin-bottom: 0.5rem;
+}
+
+.content-page__body a {
+  color: var(--color-accent, #e02d2d);
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 45, 45, 0.35);
+  transition: text-decoration-color 0.2s;
+}
+
+.content-page__body a:hover {
+  text-decoration-color: var(--color-accent, #e02d2d);
+}
+
+.content-page__body strong {
+  color: #f3f4f6;
+}
+
+/* Newsletter CTA */
+.cta-form-section {
+  position: relative;
+  overflow: clip;
+  padding: clamp(2.6rem, 4.2vw, 4.3rem) 1.25rem;
+  background: #111111;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.cta-form-section__inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.cta-form-section__logo {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1.1rem;
+}
+
+.cta-form-section__heading {
+  font-size: clamp(1.5rem, 3vw, 2.15rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.55rem;
+  line-height: 1.2;
+}
+
+.cta-form-section__subheading {
+  font-size: clamp(0.96rem, 1.2vw, 1.08rem);
+  color: #9ca3af;
+  margin-bottom: 1.45rem;
+  line-height: 1.5;
+}
+
+.cta-form-section__pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.cta-form-section__pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.36rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(224, 45, 45, 0.35);
+  color: #fca5a5;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  background: rgba(224, 45, 45, 0.07);
+}
+
+.cta-form-section__form-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.4rem 1.25rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #151515;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35);
+}
+
+.form-privacy-notice {
+  margin-top: 0.85rem;
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+
+.form-privacy-notice a {
+  color: #9ca3af;
+  text-decoration: none;
+}
+
+.form-privacy-notice a:hover {
+  color: #ffffff;
+}

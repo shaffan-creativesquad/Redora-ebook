@@ -1,0 +1,92 @@
+/* ── Publishing Formatting Tips page ── */
+
+.content-page {
+  padding: 4rem 1.5rem 6rem;
+  background-color: #0d0d0d;
+  min-height: 80vh;
+}
+
+.content-page__header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding-top: 2rem;
+}
+
+.content-page__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .content-page__heading { font-size: 3.5rem; }
+}
+
+.content-page__body {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #d1d5db;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.content-page__body h2 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 3rem 0 1rem;
+}
+
+.content-page__body h3 {
+  color: #ffffff;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 2.5rem 0 0.75rem;
+}
+
+.content-page__body p {
+  margin: 0 0 1.25rem;
+}
+
+.content-page__body ul,
+.content-page__body ol {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.content-page__body li {
+  margin-bottom: 0.5rem;
+}
+
+.content-page__body a {
+  color: #e02d2d;
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 45, 45, 0.35);
+  transition: text-decoration-color 0.25s;
+}
+
+.content-page__body a:hover {
+  text-decoration-color: #e02d2d;
+}
+
+.content-page__body blockquote {
+  border-left: 3px solid #e02d2d;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  background: rgba(224, 45, 45, 0.05);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #e5e7eb;
+}
+
+.content-page__body code {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 0.15em 0.45em;
+  font-size: 0.9em;
+  font-family: 'Courier New', Courier, monospace;
+  color: #e5e7eb;
+}

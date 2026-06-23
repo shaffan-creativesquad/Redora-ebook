@@ -1,0 +1,268 @@
+'use client'
+import { useState } from 'react'
+
+const tags = [
+  { label: 'All Posts', href: null },
+  { label: 'Book Writing', href: '/blog/tag/book-writing' },
+  { label: 'Author Success Stories', href: '/blog/tag/author-success-stories' },
+  { label: 'Book Publishing', href: '/blog/tag/book-publishing' },
+  { label: 'Book Bites', href: '/blog/tag/book-bites' },
+  { label: 'Book Marketing', href: '/blog/tag/book-marketing' },
+  { label: 'Author Branding', href: '/blog/tag/author-branding' },
+  { label: 'Book Editing', href: '/blog/tag/book-editing' },
+  { label: 'Scribe', href: '/blog/tag/scribe' },
+  { label: 'Idea to Execution', href: '/blog/tag/idea-to-execution' },
+  { label: 'Book Positioning', href: '/blog/tag/book-positioning' },
+  { label: 'Author Royalties', href: null },
+  { label: 'Book Topic', href: null },
+  { label: 'Speaking', href: null },
+]
+
+const featured = {
+  href: 'https://scribemedia.com/blog/a-peek-into-lenas-journey',
+  img: 'https://scribemedia.com/hs-fs/hubfs/VivianLiu_Twitter_Post_AvailableNow.png?width=960&height=600&name=VivianLiu_Twitter_Post_AvailableNow.png',
+  alt: "A Peek into Lena's Journey",
+  tag: 'Book Bites',
+  title: "A Peek into Lena's Journey",
+  excerpt: "The following is an excerpt from Lena's Journey by Vivian Liu.",
+  author: 'Eric Jorgenson',
+  date: 'June 17, 2026',
+  read: '7 min read',
+}
+
+const posts = [
+  {
+    href: 'https://scribemedia.com/blog/when-you-choose-your-attitude-you-choose-your-world',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-kimmo-vainio-314143536-18386434.jpg?width=960&height=600&name=pexels-kimmo-vainio-314143536-18386434.jpg',
+    alt: 'When You Choose Your Attitude, You Choose Your World',
+    tag: 'Book Bites',
+    title: 'When You Choose Your Attitude, You Choose Your World',
+    excerpt: 'The following is an excerpt from The Stonecaster by Dillon W. Buck.',
+    author: 'Eric Jorgenson',
+    date: 'Jun 17, 2026',
+    read: '4 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/float-like-a-butterfly-what-muhammad-ali-taught-me-about-being-a-black-sheep',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-eberhardgross-32707948.jpg?width=960&height=600&name=pexels-eberhardgross-32707948.jpg',
+    alt: 'Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep',
+    tag: 'Book Bites',
+    title: 'Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep',
+    excerpt: 'The following is adapted from The Black Sheep Advantage by Dr. Thom LeBeau.',
+    author: 'Eric Jorgenson',
+    date: 'Jun 17, 2026',
+    read: '4 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/your-price-is-your-story-and-its-telling-one-right-now',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-leeloothefirst-8962460.jpg?width=960&height=600&name=pexels-leeloothefirst-8962460.jpg',
+    alt: "Your Price Is Your Story… And It's Telling One Right Now",
+    tag: 'Book Bites',
+    title: "Your Price Is Your Story… And It's Telling One Right Now",
+    excerpt: 'The following is adapted from The Last Mile of Trust by Edward Lee.',
+    author: 'Eric Jorgenson',
+    date: 'Jun 11, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-hyrlf-meng-317253942-18413963.jpg?width=960&height=600&name=pexels-hyrlf-meng-317253942-18413963.jpg',
+    alt: "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
+    tag: 'Book Bites',
+    title: "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
+    excerpt: 'The following is adapted from The Brooklyn Paramount Theatre by Michael Hittman.',
+    author: 'Eric Jorgenson',
+    date: 'May 28, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/the-simple-switch-from-aimless-to-visionary',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-cottonbro-8370867.jpg?width=960&height=600&name=pexels-cottonbro-8370867.jpg',
+    alt: 'The Simple Switch from Aimless to Visionary',
+    tag: 'Book Bites',
+    title: 'The Simple Switch from Aimless to Visionary',
+    excerpt: 'The following is adapted from Dreams and Deadlines by Wolfram Hedrich & Sebastian Voss.',
+    author: 'Eric Jorgenson',
+    date: 'May 28, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-gustavo-fring-6285298.jpg?width=960&height=600&name=pexels-gustavo-fring-6285298.jpg',
+    alt: 'The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness',
+    tag: 'Book Bites',
+    title: 'The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness',
+    excerpt: 'The following is adapted from Strategy Is Attitude by Ganzorig.',
+    author: 'Eric Jorgenson',
+    date: 'May 21, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/disrupt-yourself-before-someone-else-beats-you-to-it',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-julio-lopez-75309646-29502358.jpg?width=960&height=600&name=pexels-julio-lopez-75309646-29502358.jpg',
+    alt: 'Disrupt Yourself Before Someone Else Beats You to It',
+    tag: 'Book Bites',
+    title: 'Disrupt Yourself Before Someone Else Beats You to It',
+    excerpt: 'The following is adapted from Do Your Thing by Ralph Hamers.',
+    author: 'Eric Jorgenson',
+    date: 'May 21, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/inclusive-practices-that-close-the-wage-gap',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-edmond-dantes-8068836.jpg?width=960&height=600&name=pexels-edmond-dantes-8068836.jpg',
+    alt: 'Inclusive Practices That Close the Wage Gap',
+    tag: 'Book Bites',
+    title: 'Inclusive Practices That Close the Wage Gap',
+    excerpt: 'The following is adapted from Equal Pay Matters by David Weaver.',
+    author: 'Eric Jorgenson',
+    date: 'May 21, 2026',
+    read: '3 min read',
+  },
+  {
+    href: 'https://scribemedia.com/blog/when-birthday-cake-couldnt-sweeten-the-storm',
+    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-towfiqu-barbhuiya-3440682-12065625.jpg?width=960&height=600&name=pexels-towfiqu-barbhuiya-3440682-12065625.jpg',
+    alt: "Birthday cake with lit candles.",
+    tag: 'Book Bites',
+    title: "When Birthday Cake Couldn't Sweeten the Storm",
+    excerpt: 'The following is adapted from Before Forever by Ellisa Allen.',
+    author: 'Eric Jorgenson',
+    date: 'May 07, 2026',
+    read: '3 min read',
+  },
+]
+
+export default function ScribeBlog() {
+  const [search, setSearch] = useState('')
+  const [activeTag, setActiveTag] = useState('All Posts')
+
+  const filtered = posts.filter(p => {
+    const matchTag = activeTag === 'All Posts' || p.tag === activeTag
+    const matchSearch = !search || p.title.toLowerCase().includes(search.toLowerCase()) || p.excerpt.toLowerCase().includes(search.toLowerCase())
+    return matchTag && matchSearch
+  })
+
+  return (
+    <div className="blog-listing">
+      {/* Hero */}
+      <div className="blog-hero">
+        <span className="blog-hero__tag">The Scribe Blog</span>
+        <h1 className="blog-hero__title">Writing, Publishing, and Book Marketing Insights</h1>
+        <p className="blog-hero__desc">Expert insights from 2,000+ published authors. Strategies and stories to help you write, publish, and market your nonfiction book.</p>
+      </div>
+
+      {/* Search */}
+      <div className="blog-search">
+        <div className="blog-search__wrap">
+          <svg className="blog-search__icon" width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            type="search"
+            className="blog-search__input"
+            placeholder="Search articles..."
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
+        </div>
+      </div>
+      {search && (
+        <div className="blog-search__count">{filtered.length} result{filtered.length !== 1 ? 's' : ''} for &ldquo;{search}&rdquo;</div>
+      )}
+
+      {/* Tags */}
+      <div className="blog-tags">
+        {tags.map(({ label, href }) => (
+          href ? (
+            <a
+              key={label}
+              href={href}
+              className={`blog-tags__link${activeTag === label ? ' blog-tags__link--active' : ''}`}
+            >
+              {label}
+            </a>
+          ) : (
+            <button
+              key={label}
+              onClick={() => setActiveTag(label)}
+              className={`blog-tags__link${activeTag === label ? ' blog-tags__link--active' : ''}`}
+              style={{ background: 'none', border: '1px solid rgba(220,45,45,0.15)', cursor: 'pointer', fontFamily: 'inherit' }}
+            >
+              {label}
+            </button>
+          )
+        ))}
+      </div>
+
+      {/* Featured post (only show when no search/tag filter) */}
+      {!search && activeTag === 'All Posts' && (
+        <div className="blog-featured">
+          <a href={featured.href} className="blog-featured__image-wrap">
+            <img src={featured.img} alt={featured.alt} className="blog-featured__image" loading="eager" width={960} height={600} />
+          </a>
+          <div className="blog-featured__content">
+            <span className="blog-featured__tag">{featured.tag}</span>
+            <h2 className="blog-featured__title"><a href={featured.href}>{featured.title}</a></h2>
+            <p className="blog-featured__excerpt">{featured.excerpt}</p>
+            <div className="blog-featured__meta">
+              <span className="blog-featured__author">{featured.author}</span>
+              <span className="blog-featured__dot"></span>
+              <time>{featured.date}</time>
+              <span className="blog-featured__dot"></span>
+              <span>{featured.read}</span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Grid */}
+      {filtered.length > 0 ? (
+        <div className="blog-grid">
+          {filtered.map((p, i) => (
+            <article key={i} className="blog-card">
+              <a href={p.href} className="blog-card__image-wrap">
+                <img src={p.img} alt={p.alt} className="blog-card__image" loading="lazy" width={960} height={600} />
+              </a>
+              <div className="blog-card__body">
+                <span className="blog-card__tag">{p.tag}</span>
+                <h3 className="blog-card__title"><a href={p.href}>{p.title}</a></h3>
+                <p className="blog-card__excerpt">{p.excerpt}</p>
+                <div className="blog-card__meta">
+                  <span className="blog-card__author">{p.author}</span>
+                  <span className="blog-card__dot"></span>
+                  <time>{p.date}</time>
+                  <span className="blog-card__dot"></span>
+                  <span>{p.read}</span>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div className="blog-search__no-results">
+          <h3>No matching posts found</h3>
+          <p>Try a different search term or tag.</p>
+        </div>
+      )}
+
+      {/* Pagination */}
+      {!search && activeTag === 'All Posts' && (
+        <nav className="blog-pagination" aria-label="Blog pagination">
+          <span className="active">1</span>
+          <a href="/blog/page/2">2</a>
+          <a href="https://scribemedia.com/blog/page/3">3</a>
+          <span className="blog-pagination__ellipsis">…</span>
+          <a href="https://scribemedia.com/blog/page/45">45</a>
+          <a href="/blog/page/2">Next →</a>
+        </nav>
+      )}
+
+      {/* CTA */}
+      <div className="blog-cta">
+        <h2 className="blog-cta__title">Ready to Write Your Book?</h2>
+        <p className="blog-cta__text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
+        <a href="#" className="blog-cta__btn">Schedule a Consult</a>
+      </div>
+    </div>
+  )
+}

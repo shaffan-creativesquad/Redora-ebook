@@ -1,0 +1,140 @@
+/* ── Author Resources Library page ── */
+
+.rl-banner {
+  background: var(--color-surface, #161616);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.rl-banner__inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.rl-banner__text {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.rl-banner__btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: var(--color-accent, #e02d2d);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.rl-banner__btn:hover {
+  transform: translateY(-1px);
+  background: var(--color-accent-dark, #b02020);
+  box-shadow: 0 4px 12px rgba(224, 45, 45, 0.3);
+}
+
+.rl-page-wrap {
+  background: var(--color-bg, #0d0d0d);
+  min-height: 80vh;
+}
+
+.rl-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.rl-page__title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+}
+
+.rl-page__subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #9ca3af;
+  margin: 0 auto 2rem;
+  max-width: 700px;
+}
+
+.rl-section {
+  margin: 3rem 0 2rem;
+}
+
+.rl-section__heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+  padding: 0 0 0.6rem;
+  border-bottom: 2px solid rgba(224, 45, 45, 0.2);
+}
+
+.rl-section__intro {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  margin: 0 0 1.2rem;
+}
+
+.rl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rl-list__item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.rl-list__item:last-child {
+  border-bottom: none;
+}
+
+.rl-list__link {
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  transition: color 0.15s;
+}
+
+.rl-list__link:hover {
+  color: var(--color-accent, #e02d2d);
+}
+
+.rl-cta {
+  display: block;
+  padding: 1.5rem;
+  background: rgba(224, 45, 45, 0.06);
+  border: 1px solid rgba(224, 45, 45, 0.2);
+  border-radius: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.rl-cta:hover {
+  background: rgba(224, 45, 45, 0.12);
+  transform: translateY(-1px);
+}
+
+.rl-cta__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: #ffffff;
+}
+
+.rl-cta__text {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin: 0;
+}

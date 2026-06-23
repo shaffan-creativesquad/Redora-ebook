@@ -1,0 +1,218 @@
+/* ── Contact page ── */
+
+.contact-page {
+  padding: 4rem 1.5rem;
+  background: var(--color-bg, #0d0d0d);
+  min-height: 60vh;
+}
+
+.contact-page__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-page__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .contact-page__heading { font-size: 2rem; }
+  .contact-page { padding: 3rem 1rem; }
+}
+
+.contact-page__subheading {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-page__form-wrapper {
+  max-width: 550px;
+  margin: 0 auto 3rem;
+  text-align: left;
+  background: #151515;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 1.5rem 1.25rem;
+}
+
+.contact-page__form-wrapper label,
+.contact-page__form-wrapper .hs-form-field > label {
+  color: #ffffff !important;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-page__form-wrapper .hs-input {
+  width: 100% !important;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.contact-page__form-wrapper .hs-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.contact-page__form-wrapper .hs-input:focus {
+  border-color: rgba(224, 45, 45, 0.7);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(224, 45, 45, 0.12);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.contact-page__form-wrapper textarea.hs-input {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-page__form-wrapper input[type="checkbox"],
+.contact-page__form-wrapper input[type="radio"] {
+  width: auto !important;
+  min-width: 18px;
+  height: 18px;
+  margin: 0.2rem 0 0;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 4px;
+  background: transparent !important;
+  accent-color: var(--color-accent, #e02d2d);
+  flex: 0 0 auto;
+}
+
+.contact-page__form-wrapper .inputs-list {
+  list-style: none !important;
+  margin: 0.6rem 0 0;
+  padding: 0;
+}
+
+.contact-page__form-wrapper .inputs-list li {
+  list-style: none !important;
+  margin: 0.65rem 0 !important;
+  padding: 0 !important;
+}
+
+.contact-page__form-wrapper .inputs-list li label {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin: 0 !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  line-height: 1.55;
+  cursor: pointer;
+}
+
+.contact-page__form-wrapper .inputs-list li label > span {
+  display: block;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.contact-page__form-wrapper .hs-submit {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contact-page__form-wrapper .hs-button,
+.contact-page__form-wrapper input[type="submit"] {
+  background: var(--color-accent, #e02d2d);
+  color: #ffffff;
+  border: none;
+  padding: 0.85rem 2.5rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  font-family: inherit;
+}
+
+.contact-page__form-wrapper .hs-button:hover,
+.contact-page__form-wrapper input[type="submit"]:hover {
+  opacity: 0.88;
+}
+
+.contact-page__form-wrapper .hs-error-msgs,
+.contact-page__form-wrapper .hs-error-msg {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+}
+
+.contact-page__form-wrapper .hs-richtext {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin-bottom: 0.5rem;
+}
+
+.contact-page__form-wrapper .hs-richtext a {
+  color: var(--color-accent, #e02d2d);
+  text-decoration: underline;
+}
+
+.contact-page__form-wrapper > .hs-richtext,
+.contact-page__form-wrapper h3 {
+  display: none;
+}
+
+.contact-page__privacy {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-align: center;
+  margin-top: 0.75rem;
+  line-height: 1.4;
+}
+
+.contact-page__privacy a {
+  color: var(--color-accent, #e02d2d);
+  text-decoration: underline;
+}
+
+.contact-page__privacy a:hover { color: #ffffff; }
+
+.contact-page__cta-section {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-page__cta-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.contact-page__cta-text {
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.contact-page__cta-btn {
+  display: inline-block;
+  background: var(--color-accent, #e02d2d);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: opacity 0.2s;
+}
+
+.contact-page__cta-btn:hover {
+  opacity: 0.88;
+  color: #ffffff;
+}

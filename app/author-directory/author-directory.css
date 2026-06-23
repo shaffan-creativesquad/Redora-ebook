@@ -1,0 +1,152 @@
+/* ── Author Directory page ── */
+
+.dir-banner {
+  background: var(--color-surface, #161616);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.dir-banner__inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.dir-banner__text {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.dir-banner__btn {
+  display: inline-block;
+  padding: 0.65rem 1.5rem;
+  background: var(--color-accent, #e02d2d);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.dir-banner__btn:hover {
+  transform: translateY(-1px);
+  background: var(--color-accent-dark, #b02020);
+  box-shadow: 0 4px 12px rgba(224, 45, 45, 0.3);
+}
+
+.dir-page-wrap {
+  background: var(--color-bg, #0d0d0d);
+  min-height: 80vh;
+}
+
+.dir-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.dir-page__title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+}
+
+.dir-page__subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #9ca3af;
+  margin: 0 0 0.75rem;
+}
+
+.dir-page__count {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+/* Letter nav */
+.dir-letters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin: 0 0 2.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dir-letters__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #d1d5db;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.dir-letters__btn:hover {
+  background: rgba(224, 45, 45, 0.12);
+  color: #ffffff;
+  border-color: rgba(224, 45, 45, 0.3);
+}
+
+/* Letter groups */
+.dir-group {
+  margin: 0 0 2.5rem;
+  scroll-margin-top: 100px;
+}
+
+.dir-group__letter {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-accent, #e02d2d);
+  margin: 0 0 0.75rem;
+  padding: 0 0 0.4rem;
+  border-bottom: 2px solid rgba(224, 45, 45, 0.2);
+}
+
+.dir-group__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 1;
+  column-gap: 2rem;
+}
+
+@media (min-width: 640px) {
+  .dir-group__list { columns: 2; }
+}
+
+@media (min-width: 900px) {
+  .dir-group__list { columns: 3; }
+}
+
+.dir-group__item {
+  break-inside: avoid;
+  padding: 0.3rem 0;
+}
+
+.dir-group__link {
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  transition: color 0.15s;
+}
+
+.dir-group__link:hover {
+  color: var(--color-accent, #e02d2d);
+}

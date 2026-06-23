@@ -1,0 +1,123 @@
+/* ── Author FAQs / Post-Publishing Author Guide ── */
+
+.content-page {
+  padding: 8rem 1.5rem 6rem;
+  background-color: var(--bg-dark);
+  min-height: 80vh;
+}
+
+.content-page__header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding-top: 2rem;
+}
+
+.content-page__heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .content-page__heading { font-size: 3.5rem; }
+}
+
+.content-page__body {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #d1d5db;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.content-page__body h3 {
+  color: #9ca3af;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 2.5rem;
+}
+
+.content-page__body p { margin: 0 0 1.25rem; }
+
+.content-page__body ul,
+.content-page__body ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.content-page__body li { margin-bottom: 0.5rem; }
+
+.content-page__body ul ul { margin: 0.35rem 0 0.35rem 1rem; }
+
+.content-page__body a {
+  color: var(--color-accent, #e02d2d);
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 45, 45, 0.3);
+  transition: text-decoration-color 0.2s;
+}
+
+.content-page__body a:hover {
+  text-decoration-color: var(--color-accent, #e02d2d);
+}
+
+.content-page__body strong { color: #ffffff; }
+
+/* FAQ entries */
+.faq-section-heading {
+  color: #9ca3af;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 2.5rem;
+}
+
+.faq-entry {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 2rem 0;
+}
+
+.faq-entry:first-child { padding-top: 0; }
+.faq-entry:last-child { border-bottom: none; }
+
+.faq-entry__question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+.faq-entry__answer {
+  color: #d1d5db;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.faq-entry__answer p { margin: 0 0 1rem; }
+.faq-entry__answer p:last-child { margin-bottom: 0; }
+
+.faq-entry__answer ul,
+.faq-entry__answer ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.faq-entry__answer li { margin-bottom: 0.4rem; }
+.faq-entry__answer ul ul { margin: 0.35rem 0 0.35rem 1rem; }
+
+.faq-entry__answer a {
+  color: var(--color-accent, #e02d2d);
+  text-decoration: underline;
+  text-decoration-color: rgba(224, 45, 45, 0.3);
+  transition: text-decoration-color 0.2s;
+}
+
+.faq-entry__answer a:hover {
+  text-decoration-color: var(--color-accent, #e02d2d);
+}
+
+.faq-entry__answer strong { color: #ffffff; }
