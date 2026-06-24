@@ -120,6 +120,141 @@
   pointer-events: none;
 }
 
+/* ── Hero stats bar responsive ── */
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 580px) {
+  .hero-stats {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-stats > [role="listitem"] + [role="listitem"] {
+    border-left: none !important;
+    border-top: 1px solid rgba(168,168,168,0.18) !important;
+  }
+}
+
+/* ── Hero books grid responsive ── */
+.hero-books-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(0.6rem, 1.4vw, 1.1rem);
+  padding: 2rem 0.5rem 1rem;
+  flex-wrap: nowrap;
+}
+@media (max-width: 640px) {
+  .hero-books-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.65rem !important;
+    padding: 1rem 0 !important;
+    overflow-x: unset !important;
+  }
+  .hero-books-grid > * {
+    width: 100% !important;
+    flex: unset !important;
+  }
+}
+
+/* ── Service detail related cards — mobile breakpoint (missing in all svc-detail CSS files) ── */
+@media (max-width: 900px) {
+  .svc-detail__related { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 580px) {
+  .svc-detail__related { grid-template-columns: 1fr !important; }
+  .svc-detail__section--alt { padding: 2rem 1.25rem !important; }
+  .svc-detail__bottom-cta { padding: 2.5rem 1.25rem !important; }
+  .svc-detail__bottom-cta h2 { font-size: 1.6rem !important; }
+  .svc-detail__subtitle { font-size: 1.05rem !important; }
+}
+
+/* ── Why Scribe service cats — single column at 480px ── */
+@media (max-width: 480px) {
+  .service-cats-grid { grid-template-columns: 1fr !important; }
+  .ws-proof__rail { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+
+/* ── Industry pages (books-for-lawyers, books-for-coaches) ── */
+@media (max-width: 580px) {
+  .ind__bottom-cta { padding: 3rem 1.25rem !important; }
+  .ind__hero p { font-size: 1rem !important; }
+  .ind__section--alt { padding: 2rem 1rem !important; }
+}
+
+/* ── Books for Brands ── */
+@media (max-width: 580px) {
+  .bfb__section h2, .bfb__bottom-cta h2 { font-size: 1.6rem !important; }
+  .bfb__hero h1 { font-size: 1.75rem !important; }
+}
+
+/* ── Services / Pricing hero ── */
+@media (max-width: 580px) {
+  .services-hero { padding: 40px 16px !important; }
+  .services-hero h1 { font-size: 26px !important; }
+  .services-hero p { font-size: 16px !important; }
+  .pnew-hero { padding: 60px 16px 40px !important; }
+  .pnew-hero p { font-size: 15px !important; }
+  .sv2-quiz-box { padding: 2rem 1.25rem !important; }
+}
+
+/* ── Team card images ── */
+@media (max-width: 480px) {
+  .team-card__img-wrap, .team-card__initials { width: 160px !important; height: 160px !important; }
+  .team-card__img { width: 160px !important; height: 160px !important; }
+}
+
+/* ── Reviews header ── */
+@media (max-width: 480px) {
+  .reviews-page__header h1 { font-size: 1.9rem !important; }
+}
+
+/* ── Blog hero ── */
+@media (max-width: 480px) {
+  .blog-hero__title { font-size: 1.8rem !important; }
+  .blog-listing { padding-left: 0.75rem !important; padding-right: 0.75rem !important; }
+}
+
+/* ── Author hour ── */
+@media (max-width: 480px) {
+  .ah__desc { font-size: 1rem !important; }
+}
+
+/* ── Contact page ── */
+@media (max-width: 480px) {
+  .contact-page__heading { font-size: 1.8rem !important; }
+}
+
+/* ── Scribe method book ── */
+@media (max-width: 480px) {
+  .smb__section { padding: 2.5rem 1rem !important; }
+}
+
+/* ── ServiceSection (homepage) — stack text above images on mobile ── */
+@media (max-width: 768px) {
+  .ss-article {
+    grid-template-columns: 1fr !important;
+  }
+  .ss-content {
+    order: 1 !important;
+  }
+  .ss-media {
+    order: 2 !important;
+  }
+}
+
+/* ── CompareServices 3-card grid — single column on mobile ── */
+@media (max-width: 640px) {
+  .cs-cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ── Global: prevent horizontal overflow on all pages ── */
+* { box-sizing: border-box; }
+img, video { max-width: 100%; }
+
 
 
 

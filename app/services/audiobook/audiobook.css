@@ -558,6 +558,10 @@
   .svc-testimonials__grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+@media (max-width: 900px) {
+  .svc-detail__related { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 768px) {
   .svc-detail__hero { padding-top: 5.5rem; }
   .svc-detail__hero h1 { font-size: 2rem; }
@@ -567,7 +571,11 @@
 }
 
 @media (max-width: 640px) {
+  .svc-detail__related { grid-template-columns: 1fr; }
   .svc-testimonials__grid { grid-template-columns: 1fr; }
   .svc-testimonials { padding: 50px 16px; }
   .svc-testimonials__heading h2 { font-size: 1.8rem; }
+  .svc-detail__section--alt { padding: 2rem 1.25rem; }
+  .svc-detail__bottom-cta { padding: 2.5rem 1.25rem; }
+  .svc-detail__bottom-cta h2 { font-size: 1.6rem; }
 }

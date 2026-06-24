@@ -11,7 +11,7 @@ const sectionBg = {
 
 export default function ServiceSection({ category, heading, text, tags, learnMoreText, learnMoreHref, authorImage, bookImage, imageRight = true }) {
   const content = (
-    <div style={{
+    <div className="ss-content" style={{
       order: imageRight ? 1 : 2,
       display: 'flex', flexDirection: 'column', justifyContent: 'center',
     }}>
@@ -44,7 +44,7 @@ export default function ServiceSection({ category, heading, text, tags, learnMor
   )
 
   const media = (
-    <div style={{
+    <div className="ss-media" style={{
       order: imageRight ? 2 : 1,
       display: 'grid',
       gridTemplateColumns: '1fr 0.46fr',
@@ -84,7 +84,7 @@ export default function ServiceSection({ category, heading, text, tags, learnMor
   return (
     <section style={sectionBg}>
       <div style={{ maxWidth: '1240px', margin: '0 auto' }}>
-        <article style={{
+        <article className="ss-article" style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(2,minmax(0,1fr))',
           gap: 'clamp(1rem,1.9vw,1.8rem)',

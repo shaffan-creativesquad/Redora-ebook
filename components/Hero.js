@@ -83,11 +83,7 @@ export default function Hero() {
           </div>
 
           {/* Right — fanned books */}
-          <div style={{
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            gap: 'clamp(0.6rem,1.4vw,1.1rem)',
-            padding: '2.5rem 0.5rem',
-          }} aria-label="Featured books">
+          <div className="hero-books-grid" aria-label="Featured books">
             {heroBooks.map((book, i) => (
               <div key={i} style={{
                 flex: '0 0 auto',
@@ -113,9 +109,8 @@ export default function Hero() {
         </div>
 
         {/* Stats bar */}
-        <div style={{
+        <div className="hero-stats" style={{
           marginTop: 'clamp(1.5rem,2.5vw,2rem)',
-          display: 'grid', gridTemplateColumns: 'repeat(3,minmax(0,1fr))',
           border: '1px solid rgba(168,168,168,0.22)',
           borderRadius: '14px', background: 'rgba(17,17,17,0.72)', overflow: 'hidden',
         }} role="list" aria-label="Social proof">

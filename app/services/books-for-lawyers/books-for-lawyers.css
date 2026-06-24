@@ -358,3 +358,8 @@
   .ind__section, .ind__section--alt { padding: 3rem 1.25rem; }
   .ind__video-section { padding: 3rem 1.25rem; }
 }
+@media (max-width: 580px) {
+  .ind__hero p { font-size: 1rem; }
+  .ind__bottom-cta { padding: 3rem 1.25rem; }
+  .ind__section, .ind__section--alt { padding: 2.5rem 1rem; }
+}

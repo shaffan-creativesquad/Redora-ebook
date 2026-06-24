@@ -218,4 +218,8 @@
 
 @media (max-width: 480px) {
   .bfb__benefits-grid { grid-template-columns: 1fr; }
+  .bfb__hero h1 { font-size: 1.75rem; }
+  .bfb__section h2, .bfb__bottom-cta h2 { font-size: 1.6rem; }
+  .bfb__section { padding: 2.5rem 1rem; }
+  .bfb__bottom-cta { padding: 3rem 1.25rem; }
 }

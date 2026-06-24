@@ -45,7 +45,7 @@ export default function CompareServices() {
         </div>
 
         {/* 3-card grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,minmax(0,1fr))', gap: 'clamp(0.75rem,1.5vw,1.05rem)' }}>
+        <div className="cs-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,minmax(0,1fr))', gap: 'clamp(0.75rem,1.5vw,1.05rem)' }}>
           {cards.map((card, i) => (
             <article key={i} style={{
               borderRadius: '14px', overflow: 'hidden',
