@@ -1,4 +1,4 @@
-const processItems = [
+﻿const processItems = [
   {
     title: 'Legal and compliance integration',
     desc: 'We work with your legal and compliance teams to ensure your book meets all corporate requirements and approvals.',
@@ -55,7 +55,7 @@ export default function ScribeBooksForBrands() {
         <h1>Your brand has a story. We help you tell it.</h1>
         <p>Your brand&apos;s knowledge, insights, and vision deserve to be shared. A book is the most powerful way to elevate your brand&apos;s authority, create lasting impact, and connect with your audience in a meaningful way.</p>
         <p>At Scribe, we partner with corporate brands to turn their knowledge into professionally published books without disrupting business operations. From strategy to distribution, we handle everything.</p>
-        <a href="#" className="bfb__cta-btn">Get Started</a>
+        <a href="/consult" className="bfb__cta-btn">Get Started</a>
       </div>
 
       {/* Trusted Logos */}
@@ -102,7 +102,7 @@ export default function ScribeBooksForBrands() {
       <div className="bfb__bottom-cta">
         <h2>Start your brand&apos;s publishing journey</h2>
         <p>Schedule a free consultation with our publishing strategists to discuss your brand&apos;s book.</p>
-        <a href="#" className="bfb__cta-btn">Schedule a Consult</a>
+        <a href="/consult" className="bfb__cta-btn">Schedule a Consult</a>
       </div>
     </div>
   )

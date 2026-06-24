@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '#' },
-  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '#' },
-  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '#' },
+  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '/success-stories' },
+  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '/free-resources' },
+  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/published-books' },
 ]
 
 export default function CompareServices() {
@@ -33,7 +33,7 @@ export default function CompareServices() {
           <p style={{ margin: '0 auto 1rem', maxWidth: '62ch', color: '#bbbbb', fontSize: '1.01rem', lineHeight: 1.6 }}>
             We offer everything you need to professionally write, publish, and market your non-fiction book.
           </p>
-          <a href="#" style={{
+          <a href="/services" style={{
             display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
             minHeight: '46px', padding: '0.65rem 1.2rem', borderRadius: '999px',
             textDecoration: 'none', color: '#ffffff', fontWeight: 800,

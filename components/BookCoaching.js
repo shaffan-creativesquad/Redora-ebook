@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -36,61 +36,61 @@ const testimonials = [
     quote: 'A book is one of the most powerful lead generators for businesses out there.',
     name: 'Shaan Patel',
     credential: 'Shark Tank Veteran · CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "I can say with 100% honesty that it was great every step of the way. If it was just you and me, not on a podcast, and you said, 'Just tell me what we could have done better,' I'd say: I don't know. I can't think of anything.",
     name: 'Sarma Melngailis',
     credential: 'Former Owner, Pure Food and Wine',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/sarma-700x406-1.jpg?width=48&height=48&name=sarma-700x406-1.jpg',
+    avatar: '/assets/sarma-mengailis.png',
   },
   {
     quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe — the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/AdamSkolnick_Headshot.jpg?width=48&height=48&name=AdamSkolnick_Headshot.jpg',
+    avatar: '/assets/AdamSkolnick_Headshot.jpg',
   },
   {
     quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
   {
     quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/JohnSchachnovsky_AuthorCentral_H.jpg?width=48&height=48&name=JohnSchachnovsky_AuthorCentral_H.jpg',
+    avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
   },
   {
     quote: "You really have to think about authorship in a decade's game, not a year's game. I'm in my second decade. I'm sure the third decade will be even better because you've built a great reputation over time.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "It has really been a pleasure to work with you. The process is smooth, and the result is outstanding. I'll definitely recommend you to anyone who seeks to publish a book.",
     name: 'Yuzheng Sun',
     credential: 'Staff Data Scientist, Statsig',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Yuzheng-Sun_AuthorCentral_Headsh.jpg?width=48&height=48&name=Yuzheng-Sun_AuthorCentral_Headsh.jpg',
+    avatar: '/assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
   },
   {
     quote: "It was a pleasure working with you on this book project! I've gotten everything I wanted out of this endeavor! Definitely ranks as a success in my book.",
     name: 'Sam Goodner',
     credential: 'Serial Entrepreneur, Founder of Catapult Systems',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/SamGoodner_Headshot.jpg?width=48&height=48&name=SamGoodner_Headshot.jpg',
+    avatar: '/assets/SamGoodner_Headshot.jpg',
   },
 ]
 
@@ -117,7 +117,7 @@ export default function BookCoaching() {
           <p className="svc-detail__subtitle">Get the structure, accountability, and expert feedback you need to write a great book — in your own voice, on your own timeline.</p>
           <div className="svc-detail__price">Included in Guided Author</div>
           <div className="svc-detail__price-note">$44,000 for the full Guided Author program</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -174,7 +174,7 @@ export default function BookCoaching() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 

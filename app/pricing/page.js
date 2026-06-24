@@ -1,12 +1,125 @@
+'use client'
+import { useState } from 'react'
 import './pricing.css'
 import Navbar from '@/components/Navbar'
 import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
-import PricingFaq from './PricingFaq'
 
-export const metadata = {
-  title: 'Book Writing & Publishing Services | Scribe Media',
-  description: 'Compare Scribe Media book writing and publishing service pricing: Scribe Publishing, Guided Author, Scribe Professional, and Scribe Elite.',
+const tiers = [
+  {
+    name: 'Scribe Publishing',
+    tagline: "You've written your manuscript. We handle everything else.",
+    price: '$29,000',
+    term: '6 monthly payments of $4,833',
+    features: [
+      'Professional editing and design',
+      'Full publishing and distribution',
+      'Audiobook production included',
+      'Up to 50,000 words',
+      'Houndstooth Press imprint',
+    ],
+    cta: 'Configure Your Package',
+    href: '/pricing/publishing',
+    featured: false,
+  },
+  {
+    name: 'Guided Author',
+    tagline: 'You write your book with expert coaching. We publish it.',
+    price: '$44,000',
+    term: '15 monthly payments of $2,933',
+    features: [
+      'Dedicated book coach',
+      'Structured writing process with support',
+      'Professional editing and design',
+      'Audiobook production included',
+      'Full publishing and distribution',
+      'Up to 50,000 words',
+      'Lioncrest Publishing imprint',
+    ],
+    cta: 'Configure Your Package',
+    href: '/pricing/guided-author',
+    featured: false,
+  },
+  {
+    name: 'Scribe Professional',
+    tagline: 'We interview you and write your book. You talk, we create.',
+    price: '$56,000',
+    term: '12 monthly payments of $4,667',
+    features: [
+      'Collaborative interview-based writing process',
+      'Work with a professional ghostwriter',
+      'Full editing, design, and publishing',
+      'Audiobook production included',
+      'Publishing and distribution',
+      'Up to 60,000 words',
+      'Lioncrest Publishing imprint',
+    ],
+    cta: 'Configure Your Package',
+    href: '/pricing/professional',
+    featured: true,
+  },
+  {
+    name: 'Scribe Elite',
+    tagline: 'Our most comprehensive writing and publishing package. Work with our most elite ghostwriters with a built-in marketing budget.',
+    price: '$135,000',
+    term: '15 monthly payments of $9,000',
+    features: [
+      'Work with our most elite ghostwriters',
+      'Up to 40 hours of interviews with your Scribe',
+      'Three days of in-person time with your Scribe',
+      'Dedicated external research support',
+      '$25,000 built-in marketing budget',
+      'Premium editing and design',
+      'Audiobook production included',
+      'Full publishing and distribution',
+      'Up to 60,000 words',
+      'Lioncrest Publishing imprint',
+      'Priority timeline',
+    ],
+    cta: 'Configure Your Package',
+    href: '/pricing/elite',
+    featured: false,
+  },
+]
+
+const faqs = [
+  {
+    q: "What's included in the price?",
+    a: 'Every Scribe package includes professional editing, cover design, interior layout, audiobook production, publishing, and distribution to Amazon, Barnes & Noble, Apple Books, Kobo, Google Play, and other major online retailers. Higher tiers include writing support and additional services.',
+  },
+  {
+    q: 'How long does the process take?',
+    a: 'Most books are published within 12–18 months depending on the package and your responsiveness during the process. Elite clients often have faster timelines.',
+  },
+  {
+    q: 'How do payments work?',
+    a: 'Your total investment is split into equal monthly payments. Your first payment is collected when you sign your agreement. Subsequent payments are charged automatically each month. There are no hidden fees.',
+  },
+  {
+    q: 'Can I add services later?',
+    a: 'Yes. You can add marketing services or other add-ons at any point during your project. Your team will help you decide what makes sense and when.',
+  },
+  {
+    q: "What if I'm not sure which tier to choose?",
+    a: "Schedule a free consult below. Our team will learn about your goals, timeline, and book idea, and recommend the best fit. There's no pressure and no obligation.",
+  },
+  {
+    q: 'What happens after I sign and pay?',
+    a: "You'll receive a welcome email within 24 hours with your onboarding materials. Your project manager will reach out to schedule your kickoff call and introduce you to your team.",
+  },
+]
+
+function FaqItem({ q, a }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className={`pnew-faq__item${open ? ' open' : ''}`}>
+      <button className="pnew-faq__q" onClick={() => setOpen(v => !v)}>
+        {q}
+        <span className="pnew-faq__icon">{open ? '−' : '+'}</span>
+      </button>
+      {open && <div className="pnew-faq__a">{a}</div>}
+    </div>
+  )
 }
 
 export default function PricingPage() {
@@ -14,169 +127,51 @@ export default function PricingPage() {
     <>
       <Navbar />
       <main id="main-content" style={{ paddingTop: '84px' }}>
-        <div className="services-page">
+        <div className="pnew">
 
-          <div className="services-hero">
-            <h1>Writing and Publishing Services</h1>
-            <p>We offer four core ways to help you write and publish your nonfiction book.</p>
-          </div>
+          {/* Hero */}
+          <section className="pnew-hero">
+            <h1>Invest in Your Book</h1>
+            <p>Choose the service that fits your goals. Configure your package, review your agreement, and get started — all in one place.</p>
+          </section>
 
-          <div className="pricing-section">
-            <h2>Compare Core Services</h2>
-            <div className="pricing-grid">
-
-              <div className="pricing-card">
-                <div className="card-icon">
-                  <svg viewBox="0 0 48 48" fill="none"><path d="M12 8h24v32H12z" stroke="#ff4444" strokeWidth="2"/><path d="M18 16h12M18 22h12M18 28h8" stroke="#ff4444" strokeWidth="2"/></svg>
-                </div>
-                <h3>Scribe Publishing</h3>
-                <p className="desc">You write the book, we handle everything else. Professional editing, design, publishing, and distribution.</p>
-                <div className="price">$29,000</div>
-                <div className="price-note">Paid Over 6 months</div>
-                <div style={{ marginBottom: '20px' }}></div>
-                <a href="/services/publishing" className="btn" aria-label="Learn more about Scribe Publishing">Learn More</a>
+          {/* Tier Cards */}
+          <div className="pnew-grid">
+            {tiers.map((tier, i) => (
+              <div key={i} className={`pnew-card${tier.featured ? ' pnew-card--featured' : ''}`}>
+                {tier.featured && <div className="pnew-badge">Most Popular</div>}
+                <h2 className="pnew-card__name">{tier.name}</h2>
+                <p className="pnew-card__tagline">{tier.tagline}</p>
+                <div className="pnew-card__price">{tier.price} <span>total</span></div>
+                <div className="pnew-card__term">{tier.term}</div>
+                <ul className="pnew-card__features">
+                  {tier.features.map((f, j) => <li key={j}>{f}</li>)}
+                </ul>
+                <a href={tier.href} className={`pnew-card__cta${tier.featured ? ' pnew-card__cta--primary' : ' pnew-card__cta--secondary'}`}>
+                  {tier.cta}
+                </a>
               </div>
-
-              <div className="pricing-card">
-                <div className="card-icon">
-                  <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="#e02d2d" strokeWidth="2"/><path d="M24 14v10l7 7" stroke="#e02d2d" strokeWidth="2"/></svg>
-                </div>
-                <h3>Scribe Guided Author</h3>
-                <p className="desc">We guide you through the writing process with coaching, community, and professional publishing.</p>
-                <div className="price">$44,000</div>
-                <div className="price-note">Paid Over 15 months</div>
-                <div style={{ marginBottom: '20px' }}></div>
-                <a href="/services/guided-author" className="btn" aria-label="Learn more about Scribe Guided Author">Learn More</a>
-              </div>
-
-              <div className="pricing-card popular">
-                <div className="popular-badge">Most Popular</div>
-                <div className="card-icon">
-                  <svg viewBox="0 0 48 48" fill="none"><path d="M14 34l10-20 10 20" stroke="#8C00FF" strokeWidth="2"/><path d="M24 14v-4M18 36h12" stroke="#8C00FF" strokeWidth="2"/></svg>
-                </div>
-                <h3>Scribe Professional</h3>
-                <p className="desc">We interview you, write your book in your voice, and handle all editing, design, publishing, and distribution.</p>
-                <div className="price">$56,000</div>
-                <div className="price-note">Paid Over 12 months</div>
-                <div style={{ marginBottom: '20px' }}></div>
-                <a href="/services/professional-book-writers" className="btn" aria-label="Learn more about Scribe Professional">Learn More</a>
-              </div>
-
-              <div className="pricing-card">
-                <div className="card-icon">
-                  <svg viewBox="0 0 48 48" fill="none"><path d="M24 8c-8 0-14 8-14 16s6 16 14 16" stroke="#e02d2d" strokeWidth="2"/><path d="M24 8c8 0 14 8 14 16s-6 16-14 16" stroke="#e02d2d" strokeWidth="2"/><path d="M20 20l4 4 8-8" stroke="#e02d2d" strokeWidth="2"/></svg>
-                </div>
-                <h3>Scribe Elite</h3>
-                <p className="desc">Premier ghostwriting for non-fiction authors. Professional writers capture your ideas and voice to create your book.</p>
-                <div className="price">Custom</div>
-                <div className="price-note">Flexible Payment Plan</div>
-                <div className="price-min">$135K Min. Investment</div>
-                <a href="/services/ghostwriting" className="btn" aria-label="Learn more about Scribe Elite">Learn More</a>
-              </div>
-
-            </div>
-            <p className="pricing-section__aux-link">
-              Need a corporate-authoring solution? <a href="/services/books-for-brands">Explore Books for Brands</a>.
-            </p>
+            ))}
           </div>
 
-          <div className="comparison-section">
-            <h2>How long will it take?</h2>
-            <table className="comparison-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Scribe Publishing</th>
-                  <th>Scribe Guided Author</th>
-                  <th>Scribe Professional</th>
-                  <th>Scribe Elite</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Time Commitment</td>
-                  <td>6 hours, all on the phone (not including time to complete your manuscript)</td>
-                  <td>16 hours, all on the phone (10 Book Coach Calls + 6 hours for the publishing process)</td>
-                  <td>2 hours per week on the phone over the span of 9-12 months</td>
-                  <td>Varies</td>
-                </tr>
-              </tbody>
-            </table>
+          {/* Compare link */}
+          <div className="pnew-compare">
+            <p>Not sure which service is right for you?</p>
+            <a href="/services">Compare all services in detail →</a>
           </div>
 
-          <div className="comparison-section">
-            <h2>What's Included?</h2>
-            <table className="comparison-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Scribe Publishing</th>
-                  <th>Scribe Guided Author</th>
-                  <th>Scribe Professional</th>
-                  <th>Scribe Elite</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td>Full Publishing Package</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Proofreading</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Digital Course Access</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr>
-                  <td>Full Content Edit</td>
-                  <td>Opt. add-on</td>
-                  <td>3 editing passes</td>
-                  <td>Ongoing</td>
-                  <td>Ongoing</td>
-                </tr>
-                <tr>
-                  <td>Capture Book Ideas via Interviews</td>
-                  <td><span className="dash">—</span></td>
-                  <td><span className="dash">—</span></td>
-                  <td><span className="check">✓</span></td>
-                  <td><span className="check">✓</span></td>
-                </tr>
-                <tr>
-                  <td>Professional Ghostwriting</td>
-                  <td><span className="dash">—</span></td>
-                  <td><span className="dash">—</span></td>
-                  <td><span className="dash">—</span></td>
-                  <td><span className="check">✓</span></td>
-                </tr>
-                <tr><td>Book Marketing Strategy</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Author Marketing Materials</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-              </tbody>
-            </table>
-          </div>
+          {/* FAQ */}
+          <section className="pnew-faq">
+            <h2>Common Questions</h2>
+            {faqs.map((faq, i) => <FaqItem key={i} q={faq.q} a={faq.a} />)}
+          </section>
 
-          <div className="comparison-section">
-            <h2>How will we launch it?</h2>
-            <table className="comparison-table">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Scribe Publishing</th>
-                  <th>Scribe Guided Author</th>
-                  <th>Scribe Professional</th>
-                  <th>Scribe Elite</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr><td>Launch Week Activities</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Launch Preparation Checklist</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Full Ownership Rights</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Full Book Royalties</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Full Creative Control</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-                <tr><td>Full Distribution</td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td><td><span className="check">✓</span></td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="bottom-cta">
-            <h2>Undecided?</h2>
-            <p>Our author strategists can help you determine which plan is right for you.</p>
-            <a href="#" className="cta-btn">Schedule a Consult</a>
-          </div>
-
-          <PricingFaq />
+          {/* Bottom CTA */}
+          <section className="pnew-consult">
+            <h2>Not Ready to Start Yet?</h2>
+            <p>Schedule a free Author Consult. We&apos;ll help you figure out the right path for your book, with no obligation.</p>
+            <a href="/consult" className="pnew-consult__btn">Schedule a Free Consult</a>
+          </section>
 
         </div>
         <Newsletter />

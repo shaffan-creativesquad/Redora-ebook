@@ -90,11 +90,270 @@
 .pfaq-all-link { display: block; text-align: center; margin-top: 24px; color: #e02d2d; font-weight: 600; font-size: 16px; text-decoration: none; }
 .pfaq-all-link:hover { text-decoration: underline; }
 
+/* ── New Pricing Page ── */
+.pnew {
+  font-family: 'Inter', sans-serif;
+  color: #e5e7eb;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.pnew-hero {
+  text-align: center;
+  padding: 80px 24px 60px;
+  background: radial-gradient(circle at 20% 20%, rgba(220,45,45,0.08), transparent 40%),
+              radial-gradient(circle at 80% 10%, rgba(220,45,45,0.05), transparent 35%);
+  margin: 0 -24px 0;
+}
+.pnew-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 16px;
+  letter-spacing: -0.5px;
+}
+.pnew-hero p {
+  font-size: 18px;
+  color: #a0a0a0;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.pnew-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin: -40px 0 0;
+  position: relative;
+  z-index: 2;
+  padding: 0 0 60px;
+}
+
+.pnew-card {
+  background: #111111;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 36px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, border-color 0.2s;
+  position: relative;
+}
+.pnew-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(220,45,45,0.3);
+}
+.pnew-card--featured {
+  border-color: #e02d2d;
+  box-shadow: 0 0 30px rgba(220,45,45,0.08);
+}
+
+.pnew-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e02d2d;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pnew-card__name {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 4px;
+}
+.pnew-card__tagline {
+  font-size: 13px;
+  color: #a0a0a0;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+.pnew-card__price {
+  font-size: 34px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 4px;
+}
+.pnew-card__price span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+.pnew-card__term {
+  font-size: 13px;
+  color: #a0a0a0;
+  margin: 0 0 24px;
+}
+
+.pnew-card__features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  flex-grow: 1;
+}
+.pnew-card__features li {
+  font-size: 13px;
+  color: #d0d0d0;
+  padding: 5px 0 5px 20px;
+  position: relative;
+  line-height: 1.5;
+}
+.pnew-card__features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #e02d2d;
+  font-weight: 700;
+}
+
+.pnew-card__cta {
+  display: block;
+  text-align: center;
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-top: auto;
+}
+.pnew-card__cta--primary {
+  background: #e02d2d;
+  color: #ffffff;
+}
+.pnew-card__cta--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(220,45,45,0.35);
+}
+.pnew-card__cta--secondary {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #ffffff;
+}
+.pnew-card__cta--secondary:hover {
+  background: rgba(220,45,45,0.1);
+  border-color: rgba(220,45,45,0.4);
+}
+
+.pnew-compare {
+  text-align: center;
+  padding: 0 0 60px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.pnew-compare p {
+  font-size: 15px;
+  color: #a0a0a0;
+  margin: 0 0 6px;
+}
+.pnew-compare a {
+  color: #e02d2d;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.pnew-compare a:hover { text-decoration: underline; }
+
+.pnew-faq {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0 60px;
+}
+.pnew-faq h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 0 32px;
+}
+.pnew-faq__item {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.pnew-faq__q {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 20px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  text-align: left;
+  gap: 16px;
+}
+.pnew-faq__q:hover { color: #e02d2d; }
+.pnew-faq__icon {
+  font-size: 20px;
+  color: #e02d2d;
+  flex-shrink: 0;
+}
+.pnew-faq__a {
+  font-size: 14px;
+  color: #a0a0a0;
+  padding: 0 0 20px;
+  line-height: 1.7;
+}
+
+.pnew-consult {
+  text-align: center;
+  padding: 60px 24px;
+  background: #111111;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.pnew-consult h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+.pnew-consult p {
+  font-size: 15px;
+  color: #a0a0a0;
+  max-width: 480px;
+  margin: 0 auto 28px;
+  line-height: 1.6;
+}
+.pnew-consult__btn {
+  display: inline-block;
+  padding: 15px 36px;
+  background: #e02d2d;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.pnew-consult__btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220,45,45,0.35);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .pricing-grid { grid-template-columns: 1fr 1fr; }
   .comparison-table { font-size: 12px; }
   .comparison-table thead th, .comparison-table tbody td { padding: 10px 8px; }
+  .pnew-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 600px) {
   .pricing-grid { grid-template-columns: 1fr; }
@@ -107,4 +366,7 @@
     background: #111111;
     z-index: 1;
   }
+  .pnew-grid { grid-template-columns: 1fr; }
+  .pnew-hero h1 { font-size: 32px; }
+  .pnew-consult h2 { font-size: 24px; }
 }

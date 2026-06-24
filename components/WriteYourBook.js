@@ -1,7 +1,7 @@
 const books = [
   {
     href: '/published-books/cant-hurt-me',
-    cover: 'https://scribemedia.com/hubfs/images/books/cant-hurt-me.jpg',
+    cover: '/assets/cant-hurt-me.webp',
     title: "Can't Hurt Me",
     author: 'David Goggins',
     rating: '4.8',
@@ -9,7 +9,7 @@ const books = [
   },
   {
     href: '/published-books/the-almanack-of-naval-ravikant',
-    cover: 'https://scribemedia.com/hubfs/images/books/the-almanack-of-navl-ravikant.jpg',
+    cover: '/assets/the-almanack-of-navl-ravikant.png',
     title: 'The Almanack of Naval Ravikant',
     author: 'Eric Jorgenson',
     rating: '4.7',
@@ -17,7 +17,7 @@ const books = [
   },
   {
     href: '/published-books/never-finished',
-    cover: 'https://scribemedia.com/hubfs/images/books/DavidGoggins_WebsiteCover.jpg',
+    cover: '/assets/DavidGoggins_WebsiteCover.jpg',
     title: 'Never Finished',
     author: 'David Goggins',
     rating: '4.8',
@@ -25,7 +25,7 @@ const books = [
   },
   {
     href: '/published-books/who-not-how',
-    cover: 'https://scribemedia.com/hubfs/images/books/who-not-how.jpg',
+    cover: '/assets/who-not-how.jpg',
     title: 'Who Not How',
     author: 'Dan Sullivan',
     rating: '4.6',
@@ -33,7 +33,7 @@ const books = [
   },
   {
     href: '/published-books/never-lose-a-customer-again-joey-coleman',
-    cover: 'https://scribemedia.com/hubfs/lioncrest/covers/NLaCA.jpg',
+    cover: '/assets/covers/NLaCA.jpg',
     title: 'Never Lose a Customer Again',
     author: 'Joey Coleman',
     rating: '4.7',
@@ -41,7 +41,7 @@ const books = [
   },
   {
     href: '/published-books/buy-then-build',
-    cover: 'https://scribemedia.com/hubfs/images/books/61uxb1AlxjL._SL1360_.jpg',
+    cover: '/assets/61uxb1AlxjL._SL1360_.jpg',
     title: 'Buy Then Build',
     author: 'Walker Deibel',
     rating: '4.6',
@@ -49,7 +49,7 @@ const books = [
   },
   {
     href: '/published-books/niching-up',
-    cover: 'https://scribemedia.com/hubfs/images/books/ChrisDreyer_WebsiteCover.jpg',
+    cover: '/assets/ChrisDreyer_WebsiteCover.jpg',
     title: 'Niching Up',
     author: 'Chris Dreyer',
     rating: '4.7',
@@ -57,7 +57,7 @@ const books = [
   },
   {
     href: '/published-books/i-forgot-to-die',
-    cover: 'https://scribemedia.com/hubfs/images/books/i-forgot-to-die.jpg',
+    cover: '/assets/i-forgot-to-die.jpg',
     title: 'I Forgot to Die',
     author: 'Khalil Rafati',
     rating: '4.8',

@@ -54,28 +54,28 @@ export default function AmbassadorsPage() {
                   <p className="amb__tier-per">per referral</p>
                   <h3 className="amb__tier-name">Scribe Elite Ghostwriting</h3>
                   <p className="amb__tier-desc">White-glove ghostwriting with a senior writer.</p>
-                  <a className="amb__tier-link" href="/service/ghostwriting">View Service</a>
+                  <a className="amb__tier-link" href="/services/ghostwriting">View Service</a>
                 </article>
                 <article className="amb__tier-card blue">
                   <p className="amb__tier-amount">$4,000</p>
                   <p className="amb__tier-per">per referral</p>
                   <h3 className="amb__tier-name">Scribe Professional</h3>
                   <p className="amb__tier-desc">Interview-driven ghostwriting.</p>
-                  <a className="amb__tier-link" href="/service/professional-book-writers">View Service</a>
+                  <a className="amb__tier-link" href="/services/professional-book-writers">View Service</a>
                 </article>
                 <article className="amb__tier-card green">
                   <p className="amb__tier-amount">$3,000</p>
                   <p className="amb__tier-per">per referral</p>
                   <h3 className="amb__tier-name">Scribe Guided Author</h3>
                   <p className="amb__tier-desc">Author writes with our coaching. We publish.</p>
-                  <a className="amb__tier-link" href="/service/guided-author">View Service</a>
+                  <a className="amb__tier-link" href="/services/guided-author">View Service</a>
                 </article>
                 <article className="amb__tier-card red">
                   <p className="amb__tier-amount">$1,000</p>
                   <p className="amb__tier-per">per referral</p>
                   <h3 className="amb__tier-name">Scribe Publishing</h3>
                   <p className="amb__tier-desc">Editing and publishing for finished manuscripts.</p>
-                  <a className="amb__tier-link" href="/service/publishing">View Service</a>
+                  <a className="amb__tier-link" href="/services/publishing">View Service</a>
                 </article>
               </div>
             </div>

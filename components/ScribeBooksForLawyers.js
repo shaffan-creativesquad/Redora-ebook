@@ -1,24 +1,24 @@
-const authors = [
+﻿const authors = [
   {
     name: 'Michael Mogill',
-    nameHref: '#',
+    nameHref: '/authors/michael-mogill',
     book: 'The Game Changing Attorney',
-    bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/the-game-changing-attorney.jpeg',
+    bookHref: '/published-books/the-game-changing-attorney/',
+    bookImg: '/assets/the-game-changing-attorney.jpeg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.7 (1,100+)',
     ratingHref: 'https://www.amazon.com/Game-Changing-Attorney-Competition-Obvious-ebook/dp/B07JWGX3YB/',
     desc: 'His book brought in $5M in new business for his law firm and established him as the top voice in legal marketing.',
-    storyHref: '#',
+    storyHref: '/success-stories/michael-mogill-game-changing-attorney/',
   },
   {
     name: 'Richard Brock',
-    nameHref: '#',
+    nameHref: '/authors/richard-brock',
     book: 'Pillar-Based Marketing',
-    bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/Brock-and-Day_WebsiteCover.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Richard_Brock_Headshot.jpg',
+    bookHref: '/published-books/pillar-based-marketing',
+    bookImg: '/assets/Brock-and-Day_WebsiteCover.jpg',
+    headshot: '/assets/Richard_Brock_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (85+)',
     ratingHref: 'https://www.amazon.com/Pillar-Based-Marketing-Data-Driven-Methodology-Actually-ebook/dp/B0BXVKHM6B/',
@@ -27,10 +27,10 @@ const authors = [
   },
   {
     name: 'James Cunningham',
-    nameHref: '#',
+    nameHref: '/published-books/savvy-estate-planning-2',
     book: 'Savvy Estate Planning',
-    bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/savvy-estate-planning.jpg',
+    bookHref: '/published-books/savvy-estate-planning-2',
+    bookImg: '/assets/savvy-estate-planning.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.7 (280+)',
@@ -54,10 +54,10 @@ const steps = [
 ]
 
 const browseLinks = [
-  { label: 'Browse All Books', href: '#' },
-  { label: 'Browse All Authors', href: '#' },
-  { label: 'Success Stories', href: '#' },
-  { label: 'All Industries', href: '#' },
+  { label: 'Browse All Books', href: '/published-books' },
+  { label: 'Browse All Authors', href: '/authors' },
+  { label: 'Success Stories', href: '/success-stories' },
+  { label: 'All Industries', href: '/books-for-industries' },
 ]
 
 export default function ScribeBooksForLawyers() {
@@ -67,7 +67,7 @@ export default function ScribeBooksForLawyers() {
       <div className="ind__hero">
         <h1>The Book That Wins You Clients Before They Walk In</h1>
         <p>Top attorneys use books to establish authority, attract high-value clients, and differentiate their practice. Scribe has helped lawyers at every level turn their expertise into published books.</p>
-        <a href="#" className="ind__cta-btn">Schedule a Free Consult</a>
+        <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
 
       {/* Legal Leaders */}
@@ -76,16 +76,16 @@ export default function ScribeBooksForLawyers() {
         <p className="subtitle">These legal professionals turned their expertise into bestselling books.</p>
         <div className="ind__authors-grid">
           {authors.map((a, i) => (
-            <div key={i} className="ind__author-card">
-              <div className="ind__author-img-wrap">
+            <div key={i} className="ind__author-card" style={{ textAlign: 'center' }}>
+              <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                 {a.headshot && <img className="ind__author-headshot" src={a.headshot} alt={a.name} loading="lazy" />}
-                <a href={a.bookHref}>
-                  <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
+                <a href={a.bookHref} style={!a.headshot ? { borderRadius: '4px', width: 'auto', border: 'none' } : undefined}>
+                  <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" style={!a.headshot ? { width: '70px', height: '105px' } : undefined} />
                 </a>
               </div>
               <div className="ind__author-name"><a href={a.nameHref}>{a.name}</a></div>
               <div className="ind__author-title"><a href={a.bookHref}>{a.book}</a></div>
-              <div className="ind__author-rating">
+              <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                 <span className="ind__author-stars">{a.stars}</span>
                 <span className="ind__author-review-count">
                   <a href={a.ratingHref} target="_blank" rel="noopener noreferrer">{a.rating}</a>
@@ -139,7 +139,7 @@ export default function ScribeBooksForLawyers() {
       <div className="ind__bottom-cta">
         <h2>Ready to Write Your Book?</h2>
         <p>Schedule a free strategy call to explore how a book can grow your legal practice.</p>
-        <a href="#" className="ind__cta-btn">Schedule a Free Consult</a>
+        <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
     </div>
   )

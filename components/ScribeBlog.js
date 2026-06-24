@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const tags = [
@@ -20,7 +20,7 @@ const tags = [
 
 const featured = {
   href: 'https://scribemedia.com/blog/a-peek-into-lenas-journey',
-  img: 'https://scribemedia.com/hs-fs/hubfs/VivianLiu_Twitter_Post_AvailableNow.png?width=960&height=600&name=VivianLiu_Twitter_Post_AvailableNow.png',
+  img: '/assets/VivianLiu_Twitter_Post_AvailableNow.webp',
   alt: "A Peek into Lena's Journey",
   tag: 'Book Bites',
   title: "A Peek into Lena's Journey",
@@ -33,7 +33,7 @@ const featured = {
 const posts = [
   {
     href: 'https://scribemedia.com/blog/when-you-choose-your-attitude-you-choose-your-world',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-kimmo-vainio-314143536-18386434.jpg?width=960&height=600&name=pexels-kimmo-vainio-314143536-18386434.jpg',
+    img: '/assets/pexels-kimmo-vainio-314143536-18386434.webp',
     alt: 'When You Choose Your Attitude, You Choose Your World',
     tag: 'Book Bites',
     title: 'When You Choose Your Attitude, You Choose Your World',
@@ -44,7 +44,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/float-like-a-butterfly-what-muhammad-ali-taught-me-about-being-a-black-sheep',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-eberhardgross-32707948.jpg?width=960&height=600&name=pexels-eberhardgross-32707948.jpg',
+    img: '/assets/pexels-eberhardgross-32707948.webp',
     alt: 'Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep',
     tag: 'Book Bites',
     title: 'Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep',
@@ -55,7 +55,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/your-price-is-your-story-and-its-telling-one-right-now',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-leeloothefirst-8962460.jpg?width=960&height=600&name=pexels-leeloothefirst-8962460.jpg',
+    img: '/assets/pexels-leeloothefirst-8962460.webp',
     alt: "Your Price Is Your Story… And It's Telling One Right Now",
     tag: 'Book Bites',
     title: "Your Price Is Your Story… And It's Telling One Right Now",
@@ -66,7 +66,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-hyrlf-meng-317253942-18413963.jpg?width=960&height=600&name=pexels-hyrlf-meng-317253942-18413963.jpg',
+    img: '/assets/pexels-hyrlf-meng-317253942-18413963.webp',
     alt: "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
     tag: 'Book Bites',
     title: "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
@@ -77,7 +77,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/the-simple-switch-from-aimless-to-visionary',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-cottonbro-8370867.jpg?width=960&height=600&name=pexels-cottonbro-8370867.jpg',
+    img: '/assets/pexels-cottonbro-8370867.webp',
     alt: 'The Simple Switch from Aimless to Visionary',
     tag: 'Book Bites',
     title: 'The Simple Switch from Aimless to Visionary',
@@ -88,7 +88,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-gustavo-fring-6285298.jpg?width=960&height=600&name=pexels-gustavo-fring-6285298.jpg',
+    img: '/assets/pexels-gustavo-fring-6285298.webp',
     alt: 'The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness',
     tag: 'Book Bites',
     title: 'The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness',
@@ -99,7 +99,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/disrupt-yourself-before-someone-else-beats-you-to-it',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-julio-lopez-75309646-29502358.jpg?width=960&height=600&name=pexels-julio-lopez-75309646-29502358.jpg',
+    img: '/assets/pexels-julio-lopez-75309646-29502358.webp',
     alt: 'Disrupt Yourself Before Someone Else Beats You to It',
     tag: 'Book Bites',
     title: 'Disrupt Yourself Before Someone Else Beats You to It',
@@ -110,7 +110,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/inclusive-practices-that-close-the-wage-gap',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-edmond-dantes-8068836.jpg?width=960&height=600&name=pexels-edmond-dantes-8068836.jpg',
+    img: '/assets/pexels-edmond-dantes-8068836.webp',
     alt: 'Inclusive Practices That Close the Wage Gap',
     tag: 'Book Bites',
     title: 'Inclusive Practices That Close the Wage Gap',
@@ -121,7 +121,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/when-birthday-cake-couldnt-sweeten-the-storm',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-towfiqu-barbhuiya-3440682-12065625.jpg?width=960&height=600&name=pexels-towfiqu-barbhuiya-3440682-12065625.jpg',
+    img: '/assets/pexels-towfiqu-barbhuiya-3440682-12065625.webp',
     alt: "Birthday cake with lit candles.",
     tag: 'Book Bites',
     title: "When Birthday Cake Couldn't Sweeten the Storm",
@@ -261,7 +261,7 @@ export default function ScribeBlog() {
       <div className="blog-cta">
         <h2 className="blog-cta__title">Ready to Write Your Book?</h2>
         <p className="blog-cta__text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
-        <a href="#" className="blog-cta__btn">Schedule a Consult</a>
+        <a href="/consult" className="blog-cta__btn">Schedule a Consult</a>
       </div>
     </div>
   )

@@ -31,8 +31,8 @@ export default function ServiceSection({ category, heading, text, tags, learnMor
       {tags && tags.length > 0 && (
         <p style={{ display: 'flex', flexWrap: 'wrap', gap: '0.55rem 1rem', margin: '0 0 0.55rem' }}>
           {tags.map(tag => (
-            <a key={tag} href="#" style={{ color: '#e02d2d', fontSize: '0.92rem', fontWeight: 700, textDecoration: 'none' }}>
-              {tag}
+            <a key={tag.label} href={tag.href} style={{ color: '#e02d2d', fontSize: '0.92rem', fontWeight: 700, textDecoration: 'none' }}>
+              {tag.label}
             </a>
           ))}
         </p>

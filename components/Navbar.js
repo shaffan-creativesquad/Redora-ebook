@@ -53,7 +53,7 @@ const navItems = [
       { label: 'FAQs', href: '/faqs' },
     ],
   },
-  { label: 'Pricing', href: '/pricing' },
+  { label: 'Pricing', href: '/allservices' },
 ]
 
 function DropdownMenu({ items, isOpen }) {
@@ -172,7 +172,7 @@ export default function Navbar() {
 
         {/* Actions */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexShrink: 0 }}>
-          <a href="#" className="hidden lg:inline-flex" style={{
+          <a href="/consult" className="hidden lg:inline-flex" style={{
             alignItems: 'center', justifyContent: 'center',
             padding: '0.58rem 1.15rem', fontSize: '0.82rem', fontWeight: 600,
             color: '#ffffff', background: '#e02d2d', border: 'none', borderRadius: '6px',
@@ -238,7 +238,7 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a href="#" style={{
+          <a href="/consult" style={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             padding: '0.875rem 1.5rem', fontSize: '1rem', fontWeight: 600,
             color: '#ffffff', background: '#e02d2d', borderRadius: '6px',

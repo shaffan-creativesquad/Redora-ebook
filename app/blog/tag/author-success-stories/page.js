@@ -1,4 +1,4 @@
-import '../../blog.css'
+﻿import '../../blog.css'
 import Navbar from '@/components/Navbar'
 import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
@@ -51,7 +51,7 @@ export default function AuthorSuccessStoriesTagPage() {
           <div className="blog-cta">
             <h2 className="blog-cta__title">Ready to Write Your Book?</h2>
             <p className="blog-cta__text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
-            <a href="#" className="blog-cta__btn">Schedule a Consult</a>
+            <a href="/consult" className="blog-cta__btn">Schedule a Consult</a>
           </div>
 
         </div>

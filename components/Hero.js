@@ -60,7 +60,7 @@ export default function Hero() {
             </p>
 
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
-              <a href="#" style={{
+              <a href="/consult" style={{
                 display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
                 minHeight: '48px', padding: '0.7rem 1.5rem', borderRadius: '999px',
                 fontSize: '0.99rem', fontWeight: 800, textDecoration: 'none',
@@ -70,7 +70,7 @@ export default function Hero() {
               }}>
                 Schedule a Consult
               </a>
-              <a href="#" style={{
+              <a href="/services" style={{
                 display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
                 minHeight: '48px', padding: '0.7rem 1.5rem', borderRadius: '999px',
                 fontSize: '0.99rem', fontWeight: 800, textDecoration: 'none',

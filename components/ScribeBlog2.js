@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const tags = [
@@ -11,7 +11,7 @@ const tags = [
 const posts = [
   {
     href: 'https://scribemedia.com/blog/the-night-watchnight-broke-something-in-me',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-jordan-besson-2051439001-29281308.jpg?width=960&height=600&name=pexels-jordan-besson-2051439001-29281308.jpg',
+    img: '/assets/pexels-jordan-besson-2051439001-29281308.webp',
     alt: 'Empty church pews',
     tag: 'Book Bites',
     title: 'The Night Watchnight Broke Something in Me',
@@ -22,7 +22,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/the-quiet-way-we-teach-kids-to-distrust-themselves',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-ron-lach-10554466.jpg?width=960&height=600&name=pexels-ron-lach-10554466.jpg',
+    img: '/assets/pexels-ron-lach-10554466.webp',
     alt: 'Child making the bed',
     tag: 'Book Bites',
     title: 'The Quiet Way We Teach Kids to Distrust Themselves',
@@ -33,7 +33,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/the-softball-questions-investors-ask-that-can-sink-your-pitch',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-aurelijus-u-2148621102-30711884.jpg?width=960&height=600&name=pexels-aurelijus-u-2148621102-30711884.jpg',
+    img: '/assets/pexels-aurelijus-u-2148621102-30711884.webp',
     alt: 'Line graph made out of coins',
     tag: 'Book Bites',
     title: 'The "Softball" Questions Investors Ask That Can Sink Your Pitch',
@@ -44,7 +44,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/why-i-stopped-blindly-trusting-my-crohns-doctors',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-cristian-rojas-8459996.jpg?width=960&height=600&name=pexels-cristian-rojas-8459996.jpg',
+    img: '/assets/pexels-cristian-rojas-8459996.webp',
     alt: 'Empty Waiting Room',
     tag: 'Book Bites',
     title: "Why I Stopped Blindly Trusting My Crohn's Doctors",
@@ -55,7 +55,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/why-your-gut-instinct-might-save-your-life',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-hoodzie-12493038.jpg?width=960&height=600&name=pexels-hoodzie-12493038.jpg',
+    img: '/assets/pexels-hoodzie-12493038.webp',
     alt: 'Cars in a nearly empty parking lot',
     tag: 'Book Bites',
     title: 'Why Your Gut Instinct Might Save Your Life',
@@ -66,7 +66,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/how-hitting-rock-bottom-taught-me-to-trust-my-intuition',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-tima-miroshnichenko-6463188.jpg?width=960&height=600&name=pexels-tima-miroshnichenko-6463188.jpg',
+    img: '/assets/pexels-tima-miroshnichenko-6463188.webp',
     alt: 'Pregnant Woman',
     tag: 'Book Bites',
     title: 'How Hitting Rock Bottom Taught Me to Trust My Intuition',
@@ -77,7 +77,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/why-i-joined-the-army-after-escaping-saigon',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-rdne-7467847.jpg?width=960&height=600&name=pexels-rdne-7467847.jpg',
+    img: '/assets/pexels-rdne-7467847.webp',
     alt: 'Why I Joined the Army After Escaping Saigon',
     tag: 'Book Bites',
     title: 'Why I Joined the Army After Escaping Saigon',
@@ -88,7 +88,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/how-i-took-back-my-business-one-bold-move-at-a-time',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-pixabay-164634.jpg?width=960&height=600&name=pexels-pixabay-164634.jpg',
+    img: '/assets/pexels-pixabay-164634.webp',
     alt: 'How I Took Back My Business One Bold Move at a Time',
     tag: 'Book Bites',
     title: 'How I Took Back My Business One Bold Move at a Time',
@@ -99,7 +99,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/treat-ai-like-your-best-sales-rep-because-it-already-is',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-tim-witzdam-1081250691-32021560.jpg?width=960&height=600&name=pexels-tim-witzdam-1081250691-32021560.jpg',
+    img: '/assets/pexels-tim-witzdam-1081250691-32021560.webp',
     alt: 'Treat AI Like Your Best Sales Rep (Because It Already Is)',
     tag: 'Book Bites',
     title: 'Treat AI Like Your Best Sales Rep (Because It Already Is)',
@@ -110,7 +110,7 @@ const posts = [
   },
   {
     href: 'https://scribemedia.com/blog/how-a-small-inventors-patents-may-prove-apple-pay-was-built-on-stolen-ideas',
-    img: 'https://scribemedia.com/hs-fs/hubfs/pexels-shvetsa-4226270.jpg?width=960&height=600&name=pexels-shvetsa-4226270.jpg',
+    img: '/assets/pexels-shvetsa-4226270.webp',
     alt: "How a Small Inventor's Patents May Prove Apple Pay Was Built on Stolen Ideas",
     tag: 'Book Bites',
     title: "How a Small Inventor's Patents May Prove Apple Pay Was Built on Stolen Ideas",
@@ -221,7 +221,7 @@ export default function ScribeBlog2() {
       <div className="blog-cta">
         <h2 className="blog-cta__title">Ready to Write Your Book?</h2>
         <p className="blog-cta__text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
-        <a href="#" className="blog-cta__btn">Schedule a Consult</a>
+        <a href="/consult" className="blog-cta__btn">Schedule a Consult</a>
       </div>
     </div>
   )

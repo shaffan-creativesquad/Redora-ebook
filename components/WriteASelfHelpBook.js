@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -37,37 +37,37 @@ const testimonials = [
     quote: 'A book is one of the most powerful lead generators for businesses out there.',
     name: 'Shaan Patel',
     credential: 'Shark Tank Veteran · CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "I can say with 100% honesty that it was great every step of the way. If it was just you and me, not on a podcast, and you said, 'Just tell me what we could have done better,' I'd say: I don't know. I can't think of anything.",
     name: 'Sarma Melngailis',
     credential: 'Former Owner, Pure Food and Wine',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/sarma-700x406-1.jpg?width=48&height=48&name=sarma-700x406-1.jpg',
+    avatar: '/assets/sarma-mengailis.png',
   },
   {
     quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/AdamSkolnick_Headshot.jpg?width=48&height=48&name=AdamSkolnick_Headshot.jpg',
+    avatar: '/assets/AdamSkolnick_Headshot.jpg',
   },
   {
     quote: '[The Scribe team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function WriteASelfHelpBook() {
           <p className="svc-detail__subtitle">Transform your personal growth expertise, life lessons, and transformative insights into a professionally published book that helps others.</p>
           <div className="svc-detail__price">From $56,000</div>
           <div className="svc-detail__price-note">Scribe Professional or Elite Ghostwriting</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -151,7 +151,7 @@ export default function WriteASelfHelpBook() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 

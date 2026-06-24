@@ -507,6 +507,53 @@
 }
 
 /* Responsive */
+/* Hear Our Quality */
+.svc-audio-samples {
+  background: linear-gradient(135deg, rgba(224,45,45,0.06) 0%, rgba(17,17,17,0.95) 60%);
+  border-top: 1px solid rgba(224,45,45,0.15);
+  border-bottom: 1px solid rgba(224,45,45,0.15);
+  padding: 5rem 1.5rem;
+  text-align: center;
+}
+
+.svc-audio-samples__inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.svc-audio-samples__inner h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1rem;
+}
+
+.svc-audio-samples__inner p {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.7;
+  max-width: 50ch;
+  margin: 0 auto 2rem;
+}
+
+.svc-audio-samples__cta {
+  display: inline-block;
+  background: #e02d2d;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.9rem 2.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.25s, transform 0.2s;
+}
+
+.svc-audio-samples__cta:hover {
+  background: #f05656;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
 @media (max-width: 1024px) {
   .svc-testimonials__grid { grid-template-columns: repeat(2, 1fr); }
 }

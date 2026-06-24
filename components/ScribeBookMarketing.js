@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const packages = [
@@ -47,49 +47,37 @@ const testimonials = [
     quote: "I don't have enough good words to say about my ghostwriter Mikey. She held my hand through the entire process. She's an angel.",
     name: 'Pavel Ythjall',
     credential: 'Fitness Photographer & Entrepreneur',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Pavel-Ythjal-541-296.jpg?width=48&height=48&name=Pavel-Ythjal-541-296.jpg',
+    avatar: '/assets/Pavel-Ythjal-541-296.jpg',
   },
   {
     quote: "I expected the actual writing and publishing process to be really hard, but honestly, it was much easier than I thought it would be. They gave me hands-on guidance every step of the way, and I just followed the process.",
     name: 'Iona Holloway',
     credential: "Author & Women's Empowerment Coach",
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Iona-Holloway-541-296.jpg?width=48&height=48&name=Iona-Holloway-541-296.jpg',
+    avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
     quote: "There's a real silo in publishing for, there are voices that aren't heard that Scribe is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/mylinh-shattan-headshot.jpg?width=48&height=48&name=mylinh-shattan-headshot.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We're excited to continue sharing our message with a broader audience when the book is distributed. We couldn't have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Eby-Headshots.jpg?width=48&height=48&name=Eby-Headshots.jpg',
+    avatar: '/assets/eby-headshots.png',
   },
   {
     quote: "[The editor] at Scribe just reads a gazillion books. He said, we're all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/mylinh-shattan-headshot.jpg?width=48&height=48&name=mylinh-shattan-headshot.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "Writing that book and working with [Scribe] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined.",
     name: 'Linden Loren',
     credential: 'Co-Founder, Camo & Wind',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Linden-v2.jpg?width=48&height=48&name=Linden-v2.jpg',
-  },
-  {
-    quote: "Jeebus, this is amazing. Thank you. Seriously, I keep reading this and it so aptly captures the spirit of what I'm trying to do and how to do it. It makes perfect sense to me. Not confusing at all. We are going to rock this. Man, I'm so grateful and excited. That's everything I could ask for in this process.",
-    name: 'Josh Dix',
-    credential: 'Author',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/josh-dix.jpg?width=48&height=48&name=josh-dix.jpg',
-  },
-  {
-    quote: "I wanted to let all of you know that I leveraged my book into getting a job that I absolutely love. I remember reading the Scribe article about ways to get a great return on your book outside of just sales, but I never imagined it would lead to a job.",
-    name: 'Candler Cook',
-    credential: 'UGA Football Walk-On, Finance Professional',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/candler-cook.jpg?width=48&height=48&name=candler-cook.jpg',
+    avatar: '/assets/Linden-v2.png',
   },
 ]
 
@@ -116,7 +104,7 @@ export default function ScribeBookMarketing() {
           <p className="svc-detail__subtitle">Customizable marketing packages designed around your goals: reach, credibility, business impact, and royalties.</p>
           <div className="svc-detail__price">From $3,000</div>
           <div className="svc-detail__price-note">Multiple packages available</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* Our Packages */}
@@ -189,7 +177,7 @@ export default function ScribeBookMarketing() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 

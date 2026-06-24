@@ -1,0 +1,222 @@
+/* ── Free Resources page ── */
+
+.fr {
+  background: var(--color-bg, #0d0d0d);
+  color: #fff;
+}
+
+/* ── Hero ── */
+.fr__hero {
+  padding: 5rem 1.5rem 2.5rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fr__hero h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.fr__hero p {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.7;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ── Section ── */
+.fr__section {
+  padding: 0 1.5rem 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.fr__section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 3rem 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ── Grid ── */
+.fr__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ── Card ── */
+.fr__card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 12px;
+  padding: 1.75rem;
+  text-decoration: none;
+  color: #fff;
+  transition: border-color 0.3s, transform 0.3s, background 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.fr__card:hover {
+  border-color: var(--color-accent, #e02d2d);
+  transform: translateY(-3px);
+  background: rgba(224, 45, 45, 0.05);
+  color: #fff;
+}
+
+.fr__card--featured {
+  border-color: rgba(224, 45, 45, 0.25);
+  background: rgba(224, 45, 45, 0.04);
+}
+
+.fr__card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.fr__card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.6rem;
+  color: #ffffff;
+}
+
+.fr__card p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.65;
+  margin: 0 0 1rem;
+  flex: 1;
+}
+
+.fr__card-link {
+  color: var(--color-accent, #e02d2d);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+/* ── Badge ── */
+.fr__badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+  background: rgba(224, 45, 45, 0.12);
+  color: var(--color-accent, #e02d2d);
+  border: 1px solid rgba(224, 45, 45, 0.3);
+}
+
+.fr__badge--new {
+  background: rgba(255, 255, 255, 0.07);
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* ── Newsletter CTA section ── */
+.fr-cta {
+  position: relative;
+  overflow: clip;
+  padding: clamp(2.6rem, 4.2vw, 4.3rem) 1.25rem;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(224, 45, 45, 0.08), transparent 36%),
+    radial-gradient(circle at 92% 85%, rgba(100, 10, 10, 0.1), transparent 40%),
+    linear-gradient(180deg, #111111 0%, #0d0d0d 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  text-align: center;
+}
+
+.fr-cta__inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.fr-cta__icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1.1rem;
+}
+
+.fr-cta__heading {
+  font-size: clamp(1.5rem, 3vw, 2.15rem);
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.55rem;
+  line-height: 1.2;
+}
+
+.fr-cta__sub {
+  font-size: clamp(0.96rem, 1.2vw, 1.08rem);
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 1.45rem;
+  line-height: 1.5;
+}
+
+.fr-cta__pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 1.25rem;
+}
+
+.fr-cta__pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.36rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(224, 45, 45, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  background: rgba(224, 45, 45, 0.07);
+}
+
+.fr-cta__form-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1.4rem 1.25rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.fr-cta__form-placeholder {
+  padding: 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.fr-cta__privacy {
+  margin-top: 0.85rem;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.8rem;
+}
+
+.fr-cta__privacy a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+.fr-cta__privacy a:hover { color: #ffffff; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .fr__hero h1 { font-size: 2rem; }
+  .fr__grid { grid-template-columns: 1fr; }
+}

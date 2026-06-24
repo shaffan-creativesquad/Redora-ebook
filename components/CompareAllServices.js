@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const included = [
@@ -121,8 +121,8 @@ function Quiz() {
               <div className="sv2-quiz-result-price">{result.price}</div>
               <p>{result.desc}</p>
               <div className="sv2-quiz-result-btns">
-                <a href="#" className="sv2-quiz-link">Learn more</a>
-                <a href="#" className="sv2-cta-btn">Schedule a consult</a>
+                <a href="/services/publishing" className="sv2-quiz-link">Learn more</a>
+                <a href="/consult" className="sv2-cta-btn">Schedule a consult</a>
               </div>
             </div>
             <button className="sv2-quiz-back" onClick={() => setCurrent(result.back)}>← Back</button>
@@ -164,7 +164,7 @@ export default function CompareAllServices() {
               <div className="sv2-time-label">Why authors choose this</div>
               <div className="sv2-time-value">80% of our authors choose this — you talk, we write every word.</div>
             </div>
-            <a href="#" className="sv2-card-link">Learn more about Professional →</a>
+            <a href="/services/professional-book-writers" className="sv2-card-link">Learn more about Professional →</a>
           </div>
           <div className="sv2-card">
             <div className="sv2-card-label">The premium experience</div>
@@ -176,7 +176,7 @@ export default function CompareAllServices() {
               <div className="sv2-time-label">What sets Elite apart</div>
               <div className="sv2-time-value">Our most tenured scribes + $25K marketing budget included.</div>
             </div>
-            <a href="#" className="sv2-card-link">Learn more about Elite →</a>
+            <a href="/services/ghostwriting" className="sv2-card-link">Learn more about Elite →</a>
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ export default function CompareAllServices() {
               <div className="sv2-time-label">You'll never write alone</div>
               <div className="sv2-time-value">10 dedicated coaching sessions + private writing community.</div>
             </div>
-            <a href="#" className="sv2-card-link">Learn more about Guided Author →</a>
+            <a href="/services/guided-author" className="sv2-card-link">Learn more about Guided Author →</a>
           </div>
           <div className="sv2-card">
             <div className="sv2-card-label">Already have a manuscript?</div>
@@ -207,7 +207,7 @@ export default function CompareAllServices() {
               <div className="sv2-time-label">Already have a manuscript?</div>
               <div className="sv2-time-value">You've written it. We handle everything else.</div>
             </div>
-            <a href="#" className="sv2-card-link">Learn more about Publishing →</a>
+            <a href="/services/publishing" className="sv2-card-link">Learn more about Publishing →</a>
           </div>
         </div>
       </div>
@@ -261,7 +261,7 @@ export default function CompareAllServices() {
       <div className="sv2-cta">
         <h2>Still undecided?</h2>
         <p>Our author strategists can help you choose the right path in a free consultation.</p>
-        <a href="#" className="sv2-cta-btn">Schedule a consult</a>
+        <a href="/consult" className="sv2-cta-btn">Schedule a consult</a>
       </div>
     </div>
   )

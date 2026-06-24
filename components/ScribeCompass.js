@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -42,49 +42,49 @@ const testimonials = [
     quote: "You really have to think about authorship in a decade's game, not a year's game. I'm in my second decade. I'm sure the third decade will be even better because you've built a great reputation over time.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "It has really been a pleasure to work with you. The process is smooth, and the result is outstanding. I'll definitely recommend you to anyone who seeks to publish a book.",
     name: 'Yuzheng Sun',
     credential: 'Staff Data Scientist, Statsig',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Yuzheng-Sun_AuthorCentral_Headsh.jpg?width=48&height=48&name=Yuzheng-Sun_AuthorCentral_Headsh.jpg',
+    avatar: '/assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
   },
   {
     quote: "When you write a really good human book, people notice. People can tell that this is something different here. And people are going to crave that human touch more and more.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "It was a pleasure working with you on this book project! I've gotten everything I wanted out of this endeavor! Definitely ranks as a success in my book.",
     name: 'Sam Goodner',
     credential: 'Serial Entrepreneur, Founder of Catapult Systems',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/SamGoodner_Headshot.jpg?width=48&height=48&name=SamGoodner_Headshot.jpg',
+    avatar: '/assets/SamGoodner_Headshot.jpg',
   },
   {
     quote: "I don't have enough good words to say about my ghostwriter Mikey. She held my hand through the entire process. She's an angel.",
     name: 'Pavel Ythjall',
     credential: 'Fitness Photographer & Entrepreneur',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Pavel-Ythjal-541-296.jpg?width=48&height=48&name=Pavel-Ythjal-541-296.jpg',
+    avatar: '/assets/Pavel-Ythjal-541-296.jpg',
   },
   {
     quote: 'I expected the actual writing and publishing process to be really hard, but honestly, it was much easier than I thought it would be. They gave me hands-on guidance every step of the way, and I just followed the process.',
     name: 'Iona Holloway',
     credential: "Author & Women's Empowerment Coach",
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Iona-Holloway-541-296.jpg?width=48&height=48&name=Iona-Holloway-541-296.jpg',
+    avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
     quote: "There's a real silo in publishing — there are voices that aren't heard that Scribe is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/mylinh-shattan-headshot.jpg?width=48&height=48&name=mylinh-shattan-headshot.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Scribe — especially Mark. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Eby-Headshots.jpg?width=48&height=48&name=Eby-Headshots.jpg',
+    avatar: '/assets/Eby-Headshots.jpg',
   },
 ]
 
@@ -112,7 +112,7 @@ export default function ScribeCompass() {
           <div className="svc-detail__price">Contact for Pricing</div>
           <div className="svc-detail__price-note">Strategic planning service</div>
           <div className="svc-detail__timeline">Typical timeline: 4&ndash;6 weeks</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -186,7 +186,7 @@ export default function ScribeCompass() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -58,37 +58,37 @@ const testimonials = [
     quote: "When you write a really good human book, people notice. People can tell that this is something different here. And people are going to crave that human touch more and more. The more you can personalize and humanize things, it's actually a great differentiator in increasingly AI-competitive markets.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '../assets/shaan-patel.png',
   },
   {
     quote: "It was a pleasure working with you on this book project! I've gotten everything I wanted out of this endeavor! Definitely ranks as a success in my book.",
     name: 'Sam Goodner',
     credential: 'Serial Entrepreneur, Founder of Catapult Systems',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/SamGoodner_Headshot.jpg',
   },
   {
     quote: "I don't have enough good words to say about my ghostwriter Mikey. She held my hand through the entire process. She's an angel.",
     name: 'Pavel Ythjall',
     credential: 'Fitness Photographer & Entrepreneur',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/AdamSkolnick_Headshot.jpg?width=48&height=48&name=AdamSkolnick_Headshot.jpg',
+    avatar: '/assets/Pavel-Ythjal-541-296.jpg',
   },
   {
     quote: "I expected the actual writing and publishing process to be really hard, but honestly, it was much easier than I thought it would be. They gave me hands-on guidance every step of the way, and I just followed the process.",
     name: 'Iona Holloway',
     credential: 'Author & Women\'s Empowerment Coach',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Yuzheng-Sun_AuthorCentral_Headsh.jpg?width=48&height=48&name=Yuzheng-Sun_AuthorCentral_Headsh.jpg',
+    avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
     quote: "There's a real silo in publishing for, there are voices that aren't heard that Scribe is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/JohnSchachnovsky_AuthorCentral_H.jpg?width=48&height=48&name=JohnSchachnovsky_AuthorCentral_H.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '../assets/shaan-patel.png',
   },
 ]
 
@@ -116,7 +116,7 @@ export default function ScribePublishing() {
           <div className="svc-detail__price">$29,000</div>
           <div className="svc-detail__price-note">Paid over 6 months</div>
           <div className="svc-detail__timeline">Typical timeline: ~7 months</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -193,7 +193,7 @@ export default function ScribePublishing() {
         </div>
 
         {/* Related Services */}
-        <div className="svc-detail__section" style={{ paddingTop: '2rem', background: '#13182d', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.06)', marginTop: '-5rem' }}>
+        <div className="svc-detail__section" style={{ paddingTop: '2rem', background: '#161616', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.06)', marginTop: '-5rem' }}>
           <h2>Explore Other Services</h2>
           <div className="svc-detail__related">
             {relatedServices.map((s, i) => (
@@ -210,7 +210,7 @@ export default function ScribePublishing() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 

@@ -6,13 +6,13 @@ const imprints = [
     logo: '/assets/lioncrest-logo-footer.svg',
     name: 'Lioncrest Publishing',
     desc: 'Our premier imprint, accessible to authors who engage with Scribe for editorial work on their manuscript.',
-    href: '#',
+    href: 'https://lioncrest.com/?__hstc=89630276.9c96874b08a0746eb606a60248785dc0.1781703526564.1782150149194.1782219487519.17&__hssc=89630276.68.1782219487519&__hsfp=018cea44835d7e2f516fef0d7e5e320e',
   },
   {
     logo: '/assets/ht-logo.svg',
     name: 'Houndstooth Press',
     desc: 'Our largest imprint, accessible to authors who engage with Scribe for publishing services.',
-    href: '#',
+    href: 'https://houndstoothpublishing.com/?__hstc=89630276.9c96874b08a0746eb606a60248785dc0.1781703526564.1782150149194.1782219487519.17&__hssc=89630276.68.1782219487519&__hsfp=018cea44835d7e2f516fef0d7e5e320e',
   },
 ]
 

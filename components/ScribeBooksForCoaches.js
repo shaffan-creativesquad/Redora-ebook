@@ -1,11 +1,11 @@
-const authors = [
+﻿const authors = [
   {
     name: 'Dan Sullivan',
-    nameHref: '#',
+    nameHref: '/authors/dan-sullivan',
     book: 'Who Not How',
-    bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/who-not-how.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Dan_Sullivan_Headshot.jpg',
+    bookHref: '/published-books/who-not-how',
+    bookImg: '/assets/who-not-how.jpg',
+    headshot: '/assets/Dan_Sullivan_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (8,400+)',
     ratingHref: 'https://www.amazon.com/Who-Not-How-Accelerating-Teamwork/dp/1401960588',
@@ -17,8 +17,8 @@ const authors = [
     nameHref: '#',
     book: 'It Pays to PLAY',
     bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/KristiHerold_WebsiteCover.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Cameron_Herold_Headshot.jpg',
+    bookImg: '/assets/KristiHerold_WebsiteCover.jpg',
+    headshot: '/assets/Cameron_Herold_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (1,200+)',
     ratingHref: 'https://geni.us/ItPaystoPLAY',
@@ -30,7 +30,7 @@ const authors = [
     nameHref: '#',
     book: 'Screen Captured',
     bookHref: '#',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/screen-captured.jpg',
+    bookImg: '/assets/screen-captured.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.6 (3,800+)',
@@ -54,10 +54,10 @@ const steps = [
 ]
 
 const browseLinks = [
-  { label: 'Browse All Books', href: '#' },
-  { label: 'Browse All Authors', href: '#' },
-  { label: 'Success Stories', href: '#' },
-  { label: 'All Industries', href: '#' },
+  { label: 'Browse All Books', href: '/published-books' },
+  { label: 'Browse All Authors', href: '/all-books-by-authors' },
+  { label: 'Success Stories', href: '/success-stories' },
+  { label: 'All Industries', href: '/industries' },
 ]
 
 export default function ScribeBooksForCoaches() {
@@ -67,7 +67,7 @@ export default function ScribeBooksForCoaches() {
       <div className="ind__hero">
         <h1>The Book That Makes You the Coach Everyone Wants to Hire</h1>
         <p>Executive coaches, business coaches, and life coaches use books to codify their methodology, attract premium clients, and scale their impact beyond one-on-one sessions.</p>
-        <a href="#" className="ind__cta-btn">Schedule a Free Consult</a>
+        <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
 
       {/* Authors */}
@@ -154,7 +154,7 @@ export default function ScribeBooksForCoaches() {
       <div className="ind__bottom-cta">
         <h2>Ready to Write Your Book?</h2>
         <p>Schedule a free strategy call to explore how a book can grow your coaching practice.</p>
-        <a href="#" className="ind__cta-btn">Schedule a Free Consult</a>
+        <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
     </div>
   )

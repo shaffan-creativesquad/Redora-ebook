@@ -45,13 +45,13 @@ export default function HowItWorksPage() {
 
             <h2>Step 3: Interviews (For Ghostwriting and Professional)</h2>
 
-            <p>If you&apos;re using our <a href="/service/professional-book-writers">Professional</a> or <a href="/service/ghostwriting">Elite Ghostwriting</a> service, we don&apos;t ask you to sit down and write. Instead, we interview you.</p>
+            <p>If you&apos;re using our <a href="/services/professional-book-writers">Professional</a> or <a href="/services/ghostwriting">Elite Ghostwriting</a> service, we don&apos;t ask you to sit down and write. Instead, we interview you.</p>
 
             <p>Your writer conducts 20 to 40 hours of structured interviews. They ask the right questions to pull out your ideas, stories, expertise, and voice. Every session is recorded and transcribed.</p>
 
             <p>This is how we get a book that sounds like you, not like a ghostwriter. Because the ideas, the stories, the perspective... they&apos;re all yours. We just organize and polish them into a book.</p>
 
-            <p>If you&apos;re using our <a href="/service/guided-author">Guided Author</a> program, you do the writing yourself with coaching and feedback from our team.</p>
+            <p>If you&apos;re using our <a href="/services/guided-author">Guided Author</a> program, you do the writing yourself with coaching and feedback from our team.</p>
 
             <h2>Step 4: Writing and Revision</h2>
 
@@ -109,10 +109,10 @@ export default function HowItWorksPage() {
             <p>It depends on how involved you want to be in the writing and what your budget looks like.</p>
 
             <ul>
-              <li><strong><a href="/service/ghostwriting">Scribe Elite</a></strong> ($135,000+): Premier ghostwriting. Top-tier writers, fully customized.</li>
-              <li><strong><a href="/service/professional-book-writers">Professional</a></strong> ($56,000): We interview you and write the book. Full publishing included.</li>
-              <li><strong><a href="/service/guided-author">Guided Author</a></strong> ($44,000): You write with our coaching. We edit and publish.</li>
-              <li><strong><a href="/service/publishing">Publishing</a></strong> ($29,000): You&apos;ve written the manuscript. We handle everything else.</li>
+              <li><strong><a href="/services/ghostwriting">Scribe Elite</a></strong> ($135,000+): Premier ghostwriting. Top-tier writers, fully customized.</li>
+              <li><strong><a href="/services/professional-book-writers">Professional</a></strong> ($56,000): We interview you and write the book. Full publishing included.</li>
+              <li><strong><a href="/services/guided-author">Guided Author</a></strong> ($44,000): You write with our coaching. We edit and publish.</li>
+              <li><strong><a href="/services/publishing">Publishing</a></strong> ($29,000): You&apos;ve written the manuscript. We handle everything else.</li>
             </ul>
 
             <p>Not sure which fits? That&apos;s exactly what the consultation is for.</p>

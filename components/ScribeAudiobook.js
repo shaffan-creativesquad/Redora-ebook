@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -51,37 +51,37 @@ const testimonials = [
     quote: "I don't have enough good words to say about my ghostwriter Mikey. She held my hand through the entire process. She's an angel.",
     name: 'Pavel Ythjall',
     credential: 'Fitness Photographer & Entrepreneur',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/AdamSkolnick_Headshot.jpg?width=48&height=48&name=AdamSkolnick_Headshot.jpg',
+    avatar: '/assets/Pavel-Ythjal-541-296.jpg',
   },
   {
     quote: "I expected the actual writing and publishing process to be really hard, but honestly, it was much easier than I thought it would be. They gave me hands-on guidance every step of the way, and I just followed the process.",
     name: 'Iona Holloway',
     credential: "Author & Women's Empowerment Coach",
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/JohnSchachnovsky_AuthorCentral_H.jpg?width=48&height=48&name=JohnSchachnovsky_AuthorCentral_H.jpg',
+    avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
     quote: "There's a real silo in publishing for, there are voices that aren't heard that Scribe is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/Eby-Headshots.png',
   },
   {
     quote: "[The editor] at Scribe just reads a gazillion books. He said, we're all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
     quote: "Writing that book and working with [Scribe] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined.",
     name: 'Linden Loren',
     credential: 'Co-Founder, Camo & Wind',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Yuzheng-Sun_AuthorCentral_Headsh.jpg?width=48&height=48&name=Yuzheng-Sun_AuthorCentral_Headsh.jpg',
+    avatar: '/assets/Linden-v2.png',
   },
 ]
 
@@ -109,7 +109,7 @@ export default function ScribeAudiobook() {
           <div className="svc-detail__price">Starting at $8,000</div>
           <div className="svc-detail__price-note">Custom quoted for your project.</div>
           <div className="svc-detail__timeline">Typical timeline: 3–4 months</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -182,7 +182,7 @@ export default function ScribeAudiobook() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 
@@ -191,7 +191,7 @@ export default function ScribeAudiobook() {
         <div className="svc-audio-samples__inner">
           <h2>Hear Our Quality</h2>
           <p>We share curated narration samples during your consult so we can match voice, tone, and delivery to your book goals.</p>
-          <a href="#" className="svc-audio-samples__cta">Schedule a Consult to Hear Samples</a>
+          <a href="/consult" className="svc-audio-samples__cta">Schedule a Consult to Hear Samples</a>
         </div>
       </section>
 

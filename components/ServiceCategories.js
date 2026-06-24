@@ -1,8 +1,8 @@
 const services = [
-  { icon: '📖', title: 'Publishing Services', desc: 'We take your finished manuscript and turn it into a beautiful, high-quality, professional book.', href: '#' },
-  { icon: '✍️', title: 'Writing Services', desc: 'We write, edit, and publish your story for you, with options for marketing. No typing required.', href: '#' },
-  { icon: '🎓', title: 'Coaching Services', desc: 'We coach you through the entire book writing process, from creating the outline to the final edits.', href: '#' },
-  { icon: '🚀', title: 'Marketing Services', desc: 'We launch, leverage, and market your book in order to maximize your impact as an author.', href: '#' },
+  { icon: '📖', title: 'Publishing Services', desc: 'We take your finished manuscript and turn it into a beautiful, high-quality, professional book.', href: '/services/publishing' },
+  { icon: '✍️', title: 'Writing Services', desc: 'We write, edit, and publish your story for you, with options for marketing. No typing required.', href: '/services/professional-book-writers' },
+  { icon: '🎓', title: 'Coaching Services', desc: 'We coach you through the entire book writing process, from creating the outline to the final edits.', href: '/services/guided-author' },
+  { icon: '🚀', title: 'Marketing Services', desc: 'We launch, leverage, and market your book in order to maximize your impact as an author.', href: '/services/book-marketing' },
 ]
 
 export default function ServiceCategories() {

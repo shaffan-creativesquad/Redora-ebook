@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import { useState } from 'react'
 
 const features = [
@@ -49,7 +49,7 @@ const audiobookItems = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '#' },
+  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
   { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
   { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
@@ -59,37 +59,37 @@ const testimonials = [
     quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Scribe, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/JohnSchachnovsky_AuthorCentral_H.jpg?width=48&height=48&name=JohnSchachnovsky_AuthorCentral_H.jpg',
+    avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
   },
   {
     quote: "You really have to think about authorship in a decade's game, not a year's game. I'm in my second decade. I'm sure the third decade will be even better because you've built a great reputation over time.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "It has really been a pleasure to work with you. The process is smooth, and the result is outstanding. I'll definitely recommend you to anyone who seeks to publish a book. Hope our path come across again in the future.",
     name: 'Yuzheng Sun',
     credential: 'Staff Data Scientist, Statsig',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/Yuzheng-Sun_AuthorCentral_Headsh.jpg?width=48&height=48&name=Yuzheng-Sun_AuthorCentral_Headsh.jpg',
+    avatar: '/assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
   },
   {
     quote: "When you write a really good human book, people notice. People can tell that this is something different here. And people are going to crave that human touch more and more. The more you can personalize and humanize things, it's actually a great differentiator in increasingly AI-competitive markets.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/author-headshots/Shaan_Patel_Headshot.jpg?width=48&height=48&name=Shaan_Patel_Headshot.jpg',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "It was a pleasure working with you on this book project! I've gotten everything I wanted out of this endeavor! Definitely ranks as a success in my book.",
     name: 'Sam Goodner',
     credential: 'Serial Entrepreneur, Founder of Catapult Systems',
-    avatar: 'https://scribemedia.com/hs-fs/hubfs/images/testimonials/RichKurtzman_Headshot.jpg?width=48&height=48&name=RichKurtzman_Headshot.jpg',
+    avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
 ]
 
@@ -117,7 +117,7 @@ export default function ScribeGuidedAuthor() {
           <div className="svc-detail__price">$44,000</div>
           <div className="svc-detail__price-note">Paid over 15 months</div>
           <div className="svc-detail__timeline">Typical timeline: 9–15 months</div>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
         {/* What's Included */}
@@ -194,7 +194,7 @@ export default function ScribeGuidedAuthor() {
         </div>
 
         {/* Related Services */}
-        <div className="svc-detail__section" style={{ paddingTop: '2rem', background: '#13182d', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.06)', marginTop: '-5rem' }}>
+        <div className="svc-detail__section" style={{ paddingTop: '2rem', background: '#161616', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.06)', marginTop: '-5rem' }}>
           <h2>Explore Other Services</h2>
           <div className="svc-detail__related">
             {relatedServices.map((s, i) => (
@@ -211,7 +211,7 @@ export default function ScribeGuidedAuthor() {
         <div className="svc-detail__bottom-cta">
           <h2>Ready to Get Started?</h2>
           <p>Schedule a free consultation with our publishing strategists to discuss your book.</p>
-          <a href="#" className="svc-detail__cta-btn">Schedule a Consult</a>
+          <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
       </div>
 
