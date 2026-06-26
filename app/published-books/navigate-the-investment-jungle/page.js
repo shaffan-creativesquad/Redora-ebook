@@ -26,7 +26,7 @@ export default function NavigateTheInvestmentJunglePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/NavigateTheInvestmentJungle.jpg"
+                  src="/assets/NavigateTheInvestmentJungle.jpg"
                   alt="Navigate the Investment Jungle"
                   width={300}
                   height={450}

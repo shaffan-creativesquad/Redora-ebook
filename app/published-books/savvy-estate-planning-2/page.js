@@ -26,7 +26,7 @@ export default function SavvyEstatePlanningPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/savvy-estate-planning.jpg"
+                  src="/assets/savvy-estate-planning.jpg"
                   alt="Savvy Estate Planning"
                   width={260}
                   height={400}

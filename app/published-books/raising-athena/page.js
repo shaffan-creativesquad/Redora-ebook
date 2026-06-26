@@ -26,7 +26,7 @@ export default function RaisingAthenaPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/raising-athena-cover.jpg"
+                  src="/assets/raising-athena-cover.jpg"
                   alt="Raising Athena"
                   width={300}
                   height={450}

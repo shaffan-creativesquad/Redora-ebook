@@ -18,7 +18,7 @@ export default function CheriBergeronSuccessStoryPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="https://scribemedia.com/hubfs/author-headshots/Cheri_Bergeron_Headshot.jpg"
+              src="/assets/Cheri_Bergeron_Headshot.jpg"
               alt="Mission Motherhood: How Cheri Bergeron Turned a Decade of Heartbreak into a Lifeline for Aspiring Moms"
               className="ss-detail__hero-img"
               loading="eager"

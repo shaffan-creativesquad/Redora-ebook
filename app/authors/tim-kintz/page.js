@@ -25,7 +25,7 @@ export default function TimKintzAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Tim_Kintz_Headshot.png"
+                src="/assets/Tim_Kintz_Headshot.png"
                 alt="Tim Kintz"
                 width={600}
                 height={600}

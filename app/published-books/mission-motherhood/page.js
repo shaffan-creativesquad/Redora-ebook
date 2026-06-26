@@ -26,7 +26,7 @@ export default function MissionMotherhoodPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg"
+                  src="/assets/713RC4IYyeL._SL1360_.jpg"
                   alt="Mission: Motherhood"
                   width={260}
                   height={400}

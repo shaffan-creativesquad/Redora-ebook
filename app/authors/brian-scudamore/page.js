@@ -25,7 +25,7 @@ export default function BrianScudamoreAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/brian-scudamore.png"
+                src="/assets/brian-scudamore.png"
                 alt="Brian Scudamore"
                 width={600}
                 height={600}

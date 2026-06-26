@@ -19,7 +19,7 @@ export default function NassimNicholasTaleb() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/images/books/Nassim-Taleb_SCoFT_WP.jpeg?width=400&height=400&name=Nassim-Taleb_SCoFT_WP.jpeg"
+                src="/assets/Nassim-Taleb_SCoFT_WP.png"
                 alt="Nassim Nicholas Taleb"
                 className="author-detail__avatar-img author-detail__avatar-img--cover"
                 loading="eager"

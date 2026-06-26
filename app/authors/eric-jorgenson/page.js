@@ -19,7 +19,7 @@ export default function EricJorgenson() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Eric_Jorgenson_Headshot.jpg?width=600&height=600&name=Eric_Jorgenson_Headshot.jpg"
+                src="/assets/Eric_Jorgenson_Headshot.png"
                 alt="Eric Jorgenson"
                 className="author-detail__avatar-img"
                 loading="eager"

@@ -25,7 +25,7 @@ export default function ChrisVossAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Chris_Voss_Headshot.jpg?width=600&height=600&name=Chris_Voss_Headshot.jpg"
+                src="/assets/Chris_Voss_Headshot.png"
                 alt="Chris Voss"
                 width={600}
                 height={600}

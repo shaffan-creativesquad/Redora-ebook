@@ -25,7 +25,7 @@ export default function ChadWillardsonAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Chad_Willardson_Headshot.jpg"
+                src="/assets/Chad_Willardson_Headshot.jpg"
                 alt="Chad Willardson"
                 width={200}
                 height={200}

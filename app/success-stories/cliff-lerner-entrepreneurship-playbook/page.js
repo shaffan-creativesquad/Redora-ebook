@@ -21,7 +21,7 @@ export default function CliffLernerEntrepreneurshipPlaybookPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="./assets/cliff-lerner-2.jpg"
+              src="/assets/cliff-lerner-2.jpg"
               alt="Cliff Lerner Turned His Business Failures into the Entrepreneurship Playbook"
               className="ss-detail__hero-img"
               loading="eager"
@@ -84,7 +84,7 @@ export default function CliffLernerEntrepreneurshipPlaybookPage() {
               <a href="https://www.amazon.com/Explosive-Growth-Learned-Growing-Million/dp/1619617692">
                 <img
                   className="alignleft size-full wp-image-6729"
-                  src="https://scribemedia.com/hs-fs/hubfs/blog-images/2018/07/explosive-growth.jpg?width=186&height=286&name=explosive-growth.jpg"
+                  src="/assets/explosive-growth.png"
                   alt="explosive-growth"
                   width={186}
                   height={286}
@@ -161,7 +161,7 @@ export default function CliffLernerEntrepreneurshipPlaybookPage() {
 
             <img
               className="aligncenter size-full wp-image-6743"
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2018/07/Cliff-lerner-launch-1.jpg?width=800&height=450&name=Cliff-lerner-launch-1.jpg"
+              src="/assets/Cliff-lerner-launch-1.png"
               alt="Cliff-lerner-launch-1"
               width={800}
               height={450}
@@ -263,7 +263,7 @@ export default function CliffLernerEntrepreneurshipPlaybookPage() {
               >
                 <img
                   className="aligncenter wp-image-6742 size-full"
-                  src="https://scribemedia.com/hs-fs/hubfs/blog-images/2018/07/Cliff-yahoo-1.jpg?width=800&height=450&name=Cliff-yahoo-1.jpg"
+                  src="/assets/Cliff-yahoo-1.png"
                   alt="Cliff-yahoo-1"
                   width={800}
                   height={450}

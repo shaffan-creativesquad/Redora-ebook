@@ -25,7 +25,7 @@ export default function JesseColeAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Jesse_Cole_Headshot.jpg?width=600&height=600&name=Jesse_Cole_Headshot.jpg"
+                src="/assets/Jesse_Cole_Headshot.png"
                 alt="Jesse Cole"
                 width={600}
                 height={600}

@@ -26,7 +26,7 @@ export default function BeyondGiftologyPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/711vuXOgjmL._SL1500_.jpg"
+                  src="/assets/711vuXOgjmL._SL1500_.jpg"
                   alt="Beyond Giftology"
                   width={260}
                   height={400}

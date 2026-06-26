@@ -26,7 +26,7 @@ export default function StatisticalConsequencesOfFatTailsPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/Nassim-Taleb_SCoFT_WP.jpeg"
+                  src="/assets/Nassim-Taleb_SCoFT_WP.jpg"
                   alt="Statistical Consequences of Fat Tails"
                   width={260}
                   height={400}

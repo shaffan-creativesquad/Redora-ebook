@@ -27,7 +27,7 @@ export default function ItPaysToPlayPage() {
               {/* Cover */}
               <div>
                 <Image
-                  src="./assets/KristiHerold_WebsiteCover-book.jpg"
+                  src="/assets/KristiHerold_WebsiteCover-book.jpg"
                   alt="It Pays to PLAY"
                   width={260}
                   height={390}

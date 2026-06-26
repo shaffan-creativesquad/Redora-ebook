@@ -26,7 +26,7 @@ export default function PillarBasedMarketingPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/Brock-and-Day_WebsiteCover-bbok.jpg"
+                  src="/assets/Brock-and-Day_WebsiteCover-bbok.jpg"
                   alt="Pillar-Based Marketing"
                   width={260}
                   height={400}

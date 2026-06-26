@@ -26,7 +26,7 @@ export default function TheFullFeeAgentPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/VossShull_WebsiteCover.jpg"
+                  src="/assets/VossShull_WebsiteCover.jpg"
                   alt="The Full Fee Agent"
                   width={260}
                   height={400}

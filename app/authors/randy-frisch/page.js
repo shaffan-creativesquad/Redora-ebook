@@ -19,7 +19,7 @@ export default function RandyFrischPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/randy-frisch.jpg?width=600&height=600&name=randy-frisch.jpg"
+                src="/assets/randy-frisch.png"
                 alt="Randy Frisch"
                 className="author-detail__avatar-img"
                 loading="eager"

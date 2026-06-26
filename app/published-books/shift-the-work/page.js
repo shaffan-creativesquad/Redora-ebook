@@ -26,7 +26,7 @@ export default function ShiftTheWorkPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/shift-the-work.jpg"
+                  src="/assets/shift-the-work.jpg"
                   alt="Shift the Work"
                   width={260}
                   height={400}

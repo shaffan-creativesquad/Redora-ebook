@@ -26,7 +26,7 @@ export default function TheInvisibleThreatPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/71X99i9tZZL._SL1360_.jpg"
+                  src="/assets/71X99i9tZZL._SL1360_.jpg"
                   alt="The Invisible Threat"
                   width={300}
                   height={450}

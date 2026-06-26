@@ -25,7 +25,7 @@ export default function JeffKavanaughAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/jeff-kavanaugh.png"
+                src="/assets/jeff-kavanaugh.png"
                 alt="Jeff Kavanaugh"
                 width={200}
                 height={200}

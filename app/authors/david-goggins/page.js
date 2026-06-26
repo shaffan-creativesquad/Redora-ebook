@@ -19,7 +19,7 @@ export default function DavidGoggins() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/David_Goggins_Headshot.jpg?width=600&height=600&name=David_Goggins_Headshot.jpg"
+                src="/assets/David_Goggins_Headshot.jpg"
                 alt="David Goggins"
                 className="author-detail__avatar-img"
                 loading="eager"

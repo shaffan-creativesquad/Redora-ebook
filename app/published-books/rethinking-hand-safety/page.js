@@ -26,7 +26,7 @@ export default function RethinkingHandSafetyPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/rethinking-hand-safety.jpg"
+                  src="/assets/rethinking-hand-safety.jpg"
                   alt="Rethinking Hand Safety"
                   width={260}
                   height={400}

@@ -19,7 +19,7 @@ export default function ClintEmerson() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Clint_Emerson_Headshot.jpg?width=600&height=600&name=Clint_Emerson_Headshot.jpg"
+                src="/assets/Clint_Emerson_Headshot.png"
                 alt="Clint Emerson"
                 className="author-detail__avatar-img"
                 loading="eager"

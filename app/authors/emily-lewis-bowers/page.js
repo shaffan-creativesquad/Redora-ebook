@@ -25,7 +25,7 @@ export default function EmilyLewisBowersAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Emily_Lewis_Bowers_Headshot.jpg"
+                src="/assets/Emily_Lewis_Bowers_Headshot.jpg"
                 alt="Emily Lewis Bowers"
                 width={200}
                 height={200}

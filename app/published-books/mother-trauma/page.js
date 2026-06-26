@@ -26,7 +26,7 @@ export default function MotherTraumaPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/EmilyBowers_WebsiteCover_Final-book.jpg"
+                  src="/assets/EmilyBowers_WebsiteCover_Final-book.jpg"
                   alt="Mother Trauma"
                   width={260}
                   height={400}

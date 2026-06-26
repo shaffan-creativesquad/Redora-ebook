@@ -19,7 +19,7 @@ export default function DebGaborBrandingIsSexPage() {
 
           <div className="ss-detail__hero">
             <Image
-              src="https://scribemedia.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg"
+              src="/assets/Deb_Gabor_Headshot.jpg"
               alt="How A Branding Expert Became Her Own Brand (Hint: She Used A Book)"
               className="ss-detail__hero-img"
               width={800}

@@ -26,7 +26,7 @@ export default function EscapeTheMeatrixPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/StuartWaldner_WebsiteCover.jpg"
+                  src="/assets/StuartWaldner_WebsiteCover.jpg"
                   alt="Escape the Meatrix"
                   width={300}
                   height={450}

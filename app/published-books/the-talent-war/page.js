@@ -26,7 +26,7 @@ export default function TheTalentWarPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/The-Talent-War-1.jpg"
+                  src="/assets/The-Talent-War-1.jpg"
                   alt="The Talent War"
                   width={260}
                   height={400}

@@ -60,7 +60,7 @@
     "reviewCount": "23K Amazon Reviews",
     "bookLinks": [
       {
-        "href": "/published-books/the-almanack-of-naval-ravikant-the-anthology-of-balaji-the-book-of-elon",
+        "href": "/published-books/the-almanack-of-naval-ravikant",
         "title": "The Almanack of Naval Ravikant, The Anthology of Balaji, The Book of Elon"
       }
     ],
@@ -81,7 +81,7 @@
     "company": "",
     "meta": "1 book",
     "industry": "Writing and Arts",
-    "industryHref": "/books-for-brands",
+    "industryHref": "/services/books-for-brands",
     "letter": "H",
     "featured": false,
     "story": false,

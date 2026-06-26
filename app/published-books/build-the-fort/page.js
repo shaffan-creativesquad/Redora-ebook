@@ -26,7 +26,7 @@ export default function BuildTheFortPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/ChrisHeivly_WebsiteCover.jpg"
+                  src="/assets/ChrisHeivly_WebsiteCover.jpg"
                   alt="Build the Fort"
                   width={260}
                   height={400}

@@ -26,7 +26,7 @@ export default function TheEmpowermentParadoxPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/The-Empowerment-Paradox.jpg"
+                  src="/assets/The-Empowerment-Paradox.jpg"
                   alt="The Empowerment Paradox"
                   width={300}
                   height={450}

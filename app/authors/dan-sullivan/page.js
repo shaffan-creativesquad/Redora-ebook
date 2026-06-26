@@ -25,7 +25,7 @@ export default function DanSullivanAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Dan_Sullivan_Headshot.jpg"
+                src="/assets/Dan_Sullivan_Headshot.jpg"
                 alt="Dan Sullivan"
                 width={200}
                 height={200}

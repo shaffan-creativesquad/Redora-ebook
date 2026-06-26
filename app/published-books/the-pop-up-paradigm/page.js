@@ -26,7 +26,7 @@ export default function ThePopUpParadigmPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/the-pop-up-paradigm.jpg"
+                  src="/assets/the-pop-up-paradigm.jpg"
                   alt="The Pop Up Paradigm"
                   width={260}
                   height={400}

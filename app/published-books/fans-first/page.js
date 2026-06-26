@@ -26,7 +26,7 @@ export default function FansFirstPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/JesseCole_eBookCover_Final-1.jpg"
+                  src="/assets/JesseCole_eBookCover_Final-1.jpg"
                   alt="Fans First"
                   width={260}
                   height={400}

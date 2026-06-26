@@ -26,7 +26,7 @@ export default function LikeClockworkPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/61VQRvSXUqL._SL1360_.jpg"
+                  src="/assets/61VQRvSXUqL._SL1360_.jpg"
                   alt="Like Clockwork"
                   width={300}
                   height={450}

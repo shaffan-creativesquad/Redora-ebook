@@ -22,7 +22,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="./assets/cliff-lerner-2-1.jpg"
+              src="/assets/cliff-lerner-2-1.jpg"
               alt="Joey Coleman's Never Lose a Customer Again Hit the Wall Street Journal Bestseller List and Transformed His Career"
               className="ss-detail__hero-img"
               loading="eager"
@@ -97,7 +97,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Joey&apos;s attempts to write a book didn&apos;t go well.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/joey-coleman-never-lose-a-customer-again-1024x683.jpg"
+              src="/assets/joey-coleman-never-lose-a-customer-again-1024x683.jpg"
               alt="joey-coleman-never-lose-a-customer-again"
               width="1024"
               height="683"
@@ -145,7 +145,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Joey got serious about his book after getting called out.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/j-coleman-1024x575.jpeg"
+              src="/assets/j-coleman-1024x575.jpg"
               alt="j-coleman"
               width="1024"
               height="575"
@@ -186,7 +186,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Joey&apos;s anxiety caused him to stall out writing the book.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/coleman-joey-684x1024.jpg?width=450&height=674&name=coleman-joey-684x1024.jpg"
+              src="/assets/coleman-joey-684x1024.png"
               alt="coleman-joey"
               width="450"
               height="674"
@@ -233,7 +233,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Scribe worked to fit in calls between Joey&apos;s busy schedule.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/never-lose-a-customer-again-joey-coleman-1024x504.jpg"
+              src="/assets/never-lose-a-customer-again-joey-coleman-1024x504.jpg"
               alt="never-lose-a-customer-again-joey-coleman"
               width="1024"
               height="504"
@@ -279,7 +279,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Joey&apos;s speaking revenue has increased 2x since he published.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/never-lose-a-customer-again-1024x683.png"
+              src="/assets/never-lose-a-customer-again-1024x683.png"
               alt="never-lose-a-customer-again"
               width="1024"
               height="683"
@@ -362,7 +362,7 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <h2>Joey&apos;s book has reinvigorated weary business owners.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/never-lose-a-customer-again-j-coleman-1024x768.jpg"
+              src="/assets/never-lose-a-customer-again-j-coleman-1024x768.jpg"
               alt="never-lose-a-customer-again-j-coleman"
               width="1024"
               height="768"
@@ -405,14 +405,14 @@ export default function JoeyColeman_NeverLoseACustomerAgainPage() {
             <p>Here are just a few examples of what people are saying about Joey&apos;s book:</p>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/never-lose-a-customer-again-review-1024x358.png"
+              src="/assets/never-lose-a-customer-again-review-1024x358.png"
               alt="never-lose-a-customer-again-review"
               width="1024"
               height="358"
             />
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/never-lose-a-customer-again-review-2-1024x309.png"
+              src="/assets/never-lose-a-customer-again-review-2-1024x309.png"
               alt="joey-coleman-never-lose-a-customer-again-review"
               width="1024"
               height="309"

@@ -26,7 +26,7 @@ export default function PracticalSustainabilityPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/practical-sustainability.jpg"
+                  src="/assets/practical-sustainability.jpg"
                   alt="Practical Sustainability"
                   width={260}
                   height={400}

@@ -26,7 +26,7 @@ export default function TradesOfMarch2020Page() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/the-trades-of-march.jpg"
+                  src="/assets/the-trades-of-march.jpg"
                   alt="The Trades of March 2020"
                   width={260}
                   height={400}

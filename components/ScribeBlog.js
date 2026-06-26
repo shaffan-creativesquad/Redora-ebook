@@ -19,7 +19,7 @@ const tags = [
 ]
 
 const featured = {
-  href: 'https://scribemedia.com/blog/a-peek-into-lenas-journey',
+  href: '/blog/a-peek-into-lenas-journey',
   img: '/assets/VivianLiu_Twitter_Post_AvailableNow.webp',
   alt: "A Peek into Lena's Journey",
   tag: 'Book Bites',
@@ -32,7 +32,7 @@ const featured = {
 
 const posts = [
   {
-    href: 'https://scribemedia.com/blog/when-you-choose-your-attitude-you-choose-your-world',
+    href: '/blog/when-you-choose-your-attitude-you-choose-your-world',
     img: '/assets/pexels-kimmo-vainio-314143536-18386434.webp',
     alt: 'When You Choose Your Attitude, You Choose Your World',
     tag: 'Book Bites',
@@ -43,7 +43,7 @@ const posts = [
     read: '4 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/float-like-a-butterfly-what-muhammad-ali-taught-me-about-being-a-black-sheep',
+    href: '/blog/float-like-a-butterfly-what-muhammad-ali-taught-me-about-being-a-black-sheep',
     img: '/assets/pexels-eberhardgross-32707948.webp',
     alt: 'Float Like a Butterfly: What Muhammad Ali Taught Me About Being a Black Sheep',
     tag: 'Book Bites',
@@ -54,7 +54,7 @@ const posts = [
     read: '4 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/your-price-is-your-story-and-its-telling-one-right-now',
+    href: '/blog/your-price-is-your-story-and-its-telling-one-right-now',
     img: '/assets/pexels-leeloothefirst-8962460.webp',
     alt: "Your Price Is Your Story… And It's Telling One Right Now",
     tag: 'Book Bites',
@@ -65,7 +65,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut',
+    href: '/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut',
     img: '/assets/pexels-hyrlf-meng-317253942-18413963.webp',
     alt: "Step Inside the Brooklyn Paramount's Roaring 1928 Debut",
     tag: 'Book Bites',
@@ -76,7 +76,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/the-simple-switch-from-aimless-to-visionary',
+    href: '/blog/the-simple-switch-from-aimless-to-visionary',
     img: '/assets/pexels-cottonbro-8370867.webp',
     alt: 'The Simple Switch from Aimless to Visionary',
     tag: 'Book Bites',
@@ -87,7 +87,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness',
+    href: '/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness',
     img: '/assets/pexels-gustavo-fring-6285298.webp',
     alt: 'The Receptionist Who Was Always Cold: A Lesson in Strategic Blindness',
     tag: 'Book Bites',
@@ -98,7 +98,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/disrupt-yourself-before-someone-else-beats-you-to-it',
+    href: '/blog/disrupt-yourself-before-someone-else-beats-you-to-it',
     img: '/assets/pexels-julio-lopez-75309646-29502358.webp',
     alt: 'Disrupt Yourself Before Someone Else Beats You to It',
     tag: 'Book Bites',
@@ -109,7 +109,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/inclusive-practices-that-close-the-wage-gap',
+    href: '/blog/inclusive-practices-that-close-the-wage-gap',
     img: '/assets/pexels-edmond-dantes-8068836.webp',
     alt: 'Inclusive Practices That Close the Wage Gap',
     tag: 'Book Bites',
@@ -120,7 +120,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/when-birthday-cake-couldnt-sweeten-the-storm',
+    href: '/blog/when-birthday-cake-couldnt-sweeten-the-storm',
     img: '/assets/pexels-towfiqu-barbhuiya-3440682-12065625.webp',
     alt: "Birthday cake with lit candles.",
     tag: 'Book Bites',
@@ -250,9 +250,8 @@ export default function ScribeBlog() {
         <nav className="blog-pagination" aria-label="Blog pagination">
           <span className="active">1</span>
           <a href="/blog/page/2">2</a>
-          <a href="https://scribemedia.com/blog/page/3">3</a>
-          <span className="blog-pagination__ellipsis">…</span>
-          <a href="https://scribemedia.com/blog/page/45">45</a>
+          <a href="/blog/page/3">3</a>
+          <a href="/blog/page/4">4</a>
           <a href="/blog/page/2">Next →</a>
         </nav>
       )}

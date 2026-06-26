@@ -17,7 +17,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
           <a href="/success-stories" className="ss-detail__back"><i className="ph ph-arrow-left"></i> All Success Stories</a>
 
           <div className="ss-detail__hero">
-            <img src="https://scribemedia.com/hubfs/blog-featured/2021/07/E326F483-A9AD-467B-873E-0FA6139DC45A.jpeg" alt="Ron Thurston Used Scribe to Celebrate America's Unsung Heroes (And Launched a New Career Along the Way)" className="ss-detail__hero-img" loading="eager" />
+            <img src="/assets/E326F483-A9AD-467B-873E-0FA6139DC45A.jpg" alt="Ron Thurston Used Scribe to Celebrate America's Unsung Heroes (And Launched a New Career Along the Way)" className="ss-detail__hero-img" loading="eager" />
             <h1 className="ss-detail__title">Ron Thurston Used Scribe to Celebrate America&apos;s Unsung Heroes (And Launched a New Career Along the Way)</h1>
           </div>
 
@@ -48,7 +48,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
             <p>But hearing that question over and over shook him. He started to lose the pride he felt in his career and in himself, and he saw his coworkers going through the same thing.</p>
             <em>&quot;People always wanted to know, &apos;When are you going to do something else? Why do you love it so much?&apos; It was a huge amount of pressure. I felt isolated because nobody really understood how much I liked what I was doing.&quot;</em>
             <h2>As Ron watched extraordinary people try to justify their love of working in retail, he knew exactly what they were going through.</h2>
-            <p><img fetchPriority="high" src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/cf7d3ad970-E1DF0B20-7241-40EA-8662-B63C38D444A9_1_201_a-300x225.jpeg?width=601&height=451&name=cf7d3ad970-E1DF0B20-7241-40EA-8662-B63C38D444A9_1_201_a-300x225.jpeg" alt="ron thurston with book poster" width="601" height="451" /></p>
+            <p><img fetchPriority="high" src="/assets/cf7d3ad970-E1DF0B20-7241-40EA-8662-B63C38D444A9_1_201_a-300x225.png" alt="ron thurston with book poster" width="601" height="451" /></p>
             <p>Ron realized the problem has been getting worse in recent years, not better. He saw his fellow workers as unsung heroes, keeping the economy going while making it possible for people to buy the things they needed to live. But the rest of America didn&apos;t feel the same.</p>
             <p>They still saw retail as a second-rate job that only a teenager—or someone with no talent and no experience—would take. As a result of this belief&apos;s increasing invasiveness, he watched the spark disappear from his team. He knew that it was happening to other teams across America.</p>
             <p>So, Ron started looking for a way to bring that spark back. Maybe, he thought, there was a book or something he could share with them to show them they <em>were</em> understood. He searched and searched, but he came up empty. He couldn&apos;t find a single resource acknowledging how important they were or the legitimacy of their careers.</p>
@@ -61,7 +61,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
             <p>But he had just started a new, very demanding job as Vice President of Stores, and he had very little time to devote to the project. And even if he had all the time in the world, he didn&apos;t know how to get his message across in a way that would be interesting and compelling for other people. It was intimidating, to say the least.</p>
             <em>&quot;I didn&apos;t know where to start. I didn&apos;t even have an outline. All I had was my idea and my passion and my energy to make it happen.&quot;</em>
             <h2>Ron felt like his message was important, but he didn&apos;t know if the people he wanted to reach would agree.</h2>
-            <p><img src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/fa2f9177bf-A1E18747-C153-4B1B-B381-A158CFB6F6F0-300x300.jpeg?width=515&height=515&name=fa2f9177bf-A1E18747-C153-4B1B-B381-A158CFB6F6F0-300x300.jpeg" alt="ron thurston with reader" width="515" height="515" /></p>
+            <p><img src="/assets/fa2f9177bf-A1E18747-C153-4B1B-B381-A158CFB6F6F0-300x300.png" alt="ron thurston with reader" width="515" height="515" /></p>
             <p>Ron explored his options for writing a book, but nothing seemed to fit. He knew he couldn&apos;t get it done himself, but the self-publishing and traditional options he found weren&apos;t right either.</p>
             <p>He turned to his friends and family for suggestions. He was looking for a company that could help him write a book he could be proud of, a book that would resonate with his target audience. He wanted a company that would encourage him, hold him accountable, and respect his vision.</p>
             <p>A friend gave him a simple recommendation: call Scribe. So, in the middle of a busy month of work travel, he scheduled a call for Labor Day weekend 2019. He was excited, but he was nervous too. The call went well, but when he saw how much it would cost, he hesitated.</p>
@@ -75,7 +75,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
             <em>&quot;They helped give me the confidence that I could get this done. We had group chats and answered questions for each other. In fact, we&apos;re still very close to this day.&quot;</em>
             <p>With all that support (and his own determination), Ron&apos;s fears and doubts subsided. It was tough at times, but his Scribe team kept him focused and moving forward. And his cohort was there when he panicked that his book was terrible or felt like he should scrap the whole thing and start over. They understood his challenges and struggles, and they always talked him off the ledge.</p>
             <h2>Ron&apos;s book revitalized his audience—and established him as a thought leader.</h2>
-            <p><img src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/3b3d9b1d2e-CFF77426-DF41-4BEF-910B-B6CA4902709F-300x225.jpeg?width=600&height=450&name=3b3d9b1d2e-CFF77426-DF41-4BEF-910B-B6CA4902709F-300x225.jpeg" alt="ron thurston signing book" width="600" height="450" /></p>
+            <p><img src="/assets/3b3d9b1d2e-CFF77426-DF41-4BEF-910B-B6CA4902709F-300x225.png" alt="ron thurston signing book" width="600" height="450" /></p>
             <p>When <a href="https://www.amazon.com/gp/product/1544515928?pf_rd_r=N2ZTGAREW3ZY2B3657FA&pf_rd_p=5ae2c7f8-e0c6-4f35-9071-dc3240e894a8&pd_rd_r=f6dd7015-34a6-4e89-b3c1-260a7893a0bd&pd_rd_w=RMEH0&pd_rd_wg=7o5M8&ref_=pd_gw_unk"><em>Retail Pride</em></a> launched in October 2020, the impact was profound. Ron hit his sales goal of 1,000 copies sold in the first year, but that was far from his biggest success. His book also helped him become recognized as a thought leader in the industry.</p>
             <p>Companies around the world booked him for speaking engagements. Brands set up meetings with him to learn how to improve their employees&apos; experiences. Retailers from every industry wanted to work with him to learn how to improve employee motivation, manage their overall performance expectations, and boost their productivity.</p>
             <p><em>Retail Pride</em> is now Ron&apos;s unique differentiator. It&apos;s the thing that gets him onto the stage, that gets him invited to the meetings with the big players. In June, on the strength of the platform he had built, Ron was able to leave his job as Vice President of Stores.</p>
@@ -88,10 +88,10 @@ export default function RonThurstonRetailPrideSuccessStory() {
             <p>When people contact him to tell them that, for the first time, they understand their own power, and they understand how important their work is, his heart sings.</p>
             <p>Because he understands—on a deeply personal level—exactly how they feel.</p>
             <p>Here are a few more examples of people who were impacted by <em>Retail Pride</em>:</p>
-            <p><img loading="lazy" src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/b5e15e721e-Screen-Shot-2021-07-27-at-12.01.31-PM-300x127.png?width=601&height=254&name=b5e15e721e-Screen-Shot-2021-07-27-at-12.01.31-PM-300x127.png" alt="ron thurston review 1" width="601" height="254" /></p>
-            <p><img loading="lazy" src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/5b3d16da3c-Screen-Shot-2021-07-27-at-12.03.41-PM-300x165.png?width=600&height=330&name=5b3d16da3c-Screen-Shot-2021-07-27-at-12.03.41-PM-300x165.png" alt="ron thurston review 2" width="600" height="330" /></p>
-            <p><img loading="lazy" src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/57e4e502da-Screen-Shot-2021-07-27-at-12.08.42-PM-300x116.png?width=600&height=232&name=57e4e502da-Screen-Shot-2021-07-27-at-12.08.42-PM-300x116.png" alt="ron thurston review 3" width="600" height="232" /></p>
-            <img width="150" height="150" src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/009f9a26a1-tucker-sm-hs-150x150.png?width=150&height=150&name=009f9a26a1-tucker-sm-hs-150x150.png" alt="Headshot image of Tucker Max smiling and wearing a gray t-shirt" loading="lazy" />
+            <p><img loading="lazy" src="/assets/b5e15e721e-Screen-Shot-2021-07-27-at-12.01.31-PM-300x127.png" alt="ron thurston review 1" width="601" height="254" /></p>
+            <p><img loading="lazy" src="/assets/5b3d16da3c-Screen-Shot-2021-07-27-at-12.03.41-PM-300x165.png" alt="ron thurston review 2" width="600" height="330" /></p>
+            <p><img loading="lazy" src="/assets/57e4e502da-Screen-Shot-2021-07-27-at-12.08.42-PM-300x116.png.png" alt="ron thurston review 3" width="600" height="232" /></p>
+            <img width="150" height="150" src="/assets/009f9a26a1-tucker-sm-hs-150x150.png" alt="Headshot image of Tucker Max smiling and wearing a gray t-shirt" loading="lazy" />
             <h4>Tucker Max</h4>
             Tucker has sold over 5 million books as a 4x NYT Bestselling Author and is the co-founder of Scribe.
             <h4>Read This Next</h4>

@@ -26,7 +26,7 @@ export default function TheLeadersAlgorithmPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/PabloMunoz__EbookCover_EPUB_Final.jpg"
+                  src="/assets/PabloMunoz__EbookCover_EPUB_Final.jpg"
                   alt="The Leader's Algorithm"
                   width={300}
                   height={450}

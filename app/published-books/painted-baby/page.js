@@ -26,7 +26,7 @@ export default function PaintedBabyPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/MattShoup_WebsiteCover.jpg"
+                  src="/assets/MattShoup_WebsiteCover.jpg"
                   alt="Painted Baby"
                   width={300}
                   height={450}

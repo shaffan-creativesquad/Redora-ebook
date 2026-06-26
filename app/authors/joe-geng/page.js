@@ -19,7 +19,7 @@ export default function JoeGeng() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/joe-geng.jpg?width=600&height=600&name=joe-geng.jpg"
+                src="/assets/joe-geng.png"
                 alt="Joe Geng"
                 className="author-detail__avatar-img"
                 loading="eager"

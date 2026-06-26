@@ -19,7 +19,7 @@ export default function JoeMechlinski() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/images/books/shift-the-work.jpg?width=400&height=400&name=shift-the-work.jpg"
+                src="/assets/shift-the-work.png"
                 alt="Joe Mechlinski"
                 className="author-detail__avatar-img author-detail__avatar-img--cover"
                 loading="eager"

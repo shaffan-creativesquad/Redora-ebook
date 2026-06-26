@@ -25,7 +25,7 @@ export default function AlexGurevichAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Alex_Gurevich_Headshot.jpg"
+                src="/assets/Alex_Gurevich_Headshot.jpg"
                 alt="Alex Gurevich"
                 width={200}
                 height={200}

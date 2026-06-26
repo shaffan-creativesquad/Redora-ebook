@@ -26,7 +26,7 @@ export default function FrictionlessPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/Frictionless.jpg"
+                  src="/assets/Frictionless.jpg"
                   alt="Frictionless"
                   width={260}
                   height={400}

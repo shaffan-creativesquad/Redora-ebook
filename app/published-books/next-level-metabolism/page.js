@@ -26,7 +26,7 @@ export default function NextLevelMetabolismPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/the-next-level-metabolism.jpg"
+                  src="/assets/the-next-level-metabolism.jpg"
                   alt="Next-Level Metabolism"
                   width={260}
                   height={400}

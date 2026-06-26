@@ -19,7 +19,7 @@ export default function MichaelSarraille() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Michael_Sarraille_Headshot.jpg?width=600&height=600&name=Michael_Sarraille_Headshot.jpg"
+                src="/assets/Michael_Sarraille_Headshot.png"
                 alt="Michael Sarraille"
                 className="author-detail__avatar-img"
                 loading="eager"

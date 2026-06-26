@@ -26,7 +26,7 @@ export default function CantHurtMePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/cant-hurt-me.jpg"
+                  src="/assets/cant-hurt-me.jpg"
                   alt="Can't Hurt Me"
                   width={260}
                   height={400}

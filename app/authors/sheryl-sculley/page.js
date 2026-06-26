@@ -25,7 +25,7 @@ export default function SherylSculleyAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/sheryl-sculley.jpg"
+                src="/assets/sheryl-sculley.jpg"
                 alt="Sheryl Sculley"
                 width={200}
                 height={200}

@@ -26,7 +26,7 @@ export default function TheCallIAlmostMissedShortPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/41V1iMQGo1L._SL500_.jpg"
+                  src="/assets/41V1iMQGo1L._SL500_.jpg"
                   alt="The Call I Almost Missed"
                   width={300}
                   height={450}

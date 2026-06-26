@@ -19,7 +19,7 @@ export default function MelissaGonzalez() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/images/books/the-pop-up-paradigm.jpg?width=400&height=400&name=the-pop-up-paradigm.jpg"
+                src="/assets/the-pop-up-paradigm.png"
                 alt="Melissa Gonzalez"
                 className="author-detail__avatar-img author-detail__avatar-img--cover"
                 loading="eager"

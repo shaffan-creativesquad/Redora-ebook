@@ -22,7 +22,7 @@ export default function CameronHeroldPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="./assets/cameron-herold.jpg"
+              src="/assets/cameron-herold.jpg"
               alt="Cameron Herold's Books Changed How Workplaces Operate Worldwide"
               className="ss-detail__hero-img"
               loading="eager"
@@ -83,7 +83,7 @@ export default function CameronHeroldPage() {
             <h2>Cameron wanted to help business owners solve their problems.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/meetings-suck-cameron-herold-1024x682.jpg"
+              src="/assets/meetings-suck-cameron-herold-1024x682.jpg"
               alt="meetings-suck-cameron-herold"
               width="1024"
               height="682"
@@ -247,7 +247,7 @@ export default function CameronHeroldPage() {
             <h2>Scribe helped Cameron get a book done on his schedule.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/free-pr-cameron-herold-1024x1024.jpg"
+              src="/assets/free-pr-cameron-herold-1024x1024.jpg"
               alt="free-pr-cameron-herold"
               width="1024"
               height="1024"
@@ -302,7 +302,7 @@ export default function CameronHeroldPage() {
             <h2>Cameron&apos;s books help him land new speaking gigs and clients.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/free-pr.jpg"
+              src="/assets/free-pr.png"
               alt="free-pr"
               width="960"
               height="720"
@@ -361,7 +361,7 @@ export default function CameronHeroldPage() {
             <h2>Work is more enjoyable for people who read Cameron&apos;s books.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/cameron-herold-vivid-vision-1024x769.jpg"
+              src="/assets/cameron-herold-vivid-vision-1024x769.jpg"
               alt="cameron-herold-vivid-vision"
               width="1024"
               height="769"
@@ -423,7 +423,7 @@ export default function CameronHeroldPage() {
             <p><em>Free PR</em></p>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/free-pr-review-1-1024x337.png"
+              src="/assets/free-pr-review-1-1024x337.png"
               alt="free-pr-review"
               width="1024"
               height="337"
@@ -432,7 +432,7 @@ export default function CameronHeroldPage() {
             <p><em>Vivid Vision</em></p>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2019/03/vivid-vision-review-1-1024x279.png"
+              src="/assets/vivid-vision-review-1-1024x279.png"
               alt="vivid-vision-review"
               width="1024"
               height="279"

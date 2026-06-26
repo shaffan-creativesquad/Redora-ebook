@@ -26,7 +26,7 @@ export default function CrankItPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/DaveLamont_EbookCover_EPUB_Final.jpg"
+                  src="/assets/DaveLamont_EbookCover_EPUB_Final.jpg"
                   alt="Crank It!"
                   width={300}
                   height={450}

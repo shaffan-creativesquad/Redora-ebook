@@ -27,7 +27,7 @@ export default function ScreenCapturedPage() {
               {/* Cover */}
               <div>
                 <Image
-                  src="./assets/screen-captured.jpg"
+                  src="/assets/screen-captured.jpg"
                   alt="Screen Captured"
                   width={260}
                   height={390}

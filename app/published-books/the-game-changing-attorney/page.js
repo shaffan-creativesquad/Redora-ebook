@@ -26,7 +26,7 @@ export default function TheGameChangingAttorneyPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/Stress-Free-Money-2.jpg"
+                  src="/assets/Stress-Free-Money-2.jpeg"
                   alt="The Game Changing Attorney"
                   width={260}
                   height={400}

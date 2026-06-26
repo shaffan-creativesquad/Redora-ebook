@@ -21,7 +21,7 @@ export default function JohnRuhlinCaseStudyPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="https://scribemedia.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg"
+              src="/assets/John_Ruhlin_Headshot.jpg"
               alt={'How John Ruhlin Became Known As "The Gifting Expert"'}
               className="ss-detail__hero-img"
               loading="eager"
@@ -63,7 +63,7 @@ export default function JohnRuhlinCaseStudyPage() {
 
             <img
               className="aligncenter wp-image-3491 size-large"
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2017/05/JR-3_IMG_9853-1024x683-1024x683.jpg?width=640&height=427&name=JR-3_IMG_9853-1024x683-1024x683.jpg"
+              src="/assets/JR-3_IMG_9853-1024x683-1024x683.png"
               alt=""
               width="640"
               height="427"
@@ -94,7 +94,7 @@ export default function JohnRuhlinCaseStudyPage() {
 
             <img
               className="aligncenter size-large wp-image-3489"
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2017/05/maxresdefault-1-1024x576.jpg?width=640&height=360&name=maxresdefault-1-1024x576.jpg"
+              src="/assets/maxresdefault-1-1024x576.png"
               alt=""
               width="640"
               height="360"
@@ -122,7 +122,7 @@ export default function JohnRuhlinCaseStudyPage() {
 
             <img
               className="aligncenter size-large wp-image-3492"
-              src="https://scribemedia.com/hs-fs/hubfs/blog-images/2017/05/2016-06-21-RUHLIN-0073-1024x683.jpg?width=640&height=427&name=2016-06-21-RUHLIN-0073-1024x683.jpg"
+              src="/assets/2016-06-21-RUHLIN-0073-1024x683.png"
               alt=""
               width="640"
               height="427"

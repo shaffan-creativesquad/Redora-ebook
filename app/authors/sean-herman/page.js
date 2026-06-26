@@ -25,7 +25,7 @@ export default function SeanHermanAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/sean-herman.jpg"
+                src="/assets/sean-herman.jpg"
                 alt="Sean Herman"
                 width={200}
                 height={200}

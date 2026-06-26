@@ -26,7 +26,7 @@ export default function LikeAFishInWaterPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/Rich-Kurtzman_WebsiteCover_Final.png"
+                  src="/assets/Rich-Kurtzman_WebsiteCover_Final.png"
                   alt="Like a Fish in Water"
                   width={300}
                   height={450}

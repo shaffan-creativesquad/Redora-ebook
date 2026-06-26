@@ -19,7 +19,7 @@ export default function JadeTeta() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Jade_Teta_Headshot.jpg?width=600&height=600&name=Jade_Teta_Headshot.jpg"
+                src="/assets/Jade_Teta_Headshot.png"
                 alt="Jade Teta"
                 className="author-detail__avatar-img"
                 loading="eager"

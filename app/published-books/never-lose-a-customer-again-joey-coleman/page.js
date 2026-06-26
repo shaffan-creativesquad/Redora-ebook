@@ -26,7 +26,7 @@ export default function NeverLoseACustomerAgainPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/NLaCA.jpg"
+                  src="/assets/NLaCA.jpg"
                   alt="Never Lose a Customer Again"
                   width={260}
                   height={400}

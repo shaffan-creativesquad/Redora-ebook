@@ -25,7 +25,7 @@ export default function JohnRuhlinAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/John_Ruhlin_Headshot.png"
+                src="/assets/John_Ruhlin_Headshot.png"
                 alt="John Ruhlin"
                 width={600}
                 height={600}

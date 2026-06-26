@@ -25,7 +25,7 @@ export default function MonaPatelAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/reframe.png"
+                src="/assets/reframe.png"
                 alt="Mona Patel"
                 width={200}
                 height={200}

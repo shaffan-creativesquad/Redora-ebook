@@ -10,7 +10,7 @@ const tags = [
 
 const posts = [
   {
-    href: 'https://scribemedia.com/blog/the-night-watchnight-broke-something-in-me',
+    href: '/blog/the-night-watchnight-broke-something-in-me',
     img: '/assets/pexels-jordan-besson-2051439001-29281308.webp',
     alt: 'Empty church pews',
     tag: 'Book Bites',
@@ -21,7 +21,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/the-quiet-way-we-teach-kids-to-distrust-themselves',
+    href: '/blog/the-quiet-way-we-teach-kids-to-distrust-themselves',
     img: '/assets/pexels-ron-lach-10554466.webp',
     alt: 'Child making the bed',
     tag: 'Book Bites',
@@ -32,7 +32,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/the-softball-questions-investors-ask-that-can-sink-your-pitch',
+    href: '/blog/the-softball-questions-investors-ask-that-can-sink-your-pitch',
     img: '/assets/pexels-aurelijus-u-2148621102-30711884.webp',
     alt: 'Line graph made out of coins',
     tag: 'Book Bites',
@@ -43,7 +43,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/why-i-stopped-blindly-trusting-my-crohns-doctors',
+    href: '/blog/why-i-stopped-blindly-trusting-my-crohns-doctors',
     img: '/assets/pexels-cristian-rojas-8459996.webp',
     alt: 'Empty Waiting Room',
     tag: 'Book Bites',
@@ -54,7 +54,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/why-your-gut-instinct-might-save-your-life',
+    href: '/blog/why-your-gut-instinct-might-save-your-life',
     img: '/assets/pexels-hoodzie-12493038.webp',
     alt: 'Cars in a nearly empty parking lot',
     tag: 'Book Bites',
@@ -65,7 +65,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/how-hitting-rock-bottom-taught-me-to-trust-my-intuition',
+    href: '/blog/how-hitting-rock-bottom-taught-me-to-trust-my-intuition',
     img: '/assets/pexels-tima-miroshnichenko-6463188.webp',
     alt: 'Pregnant Woman',
     tag: 'Book Bites',
@@ -76,7 +76,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/why-i-joined-the-army-after-escaping-saigon',
+    href: '/blog/why-i-joined-the-army-after-escaping-saigon',
     img: '/assets/pexels-rdne-7467847.webp',
     alt: 'Why I Joined the Army After Escaping Saigon',
     tag: 'Book Bites',
@@ -87,7 +87,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/how-i-took-back-my-business-one-bold-move-at-a-time',
+    href: '/blog/how-i-took-back-my-business-one-bold-move-at-a-time',
     img: '/assets/pexels-pixabay-164634.webp',
     alt: 'How I Took Back My Business One Bold Move at a Time',
     tag: 'Book Bites',
@@ -98,7 +98,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/treat-ai-like-your-best-sales-rep-because-it-already-is',
+    href: '/blog/treat-ai-like-your-best-sales-rep-because-it-already-is',
     img: '/assets/pexels-tim-witzdam-1081250691-32021560.webp',
     alt: 'Treat AI Like Your Best Sales Rep (Because It Already Is)',
     tag: 'Book Bites',
@@ -109,7 +109,7 @@ const posts = [
     read: '3 min read',
   },
   {
-    href: 'https://scribemedia.com/blog/how-a-small-inventors-patents-may-prove-apple-pay-was-built-on-stolen-ideas',
+    href: '/blog/how-a-small-inventors-patents-may-prove-apple-pay-was-built-on-stolen-ideas',
     img: '/assets/pexels-shvetsa-4226270.webp',
     alt: "How a Small Inventor's Patents May Prove Apple Pay Was Built on Stolen Ideas",
     tag: 'Book Bites',
@@ -166,7 +166,7 @@ export default function ScribeBlog2() {
             key={tag}
             onClick={() => setActiveTag(tag)}
             className={`blog-tags__link${activeTag === tag ? ' blog-tags__link--active' : ''}`}
-            style={{ background: 'none', border: '1px solid rgba(220,45,45,0.15)', cursor: 'pointer', fontFamily: 'inherit' }}
+            style={{ background: 'none', border: '1px solid rgba(52, 217, 195, 0.12)', cursor: 'pointer', fontFamily: 'inherit' }}
           >
             {tag}
           </button>
@@ -209,11 +209,9 @@ export default function ScribeBlog2() {
           <a href="/blog">← Prev</a>
           <a href="/blog">1</a>
           <span className="active">2</span>
-          <a href="https://scribemedia.com/blog/page/3">3</a>
-          <a href="https://scribemedia.com/blog/page/4">4</a>
-          <span className="blog-pagination__ellipsis">…</span>
-          <a href="https://scribemedia.com/blog/page/45">45</a>
-          <a href="https://scribemedia.com/blog/page/3">Next →</a>
+          <a href="/blog/page/3">3</a>
+          <a href="/blog/page/4">4</a>
+          <a href="/blog/page/3">Next →</a>
         </nav>
       )}
 

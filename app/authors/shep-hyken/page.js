@@ -25,7 +25,7 @@ export default function ShepHykenAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/be-amazing-or-go-home.png"
+                src="/assets/be-amazing-or-go-home.png"
                 alt="Shep Hyken"
                 width={200}
                 height={200}

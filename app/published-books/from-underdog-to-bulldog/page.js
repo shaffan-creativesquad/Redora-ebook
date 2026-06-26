@@ -26,7 +26,7 @@ export default function FromUnderdogToBulldogPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/from-underdog-to-bulldog.jpg"
+                  src="/assets/from-underdog-to-bulldog.jpg"
                   alt="From Underdog to Bulldog"
                   width={300}
                   height={450}

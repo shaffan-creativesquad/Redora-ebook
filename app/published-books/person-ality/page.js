@@ -26,7 +26,7 @@ export default function PersonAlityPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/DebGabor_WebsiteCover.jpg"
+                  src="/assets/DebGabor_WebsiteCover.jpg"
                   alt="Person-ality"
                   width={260}
                   height={400}

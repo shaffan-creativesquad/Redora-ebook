@@ -26,7 +26,7 @@ export default function FireThemNowPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/fire-them-now.jpg"
+                  src="/assets/fire-them-now.jpg"
                   alt="Fire Them Now"
                   width={260}
                   height={400}

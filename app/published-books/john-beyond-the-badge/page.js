@@ -26,7 +26,7 @@ export default function BeyondTheBadgePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/91Fzy3QOJ2L._SL1500_.jpg"
+                  src="/assets/91Fzy3QOJ2L._SL1500_.jpg"
                   alt="Beyond the Badge"
                   width={300}
                   height={450}

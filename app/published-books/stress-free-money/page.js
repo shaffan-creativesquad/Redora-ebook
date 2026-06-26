@@ -26,7 +26,7 @@ export default function StressFreeMoneyPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/Stress-Free-Money-2.jpg"
+                  src="/assets/Stress-Free-Money-2.jpg"
                   alt="Stress-Free Money"
                   width={260}
                   height={400}

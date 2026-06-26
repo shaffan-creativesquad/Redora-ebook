@@ -19,7 +19,7 @@ export default function BenBergeron() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Ben_Bergeron_Headshot.jpg?width=600&height=600&name=Ben_Bergeron_Headshot.jpg"
+                src="/assets/Ben_Bergeron_Headshot.png"
                 alt="Ben Bergeron"
                 className="author-detail__avatar-img"
                 loading="eager"

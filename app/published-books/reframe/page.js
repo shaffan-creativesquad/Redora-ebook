@@ -26,7 +26,7 @@ export default function ReframePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/reframe.jpg"
+                  src="/assets/reframe.jpg"
                   alt="Reframe"
                   width={260}
                   height={400}

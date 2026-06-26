@@ -26,7 +26,7 @@ export default function OneHundredDeadlySkillsPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/100-deadly-skills.jpg"
+                  src="/assets/100-deadly-skills.jpg"
                   alt="100 Deadly Skills"
                   width={260}
                   height={400}

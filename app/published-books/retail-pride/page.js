@@ -26,7 +26,7 @@ export default function RetailPridePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/Retail-Pride-2.jpg"
+                  src="/assets/Retail-Pride-2.jpg"
                   alt="Retail Pride"
                   width={260}
                   height={400}

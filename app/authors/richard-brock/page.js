@@ -25,7 +25,7 @@ export default function RichardBrockAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Richard_Brock_Headshot.jpg"
+                src="/assets/Richard_Brock_Headshot.jpg"
                 alt="Richard Brock"
                 width={200}
                 height={200}

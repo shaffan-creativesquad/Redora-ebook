@@ -19,7 +19,7 @@ export default function PhillipStuttsPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/phillip-stutts.jpg?width=600&height=600&name=phillip-stutts.jpg"
+                src="/assets/phillip-stutts.png"
                 alt="Phillip Stutts"
                 className="author-detail__avatar-img"
                 loading="eager"

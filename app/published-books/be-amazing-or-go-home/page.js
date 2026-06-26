@@ -26,7 +26,7 @@ export default function BeAmazingOrGoHomePage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/be-amazing-or-go-home.jpg"
+                  src="/assets/be-amazing-or-go-home.jpg"
                   alt="Be Amazing or Go Home"
                   width={260}
                   height={400}

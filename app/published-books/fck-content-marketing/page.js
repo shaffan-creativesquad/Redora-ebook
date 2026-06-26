@@ -26,7 +26,7 @@ export default function FckContentMarketingPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="https://scribemedia.com/hubfs/images/books/fck-content-marketing.jpg"
+                  src="/assets/fck-content-marketing.jpg"
                   alt="F#ck Content Marketing"
                   width={260}
                   height={400}

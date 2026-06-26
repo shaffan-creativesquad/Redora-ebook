@@ -17,7 +17,7 @@ export default function MelissaGonzalezSuccessStory() {
           <a href="/success-stories" className="ss-detail__back"><i className="ph ph-arrow-left"></i> All Success Stories</a>
 
           <div className="ss-detail__hero">
-            <img src="https://scribemedia.com/hubfs/blog-featured/2016/07/melissa-photo-mobile.png" alt="How Melissa Gonzalez Used a Book to Raise Her Visibility, Create Authority, and Double Her Business" className="ss-detail__hero-img" loading="eager" />
+            <img src="/assets/melissa-photo-mobile.png" alt="How Melissa Gonzalez Used a Book to Raise Her Visibility, Create Authority, and Double Her Business" className="ss-detail__hero-img" loading="eager" />
             <h1 className="ss-detail__title">How Melissa Gonzalez Used a Book to Raise Her Visibility, Create Authority, and Double Her Business</h1>
           </div>
 
@@ -60,14 +60,14 @@ export default function MelissaGonzalezSuccessStory() {
             <p>Tucker didn&apos;t think it could happen, but Melissa--not being one to take no for an answer--called him out. <a href="https://scribemedia.com/our-origin/" rel="noopener noreferrer">The whole story is here</a>, but this conversation ended up leading to both her book, and the creation of Scribe.</p>
 
             <p>The process worked great, and we delivered Melissa a book that said everything she wanted to say, in her voice, with her words. It was her book.</p>
-            <p className="text-center"><img className="size-full wp-image-2197 aligncenter" src="https://scribemedia.com/hs-fs/hubfs/blog-images/2016/07/melissa-blog-post-1.jpg?width=475&height=410&name=melissa-blog-post-1.jpg" alt="melissa-blog-post-1" width="475" height="410" /></p><p></p>
+            <p className="text-center"><img className="size-full wp-image-2197 aligncenter" src="/assets/melissa-blog-post-1.jpg" alt="melissa-blog-post-1" width="475" height="410" /></p><p></p>
 
             <p><em>&quot;It was extremely important to me that my message would not get lost in translation, and Scribe completely nailed my voice and ideas.&quot;</em></p>
 
             <p>And not just a well-written book. Because Melissa has an amazing aesthetic and a highly creative brand, the cover had to look great. We partnered with one of our world-class book cover designers who took Melissa&apos;s ideas and aesthetic and turned them into a book cover that Melissa could be proud to display to her friends, clients, and during media appearances.</p>
 
             <p>The result was a beautiful, well-written book that displayed all the professionalism of Melissa.</p>
-            <p className="text-center"><img className="size-full wp-image-2198 aligncenter" src="https://scribemedia.com/hs-fs/hubfs/blog-images/2016/07/melissa-blog-post-2.jpg?width=784&height=588&name=melissa-blog-post-2.jpg" alt="melissa-blog-post-2" width="784" height="588" /></p><p></p>
+            <p className="text-center"><img className="size-full wp-image-2198 aligncenter" src="/assets/melissa-blog-post-2.png" alt="melissa-blog-post-2" width="784" height="588" /></p><p></p>
 
             <h2 className="font-regular">Her book has been a success in all the ways she wanted</h2>
 
@@ -92,7 +92,7 @@ export default function MelissaGonzalezSuccessStory() {
             <p>Most of this business came as a direct result of the media attention that her book got for her.</p>
 
             <p>Over the past two years, Melissa has been featured in all sorts of media, from print to TV and everything in between: <em>The New York Times</em> (twice), <em>The NY Post</em>, <a href="http://www.glossy.co/store-of-the-future/lionesque-group-conceptualizes-popup-shops" target="_blank" rel="noopener noreferrer">Glossy, Inc.</a>, <em>Forbes</em>, <em>Fortune</em>, <em>The Guardian</em>, <em>Fox Business</em>, <em>Bloomberg</em>, <em>Goodday NY</em>, and <em>Design Retail Magazine</em>.</p>
-            <p className="text-center"><img className="size-full wp-image-2258 aligncenter" src="https://scribemedia.com/hs-fs/hubfs/blog-images/2016/07/melissa-blog-post-3-1.jpg?width=700&height=258&name=melissa-blog-post-3-1.jpg" alt="melissa-blog-post-3" width="700" height="258" /></p>
+            <p className="text-center"><img className="size-full wp-image-2258 aligncenter" src="/assets/melissa-blog-post-3-1.jpg" alt="melissa-blog-post-3" width="700" height="258" /></p>
             <p>She is also a regular contributor to <em>The NY Daily News</em>, and to retail publications like Shopify and PSFK. And perhaps the coolest of all, Melissa is a regular radio show contributor on ABC LA radio, #RetailwithMelissa.</p>
             <p className="text-center"><img className="size-full wp-image-2201 aligncenter" src="https://scribemedia.com/hs-fs/hubfs/blog-images/2016/07/melissa-blog-post-5.jpg?width=618&height=432&name=melissa-blog-post-5.jpg" alt="melissa-blog-post-5" width="618" height="432" /></p><p></p>
 
@@ -101,7 +101,7 @@ export default function MelissaGonzalezSuccessStory() {
 
             <p>After the book, she now charges $5k for a speaking gig, and is booked dozens of times a year at retail conferences such as ShopTalk, Popai Brazil, Fashion Digital NY, Decoded Fashion and Northside; and she is asked to speak at prestigious designs schools, such as Parsons and NYU.</p>
 
-            <img className="size-full wp-image-2202 aligncenter" src="https://scribemedia.com/hs-fs/hubfs/blog-images/2016/07/melissa-blog-post-6.jpg?width=549&height=719&name=melissa-blog-post-6.jpg" alt="melissa-blog-post-6" width="549" height="719" />
+            <img className="size-full wp-image-2202 aligncenter" src="/assets/melissa-blog-post-6.jpg" alt="melissa-blog-post-6" width="549" height="719" />
             <h3 className="font-regular"><span className="font-bold">Authority:</span> The entire retail space now sees her as THE authority on pop-up retail</h3>
             <p>The social impact of the book really hit home with Melissa when she was invited to speak at Vogue Magazine, and was introduced to the staff as:</p>
 

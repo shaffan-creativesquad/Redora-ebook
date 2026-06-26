@@ -26,7 +26,7 @@ export default function BYOBPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/BrianScudamore_WebsiteCover.jpg"
+                  src="/assets/BrianScudamore_WebsiteCover.jpg"
                   alt="BYOB"
                   width={260}
                   height={400}

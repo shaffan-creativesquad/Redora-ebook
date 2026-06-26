@@ -21,7 +21,7 @@ export default function MichaelMogillSuccessStoryPage() {
 
           <div className="ss-detail__hero">
             <img
-              src="https://scribemedia.com/hubfs/blog-featured/2021/07/michael-3.jpeg"
+              src="/assets/michael-3.jpeg"
               alt="Michael Mogill's Book Brought Him Six-Figure Clients and $5 Million in New Business Within Two Years"
               className="ss-detail__hero-img"
               loading="eager"
@@ -110,7 +110,7 @@ export default function MichaelMogillSuccessStoryPage() {
             <h2>Michael saw a book as the differentiator he needed.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/867ee7ea96-michael-2-232x300.jpg"
+              src="/assets/867ee7ea96-michael-2-232x300.jpg"
               alt="michael mogill speaking"
               width="470"
               height="608"
@@ -185,7 +185,7 @@ export default function MichaelMogillSuccessStoryPage() {
             <h2>Michael found the perfect partner, but doubts lingered.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/b01ef43839-michael-1-271x300.jpg"
+              src="/assets/b01ef43839-michael-1-271x300.jpg"
               alt="michael mogill"
               width="470"
               height="520"
@@ -259,7 +259,7 @@ export default function MichaelMogillSuccessStoryPage() {
             <h2>With his book, Michael no longer has to sell.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/3682b4f119-michael-5-300x225.png"
+              src="/assets/3682b4f119-michael-5-300x225.png"
               alt="game changing attorney book"
               width="535"
               height="401"
@@ -321,7 +321,7 @@ export default function MichaelMogillSuccessStoryPage() {
             <h2>Michael&apos;s impact has expanded thanks to his book.</h2>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/898ce3de42-michael-4-219x300.jpg"
+              src="/assets/898ce3de42-michael-4-219x300.jpg"
               alt="michael mogill signing books"
               width="470"
               height="644"
@@ -364,26 +364,26 @@ export default function MichaelMogillSuccessStoryPage() {
             <p>Here are just a few of the things readers have said about Michael&apos;s book:</p>
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/5d136475aa-michael-mogill-testimonial-1-300x94.png"
+              src="/assets/5d136475aa-michael-mogill-testimonial-1-300x94.png"
               alt="michael mogill testimonial 1"
               width="670"
               height="210"
             />
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/d7c96e2404-Screen-Shot-2021-07-07-at-7.45.37-AM-300x94.png"
+              src="/assets/d7c96e2404-Screen-Shot-2021-07-07-at-7.45.37-AM-300x94.png"
               alt="michael mogill testimonial"
               width="670"
               height="210"
             />
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/8764350dc1-michael-mogill-testimonial-3-300x96.png"
+              src="/assets/8764350dc1-michael-mogill-testimonial-3-300x96.png"
               alt="michael mogill testimonial 3"
               width="669"
               height="214"
             />
 
             <img
-              src="https://scribemedia.com/hs-fs/hubfs/wp-migrated/blog-inline/009f9a26a1-tucker-sm-hs-150x150.png"
+              src="/assets/009f9a26a1-tucker-sm-hs-150x150.png"
               alt="Headshot image of Tucker Max smiling and wearing a gray t-shirt"
               width="150"
               height="150"

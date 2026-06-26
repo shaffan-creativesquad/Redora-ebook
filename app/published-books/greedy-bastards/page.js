@@ -26,7 +26,7 @@ export default function GreedyBastardsPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/GreedyBastards.jpg"
+                  src="/assets/GreedyBastards.jpg"
                   alt="Greedy Bastards"
                   width={260}
                   height={400}

@@ -26,7 +26,7 @@ export default function ExplosiveGrowthPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/explosive-growth.jpg"
+                  src="/assets/explosive-growth.jpg"
                   alt="Explosive Growth"
                   width={260}
                   height={400}

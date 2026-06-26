@@ -25,7 +25,7 @@ export default function ChrisHeivlyAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/Chris_Heivly_Headshot.png"
+                src="/assets/Chris_Heivly_Headshot.png"
                 alt="Chris Heivly"
                 width={600}
                 height={600}

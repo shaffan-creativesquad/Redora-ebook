@@ -19,7 +19,7 @@ export default function RonThurston() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <img
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Ron_Thurston_Headshot.jpg?width=600&height=600&name=Ron_Thurston_Headshot.jpg"
+                src="/assets/Ron_Thurston_Headshot.png"
                 alt="Ron Thurston"
                 className="author-detail__avatar-img"
                 loading="eager"

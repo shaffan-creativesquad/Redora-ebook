@@ -25,7 +25,7 @@ export default function CliffLernerAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/explosive-growth.png"
+                src="/assets/explosive-growth.png"
                 alt="Cliff Lerner"
                 width={400}
                 height={400}

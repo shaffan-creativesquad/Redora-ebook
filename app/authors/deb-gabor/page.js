@@ -25,7 +25,7 @@ export default function DebGaborAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="https://scribemedia.com/hs-fs/hubfs/author-headshots/Deb_Gabor_Headshot.jpg?width=600&height=600&name=Deb_Gabor_Headshot.jpg"
+                src="/assets/Deb_Gabor_Headshot.png"
                 alt="Deb Gabor"
                 width={600}
                 height={600}

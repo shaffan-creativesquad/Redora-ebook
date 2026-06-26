@@ -26,7 +26,7 @@ export default function TheCommitmentsPage() {
               {/* ── Cover ── */}
               <div>
                 <Image
-                  src="./assets/TracyThomas_WebsiteCover_2.png"
+                  src="/assets/TracyThomas_WebsiteCover_2.png"
                   alt="The Commitments"
                   width={260}
                   height={400}

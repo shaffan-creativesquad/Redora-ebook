@@ -25,7 +25,7 @@ export default function MichaelMogillAuthorPage() {
           <div className="author-detail__header">
             <div className="author-detail__avatar-wrap">
               <Image
-                src="./assets/michael-mogill.jpg"
+                src="/assets/michael-mogill.jpg"
                 alt="Michael Mogill"
                 width={200}
                 height={200}
