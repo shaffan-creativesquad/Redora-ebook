@@ -87,21 +87,6 @@ function AuthorCard({ a }) {
             <i className="ph ph-star"></i> Success Story
           </a>
         )}
-        {a.reviewHref && (
-          <a href={a.reviewHref} className="author-card__btn">
-            <i className="ph ph-quotes"></i> Testimonial
-          </a>
-        )}
-        {a.linkedinHref && (
-          <a href={a.linkedinHref} className="author-card__btn" target="_blank" rel="noopener noreferrer">
-            <i className="ph ph-linkedin-logo"></i> LinkedIn
-          </a>
-        )}
-        {a.websiteHref && (
-          <a href={a.websiteHref} className="author-card__btn" target="_blank" rel="noopener noreferrer">
-            <i className="ph ph-globe"></i> Website
-          </a>
-        )}
       </div>
     </article>
   )

@@ -10,6 +10,41 @@ export const metadata = {
   description: "We've published over 3,000 books for authors in just 10 years, including 23 New York Times and Wall Street Journal bestsellers.",
 }
 
+const FIXED_120 = new Set([
+  "/authors/adam-coffey","/authors/alex-gurevich","/authors/ali-katz","/authors/andrew-mioch",
+  "/authors/ari-meisel","/authors/bill-keen","/authors/bob-moesta","/authors/brian-keating",
+  "/authors/brian-reese","/authors/brian-scudamore","/authors/brita-long","/authors/cameron-herold",
+  "/authors/cedric-nash","/authors/chad-willardson","/authors/chasta-hamilton","/authors/christopher-peer",
+  "/authors/clint-emerson","/authors/david-allison","/authors/david-goggins","/authors/david-kashmer",
+  "/authors/david-smith","/authors/david-weaver","/authors/dds-dobson-smith","/authors/deb-gabor",
+  "/authors/debra-wanger","/authors/dustan-woodhouse","/authors/eric-jorgenson","/authors/frederick-vallaeys",
+  "/authors/geoff-blades","/authors/grant-botma","/authors/greg-giuliano","/authors/greg-hiebert",
+  "/authors/greg-smith","/authors/ian-hallett","/authors/isabelle-nussli","/authors/jackie-insinger",
+  "/authors/jacky-budweg","/authors/james-beshara","/authors/james-carbary","/authors/james-maskell",
+  "/authors/james-robert-lay","/authors/janice-bryant-howroyd","/authors/jason-fladlien","/authors/jason-lazarus",
+  "/authors/jason-portnoy","/authors/jawad-ahsan","/authors/jayson-waller","/authors/jeff-hyman",
+  "/authors/jeff-kavanaugh","/authors/jeff-meyerson","/authors/jeremy-burrows","/authors/jeremy-keeshin",
+  "/authors/jess-lenouvel","/authors/jesse-cole","/authors/jim-klopman","/authors/joe-valley",
+  "/authors/joey-korenman","/authors/john-hittler","/authors/john-reid","/authors/john-ruhlin",
+  "/authors/john-sardella","/authors/jon-macdonald","/authors/jonathan-levi","/authors/jonathan-d-bird",
+  "/authors/jonathan-siegel","/authors/jorge-p-newbery","/authors/josh-turner","/authors/joshua-mantz",
+  "/authors/joshua-miller","/authors/jr-robles","/authors/jt-mccormick","/authors/justin-elrod",
+  "/authors/kain-ramsay","/authors/karalynn-cromeens","/authors/katie-happyy","/authors/kayvan-kian",
+  "/authors/ken-falke","/authors/kyle-thiermann","/authors/laurens-bensdorp","/authors/leah-dean",
+  "/authors/lisa-ann","/authors/lorenzo-gomez","/authors/marco-krohn","/authors/mark-cawley",
+  "/authors/mark-evans","/authors/michael-erath","/authors/michael-lynch","/authors/michael-sarraille",
+  "/authors/monty-moran","/authors/nathan-pettijohn","/authors/nathaniel-eliason","/authors/nneka-unachukwu",
+  "/authors/pam-marmon","/authors/patti-temple-rocks","/authors/paul-durso","/authors/paul-zak",
+  "/authors/phillip-stutts","/authors/regan-hillyer","/authors/richard-thalheimer","/authors/robert-althuis",
+  "/authors/robert-glazer","/authors/robin-farmanfarmaian","/authors/ron-lovett","/authors/ron-thurston",
+  "/authors/sam-lacrosse","/authors/sean-mcdade","/authors/shannon-susko","/authors/shin-fujiyama",
+  "/authors/shiv-narayanan","/authors/steve-sims","/authors/steve-thompson","/authors/thomas-epperson",
+  "/authors/tim-kintz","/authors/tracy-thomas","/authors/tucker-max","/authors/yan-li",
+  "/authors/yanely-espinal","/authors/yarona-boster","/authors/yusuf-moolla","/authors/yuzheng-sun",
+])
+
+const filteredBooks = data.books.filter(b => FIXED_120.has(b.authorHref))
+
 export default function PublishedBooksPage() {
   return (
     <>
@@ -23,7 +58,7 @@ export default function PublishedBooksPage() {
             </p>
           </div>
           <BooksGrid
-            books={data.books}
+            books={filteredBooks}
             genres={data.genres}
             industries={data.industries}
             imprints={data.imprints}

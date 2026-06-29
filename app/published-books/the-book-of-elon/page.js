@@ -143,13 +143,13 @@ export default function TheBookOfElonPage() {
               <div className="bd-related-title">The Almanack of Naval Ravikant</div>
             </a>
             <a href="/published-books/the-anthology-of-balaji" className="bd-related-item">
-              <Image
-                src="/assets/the-book-of-elon.jpg"
+              <img
+                src="https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/EricJorgenson_EbookCover_Final-scaled.jpg"
                 alt="The Anthology of Balaji"
                 width={130}
                 height={195}
                 className="bd-related-cover"
-                unoptimized
+                loading="lazy"
               />
               <div className="bd-related-title">The Anthology of Balaji</div>
             </a>
