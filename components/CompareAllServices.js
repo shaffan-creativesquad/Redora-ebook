@@ -139,7 +139,7 @@ export default function CompareAllServices() {
 
   return (
     <div className="sv2">
-      <h2 className="sv2-heading font-playfair">Two ways to create your book</h2>
+      <h1 className="sv2-heading font-playfair">Two ways to create your book</h1>
       <p className="sv2-intro">Every path includes professional editing, cover design, interior layout, audiobook, publishing, distribution, full ownership, and 100% of royalties.</p>
 
       {/* Toggle */}
