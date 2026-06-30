@@ -16,7 +16,6 @@ const aboutLinks = [
 ]
 const booksLinks = [
   ['Success Stories', '/success-stories'],
-  ['Published Books', '/published-books'],
   ['Book Bites', '/blog/tag/book-bites'],
   ['Reviews', '/reviews'],
   ['Book Directory', '/book-directory'],

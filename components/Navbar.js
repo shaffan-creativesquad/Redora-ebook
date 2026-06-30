@@ -47,7 +47,6 @@ const navItems = [
     label: 'Books & Authors',
     dropdown: [
       { label: 'Our Authors', href: '/authors' },
-      { label: 'Published Books', href: '/published-books' },
       { label: 'New Releases', href: '/new-releases' },
       { label: 'Success Stories', href: '/success-stories' },
       { label: 'FAQs', href: '/faqs' },

@@ -3,7 +3,7 @@ import Image from 'next/image'
 const cards = [
   { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '/success-stories' },
   { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '/free-resources' },
-  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/published-books' },
+  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/#published-books' },
 ]
 
 export default function CompareServices() {

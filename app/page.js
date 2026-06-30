@@ -5,6 +5,9 @@ import CompareServices from '@/components/CompareServices'
 import PublishingImprints from '@/components/PublishingImprints'
 import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
+import BooksGrid from './published-books/BooksGrid'
+import booksData from './published-books/books.json'
+import './published-books/published-books.css'
 
 const services = [
   {
@@ -70,6 +73,20 @@ export default function Home() {
         ))}
         <CompareServices />
         <PublishingImprints />
+        <section id="published-books" className="books-listing">
+          <div className="books-listing__header">
+            <h2 className="books-listing__heading">Published Books</h2>
+            <p className="books-listing__subheading">
+              We&apos;ve published over 3,000 books for authors in just 10 years, including 23 New York Times and Wall Street Journal bestsellers:
+            </p>
+          </div>
+          <BooksGrid
+            books={booksData.books}
+            genres={booksData.genres}
+            industries={booksData.industries}
+            imprints={booksData.imprints}
+          />
+        </section>
         <Newsletter />
       </main>
       <Footer />
