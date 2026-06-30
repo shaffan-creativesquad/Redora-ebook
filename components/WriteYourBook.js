@@ -33,7 +33,7 @@ const books = [
   },
   {
     href: '/published-books/never-lose-a-customer-again-joey-coleman',
-    cover: '/assets/covers/NLaCA.jpg',
+    cover: '/assets/NLaCA.jpg',
     title: 'Never Lose a Customer Again',
     author: 'Joey Coleman',
     rating: '4.7',
@@ -41,7 +41,7 @@ const books = [
   },
   {
     href: '/published-books/buy-then-build',
-    cover: '/assets/61uxb1AlxjL._SL1360_.jpg',
+    cover: '/assets/Buy&build.png',
     title: 'Buy Then Build',
     author: 'Walker Deibel',
     rating: '4.6',
