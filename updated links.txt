@@ -109,7 +109,7 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/published-books/idea-to-execution
   https://e-book-nine-mu.vercel.app/published-books/meetings-suck
   https://e-book-nine-mu.vercel.app/published-books/never-finished
-  https://e-book-nine-mu.vercel.app/published-books/one-last-question-before-you-go  
+  https://e-book-nine-mu.vercel.app/published-books/one-last-question-before-you-go
   https://e-book-nine-mu.vercel.app/published-books/person-ality
   https://e-book-nine-mu.vercel.app/published-books/practical-sustainability
   https://e-book-nine-mu.vercel.app/published-books/retail-pride
@@ -181,7 +181,7 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-dedication
   https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-foreword
 
-── BLOG (43) ──
+── BLOG (87) ──
   https://e-book-nine-mu.vercel.app/blog
   https://e-book-nine-mu.vercel.app/blog/a-peek-into-lenas-journey
   https://e-book-nine-mu.vercel.app/blog/authors-guides-interviewing
@@ -225,6 +225,51 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/why-your-business-lives-or-dies-by-the-team-you-build
   https://e-book-nine-mu.vercel.app/blog/why-your-gut-instinct-might-save-your-life
   https://e-book-nine-mu.vercel.app/blog/your-price-is-your-story-and-its-telling-one-right-now
+  [via /blog/[slug] template — Author Resources Library posts]
+  https://e-book-nine-mu.vercel.app/blog/3-secrets-to-writing-a-book-people-cant-stop-recommending
+  https://e-book-nine-mu.vercel.app/blog/audiobook-production-companies
+  https://e-book-nine-mu.vercel.app/blog/audiobooks-who-benefits-most-and-why-authors-should-consider-them
+  https://e-book-nine-mu.vercel.app/blog/book-launch-content-calendar
+  https://e-book-nine-mu.vercel.app/blog/book-launch-social-media-campaign
+  https://e-book-nine-mu.vercel.app/blog/book-publishers-versus-course-businesses
+  https://e-book-nine-mu.vercel.app/blog/choosing-between-narrating-your-own-audiobook-or-hiring-a-professional
+  https://e-book-nine-mu.vercel.app/blog/day-book-published
+  https://e-book-nine-mu.vercel.app/blog/ebook-metadata
+  https://e-book-nine-mu.vercel.app/blog/engage-book-launch-audience
+  https://e-book-nine-mu.vercel.app/blog/entrepreneur-startup-assumptions
+  https://e-book-nine-mu.vercel.app/blog/exploring-when-audiobooks-might-not-be-the-right-fit-for-authors
+  https://e-book-nine-mu.vercel.app/blog/financial-advisor-book
+  https://e-book-nine-mu.vercel.app/blog/help-with-writing-a-book
+  https://e-book-nine-mu.vercel.app/blog/hemingway-app-review
+  https://e-book-nine-mu.vercel.app/blog/how-to-become-a-published-author
+  https://e-book-nine-mu.vercel.app/blog/how-to-co-author-book
+  https://e-book-nine-mu.vercel.app/blog/how-to-find-a-publisher-for-my-book
+  https://e-book-nine-mu.vercel.app/blog/how-to-know-if-your-book-idea-is-original
+  https://e-book-nine-mu.vercel.app/blog/how-to-make-my-application-stand-out
+  https://e-book-nine-mu.vercel.app/blog/how-to-use-ai-when-writing-a-book
+  https://e-book-nine-mu.vercel.app/blog/how-to-write-a-motivational-book
+  https://e-book-nine-mu.vercel.app/blog/how-to-write-a-synopsis
+  https://e-book-nine-mu.vercel.app/blog/how-to-write-an-autobiography
+  https://e-book-nine-mu.vercel.app/blog/hugh-howey-hero-of-self-publishing-the-story-of-wool
+  https://e-book-nine-mu.vercel.app/blog/hybrid-book-publishers
+  https://e-book-nine-mu.vercel.app/blog/i-have-an-idea-for-a-book-but-need-someone-to-write-it
+  https://e-book-nine-mu.vercel.app/blog/literary-devices
+  https://e-book-nine-mu.vercel.app/blog/memoir-ghostwriter
+  https://e-book-nine-mu.vercel.app/blog/memoir-outline
+  https://e-book-nine-mu.vercel.app/blog/new-publishing-playbook
+  https://e-book-nine-mu.vercel.app/blog/part-2-a-new-third-option-professional-publishing-as-the-future-of-book
+  https://e-book-nine-mu.vercel.app/blog/part-3-finding-your-author-identity
+  https://e-book-nine-mu.vercel.app/blog/part-4-18-prove-strategies-to-boost-your-book-sales
+  https://e-book-nine-mu.vercel.app/blog/should-you-narrate-your-own-audiobook-or-hire-a-professional
+  https://e-book-nine-mu.vercel.app/blog/starting-a-business-book
+  https://e-book-nine-mu.vercel.app/blog/the-finances-of-self-publishing-vs-traditional-publishing
+  https://e-book-nine-mu.vercel.app/blog/the-power-of-alt-text-enhancing-accessibility-in-audiobooks
+  https://e-book-nine-mu.vercel.app/blog/traditional-publishing-versus-self-publishing
+  https://e-book-nine-mu.vercel.app/blog/vellum-software
+  https://e-book-nine-mu.vercel.app/blog/what-its-like-working-with-scribe-a-behind-the-scenes-look-at-the-self-publishing-experience
+  https://e-book-nine-mu.vercel.app/blog/why-scribe-media-is-the-best-choice-for-audiobook-production
+  https://e-book-nine-mu.vercel.app/blog/write-a-business-book
+  https://e-book-nine-mu.vercel.app/blog/writing-motivation
 
 ── BLOG TAGS (14) ──
   https://e-book-nine-mu.vercel.app/blog/tag/author-branding
@@ -242,5 +287,5 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/tag/scribe
   https://e-book-nine-mu.vercel.app/blog/tag/speaking
 
-============================================================
-TOTAL: 220 pages
+
+TOTAL: 264 static pages  

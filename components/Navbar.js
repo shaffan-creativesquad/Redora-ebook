@@ -198,11 +198,11 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden" style={{
+        <div className="flex lg:hidden" style={{
           position: 'fixed', top: '84px', left: 0, right: 0, bottom: 0,
           background: '#0a0a0a', borderTop: '1px solid rgba(220,45,45,0.08)',
           overflowY: 'auto', zIndex: 9999, padding: '1.5rem 2rem 2rem',
-          display: 'flex', flexDirection: 'column', gap: '0.25rem',
+          flexDirection: 'column', gap: '0.25rem',
         }}>
           <ul style={{ listStyle: 'none', margin: 0, padding: 0 }}>
             {navItems.map(item => (
