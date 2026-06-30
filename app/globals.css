@@ -255,6 +255,42 @@
 * { box-sizing: border-box; }
 img, video { max-width: 100%; }
 
+/* ── Custom scrollbar — vertical ── */
+::-webkit-scrollbar:vertical {
+  width: 6px;
+}
+::-webkit-scrollbar-track:vertical {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb:vertical {
+  background: #e02d2d;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #f05656;
+}
+
+/* ── Custom scrollbar — horizontal ── */
+::-webkit-scrollbar:horizontal {
+  height: 4px;
+}
+::-webkit-scrollbar-track:horizontal {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb:horizontal {
+  background: linear-gradient(90deg, #e02d2d, #b02020);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: linear-gradient(90deg, #f05656, #e02d2d);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #e02d2d #0d0d0d;
+}
+
 
 
 

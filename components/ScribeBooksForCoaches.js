@@ -54,7 +54,7 @@ const steps = [
 ]
 
 const browseLinks = [
-  { label: 'Browse All Books', href: '/published-books' },
+  { label: 'Browse All Books', href: '/#published-books' },
   { label: 'Browse All Authors', href: '/all-books-by-authors' },
   { label: 'Success Stories', href: '/success-stories' },
   { label: 'All Industries', href: '/industries' },
@@ -83,7 +83,7 @@ export default function ScribeBooksForCoaches() {
                   <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
                 </a>
               </div>
-              <div className="ind__author-name"><a href={a.nameHref}>{a.name}</a></div>
+              <div className="ind__author-name">{a.name}</div>
               <div className="ind__author-title"><a href={a.bookHref}>{a.book}</a></div>
               <div className="ind__author-rating">
                 <span className="ind__author-stars">{a.stars}</span>

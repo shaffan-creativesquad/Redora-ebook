@@ -1,3 +1,5 @@
+import BookingCalendar from './BookingCalendar'
+
 const books = [
   {
     href: '/published-books/cant-hurt-me',
@@ -80,20 +82,7 @@ export default function WriteYourBook() {
       {/* Calendar */}
       <section className="consult-cal" id="consult-main-hero">
         <div className="consult-cal__outer">
-          <div className="consult-cal__card">
-            <div className="consult-cal__header">
-              <span className="consult-cal__header-dot"></span>
-              <span className="consult-cal__header-text">Select a Time Below</span>
-            </div>
-            <div className="consult-cal__iframe-wrap">
-              <iframe
-                src="https://meetings-na2.hubspot.com/jmeza/schedule-consult-round-robin?embed=true"
-                title="Schedule a Consult"
-                width="100%"
-                style={{ minWidth: '312px', minHeight: '615px', height: '756px', border: 'none' }}
-              />
-            </div>
-          </div>
+          <BookingCalendar />
         </div>
       </section>
 
@@ -112,22 +101,6 @@ export default function WriteYourBook() {
         </div>
       </section>
 
-      {/* Video */}
-      <section className="consult-video">
-        <div className="consult-video__inner">
-          <h2 className="consult-video__heading">Why Every Business Owner Should Write a Book</h2>
-          <p className="consult-video__sub">Hear directly from Scribe CEO Eric Jorgenson on how a book changes your business.</p>
-          <div className="consult-video__embed">
-            <iframe
-              src="https://www.youtube.com/embed/v75hQgU4Y0g?rel=0"
-              title="Why Every Business Owner Should Write a Book"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Books showcase */}
       <section className="consult-books">

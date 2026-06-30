@@ -4,7 +4,7 @@ import { useState } from 'react'
 const reviews = [
   // ── Featured (shown in "All Reviews") ────────────────────────────────────
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'Shark Tank veteran · CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -12,7 +12,7 @@ const reviews = [
     themes: ['lead-generator', 'brand-defining'], featured: true,
   },
   {
-    name: 'Sarma Melngailis', href: '/authors/sarma-melngailis',
+    name: 'Sarma Melngailis', href: null,
     credential: 'Former Owner, Pure Food and Wine',
     img: '/assets/sarma-mengailis.png',
     book: 'The Girl with the Duck Tattoo', bookHref: '/published-books/the-girl-with-the-duck-tattoo',
@@ -20,7 +20,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Adam Skolnick', href: '/authors/adam-skolnick',
+    name: 'Adam Skolnick', href: null,
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     img: '/assets/AdamSkolnick_Headshot.jpg',
     book: 'American Tiger', bookHref: '/published-books/american-tiger',
@@ -28,7 +28,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Rich Kurtzman', href: '/authors/rich-kurtzman',
+    name: 'Rich Kurtzman', href: null,
     credential: 'Founder & CEO, Barcelona SAE',
     img: '/assets/RichKurtzman_Headshot.jpg',
     book: 'Like a Fish in Water', bookHref: '/published-books/like-a-fish-in-water',
@@ -36,7 +36,7 @@ const reviews = [
     themes: ['process-praise', 'roi-revenue', 'authority-credibility'], featured: true,
   },
   {
-    name: 'John Schachnovsky', href: '/authors/john-schachnovsky',
+    name: 'John Schachnovsky', href: null,
     credential: 'Former FBI Legal Attaché',
     img: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
     book: 'Beyond the Badge', bookHref: '/published-books/john-beyond-the-badge',
@@ -44,7 +44,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Yuzheng Sun', href: '/authors/yuzheng-sun',
+    name: 'Yuzheng Sun', href: null,
     credential: 'Staff Data Scientist, Statsig',
     img: '/assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
     book: 'Growth Data Analytics Playbook', bookHref: '/published-books/growth-data-analytics-playbook',
@@ -52,7 +52,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Sam Goodner', href: '/authors/sam-goodner',
+    name: 'Sam Goodner', href: null,
     credential: 'Serial Entrepreneur, Founder of Catapult Systems',
     img: '/assets/SamGoodner_Headshot.jpg',
     book: 'Like Clockwork', bookHref: '/published-books/like-clockwork',
@@ -60,7 +60,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'John Sardella', href: '/authors/john-sardella',
+    name: 'John Sardella', href: null,
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
@@ -68,7 +68,7 @@ const reviews = [
     themes: ['process-praise', 'long-tail-compound'], featured: true,
   },
   {
-    name: 'Pavel Ythjall', href: '/authors/pavel-ythjall',
+    name: 'Pavel Ythjall', href: null,
     credential: 'Fitness Photographer & Entrepreneur',
     img: '/assets/Pavel-Ythjal-541-296.jpg',
     book: 'True Love and Suffering', bookHref: '/published-books/true-love-and-suffering',
@@ -76,7 +76,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Iona Holloway', href: '/authors/iona-holloway',
+    name: 'Iona Holloway', href: null,
     credential: "Author & Women's Empowerment Coach",
     img: '/assets/Iona-Holloway-541-296.jpg',
     book: 'Ghost', bookHref: '/published-books/ghost',
@@ -84,7 +84,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'MyLinh Shattan', href: '/authors/mylinh-shattan',
+    name: 'MyLinh Shattan', href: null,
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
@@ -92,7 +92,7 @@ const reviews = [
     themes: ['beats-trad-pub'], featured: true,
   },
   {
-    name: 'Matthew Eby, Joanne Eby', href: '/authors/matthew-eby',
+    name: 'Matthew Eby, Joanne Eby', href: null,
     credential: 'Co-Founders, Nth Degree Financial Solutions',
     img: '/assets/Eby-Headshots.jpg',
     book: 'The Invisible Threat', bookHref: '/published-books/the-invisible-threat',
@@ -100,7 +100,7 @@ const reviews = [
     themes: ['production-quality', 'long-tail-compound', 'bestseller-awards'], featured: true,
   },
   {
-    name: 'Linden Loren', href: '/authors/linden-loren',
+    name: 'Linden Loren', href: null,
     credential: 'Co-Founder, Camo & Wind',
     img: '/assets/Linden-v2.jpg',
     book: 'Your Hunting Healthspan', bookHref: '/published-books/your-hunting-healthspan',
@@ -108,7 +108,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Josh Dix', href: '/authors/josh-dix',
+    name: 'Josh Dix', href: null,
     credential: 'Author',
     img: '/assets/josh-dix.jpg',
     book: 'The Great Exhaustion', bookHref: '/published-books/the-great-exhaustion',
@@ -116,7 +116,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Candler Cook', href: '/authors/candler-cook',
+    name: 'Candler Cook', href: null,
     credential: 'UGA Football Walk-On, Finance Professional',
     img: '/assets/candler-cook.jpg',
     book: 'From Underdog to Bulldog', bookHref: '/published-books/from-underdog-to-bulldog',
@@ -124,7 +124,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Tommy Short', href: '/authors/tommy-short',
+    name: 'Tommy Short', href: null,
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
@@ -132,7 +132,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Stuart Waldner', href: '/authors/stuart-waldner',
+    name: 'Stuart Waldner', href: null,
     credential: 'Plant-Based Wellness Advocate',
     img: '/assets/StuartWaldner_Headshot.jpg',
     book: 'Escape the Meatrix', bookHref: '/published-books/escape-the-meatrix',
@@ -140,7 +140,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Dave Lamont', href: '/authors/dave-lamont',
+    name: 'Dave Lamont', href: null,
     credential: 'CEO, Renfrew Business Group',
     img: '/assets/Dave-Lamont-Headshot.jpg',
     book: 'Crank It!', bookHref: '/published-books/crank-it',
@@ -148,7 +148,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Pablo Munoz', href: '/authors/pablo-munoz',
+    name: 'Pablo Munoz', href: null,
     credential: 'Managing Director, Muñoz & Company',
     img: '/assets/Pablo-Munoz-Headshot.jpg',
     book: "The Leader's Algorithm", bookHref: '/published-books/the-leaders-algorithm',
@@ -156,7 +156,7 @@ const reviews = [
     themes: ['reader-impact'], featured: true,
   },
   {
-    name: 'Matt Shoup', href: '/authors/matt-shoup',
+    name: 'Matt Shoup', href: null,
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
@@ -164,7 +164,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Ben Woodward', href: '/authors/ben-woodward',
+    name: 'Ben Woodward', href: null,
     credential: 'Former Global President, Multinational Corp',
     img: '/assets/BenWoodward_AuthorCentral_Headsh.jpg',
     book: 'The Empowerment Paradox', bookHref: '/published-books/the-empowerment-paradox',
@@ -172,7 +172,7 @@ const reviews = [
     themes: ['speaking-engagements'], featured: true,
   },
   {
-    name: 'Douglas Stone', href: '/authors/douglas-stone',
+    name: 'Douglas Stone', href: null,
     credential: 'Wealth Advisor, SeaCrest Wealth Management',
     img: '/assets/DouglasStone_Headshot.jpg',
     book: 'Navigate the Investment Jungle', bookHref: '/published-books/navigate-the-investment-jungle',
@@ -180,7 +180,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Yarona Boster', href: '/authors/yarona-boster',
+    name: 'Yarona Boster', href: null,
     credential: 'Advanced Certified Life Coach & TEDx Speaker',
     img: 'https://scribemedia.com/hubfs/author-headshots/yarona-boster-headshot.jpg',
     book: 'Unspoken Signals', bookHref: '/published-books/unspoken-signals',
@@ -188,7 +188,7 @@ const reviews = [
     themes: ['process-praise'], featured: true,
   },
   {
-    name: 'Kyle Thiermann', href: '/authors/kyle-thiermann',
+    name: 'Kyle Thiermann', href: null,
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
@@ -198,7 +198,7 @@ const reviews = [
 
   // ── Additional quotes (shown only when filtering by theme) ────────────────
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -206,7 +206,7 @@ const reviews = [
     themes: ['production-quality', 'beats-trad-pub', 'long-tail-compound'], featured: false,
   },
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -214,7 +214,7 @@ const reviews = [
     themes: ['process-praise', 'production-quality', 'beats-trad-pub'], featured: false,
   },
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -222,7 +222,7 @@ const reviews = [
     themes: ['roi-revenue'], featured: false,
   },
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -230,7 +230,7 @@ const reviews = [
     themes: ['authority-credibility', 'long-tail-compound'], featured: false,
   },
   {
-    name: 'Shaan Patel', href: '/authors/shaan-patel',
+    name: 'Shaan Patel', href: null,
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
@@ -238,7 +238,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'John Sardella', href: '/authors/john-sardella',
+    name: 'John Sardella', href: null,
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
@@ -246,7 +246,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'John Sardella', href: '/authors/john-sardella',
+    name: 'John Sardella', href: null,
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
@@ -254,7 +254,7 @@ const reviews = [
     themes: ['process-praise', 'reader-impact'], featured: false,
   },
   {
-    name: 'John Sardella', href: '/authors/john-sardella',
+    name: 'John Sardella', href: null,
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
@@ -262,7 +262,7 @@ const reviews = [
     themes: ['reader-impact'], featured: false,
   },
   {
-    name: 'MyLinh Shattan', href: '/authors/mylinh-shattan',
+    name: 'MyLinh Shattan', href: null,
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
@@ -270,7 +270,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'MyLinh Shattan', href: '/authors/mylinh-shattan',
+    name: 'MyLinh Shattan', href: null,
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
@@ -278,7 +278,7 @@ const reviews = [
     themes: ['bestseller-awards'], featured: false,
   },
   {
-    name: 'MyLinh Shattan', href: '/authors/mylinh-shattan',
+    name: 'MyLinh Shattan', href: null,
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
@@ -286,7 +286,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Tommy Short', href: '/authors/tommy-short',
+    name: 'Tommy Short', href: null,
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
@@ -294,7 +294,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Tommy Short', href: '/authors/tommy-short',
+    name: 'Tommy Short', href: null,
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
@@ -302,7 +302,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Tommy Short', href: '/authors/tommy-short',
+    name: 'Tommy Short', href: null,
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
@@ -310,7 +310,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Matt Shoup', href: '/authors/matt-shoup',
+    name: 'Matt Shoup', href: null,
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
@@ -318,7 +318,7 @@ const reviews = [
     themes: ['speaking-engagements'], featured: false,
   },
   {
-    name: 'Matt Shoup', href: '/authors/matt-shoup',
+    name: 'Matt Shoup', href: null,
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
@@ -326,7 +326,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Matt Shoup', href: '/authors/matt-shoup',
+    name: 'Matt Shoup', href: null,
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
@@ -334,7 +334,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Matthew Eby', href: '/authors/matthew-eby',
+    name: 'Matthew Eby', href: null,
     credential: 'Co-Founder, Nth Degree Financial Solutions',
     img: '/assets/Eby-Headshots.jpg',
     book: 'The Invisible Threat', bookHref: '/published-books/the-invisible-threat',
@@ -342,7 +342,7 @@ const reviews = [
     themes: ['production-quality'], featured: false,
   },
   {
-    name: 'Kyle Thiermann', href: '/authors/kyle-thiermann',
+    name: 'Kyle Thiermann', href: null,
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
@@ -350,7 +350,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Kyle Thiermann', href: '/authors/kyle-thiermann',
+    name: 'Kyle Thiermann', href: null,
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
@@ -358,7 +358,7 @@ const reviews = [
     themes: ['process-praise'], featured: false,
   },
   {
-    name: 'Kyle Thiermann', href: '/authors/kyle-thiermann',
+    name: 'Kyle Thiermann', href: null,
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',

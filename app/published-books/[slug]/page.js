@@ -66,7 +66,7 @@ export default async function BookPage({ params }) {
         <div className="book-detail-page">
           <div className="book-detail-page__inner">
 
-            <a href="/published-books" className="bd-back">
+            <a href="/#published-books" className="bd-back">
               <i className="ph ph-arrow-left"></i> Back to Published Books
             </a>
 
@@ -94,7 +94,7 @@ export default async function BookPage({ params }) {
               <div>
                 <h1 className="bd-title">{book.title}</h1>
                 <p className="bd-author">
-                  by <a href={book.authorHref}>{book.author}</a>
+                  by {book.author}
                 </p>
 
                 {book.rating && (
@@ -148,9 +148,6 @@ export default async function BookPage({ params }) {
                       <i className="ph ph-amazon-logo"></i> Buy on Amazon
                     </a>
                   )}
-                  <a href={book.authorHref} className="bd-btn bd-btn--secondary">
-                    <i className="ph ph-user"></i> View Author
-                  </a>
                   <a href="/consult" className="bd-btn bd-btn--secondary">
                     Schedule a Consult
                   </a>
@@ -176,15 +173,15 @@ export default async function BookPage({ params }) {
               <div>
                 <p className="bd-author-label">About the Author</p>
                 <h2 className="bd-author-name">
-                  <a href={book.authorHref}>{book.author}</a>
+                  {book.author}
                 </h2>
                 {bio && (
                   <div className="bd-author-bio">
                     <p>{bio}</p>
                   </div>
                 )}
-                <a className="bd-author-link" href={book.authorHref}>
-                  View full profile <span>→</span>
+                <a className="bd-author-link" href="/consult">
+                  Work with us <span>→</span>
                 </a>
               </div>
             </div>

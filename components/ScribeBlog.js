@@ -4,13 +4,8 @@ import { useState } from 'react'
 const tags = [
   { label: 'All Posts', href: null },
   { label: 'Book Writing', href: '/blog/tag/book-writing' },
-  { label: 'Author Success Stories', href: '/blog/tag/author-success-stories' },
-  { label: 'Book Publishing', href: '/blog/tag/book-publishing' },
   { label: 'Book Bites', href: '/blog/tag/book-bites' },
   { label: 'Book Marketing', href: '/blog/tag/book-marketing' },
-  { label: 'Author Branding', href: '/blog/tag/author-branding' },
-  { label: 'Book Editing', href: '/blog/tag/book-editing' },
-  { label: 'Scribe', href: '/blog/tag/scribe' },
   { label: 'Idea to Execution', href: '/blog/tag/idea-to-execution' },
   { label: 'Book Positioning', href: '/blog/tag/book-positioning' },
   { label: 'Author Royalties', href: null },

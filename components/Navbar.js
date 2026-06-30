@@ -8,7 +8,6 @@ const navItems = [
     label: 'Why Scribe?',
     dropdown: [
       { label: 'Why Scribe', href: '/why-scribe' },
-      { label: 'Our Team', href: '/our-team' },
       { label: 'Reviews', href: '/reviews' },
     ],
   },
@@ -40,18 +39,9 @@ const navItems = [
     dropdown: [
       { label: 'Blog', href: '/blog' },
       { label: 'The Scribe Method Book', href: '/scribe-method-book' },
-      { label: 'Author Hour Podcast', href: '/author-hour' },
     ],
   },
-  {
-    label: 'Books & Authors',
-    dropdown: [
-      { label: 'Our Authors', href: '/authors' },
-      { label: 'New Releases', href: '/new-releases' },
-      { label: 'Success Stories', href: '/success-stories' },
-      { label: 'FAQs', href: '/faqs' },
-    ],
-  },
+  { label: 'FAQs', href: '/faqs' },
   { label: 'Pricing', href: '/allservices' },
 ]
 
@@ -188,9 +178,9 @@ export default function Navbar() {
             className="flex lg:hidden"
             onClick={() => setMobileOpen(v => !v)}
             aria-label="Toggle mobile menu"
-            style={{ alignItems: 'center', justifyContent: 'center', width: '40px', height: '40px', background: 'transparent', border: '1px solid rgba(220,45,45,0.15)', borderRadius: '6px', color: '#fff', cursor: 'pointer' }}
+            style={{ alignItems: 'center', justifyContent: 'center', width: '44px', height: '44px', background: '#e02d2d', border: 'none', borderRadius: '8px', color: '#ffffff', cursor: 'pointer', WebkitAppearance: 'none', appearance: 'none', flexShrink: 0 }}
           >
-            <i className={mobileOpen ? 'ph ph-x' : 'ph-fill ph-list'} style={{ fontSize: '1.25rem', lineHeight: 1 }} />
+            <i className={mobileOpen ? 'ph ph-x' : 'ph-fill ph-list'} style={{ fontSize: '1.5rem', lineHeight: 1, display: 'block' }} />
           </button>
         </div>
       </div>

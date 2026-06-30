@@ -51,7 +51,7 @@ export default function BooksForSalesPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/tim-kintz">Tim Kintz</a>
+                  Tim Kintz
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/frictionless">Frictionless</a>
@@ -93,7 +93,7 @@ export default function BooksForSalesPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/john-ruhlin">John Ruhlin</a>
+                  John Ruhlin
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/beyond-giftology">Beyond Giftology</a>
@@ -138,7 +138,7 @@ export default function BooksForSalesPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/chris-voss">Chris Voss</a>
+                  Chris Voss
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/the-full-fee-agent">The Full Fee Agent</a>
@@ -228,8 +228,7 @@ export default function BooksForSalesPage() {
           {/* ── Browse ── */}
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <Link href="/published-books" className="ind__browse-link">Browse All Books</Link>
-              <Link href="/authors" className="ind__browse-link">Browse All Authors</Link>
+              <Link href="/#published-books" className="ind__browse-link">Browse All Books</Link>
               <Link href="/success-stories" className="ind__browse-link">Success Stories</Link>
               <Link href="/books-for-industries" className="ind__browse-link">All Industries</Link>
             </div>

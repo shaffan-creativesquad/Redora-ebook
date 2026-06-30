@@ -14,7 +14,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
       <Navbar />
       <main id="main-content">
         <div className="ss-detail">
-          <a href="/success-stories" className="ss-detail__back"><i className="ph ph-arrow-left"></i> All Success Stories</a>
+
 
           <div className="ss-detail__hero">
             <img src="/assets/E326F483-A9AD-467B-873E-0FA6139DC45A.jpg" alt="Ron Thurston Used Scribe to Celebrate America's Unsung Heroes (And Launched a New Career Along the Way)" className="ss-detail__hero-img" loading="eager" />
@@ -35,7 +35,7 @@ export default function RonThurstonRetailPrideSuccessStory() {
 
           <div className="ss-detail__crosslinks">
             <span className="ss-detail__crosslinks-label">More from Ron:</span>
-            <a className="ss-detail__crosslink" href="/authors/ron-thurston"><i className="ph ph-user"></i> Author Page</a>
+
           </div>
 
           <div className="ss-detail__content">

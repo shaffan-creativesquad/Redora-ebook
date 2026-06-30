@@ -35,18 +35,11 @@ export default async function SuccessStoryPage({ params }) {
   const story = getStory(slug)
   if (!story) notFound()
 
-  const authorSlug = story.author
-    ? story.author.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')
-    : null
-
   return (
     <>
       <Navbar />
       <main id="main-content">
         <div className="ss-detail">
-          <Link href="/success-stories" className="ss-detail__back">
-            <i className="ph ph-arrow-left"></i> All Success Stories
-          </Link>
 
           <div className="ss-detail__hero">
             {story.img && (
@@ -71,16 +64,6 @@ export default async function SuccessStoryPage({ params }) {
             </div>
           )}
 
-          {story.author && (
-            <div className="ss-detail__crosslinks">
-              <span className="ss-detail__crosslinks-label">More from {story.author.split(' ')[0]}:</span>
-              {authorSlug && (
-                <a className="ss-detail__crosslink" href={`/authors/${authorSlug}`}>
-                  <i className="ph ph-user"></i> Author Page
-                </a>
-              )}
-            </div>
-          )}
 
           <div className="ss-detail__content">
             {story.excerpt && <p>{story.excerpt}</p>}

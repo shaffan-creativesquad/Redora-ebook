@@ -47,7 +47,7 @@ export default function NewReleasesPage() {
       <main id="main-content" className="new-releases-page" style={{ paddingTop: '84px' }}>
         <section className="new-releases" aria-label="New releases">
           <p className="new-releases__breadcrumb">
-            <a href="/published-books">Published Books</a>
+            <a href="/#published-books">Published Books</a>
             <span className="new-releases__breadcrumb-sep">/</span>
             New Releases
           </p>
@@ -65,7 +65,7 @@ export default function NewReleasesPage() {
               ? (
                 <div className="new-releases__empty">
                   No new releases right now — check back soon, or browse our
-                  <a href="/published-books">full catalog</a>.
+                  <a href="/#published-books">full catalog</a>.
                 </div>
               )
               : books.map((b, i) => <BookCard key={i} b={b} />)
@@ -73,7 +73,7 @@ export default function NewReleasesPage() {
           </div>
 
           <div className="new-releases__footer">
-            <a href="/published-books">← Browse all published books</a>
+            <a href="/#published-books">← Browse all published books</a>
           </div>
         </section>
         <Newsletter />

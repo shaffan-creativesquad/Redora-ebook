@@ -15,7 +15,7 @@ export default function DebGaborBrandingIsSexPage() {
       <Navbar />
       <main id="main-content">
         <div className="ss-detail">
-          <a href="/success-stories" className="ss-detail__back"><i className="ph ph-arrow-left"></i> All Success Stories</a>
+
 
           <div className="ss-detail__hero">
             <Image
@@ -35,7 +35,7 @@ export default function DebGaborBrandingIsSexPage() {
 
           <div className="ss-detail__crosslinks">
             <span className="ss-detail__crosslinks-label">More from Deb:</span>
-            <a className="ss-detail__crosslink" href="/authors/deb-gabor"><i className="ph ph-user"></i> Author Page</a>
+
           </div>
 
           <div className="ss-detail__content">

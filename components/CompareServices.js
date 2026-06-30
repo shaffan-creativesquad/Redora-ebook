@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '/success-stories' },
+  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '/#success-stories' },
   { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '/free-resources' },
   { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/#published-books' },
 ]
@@ -56,7 +56,9 @@ export default function CompareServices() {
                 src={card.image} alt={card.alt}
                 width={988} height={500}
                 style={{ width: '100%', display: 'block', aspectRatio: '16/9', objectFit: 'cover' }}
-                unoptimized loading="lazy"
+                unoptimized
+                loading={i === 1 ? 'eager' : 'lazy'}
+                priority={i === 1}
               />
               <div style={{ padding: '0.95rem' }}>
                 <h3 style={{ margin: '0 0 0.7rem', color: '#f0f0f0', fontSize: '1.07rem', lineHeight: 1.34, fontWeight: 700 }}>

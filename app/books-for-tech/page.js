@@ -35,7 +35,7 @@ export default function BooksForTech() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/eric-jorgenson">Eric Jorgenson</a>
+                  Eric Jorgenson
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/the-almanack-of-naval-ravikant">The Almanack of Naval Ravikant</a>
@@ -57,7 +57,7 @@ export default function BooksForTech() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/joe-mechlinski">Joe Mechlinski</a>
+                  Joe Mechlinski
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/shift-the-work">Shift the Work</a>
@@ -79,7 +79,7 @@ export default function BooksForTech() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/nassim-nicholas-taleb">Nassim Taleb</a>
+                  Nassim Taleb
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/statistical-consequences-of-fat-tails">Statistical Consequences of Fat Tails</a>
@@ -142,9 +142,7 @@ export default function BooksForTech() {
 
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <a href="/published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/authors" className="ind__browse-link">Browse All Authors</a>
-              <a href="/success-stories" className="ind__browse-link">Success Stories</a>
+              <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>
           </div>

@@ -4,29 +4,21 @@ import Image from 'next/image'
 const aboutLinks = [
   ['About', '/why-scribe'],
   ['How It Works', '/how-it-works'],
-  ['Scribe Team', '/scribe-team'],
-  ['Eric Jorgenson', '/eric-jorgenson'],
   ['Origin', '/our-origin'],
   ['Careers', '/careers'],
-  ['Newsroom', '/newsroom'],
   ['Alumni', '/alumni'],
   ['Contact', '/contact'],
   ['Ambassadors', '/ambassadors'],
   ['FAQs', '/faq'],
 ]
 const booksLinks = [
-  ['Success Stories', '/success-stories'],
   ['Book Bites', '/blog/tag/book-bites'],
   ['Reviews', '/reviews'],
   ['Book Directory', '/book-directory'],
-  ['Author Directory', '/author-directory'],
 ]
 const resourcesLinks = [
-  ['Author Resources Library', '/author-resources-library'],
   ['The Scribe Method', '/scribe-method-book'],
   ['The Scribe Blog', '/blog'],
-  ['Episode Directory', '/episode-directory'],
-  ['Author Directory', '/author-directory'],
   ['Book Directory', '/book-directory'],
   ['Author FAQs', '/author-faqs'],
   ['Author Services', '/author-services'],

@@ -2,9 +2,8 @@
 import { useState } from 'react'
 
 const tags = [
-  'All Posts', 'Book Writing', 'Author Success Stories', 'Book Publishing',
-  'Book Bites', 'Book Marketing', 'Author Branding', 'Book Editing',
-  'Scribe', 'Idea to Execution', 'Book Positioning', 'Author Royalties',
+  'All Posts', 'Book Writing', 'Book Bites', 'Book Marketing',
+  'Idea to Execution', 'Book Positioning', 'Author Royalties',
   'Book Topic', 'Speaking',
 ]
 

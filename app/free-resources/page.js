@@ -26,13 +26,6 @@ export default function FreeResourcesPage() {
             <h2 className="fr__section-title">Learn from Scribe</h2>
             <div className="fr__grid">
 
-              <a href="/author-hour" className="fr__card fr__card--featured">
-                <span className="fr__badge fr__badge--new">Podcast</span>
-                <div className="fr__card-icon">🎤</div>
-                <h3>Author Hour</h3>
-                <p>Scribe Author in Residence Eric Jorgenson interviews authors about how their books transformed their businesses, careers, and lives.</p>
-                <span className="fr__card-link">Listen Now →</span>
-              </a>
 
               <a href="/scribe-method-book" className="fr__card fr__card--featured">
                 <span className="fr__badge">WSJ Bestseller</span>
@@ -63,14 +56,14 @@ export default function FreeResourcesPage() {
             <h2 className="fr__section-title">See the Results</h2>
             <div className="fr__grid">
 
-              <a href="/success-stories" className="fr__card">
+              <a href="/#success-stories" className="fr__card">
                 <div className="fr__card-icon">🏆</div>
                 <h3>Author Success Stories</h3>
                 <p>How Scribe authors used their books to generate leads, close deals, land speaking gigs, and build authority in their industries.</p>
                 <span className="fr__card-link">View Success Stories →</span>
               </a>
 
-              <a href="/published-books" className="fr__card">
+              <a href="/#published-books" className="fr__card">
                 <div className="fr__card-icon">📚</div>
                 <h3>Published Books</h3>
                 <p>Browse 1,700+ books published by Scribe authors across business, health, memoir, self-help, and more.</p>

@@ -47,7 +47,7 @@ export default function BooksProofRail() {
           </a>
         ))}
       </div>
-      <a href="/published-books" className="ws-proof__link">Browse All Published Books →</a>
+      <a href="/#published-books" className="ws-proof__link">Browse All Published Books →</a>
     </div>
   )
 }

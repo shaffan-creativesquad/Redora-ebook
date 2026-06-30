@@ -15,9 +15,7 @@ export default function JohnRuhlinCaseStudyPage() {
       <Navbar />
       <main id="main-content">
         <div className="ss-detail">
-          <a href="/success-stories" className="ss-detail__back">
-            <i className="ph ph-arrow-left"></i> All Success Stories
-          </a>
+
 
           <div className="ss-detail__hero">
             <img
@@ -36,9 +34,7 @@ export default function JohnRuhlinCaseStudyPage() {
 
           <div className="ss-detail__crosslinks">
             <span className="ss-detail__crosslinks-label">More from John:</span>
-            <a className="ss-detail__crosslink" href="/authors/john-ruhlin">
-              <i className="ph ph-user"></i> Author Page
-            </a>
+
           </div>
 
           <div className="ss-detail__content">

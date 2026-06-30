@@ -184,8 +184,8 @@ export default async function BlogSlugPage({ params }) {
       <main id="main-content">
         <article className="blog-post">
 
-          <a href="/author-resources-library" className="blog-post__back">
-            <i className="ph ph-arrow-left"></i> Back to Author Resources Library
+          <a href="/blog" className="blog-post__back">
+            <i className="ph ph-arrow-left"></i> Back to Blog
           </a>
 
           <header className="blog-post__header">

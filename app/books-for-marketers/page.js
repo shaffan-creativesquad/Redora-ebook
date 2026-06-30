@@ -48,7 +48,7 @@ export default function BooksForMarketersPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/deb-gabor">Deb Gabor</a>
+                  Deb Gabor
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/person-ality">Person-ality</a>
@@ -77,7 +77,7 @@ export default function BooksForMarketersPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/randy-frisch">Randy Frisch</a>
+                  Randy Frisch
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/fck-content-marketing">F#ck Content Marketing</a>
@@ -105,7 +105,7 @@ export default function BooksForMarketersPage() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/phillip-stutts">Phillip Stutts</a>
+                  Phillip Stutts
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/fire-them-now-the-7-lies-digital-marketers-sell-and-the-truth-about-political-strategies-that-help-businesses-win">Fire Them Now</a>
@@ -186,8 +186,7 @@ export default function BooksForMarketersPage() {
           {/* ── Browse links ── */}
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <a href="/published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/authors" className="ind__browse-link">Browse All Authors</a>
+              <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
               <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>

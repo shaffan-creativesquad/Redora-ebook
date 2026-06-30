@@ -36,7 +36,7 @@ export default function BooksForFitnessPage() {
                     <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
                   </a>
                 </div>
-                <div className="ind__author-name"><a href="/authors/ben-bergeron">Ben Bergeron</a></div>
+                <div className="ind__author-name">Ben Bergeron</div>
                 <div className="ind__author-title"><a href="/published-books/mission-motherhood">Mission: Motherhood</a></div>
                 <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                   <span className="ind__author-stars">★★★★★</span>
@@ -56,7 +56,7 @@ export default function BooksForFitnessPage() {
                     <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
                   </a>
                 </div>
-                <div className="ind__author-name"><a href="/authors/jade-teta">Jade Teta</a></div>
+                <div className="ind__author-name">Jade Teta</div>
                 <div className="ind__author-title"><a href="/published-books/next-level-metabolism">Next-Level Metabolism</a></div>
                 <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                   <span className="ind__author-stars">★★★★★</span>
@@ -119,8 +119,7 @@ export default function BooksForFitnessPage() {
           {/* ── Browse Links ── */}
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <a href="/published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/authors" className="ind__browse-link">Browse All Authors</a>
+              <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
               <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>

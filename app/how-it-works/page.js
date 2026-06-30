@@ -102,7 +102,7 @@ export default function HowItWorksPage() {
 
             <p>Most of our authors hold their finished, published book within 9 to 15 months of starting. That includes writing, editing, design, and publishing. Some faster, some slower, depending on the service and their schedule.</p>
 
-            <p>But the book launch is just the beginning. Our authors use their books to grow businesses, land speaking gigs, attract clients, build credibility, and create impact in their fields. Check out our <a href="/success-stories">success stories</a> to see what&apos;s possible.</p>
+            <p>But the book launch is just the beginning. Our authors use their books to grow businesses, land speaking gigs, attract clients, build credibility, and create impact in their fields. Check out our success stories to see what&apos;s possible.</p>
 
             <h2>Which Service Is Right for You?</h2>
 

@@ -35,7 +35,7 @@ export default function BooksForMilitary() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/clint-emerson">Clint Emerson</a>
+                  Clint Emerson
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/100-deadly-skills">100 Deadly Skills</a>
@@ -58,7 +58,7 @@ export default function BooksForMilitary() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/michael-sarraille">Mike Sarraille</a>
+                  Mike Sarraille
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/the-talent-war">The Talent War</a>
@@ -81,7 +81,7 @@ export default function BooksForMilitary() {
                   </a>
                 </div>
                 <div className="ind__author-name">
-                  <a href="/authors/david-goggins">David Goggins</a>
+                  David Goggins
                 </div>
                 <div className="ind__author-title">
                   <a href="/published-books/cant-hurt-me">Can&apos;t Hurt Me</a>
@@ -158,8 +158,7 @@ export default function BooksForMilitary() {
 
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <a href="/published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/authors" className="ind__browse-link">Browse All Authors</a>
+              <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
               <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>

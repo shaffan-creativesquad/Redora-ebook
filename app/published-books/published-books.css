@@ -1,7 +1,214 @@
 .books-listing {
-  padding: 4rem 1.5rem 6rem;
+  padding: 4rem 0 6rem;
   background-color: var(--bg-dark, #0a0a0c);
-  min-height: 80vh;
+}
+
+.hbs-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hbs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.hbs-count {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.hbs-arrows {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hbs-arrow {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.hbs-arrow:hover:not(.hbs-arrow--disabled) {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.hbs-arrow--disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.home-books-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding-bottom: 1.25rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.15) transparent;
+}
+
+.home-books-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.home-books-scroll::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+  border-radius: 2px;
+}
+
+.home-books-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.2);
+  border-radius: 2px;
+}
+
+.home-books-scroll__item {
+  flex: 0 0 calc(20% - 1.2rem);
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+@media (max-width: 1023px) {
+  .home-books-scroll__item { flex: 0 0 calc(33.333% - 1rem); }
+}
+
+@media (max-width: 639px) {
+  .home-books-scroll__item { flex: 0 0 calc(50% - 0.75rem); }
+}
+
+/* Success Stories Scroll */
+.hss-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding-bottom: 1.25rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.15) transparent;
+}
+
+.hss-scroll::-webkit-scrollbar { height: 4px; }
+.hss-scroll::-webkit-scrollbar-track { background: rgba(255,255,255,0.05); border-radius: 2px; }
+.hss-scroll::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 2px; }
+
+.hss-item {
+  flex: 0 0 calc(25% - 1.125rem);
+  scroll-snap-align: start;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.hss-item:hover {
+  border-color: rgba(255,255,255,0.15);
+  transform: translateY(-3px);
+}
+
+.hss-item__img-wrap {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  background: #111;
+  flex-shrink: 0;
+}
+
+.hss-item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.hss-item:hover .hss-item__img { transform: scale(1.04); }
+
+.hss-item__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(220,45,45,0.1);
+  color: #e02d2d;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.hss-item__body {
+  padding: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hss-item__author {
+  font-size: 0.75rem;
+  color: #e02d2d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.4rem;
+}
+
+.hss-item__title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hss-item__excerpt {
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  flex: 1;
+}
+
+.hss-item__read-more {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.hss-item:hover .hss-item__read-more { color: #ffffff; }
+
+@media (max-width: 1023px) {
+  .hss-item { flex: 0 0 calc(33.333% - 1rem); }
+}
+
+@media (max-width: 639px) {
+  .hss-item { flex: 0 0 calc(80% - 0.75rem); }
 }
 
 .books-listing__header {

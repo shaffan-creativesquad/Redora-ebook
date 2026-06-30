@@ -1,0 +1,372 @@
+/* ── Booking Calendar Widget ── */
+.bc-widget {
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  background: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 520px;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* ── Left — Calendar ── */
+.bc-cal {
+  background: #111111;
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 2rem 1.5rem;
+}
+
+.bc-cal__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.bc-cal__meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+.bc-cal__meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.bc-cal__divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin: 0 0 1.5rem;
+}
+
+.bc-cal__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.bc-cal__nav-btn {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #9ca3af;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, color 0.2s;
+  line-height: 1;
+}
+
+.bc-cal__nav-btn:hover {
+  border-color: #e02d2d;
+  color: #ffffff;
+}
+
+.bc-cal__month {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bc-cal__grid-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  margin-bottom: 0.4rem;
+}
+
+.bc-cal__day-name {
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #6b7280;
+  padding: 0.25rem 0;
+}
+
+.bc-cal__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
+}
+
+.bc-cal__cell {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: none;
+  cursor: default;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.bc-cal__cell--available {
+  color: #d4d4d4;
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+}
+
+.bc-cal__cell--available:hover {
+  background: rgba(224, 45, 45, 0.15);
+  color: #ffffff;
+  border-color: rgba(224, 45, 45, 0.3);
+}
+
+.bc-cal__cell--disabled {
+  color: #2a2a2a;
+  cursor: not-allowed;
+}
+
+.bc-cal__cell--today.bc-cal__cell--available {
+  border-color: rgba(224, 45, 45, 0.45);
+  color: #e02d2d;
+}
+
+.bc-cal__cell--selected {
+  background: #e02d2d !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+  font-weight: 700;
+}
+
+.bc-cal__no-dates {
+  text-align: center;
+  color: #4b5563;
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 8px;
+}
+
+/* ── Right — Slots ── */
+.bc-slots {
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.bc-slots__placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.bc-slots__placeholder i {
+  font-size: 2.75rem;
+  color: rgba(224, 45, 45, 0.2);
+}
+
+.bc-slots__placeholder p {
+  font-size: 0.9rem;
+  color: #4b5563;
+  line-height: 1.55;
+  margin: 0;
+  max-width: 200px;
+}
+
+.bc-slots__heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.3rem;
+}
+
+.bc-slots__date {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.bc-slots__tz {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  color: #e02d2d;
+  font-size: 0.8rem;
+}
+
+.bc-slots__tz-select {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #e02d2d;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  flex: 1;
+  outline: none;
+}
+
+.bc-slots__tz-select option {
+  background: #161616;
+  color: #e5e5e5;
+}
+
+.bc-slots__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.bc-slots__list::-webkit-scrollbar:vertical { width: 4px; }
+.bc-slots__list::-webkit-scrollbar-track:vertical { background: transparent; }
+.bc-slots__list::-webkit-scrollbar-thumb:vertical { background: rgba(224, 45, 45, 0.4); border-radius: 999px; }
+
+.bc-slot {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  color: #d4d4d4;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s;
+  text-align: center;
+}
+
+.bc-slot:hover {
+  border-color: rgba(224, 45, 45, 0.45);
+  background: rgba(224, 45, 45, 0.08);
+  color: #ffffff;
+}
+
+.bc-slot--selected {
+  border-color: #e02d2d;
+  background: rgba(224, 45, 45, 0.16);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.bc-slots__confirm {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.bc-slots__selected-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #d4d4d4;
+  margin-bottom: 0.85rem;
+}
+
+.bc-slots__confirm-btn {
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background: #e02d2d;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.bc-slots__confirm-btn:hover {
+  background: #c42424;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(224, 45, 45, 0.3);
+}
+
+/* ── Confirmed ── */
+.bc-confirmed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  padding: 2.5rem 2rem;
+  gap: 1rem;
+}
+
+.bc-confirmed__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(224, 45, 45, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: #e02d2d;
+  margin-bottom: 0.25rem;
+}
+
+.bc-confirmed h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.375rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.bc-confirmed p {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 280px;
+}
+
+.bc-confirmed__detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #d4d4d4;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 680px) {
+  .bc-widget {
+    grid-template-columns: 1fr;
+  }
+
+  .bc-cal {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .bc-slots {
+    padding: 1.5rem 1.25rem;
+  }
+}

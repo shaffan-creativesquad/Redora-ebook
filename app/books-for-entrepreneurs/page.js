@@ -89,9 +89,7 @@ const steps = [
 ]
 
 const browseLinks = [
-  { label: 'Browse All Books', href: '/published-books' },
-  { label: 'Browse All Authors', href: '/authors' },
-  { label: 'Success Stories', href: '/success-stories' },
+  { label: 'Browse All Books', href: '/#published-books' },
   { label: 'All Industries', href: '/books-for-industries' },
 ]
 

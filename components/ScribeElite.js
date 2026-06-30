@@ -53,37 +53,37 @@ const testimonials = [
     quote: "I always wanted to get back to that original level [of McGraw Hill quality] but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: '../assets/Shaan_Patel_Headshot.png',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
-    avatar: '../assets/AdamSkolnick_Headshot.png',
+    avatar: '/assets/AdamSkolnick_Headshot.png',
   },
   {
     quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
-    avatar: '../assets/RichKurtzman_Headshot.jpg',
+    avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
   {
     quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
-    avatar: '../assets/Shaan_Patel_Headshot.png',
+    avatar: '/assets/shaan-patel.png',
   },
   {
     quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Scribe, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
-    avatar: '../assets/JohnSchachnovsky_AuthorCentral_H.jpg',
+    avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
   },
   {
     quote: "It has really been a pleasure to work with you. The process is smooth, and the result is outstanding. I'll definitely recommend you to anyone who seeks to publish a book.",
     name: 'Yuzheng Sun',
     credential: 'Staff Data Scientist, Statsig',
-    avatar: '../assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
+    avatar: '/assets/Yuzheng-Sun_AuthorCentral_Headsh.png',
   },
 ]
 

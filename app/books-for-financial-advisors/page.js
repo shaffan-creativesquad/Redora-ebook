@@ -54,7 +54,7 @@ export default function BooksForFinancialAdvisorsPage() {
                   </Link>
                 </div>
                 <p className="ind__author-name">
-                  <Link href="/authors/sheryl-sculley">Sheryl Sculley</Link>
+                  Sheryl Sculley
                 </p>
                 <p className="ind__author-title">
                   <Link href="/published-books/greedy-bastards">Greedy Bastards</Link>
@@ -99,7 +99,7 @@ export default function BooksForFinancialAdvisorsPage() {
                   </Link>
                 </div>
                 <p className="ind__author-name">
-                  <Link href="/authors/alex-gurevich">Alex Gurevich</Link>
+                  Alex Gurevich
                 </p>
                 <p className="ind__author-title">
                   <Link href="/published-books/the-trades-of-march-2020">The Trades of March 2020</Link>
@@ -144,7 +144,7 @@ export default function BooksForFinancialAdvisorsPage() {
                   </Link>
                 </div>
                 <p className="ind__author-name">
-                  <Link href="/authors/chad-willardson">Chad Willardson</Link>
+                  Chad Willardson
                 </p>
                 <p className="ind__author-title">
                   <Link href="/published-books/stress-free-money">Stress-Free Money</Link>
@@ -240,8 +240,7 @@ export default function BooksForFinancialAdvisorsPage() {
           {/* ── Browse links ── */}
           <div className="ind__browse">
             <div className="ind__browse-links">
-              <Link href="/published-books" className="ind__browse-link">Browse All Books</Link>
-              <Link href="/authors" className="ind__browse-link">Browse All Authors</Link>
+              <Link href="/#published-books" className="ind__browse-link">Browse All Books</Link>
               <Link href="/success-stories" className="ind__browse-link">Success Stories</Link>
               <Link href="/books-for-industries" className="ind__browse-link">All Industries</Link>
             </div>

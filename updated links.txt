@@ -2,7 +2,7 @@ SCRIBE MEDIA — ALL ACTIVE PAGE LINKS
 Updated: 2026-06-30
 ============================================================
 
-── MAIN (27) ──
+── MAIN (20) ──
   https://e-book-nine-mu.vercel.app/
   https://e-book-nine-mu.vercel.app/allservices
   https://e-book-nine-mu.vercel.app/alumni
@@ -10,21 +10,16 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/careers
   https://e-book-nine-mu.vercel.app/consult
   https://e-book-nine-mu.vercel.app/contact
-  https://e-book-nine-mu.vercel.app/episode-directory
-  https://e-book-nine-mu.vercel.app/eric-jorgenson
   https://e-book-nine-mu.vercel.app/faqs
   https://e-book-nine-mu.vercel.app/free-resources
   https://e-book-nine-mu.vercel.app/ghostwriting
   https://e-book-nine-mu.vercel.app/ghostwriting-vs-self-writing
   https://e-book-nine-mu.vercel.app/how-it-works
-  https://e-book-nine-mu.vercel.app/newsroom
   https://e-book-nine-mu.vercel.app/our-origin
-  https://e-book-nine-mu.vercel.app/our-team
   https://e-book-nine-mu.vercel.app/privacy
   https://e-book-nine-mu.vercel.app/publishing-book-cover
   https://e-book-nine-mu.vercel.app/publishing-formatting-tips
   https://e-book-nine-mu.vercel.app/reviews
-  https://e-book-nine-mu.vercel.app/scribe-team
   https://e-book-nine-mu.vercel.app/terms-of-service
   https://e-book-nine-mu.vercel.app/why-scribe
   https://e-book-nine-mu.vercel.app/write-your-book
@@ -80,50 +75,232 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/vs/peaceful-profits
   https://e-book-nine-mu.vercel.app/vs/self-publishing-com
 
-── AUTHORS (8) ──
+── AUTHOR RESOURCES (4) ──
   https://e-book-nine-mu.vercel.app/audiobook-submission-guidelines
-  https://e-book-nine-mu.vercel.app/author-directory
   https://e-book-nine-mu.vercel.app/author-faqs
   https://e-book-nine-mu.vercel.app/author-guides-interviewing
-  https://e-book-nine-mu.vercel.app/author-hour
-  https://e-book-nine-mu.vercel.app/author-resources-library
   https://e-book-nine-mu.vercel.app/author-services
-  https://e-book-nine-mu.vercel.app/authors
 
-── PUBLISHED BOOKS (33) ──
-  https://e-book-nine-mu.vercel.app/published-books
+── PUBLISHED BOOKS (219) ──
   https://e-book-nine-mu.vercel.app/new-releases
   https://e-book-nine-mu.vercel.app/book-directory
-  https://e-book-nine-mu.vercel.app/published-books/100-deadly-skills
-  https://e-book-nine-mu.vercel.app/published-books/a-journey-without-a-map
-  https://e-book-nine-mu.vercel.app/published-books/beyond-giftology
-  https://e-book-nine-mu.vercel.app/published-books/branding-is-sex
-  https://e-book-nine-mu.vercel.app/published-books/byob
   https://e-book-nine-mu.vercel.app/published-books/cant-hurt-me
-  https://e-book-nine-mu.vercel.app/published-books/escape-the-wolf
-  https://e-book-nine-mu.vercel.app/published-books/fans-first
-  https://e-book-nine-mu.vercel.app/published-books/fire-them-now-the-7-lies-digital-marketers-sell-and-the-truth-about-political-strategies-that-help-businesses-win
-  https://e-book-nine-mu.vercel.app/published-books/free-pr
-  https://e-book-nine-mu.vercel.app/published-books/frictionless
-  https://e-book-nine-mu.vercel.app/published-books/growth-data-analytics-playbook
-  https://e-book-nine-mu.vercel.app/published-books/idea-to-execution
-  https://e-book-nine-mu.vercel.app/published-books/meetings-suck
+  https://e-book-nine-mu.vercel.app/published-books/the-almanack-of-naval-ravikant
   https://e-book-nine-mu.vercel.app/published-books/never-finished
-  https://e-book-nine-mu.vercel.app/published-books/one-last-question-before-you-go
-  https://e-book-nine-mu.vercel.app/published-books/person-ality
-  https://e-book-nine-mu.vercel.app/published-books/practical-sustainability
+  https://e-book-nine-mu.vercel.app/published-books/100-deadly-skills
+  https://e-book-nine-mu.vercel.app/published-books/opting-in-to-optimization
+  https://e-book-nine-mu.vercel.app/published-books/go-for-stupid
+  https://e-book-nine-mu.vercel.app/published-books/its-about-time-how-to-grow-revenue-with-prospect-centered-selling
+  https://e-book-nine-mu.vercel.app/published-books/giftology
+  https://e-book-nine-mu.vercel.app/published-books/elevate
+  https://e-book-nine-mu.vercel.app/published-books/the-private-equity-playbook
+  https://e-book-nine-mu.vercel.app/published-books/the-leader-assistant
+  https://e-book-nine-mu.vercel.app/published-books/vivid-vision-a-remarkable-tool-for-aligning-your-business-around-a-shared-vision-of-the-future
+  https://e-book-nine-mu.vercel.app/published-books/the-only-skill-that-matters
+  https://e-book-nine-mu.vercel.app/published-books/bluefishing-the-art-of-making-things-happen
+  https://e-book-nine-mu.vercel.app/published-books/the-freelance-manifesto
+  https://e-book-nine-mu.vercel.app/published-books/the-talent-war
+  https://e-book-nine-mu.vercel.app/published-books/the-five-lost-superpowers
+  https://e-book-nine-mu.vercel.app/published-books/the-30-minute-stock-trader
+  https://e-book-nine-mu.vercel.app/published-books/the-evolution-of-medicine
+  https://e-book-nine-mu.vercel.app/published-books/you-deserve-it
+  https://e-book-nine-mu.vercel.app/published-books/you-deserve-it-second-edition
+  https://e-book-nine-mu.vercel.app/published-books/wtf-willing-to-fail
+  https://e-book-nine-mu.vercel.app/published-books/connect
+  https://e-book-nine-mu.vercel.app/published-books/meetings-suck
+  https://e-book-nine-mu.vercel.app/published-books/find-your-yellow-tux-how-to-be-successful-by-standing-out
+  https://e-book-nine-mu.vercel.app/published-books/burn-zones
+  https://e-book-nine-mu.vercel.app/published-books/one-to-many-the-secret-to-webinar-success
+  https://e-book-nine-mu.vercel.app/published-books/responsibility-rebellion
+  https://e-book-nine-mu.vercel.app/published-books/the-life
+  https://e-book-nine-mu.vercel.app/published-books/escape-the-wolf
+  https://e-book-nine-mu.vercel.app/published-books/the-san-francisco-fallacy
+  https://e-book-nine-mu.vercel.app/published-books/struggle-well
+  https://e-book-nine-mu.vercel.app/published-books/be-the-better-broker
+  https://e-book-nine-mu.vercel.app/published-books/spark-brilliance
+  https://e-book-nine-mu.vercel.app/published-books/recruit-rockstars
+  https://e-book-nine-mu.vercel.app/published-books/the-second-in-command
+  https://e-book-nine-mu.vercel.app/published-books/debt-cleanse
+  https://e-book-nine-mu.vercel.app/published-books/automated-stock-trading-systems
+  https://e-book-nine-mu.vercel.app/published-books/demand-side-sales-101
+  https://e-book-nine-mu.vercel.app/published-books/the-anthology-of-balaji
+  https://e-book-nine-mu.vercel.app/published-books/change-your-life-in-3-minutes
+  https://e-book-nine-mu.vercel.app/published-books/the-exit-strategy-playbook
+  https://e-book-nine-mu.vercel.app/published-books/naranjas-verdes
+  https://e-book-nine-mu.vercel.app/published-books/the-book-in-a-box-method-2nd-edition
+  https://e-book-nine-mu.vercel.app/published-books/the-scribe-method
+  https://e-book-nine-mu.vercel.app/published-books/more-money-less-hustle
+  https://e-book-nine-mu.vercel.app/published-books/love-is-free-guac-is-extra
+  https://e-book-nine-mu.vercel.app/published-books/free-pr
+  https://e-book-nine-mu.vercel.app/published-books/the-exitpreneurs-playbook
+  https://e-book-nine-mu.vercel.app/published-books/acting-up
+  https://e-book-nine-mu.vercel.app/published-books/beyond-coffee
+  https://e-book-nine-mu.vercel.app/published-books/the-art-of-less-doing
   https://e-book-nine-mu.vercel.app/published-books/retail-pride
   https://e-book-nine-mu.vercel.app/published-books/stress-free-money
-  https://e-book-nine-mu.vercel.app/published-books/the-almanack-of-naval-ravikant
-  https://e-book-nine-mu.vercel.app/published-books/the-anthology-of-balaji
-  https://e-book-nine-mu.vercel.app/published-books/the-book-in-a-box-method
-  https://e-book-nine-mu.vercel.app/published-books/the-book-of-elon
-  https://e-book-nine-mu.vercel.app/published-books/the-commitments
-  https://e-book-nine-mu.vercel.app/published-books/the-scribe-method
-  https://e-book-nine-mu.vercel.app/published-books/the-talent-war
+  https://e-book-nine-mu.vercel.app/published-books/keen-on-retirement
+  https://e-book-nine-mu.vercel.app/published-books/smart-not-spoiled
+  https://e-book-nine-mu.vercel.app/published-books/the-undefeated-marketing-system
+  https://e-book-nine-mu.vercel.app/published-books/move-fast-how-facebook-builds-software
+  https://e-book-nine-mu.vercel.app/published-books/the-entremd-method
+  https://e-book-nine-mu.vercel.app/published-books/digital-marketing-in-an-ai-world
+  https://e-book-nine-mu.vercel.app/published-books/idea-to-execution
+  https://e-book-nine-mu.vercel.app/published-books/into-the-impossible
+  https://e-book-nine-mu.vercel.app/published-books/the-world-at-10-mph
+  https://e-book-nine-mu.vercel.app/published-books/pay-matters
+  https://e-book-nine-mu.vercel.app/published-books/the-cilantro-diaries
+  https://e-book-nine-mu.vercel.app/published-books/i-got-there-9
+  https://e-book-nine-mu.vercel.app/published-books/performance-partnerships
+  https://e-book-nine-mu.vercel.app/published-books/the-beauty-of-a-darker-soul-overcoming-trauma-through-the-power-of-human-connection
+  https://e-book-nine-mu.vercel.app/published-books/the-community-cure
+  https://e-book-nine-mu.vercel.app/published-books/the-problem-isnt-their-paycheck
+  https://e-book-nine-mu.vercel.app/published-books/trash-the-trophies
+  https://e-book-nine-mu.vercel.app/published-books/travels-with-hafa
+  https://e-book-nine-mu.vercel.app/published-books/read-write-code
+  https://e-book-nine-mu.vercel.app/published-books/content-based-networking
+  https://e-book-nine-mu.vercel.app/published-books/consulting-essentials-the-art-and-science-of-people-facts-and-frameworks
+  https://e-book-nine-mu.vercel.app/published-books/branding-is-sex
+  https://e-book-nine-mu.vercel.app/published-books/banking-on-digital-growth
+  https://e-book-nine-mu.vercel.app/published-books/balance-is-power
+  https://e-book-nine-mu.vercel.app/published-books/mind-your-money
+  https://e-book-nine-mu.vercel.app/published-books/own-your-power
+  https://e-book-nine-mu.vercel.app/published-books/income-on-demand
   https://e-book-nine-mu.vercel.app/published-books/the-trades-of-march-2020
+  https://e-book-nine-mu.vercel.app/published-books/i-call-bullshit-live-your-life-not-someone-elses
+  https://e-book-nine-mu.vercel.app/published-books/a-journey-without-a-map
+  https://e-book-nine-mu.vercel.app/published-books/song-journey
+  https://e-book-nine-mu.vercel.app/published-books/va-claim-secrets
+  https://e-book-nine-mu.vercel.app/published-books/what-they-didnt-tell-me
+  https://e-book-nine-mu.vercel.app/published-books/immersion
+  https://e-book-nine-mu.vercel.app/published-books/learning-to-build
+  https://e-book-nine-mu.vercel.app/published-books/fire-them-now-the-7-lies-digital-marketers-sell-and-the-truth-about-political-strategies-that-help-businesses-win
+  https://e-book-nine-mu.vercel.app/published-books/public-opinion
+  https://e-book-nine-mu.vercel.app/published-books/husk
+  https://e-book-nine-mu.vercel.app/published-books/five-obsessions-of-elite-organizations
+  https://e-book-nine-mu.vercel.app/published-books/assemble-the-tribe
+  https://e-book-nine-mu.vercel.app/published-books/one-last-question-before-you-go
+  https://e-book-nine-mu.vercel.app/published-books/we-are-all-the-same-age-now-valuegraphics-the-end-of-demographic-stereotypes
+  https://e-book-nine-mu.vercel.app/published-books/the-new-law-business-model
+  https://e-book-nine-mu.vercel.app/published-books/the-rack-we-built
+  https://e-book-nine-mu.vercel.app/published-books/tafolla-toro
+  https://e-book-nine-mu.vercel.app/published-books/the-battery-powered-home
+  https://e-book-nine-mu.vercel.app/published-books/no-ones-listening-and-its-your-fault
+  https://e-book-nine-mu.vercel.app/published-books/you-cant-give-what-you-dont-have-creating-the-seven-habits-that-make-a-remarkable-life
+  https://e-book-nine-mu.vercel.app/published-books/what-is-water
+  https://e-book-nine-mu.vercel.app/published-books/irrational-loyalty
+  https://e-book-nine-mu.vercel.app/published-books/beyond-giftology
+  https://e-book-nine-mu.vercel.app/published-books/green-oranges
+  https://e-book-nine-mu.vercel.app/published-books/rise
+  https://e-book-nine-mu.vercel.app/published-books/frictionless
+  https://e-book-nine-mu.vercel.app/published-books/post-acquisition-marketing
+  https://e-book-nine-mu.vercel.app/published-books/sharper-image-success
+  https://e-book-nine-mu.vercel.app/published-books/raise-your-standard
+  https://e-book-nine-mu.vercel.app/published-books/thisisbrokering
+  https://e-book-nine-mu.vercel.app/published-books/zen-and-the-art-of-admin-tasks
+  https://e-book-nine-mu.vercel.app/published-books/the-book-of-elon
+  https://e-book-nine-mu.vercel.app/published-books/the-method
+  https://e-book-nine-mu.vercel.app/published-books/love-truth
+  https://e-book-nine-mu.vercel.app/published-books/into-the-impossible-volume-2-focus-like-a-nobel-prize-winner
+  https://e-book-nine-mu.vercel.app/published-books/keep-it-simple-make-it-big
+  https://e-book-nine-mu.vercel.app/published-books/do-what-you-want-on-wall-street
+  https://e-book-nine-mu.vercel.app/published-books/the-little-book-of-happiness
+  https://e-book-nine-mu.vercel.app/published-books/the-m-game
+  https://e-book-nine-mu.vercel.app/published-books/speak-up-or-stay-stuck
+  https://e-book-nine-mu.vercel.app/published-books/the-patient-as-ceo
+  https://e-book-nine-mu.vercel.app/published-books/listen-or-die-40-lessons-that-turn-customer-feedback-into-gold
+  https://e-book-nine-mu.vercel.app/published-books/the-art-of-settlement
+  https://e-book-nine-mu.vercel.app/published-books/the-daily-song-journal
+  https://e-book-nine-mu.vercel.app/published-books/the-abundance-codes
+  https://e-book-nine-mu.vercel.app/published-books/tidy-up-or-simplify
+  https://e-book-nine-mu.vercel.app/published-books/quit-getting-screwed
+  https://e-book-nine-mu.vercel.app/published-books/one-in-a-b1llion
+  https://e-book-nine-mu.vercel.app/published-books/human-pride
+  https://e-book-nine-mu.vercel.app/published-books/the-ultimate-life-coaching-handbook
+  https://e-book-nine-mu.vercel.app/published-books/no-one-is-a-stranger
+  https://e-book-nine-mu.vercel.app/published-books/handle-the-horrible
+  https://e-book-nine-mu.vercel.app/published-books/you-can-be-yourself-here
+  https://e-book-nine-mu.vercel.app/published-books/stories-of-the-indebted
+  https://e-book-nine-mu.vercel.app/published-books/the-10-minute-business-owner-experience-freedom-build-wealth-and-create-a-life-worth-living
+  https://e-book-nine-mu.vercel.app/published-books/decrypting-money
+  https://e-book-nine-mu.vercel.app/published-books/exit-ready-marketing
+  https://e-book-nine-mu.vercel.app/published-books/you-need-a-plan
+  https://e-book-nine-mu.vercel.app/published-books/innerwill
+  https://e-book-nine-mu.vercel.app/published-books/the-little-book-of-big-scale
+  https://e-book-nine-mu.vercel.app/published-books/ultra-leadership
+  https://e-book-nine-mu.vercel.app/published-books/fearless
+  https://e-book-nine-mu.vercel.app/published-books/person-ality
+  https://e-book-nine-mu.vercel.app/published-books/cockfighting
+  https://e-book-nine-mu.vercel.app/published-books/the-resilient-actor
+  https://e-book-nine-mu.vercel.app/published-books/the-compelling-proposal
+  https://e-book-nine-mu.vercel.app/published-books/the-trump-presidential-playbook
+  https://e-book-nine-mu.vercel.app/published-books/moving-from-models-to-mindsets
+  https://e-book-nine-mu.vercel.app/published-books/the-hidden-curriculum
+  https://e-book-nine-mu.vercel.app/published-books/do-what-you-want
+  https://e-book-nine-mu.vercel.app/published-books/growth-data-analytics-playbook
+  https://e-book-nine-mu.vercel.app/published-books/volume-to-value
+  https://e-book-nine-mu.vercel.app/published-books/leadership-is-a-behavior-not-a-title
+  https://e-book-nine-mu.vercel.app/published-books/the-trophy-trap
+  https://e-book-nine-mu.vercel.app/published-books/the-no-hunger-spiritual-diet
+  https://e-book-nine-mu.vercel.app/published-books/the-birth-of-paradise
+  https://e-book-nine-mu.vercel.app/published-books/beyond-corporate-governance
+  https://e-book-nine-mu.vercel.app/published-books/red-handed-conducting-smarter-workers-compensation-investigations-to-reduce-fraud-and-claims-cost
+  https://e-book-nine-mu.vercel.app/published-books/spectrum-of-lies
+  https://e-book-nine-mu.vercel.app/published-books/quit-getting-stiffed
+  https://e-book-nine-mu.vercel.app/published-books/the-painless-negotiation
+  https://e-book-nine-mu.vercel.app/published-books/trust-your-gut
+  https://e-book-nine-mu.vercel.app/published-books/command-the-room
+  https://e-book-nine-mu.vercel.app/published-books/how-successful-teams-work
+  https://e-book-nine-mu.vercel.app/published-books/vida
+  https://e-book-nine-mu.vercel.app/published-books/values-based-organizations
+  https://e-book-nine-mu.vercel.app/published-books/litigation-to-life
+  https://e-book-nine-mu.vercel.app/published-books/the-resilient-actors-workbook-and-planner
+  https://e-book-nine-mu.vercel.app/published-books/moneywork
+  https://e-book-nine-mu.vercel.app/published-books/ai-marketing-blueprint
+  https://e-book-nine-mu.vercel.app/published-books/built-to-serve
   https://e-book-nine-mu.vercel.app/published-books/unspoken-signals
-  https://e-book-nine-mu.vercel.app/published-books/vivid-vision
+  https://e-book-nine-mu.vercel.app/published-books/equal-pay-matters
+  https://e-book-nine-mu.vercel.app/published-books/never-enoughitis
+  https://e-book-nine-mu.vercel.app/published-books/namacray
+  https://e-book-nine-mu.vercel.app/published-books/metronomics
+  https://e-book-nine-mu.vercel.app/published-books/what-is-wisdom
+  https://e-book-nine-mu.vercel.app/published-books/work-life-harmony
+  https://e-book-nine-mu.vercel.app/published-books/unlevel-the-playing-field
+  https://e-book-nine-mu.vercel.app/published-books/practical-sustainability
+  https://e-book-nine-mu.vercel.app/published-books/the-life-back
+  https://e-book-nine-mu.vercel.app/published-books/byob
+  https://e-book-nine-mu.vercel.app/published-books/the-commitments
+  https://e-book-nine-mu.vercel.app/published-books/changing-altitude
+  https://e-book-nine-mu.vercel.app/published-books/the-sharper-investor
+  https://e-book-nine-mu.vercel.app/published-books/the-data-confident-internal-auditor
+  https://e-book-nine-mu.vercel.app/published-books/cheers-to-chaos
+  https://e-book-nine-mu.vercel.app/published-books/lead-well
+  https://e-book-nine-mu.vercel.app/published-books/fans-first
+  https://e-book-nine-mu.vercel.app/published-books/the-next-normal
+  https://e-book-nine-mu.vercel.app/published-books/wear-clean-underwear
+  https://e-book-nine-mu.vercel.app/published-books/red-handed-workbook
+  https://e-book-nine-mu.vercel.app/published-books/pharma-customer-experience
+  https://e-book-nine-mu.vercel.app/published-books/scaling-culture
+  https://e-book-nine-mu.vercel.app/published-books/the-everyday-warrior
+  https://e-book-nine-mu.vercel.app/published-books/soon-she-will-be-dead
+  https://e-book-nine-mu.vercel.app/published-books/the-next-perfect-trade
+  https://e-book-nine-mu.vercel.app/published-books/best-she-ever-had
+  https://e-book-nine-mu.vercel.app/published-books/its-all-about-the-income
+  https://e-book-nine-mu.vercel.app/published-books/silicon-valley-porn-star
+  https://e-book-nine-mu.vercel.app/published-books/value-economics
+  https://e-book-nine-mu.vercel.app/published-books/beyond-the-money
+  https://e-book-nine-mu.vercel.app/published-books/the-death-of-demographics
+  https://e-book-nine-mu.vercel.app/published-books/made-for-more
+  https://e-book-nine-mu.vercel.app/published-books/why-should-white-guys-have-all-the-wealth
+  https://e-book-nine-mu.vercel.app/published-books/the-millionaire-money-moves-supplemental-investment-guide
+  https://e-book-nine-mu.vercel.app/published-books/the-patternshiftefb88f
+  https://e-book-nine-mu.vercel.app/published-books/the-great-8-pillars
+  https://e-book-nine-mu.vercel.app/published-books/time-killers
+  https://e-book-nine-mu.vercel.app/published-books/john-doe-to-ceo
+  https://e-book-nine-mu.vercel.app/published-books/must-win-deals-steve-thompson
+  https://e-book-nine-mu.vercel.app/published-books/the-though-leader-formula-robin-farmanfarmaian
+  https://e-book-nine-mu.vercel.app/published-books/the-irresistible-value-proposition-steve-thompson
+  https://e-book-nine-mu.vercel.app/published-books/be-the-better-broker-volume-2-dustan-woodhouse
+  https://e-book-nine-mu.vercel.app/published-books/cant-lose-accounts-steve-thompson
 
 ── SUCCESS STORIES (5) ──
   https://e-book-nine-mu.vercel.app/success-stories
@@ -181,8 +358,11 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-dedication
   https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-foreword
 
-── BLOG (87) ──
+── BLOG — STATIC POSTS (43) ──
   https://e-book-nine-mu.vercel.app/blog
+  https://e-book-nine-mu.vercel.app/blog/page/2
+  https://e-book-nine-mu.vercel.app/blog/page/3
+  https://e-book-nine-mu.vercel.app/blog/page/4
   https://e-book-nine-mu.vercel.app/blog/a-peek-into-lenas-journey
   https://e-book-nine-mu.vercel.app/blog/authors-guides-interviewing
   https://e-book-nine-mu.vercel.app/blog/comfort-is-a-false-god-why-discomfort-is-the-shortcut-to-growth
@@ -193,12 +373,9 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/how-breaking-the-rules-can-change-everything
   https://e-book-nine-mu.vercel.app/blog/how-hitting-rock-bottom-taught-me-to-trust-my-intuition
   https://e-book-nine-mu.vercel.app/blog/how-i-took-back-my-business-one-bold-move-at-a-time
-  https://e-book-nine-mu.vercel.app/blog/i-only-had-two-options.-heres-what-i-chose
   https://e-book-nine-mu.vercel.app/blog/inclusive-practices-that-close-the-wage-gap
+  https://e-book-nine-mu.vercel.app/blog/i-only-had-two-options.-heres-what-i-chose
   https://e-book-nine-mu.vercel.app/blog/its-your-plan-how-involving-clients-changes-everything
-  https://e-book-nine-mu.vercel.app/blog/page/2
-  https://e-book-nine-mu.vercel.app/blog/page/3
-  https://e-book-nine-mu.vercel.app/blog/page/4
   https://e-book-nine-mu.vercel.app/blog/playing-hurt-the-dangerous-culture-of-toughness-in-hockey
   https://e-book-nine-mu.vercel.app/blog/practicing-medicine-on-my-terms-from-burnout-to-purpose
   https://e-book-nine-mu.vercel.app/blog/step-inside-the-brooklyn-paramounts-roaring-1928-debut
@@ -206,11 +383,11 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/the-night-watchnight-broke-something-in-me
   https://e-book-nine-mu.vercel.app/blog/the-quiet-way-we-teach-kids-to-distrust-themselves
   https://e-book-nine-mu.vercel.app/blog/the-receptionist-who-was-always-cold-a-lesson-in-strategic-blindness
+  https://e-book-nine-mu.vercel.app/blog/theres-no-perfect-time.-theres-only-now
   https://e-book-nine-mu.vercel.app/blog/the-simple-switch-from-aimless-to-visionary
   https://e-book-nine-mu.vercel.app/blog/the-softball-questions-investors-ask-that-can-sink-your-pitch
   https://e-book-nine-mu.vercel.app/blog/the-speech-nobody-knew-almost-didnt-happen
   https://e-book-nine-mu.vercel.app/blog/the-wild-card-who-wouldnt-wait-to-be-chosen
-  https://e-book-nine-mu.vercel.app/blog/theres-no-perfect-time.-theres-only-now
   https://e-book-nine-mu.vercel.app/blog/tough-love-for-california-compassion-with-consequences
   https://e-book-nine-mu.vercel.app/blog/treat-ai-like-your-best-sales-rep-because-it-already-is
   https://e-book-nine-mu.vercel.app/blog/what-does-it-mean-to-be-a-peacemaker
@@ -225,7 +402,8 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/why-your-business-lives-or-dies-by-the-team-you-build
   https://e-book-nine-mu.vercel.app/blog/why-your-gut-instinct-might-save-your-life
   https://e-book-nine-mu.vercel.app/blog/your-price-is-your-story-and-its-telling-one-right-now
-  [via /blog/[slug] template — Author Resources Library posts]
+
+── BLOG — RESOURCE POSTS / [slug] (44) ──
   https://e-book-nine-mu.vercel.app/blog/3-secrets-to-writing-a-book-people-cant-stop-recommending
   https://e-book-nine-mu.vercel.app/blog/audiobook-production-companies
   https://e-book-nine-mu.vercel.app/blog/audiobooks-who-benefits-most-and-why-authors-should-consider-them
@@ -275,7 +453,7 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/tag/author-branding
   https://e-book-nine-mu.vercel.app/blog/tag/author-royalties
   https://e-book-nine-mu.vercel.app/blog/tag/author-success-stories
-  https://e-book-nine-mu.vercel.app/blog/tag/book topics
+  https://e-book-nine-mu.vercel.app/blog/tag/book-topics
   https://e-book-nine-mu.vercel.app/blog/tag/book-bites
   https://e-book-nine-mu.vercel.app/blog/tag/book-editing
   https://e-book-nine-mu.vercel.app/blog/tag/book-marketing
@@ -288,4 +466,18 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/blog/tag/speaking
 
 
-TOTAL: 264 static pages  
+============================================================
+TOTAL: 439 pages
+  MAIN ................ 20
+  SERVICES ............ 17
+  PRICING .............. 8
+  BOOKS FOR INDUSTRIES . 13
+  VS COMPETITORS ....... 5
+  AUTHOR RESOURCES ..... 4
+  PUBLISHED BOOKS ..... 219  (2 static + 217 book detail pages)
+  SUCCESS STORIES ...... 5
+  SCRIBE METHOD BOOK .. 47
+  BLOG STATIC ......... 43  (index + 3 pagination + 39 posts)
+  BLOG RESOURCE POSTS . 44
+  BLOG TAGS ........... 14
+============================================================

@@ -16,9 +16,7 @@ export default function CameronHeroldPage() {
       <Navbar />
       <main id="main-content">
         <div className="ss-detail">
-          <Link href="/success-stories" className="ss-detail__back">
-            <i className="ph ph-arrow-left"></i> All Success Stories
-          </Link>
+
 
           <div className="ss-detail__hero">
             <img
@@ -34,9 +32,7 @@ export default function CameronHeroldPage() {
 
           <div className="ss-detail__crosslinks">
             <span className="ss-detail__crosslinks-label">More from Cameron:</span>
-            <Link href="/authors/cameron-herold" className="ss-detail__crosslink">
-              <i className="ph ph-user"></i> Author Page
-            </Link>
+
           </div>
 
           <div className="ss-detail__content">

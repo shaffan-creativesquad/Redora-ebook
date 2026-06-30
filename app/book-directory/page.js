@@ -21,7 +21,7 @@ export default function BookDirectoryPage() {
             <p className="dir-banner__text">
               Looking to browse, search, and filter our books? Head to our main collection page.
             </p>
-            <a href="/published-books" className="dir-banner__btn">Browse Published Books</a>
+            <a href="/#published-books" className="dir-banner__btn">Browse Published Books</a>
           </div>
         </div>
 

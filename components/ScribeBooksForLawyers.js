@@ -54,9 +54,7 @@ const steps = [
 ]
 
 const browseLinks = [
-  { label: 'Browse All Books', href: '/published-books' },
-  { label: 'Browse All Authors', href: '/authors' },
-  { label: 'Success Stories', href: '/success-stories' },
+  { label: 'Browse All Books', href: '/#published-books' },
   { label: 'All Industries', href: '/books-for-industries' },
 ]
 
@@ -83,7 +81,7 @@ export default function ScribeBooksForLawyers() {
                   <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" style={!a.headshot ? { width: '70px', height: '105px' } : undefined} />
                 </a>
               </div>
-              <div className="ind__author-name"><a href={a.nameHref}>{a.name}</a></div>
+              <div className="ind__author-name">{a.name}</div>
               <div className="ind__author-title"><a href={a.bookHref}>{a.book}</a></div>
               <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                 <span className="ind__author-stars">{a.stars}</span>
