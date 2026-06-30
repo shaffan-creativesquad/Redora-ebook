@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import episodesData from '../../../episodes.json'
+import episodesData from '../../episodes.json'
 import '../../episode/ep-860-james-cunningham-episode-860/episode.css'
 
 function getEpisode(slug) {
