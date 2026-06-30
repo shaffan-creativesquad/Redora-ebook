@@ -50,8 +50,8 @@
 }
 .ss-detail__tag--goal {
   color: var(--accent-gold);
-  border: 1px solid rgba(52, 217, 195, 0.25);
-  background: rgba(52, 217, 195, 0.06);
+  border: 1px solid rgba(224, 45, 45, 0.25);
+  background: rgba(224, 45, 45, 0.06);
 }
 .ss-detail__tag--fear {
   color: #a8a29e;
@@ -105,7 +105,7 @@
   margin: 1.5rem auto !important;
 }
 .ss-detail__content a {
-  color: #34d9c3;
+  color: #e02d2d;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -116,8 +116,8 @@
   gap: 0.75rem;
   margin: 0 0 2.5rem;
   padding: 1.25rem 1.5rem;
-  background: rgba(52, 217, 195, 0.04);
-  border: 1px solid rgba(52, 217, 195, 0.12);
+  background: rgba(224, 45, 45, 0.04);
+  border: 1px solid rgba(224, 45, 45, 0.12);
   border-radius: 10px;
 }
 .ss-detail__crosslinks-label {
@@ -136,23 +136,23 @@
   padding: 0.5rem 1rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #34d9c3;
-  border: 1px solid rgba(52, 217, 195, 0.3);
+  color: #e02d2d;
+  border: 1px solid rgba(224, 45, 45, 0.3);
   border-radius: 6px;
   text-decoration: none;
   transition: all 0.15s;
 }
 .ss-detail__crosslink:hover {
-  background: rgba(52, 217, 195, 0.1);
-  border-color: #34d9c3;
+  background: rgba(224, 45, 45, 0.1);
+  border-color: #e02d2d;
   transform: translateY(-1px);
 }
 .ss-detail__cta-section {
   text-align: center;
   padding: 3rem 2rem;
   margin-top: 2rem;
-  background: rgba(52, 217, 195, 0.04);
-  border: 1px solid rgba(52, 217, 195, 0.1);
+  background: rgba(224, 45, 45, 0.04);
+  border: 1px solid rgba(224, 45, 45, 0.1);
   border-radius: 12px;
 }
 .ss-detail__cta-title {
@@ -183,7 +183,7 @@
 }
 .ss-detail__cta-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(52, 217, 195, 0.25);
+  box-shadow: 0 6px 24px rgba(224, 45, 45, 0.25);
   color: #0f0f0f;
 }
 @media (max-width: 640px) {

@@ -34,12 +34,12 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--accent-gold);
-  background: rgba(52, 217, 195, 0.1);
+  background: rgba(224, 45, 45, 0.1);
   border-radius: 100px;
   text-decoration: none;
   transition: background 0.2s ease;
 }
-.blog-post__tag:hover { background: rgba(52, 217, 195, 0.2); }
+.blog-post__tag:hover { background: rgba(224, 45, 45, 0.2); }
 
 .blog-post__title {
   font-family: 'Playfair Display', serif;
@@ -55,14 +55,14 @@
   align-items: center;
   gap: 1rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(52, 217, 195, 0.1);
+  border-bottom: 1px solid rgba(224, 45, 45, 0.1);
 }
 .blog-post__author-avatar {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(52, 217, 195, 0.2);
+  border: 2px solid rgba(224, 45, 45, 0.2);
 }
 .blog-post__meta-text {
   display: flex;
@@ -140,14 +140,14 @@
 }
 .blog-post__content hr {
   border: none;
-  border-top: 1px solid rgba(52, 217, 195, 0.12);
+  border-top: 1px solid rgba(224, 45, 45, 0.12);
   margin: 2.5rem 0;
 }
 
 .blog-post__footer {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid rgba(52, 217, 195, 0.1);
+  border-top: 1px solid rgba(224, 45, 45, 0.1);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -166,7 +166,7 @@
   font-size: 0.75rem;
   font-weight: 500;
   color: #a8a29e;
-  border: 1px solid rgba(52, 217, 195, 0.12);
+  border: 1px solid rgba(224, 45, 45, 0.12);
   border-radius: 100px;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -193,7 +193,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  border: 1px solid rgba(52, 217, 195, 0.12);
+  border: 1px solid rgba(224, 45, 45, 0.12);
   color: #a8a29e;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -202,7 +202,7 @@
 .blog-post__share-link:hover {
   color: #ffffff;
   border-color: var(--accent-gold);
-  background: rgba(52, 217, 195, 0.08);
+  background: rgba(224, 45, 45, 0.08);
 }
 
 .blog-post__author-bio {
@@ -210,7 +210,7 @@
   gap: 1.5rem;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(52, 217, 195, 0.08);
+  border: 1px solid rgba(224, 45, 45, 0.08);
   border-radius: 12px;
   margin-bottom: 3rem;
 }
@@ -220,7 +220,31 @@
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid rgba(52, 217, 195, 0.2);
+  border: 2px solid rgba(224, 45, 45, 0.2);
+}
+.blog-post__author-bio-avatar--placeholder {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(224, 45, 45, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+.blog-post__author-avatar--placeholder {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(224, 45, 45, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--accent-gold);
+  flex-shrink: 0;
 }
 .blog-post__author-bio-content {
   display: flex;
@@ -266,14 +290,14 @@
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(52, 217, 195, 0.08);
+  border: 1px solid rgba(224, 45, 45, 0.08);
   border-radius: 12px;
   overflow: hidden;
   transition: border-color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
 }
 .blog-post__related-card:hover {
-  border-color: rgba(52, 217, 195, 0.2);
+  border-color: rgba(224, 45, 45, 0.2);
   transform: translateY(-3px);
 }
 .blog-post__related-img {
@@ -304,8 +328,8 @@
 .blog-post__cta {
   text-align: center;
   padding: 3rem 2rem;
-  background: rgba(52, 217, 195, 0.04);
-  border: 1px solid rgba(52, 217, 195, 0.1);
+  background: rgba(224, 45, 45, 0.04);
+  border: 1px solid rgba(224, 45, 45, 0.1);
   border-radius: 12px;
 }
 .blog-post__cta-title {
@@ -337,7 +361,7 @@
 }
 .blog-post__cta-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(52, 217, 195, 0.25);
+  box-shadow: 0 6px 24px rgba(224, 45, 45, 0.25);
   color: #0f0f0f;
 }
 

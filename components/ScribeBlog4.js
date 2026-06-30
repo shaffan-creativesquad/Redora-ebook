@@ -166,7 +166,7 @@ export default function ScribeBlog4() {
             key={tag}
             onClick={() => setActiveTag(tag)}
             className={`blog-tags__link${activeTag === tag ? ' blog-tags__link--active' : ''}`}
-            style={{ background: 'none', border: '1px solid rgba(52, 217, 195, 0.12)', cursor: 'pointer', fontFamily: 'inherit' }}
+            style={{ background: 'none', border: '1px solid rgba(224, 45, 45, 0.12)', cursor: 'pointer', fontFamily: 'inherit' }}
           >
             {tag}
           </button>
