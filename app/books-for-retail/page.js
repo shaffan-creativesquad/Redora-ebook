@@ -46,7 +46,6 @@ export default function BooksForRetail() {
                   </span>
                 </div>
                 <div className="ind__author-desc">Pioneered the pop-up retail movement, advising brands like Nike, Nordstrom, and Coach.</div>
-                <a href="/success-stories/melissa-gonzalez" className="ind__author-link">Read their success story →</a>
               </div>
 
               {/* Ron Thurston */}
@@ -70,7 +69,6 @@ export default function BooksForRetail() {
                   </span>
                 </div>
                 <div className="ind__author-desc">Retail Pride became a rallying cry for frontline retail workers and leaders.</div>
-                <a href="/success-stories/ron-thurston-retail-pride" className="ind__author-link">Read their success story →</a>
               </div>
 
               {/* Joe Geng */}
@@ -159,7 +157,7 @@ export default function BooksForRetail() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/success-stories" className="ind__browse-link">Success Stories</a>
+
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>
           </div>

@@ -164,9 +164,6 @@ export default function BooksForFinancialAdvisorsPage() {
                 <p className="ind__author-desc">
                   Positioned himself as the go-to advisor for entrepreneurs and high-net-worth clients.
                 </p>
-                <a href="/success-stories/chad-willardson-stress-free-money" className="ind__author-link">
-                  Read their success story →
-                </a>
               </div>
 
             </div>
@@ -241,7 +238,6 @@ export default function BooksForFinancialAdvisorsPage() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <Link href="/#published-books" className="ind__browse-link">Browse All Books</Link>
-              <Link href="/success-stories" className="ind__browse-link">Success Stories</Link>
               <Link href="/books-for-industries" className="ind__browse-link">All Industries</Link>
             </div>
           </div>

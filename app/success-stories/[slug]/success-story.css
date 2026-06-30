@@ -58,11 +58,6 @@
   border: 1px solid rgba(168, 162, 158, 0.2);
   background: rgba(168, 162, 158, 0.04);
 }
-.ss-detail__tag--industry {
-  color: #7dd3fc;
-  border: 1px solid rgba(125, 211, 252, 0.2);
-  background: rgba(125, 211, 252, 0.04);
-}
 .ss-detail__content {
   font-size: 1.0625rem;
   line-height: 1.8;
@@ -82,18 +77,6 @@
   color: #a8a29e;
   font-style: italic;
 }
-.ss-detail__content figure {
-  margin: 1.5rem auto;
-  max-width: min(100%, 740px);
-  text-align: center;
-}
-.ss-detail__content figure img {
-  width: auto !important;
-  max-width: 100% !important;
-  height: auto !important;
-  display: block;
-  margin: 0 auto;
-}
 .ss-detail__content img {
   width: auto !important;
   max-width: min(100%, 740px) !important;
@@ -110,43 +93,6 @@
   text-underline-offset: 3px;
 }
 .ss-detail__content a:hover { color: #ffffff; }
-.ss-detail__crosslinks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 0 0 2.5rem;
-  padding: 1.25rem 1.5rem;
-  background: rgba(224, 45, 45, 0.04);
-  border: 1px solid rgba(224, 45, 45, 0.12);
-  border-radius: 10px;
-}
-.ss-detail__crosslinks-label {
-  color: #a8a29e;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  align-self: center;
-  margin-right: 0.5rem;
-}
-.ss-detail__crosslink {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #e02d2d;
-  border: 1px solid rgba(224, 45, 45, 0.3);
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.15s;
-}
-.ss-detail__crosslink:hover {
-  background: rgba(224, 45, 45, 0.1);
-  border-color: #e02d2d;
-  transform: translateY(-1px);
-}
 .ss-detail__cta-section {
   text-align: center;
   padding: 3rem 2rem;
@@ -164,10 +110,8 @@
 .ss-detail__cta-text {
   font-size: 1rem;
   color: #a8a29e;
-  margin: 0 0 1.5rem;
+  margin: 0 auto 1.5rem;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .ss-detail__cta-btn {
   display: inline-flex;

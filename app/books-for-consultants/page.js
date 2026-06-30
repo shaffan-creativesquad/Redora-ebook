@@ -20,7 +20,7 @@ const authors = [
     rating: '4.7 (3,200+)',
     ratingHref: 'https://www.amazon.com/gp/product/0735220034/ref=dbs_a_def_rwt_bibl_vppi_i0?tag=scribemedia0a-20',
     desc: 'Became a Wall Street Journal bestseller and doubled his speaking revenue with Never Lose a Customer Again.',
-    storyHref: '/success-stories/joey-coleman-never-lose-a-customer-again',
+    storyHref: null,
   },
   {
     name: 'Mona Patel',

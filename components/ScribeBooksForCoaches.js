@@ -23,7 +23,7 @@
     rating: '4.5 (1,200+)',
     ratingHref: 'https://geni.us/ItPaystoPLAY',
     desc: 'Published 4 books with Scribe, building a global empire as the CEO Whisperer.',
-    storyHref: '/success-stories/cameron-herold-free-pr',
+    storyHref: null,
   },
   {
     name: 'Todd Herman',
@@ -56,7 +56,7 @@ const steps = [
 const browseLinks = [
   { label: 'Browse All Books', href: '/#published-books' },
   { label: 'Browse All Authors', href: '/all-books-by-authors' },
-  { label: 'Success Stories', href: '/success-stories' },
+
   { label: 'All Industries', href: '/industries' },
 ]
 

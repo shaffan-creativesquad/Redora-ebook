@@ -10,7 +10,7 @@
     rating: '4.7 (1,100+)',
     ratingHref: 'https://www.amazon.com/Game-Changing-Attorney-Competition-Obvious-ebook/dp/B07JWGX3YB/',
     desc: 'His book brought in $5M in new business for his law firm and established him as the top voice in legal marketing.',
-    storyHref: '/success-stories/michael-mogill-game-changing-attorney/',
+    storyHref: null,
   },
   {
     name: 'Richard Brock',

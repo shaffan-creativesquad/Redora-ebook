@@ -114,9 +114,6 @@ export default function BooksForSalesPage() {
                   Giftology became the go-to resource for relationship-based selling, landing him
                   on hundreds of stages.
                 </div>
-                <a href="/success-stories/john-ruhlin-case-study" className="ind__author-link">
-                  Read their success story →
-                </a>
               </div>
 
               {/* Chris Voss */}
@@ -229,7 +226,7 @@ export default function BooksForSalesPage() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <Link href="/#published-books" className="ind__browse-link">Browse All Books</Link>
-              <Link href="/success-stories" className="ind__browse-link">Success Stories</Link>
+
               <Link href="/books-for-industries" className="ind__browse-link">All Industries</Link>
             </div>
           </div>

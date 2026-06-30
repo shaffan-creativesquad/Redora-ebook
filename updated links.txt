@@ -1,5 +1,5 @@
 SCRIBE MEDIA — ALL ACTIVE PAGE LINKS
-Updated: 2026-06-30
+Updated: 2026-07-01
 ============================================================
 
 ── MAIN (20) ──
@@ -302,12 +302,28 @@ Updated: 2026-06-30
   https://e-book-nine-mu.vercel.app/published-books/be-the-better-broker-volume-2-dustan-woodhouse
   https://e-book-nine-mu.vercel.app/published-books/cant-lose-accounts-steve-thompson
 
-── SUCCESS STORIES (5) ──
-  https://e-book-nine-mu.vercel.app/success-stories
-  https://e-book-nine-mu.vercel.app/success-stories/cameron-herold-free-pr
-  https://e-book-nine-mu.vercel.app/success-stories/deb-gabor-branding-is-sex
-  https://e-book-nine-mu.vercel.app/success-stories/john-ruhlin-case-study
+
+── SUCCESS STORIES (20) ──
+  https://e-book-nine-mu.vercel.app/success-stories/joey-coleman-never-lose-a-customer-again
+  https://e-book-nine-mu.vercel.app/success-stories/dr-nashater-deu-solheim-leadership-pin-code
+  https://e-book-nine-mu.vercel.app/success-stories/will-leach-content-studio
+  https://e-book-nine-mu.vercel.app/success-stories/nikki-barua-beyond-barriers
+  https://e-book-nine-mu.vercel.app/success-stories/charles-daly-make-peace-or-die
+  https://e-book-nine-mu.vercel.app/success-stories/jawad-ahsan-what-they-didnt-tell-me
+  https://e-book-nine-mu.vercel.app/success-stories/michael-mogill-game-changing-attorney
+  https://e-book-nine-mu.vercel.app/success-stories/iona-holloway-ghost
+  https://e-book-nine-mu.vercel.app/success-stories/pam-marmon-no-ones-listening-and-its-your-fault
+  https://e-book-nine-mu.vercel.app/success-stories/chad-willardson-stress-free-money
   https://e-book-nine-mu.vercel.app/success-stories/ron-thurston-retail-pride
+  https://e-book-nine-mu.vercel.app/success-stories/wayne-mcculloch-seven-pillars-of-customer-success
+  https://e-book-nine-mu.vercel.app/success-stories/patty-beach-the-art-of-alignment
+  https://e-book-nine-mu.vercel.app/success-stories/brian-scott-the-reality-revolution
+  https://e-book-nine-mu.vercel.app/success-stories/valerie-rein-patriarchy-stress-disorder
+  https://e-book-nine-mu.vercel.app/success-stories/patti-temple-rocks-im-not-done
+  https://e-book-nine-mu.vercel.app/success-stories/praveen-suthrum-scope-forward
+  https://e-book-nine-mu.vercel.app/success-stories/sean-rogers-rising-above
+  https://e-book-nine-mu.vercel.app/success-stories/quan-huynh-sparrow-in-the-razor-wire
+  https://e-book-nine-mu.vercel.app/success-stories/john-sardella-a-journey-without-a-map
 
 ── SCRIBE METHOD BOOK (47) ──
   https://e-book-nine-mu.vercel.app/scribe-method-book
@@ -467,7 +483,7 @@ Updated: 2026-06-30
 
 
 ============================================================
-TOTAL: 439 pages
+TOTAL: 454 pages
   MAIN ................ 20
   SERVICES ............ 17
   PRICING .............. 8
@@ -475,7 +491,7 @@ TOTAL: 439 pages
   VS COMPETITORS ....... 5
   AUTHOR RESOURCES ..... 4
   PUBLISHED BOOKS ..... 219  (2 static + 217 book detail pages)
-  SUCCESS STORIES ...... 5
+  SUCCESS STORIES ..... 20
   SCRIBE METHOD BOOK .. 47
   BLOG STATIC ......... 43  (index + 3 pagination + 39 posts)
   BLOG RESOURCE POSTS . 44

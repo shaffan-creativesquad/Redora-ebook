@@ -2,15 +2,17 @@ import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import storiesData from '../stories.json'
-import '../cameron-herold-free-pr/cameron-herold.css'
+import storiesData from '../../stories.json'
+import './success-story.css'
+
+const SHOWN_STORIES = storiesData.stories.slice(0, 20)
 
 function getStory(slug) {
-  return storiesData.stories.find(s => s.href === `/success-stories/${slug}`)
+  return SHOWN_STORIES.find(s => s.href === `/success-stories/${slug}`)
 }
 
 export async function generateStaticParams() {
-  return storiesData.stories.map(s => ({
+  return SHOWN_STORIES.map(s => ({
     slug: s.href.replace('/success-stories/', ''),
   }))
 }
@@ -53,7 +55,7 @@ export default async function SuccessStoryPage({ params }) {
             <h1 className="ss-detail__title">{story.title}</h1>
           </div>
 
-          {(story.goals?.length > 0 || story.fears?.length > 0 || story.tags?.length > 0) && (
+          {(story.goals?.length > 0 || story.fears?.length > 0) && (
             <div className="ss-detail__meta">
               {story.goals?.map((g, i) => (
                 <span key={i} className="ss-detail__tag ss-detail__tag--goal">{g}</span>
@@ -63,7 +65,6 @@ export default async function SuccessStoryPage({ params }) {
               ))}
             </div>
           )}
-
 
           <div className="ss-detail__content">
             {story.excerpt && <p>{story.excerpt}</p>}

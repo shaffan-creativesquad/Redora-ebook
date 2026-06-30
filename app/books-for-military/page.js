@@ -159,7 +159,6 @@ export default function BooksForMilitary() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>
           </div>

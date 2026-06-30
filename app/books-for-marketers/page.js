@@ -60,7 +60,6 @@ export default function BooksForMarketersPage() {
                   </span>
                 </div>
                 <div className="ind__author-desc">Her branding methodology is used by companies from startups to the Fortune 500.</div>
-                <a href="/success-stories/deb-gabor-branding-is-sex" className="ind__author-link">Read their success story →</a>
               </div>
 
               {/* Randy Frisch */}
@@ -187,7 +186,6 @@ export default function BooksForMarketersPage() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>
           </div>

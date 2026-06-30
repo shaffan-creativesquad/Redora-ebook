@@ -7,7 +7,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 import booksData from './published-books/books.json'
 import newReleases from './new-releases/books.json'
-import storiesData from './success-stories/stories.json'
+import storiesData from './stories.json'
 import HomeBooksScroll from '@/components/HomeBooksScroll'
 import HomeStoriesScroll from '@/components/HomeStoriesScroll'
 import './published-books/published-books.css'
@@ -101,7 +101,7 @@ export default function Home() {
               Real authors, real results — see how Scribe helped them publish and grow.
             </p>
           </div>
-          <HomeStoriesScroll stories={storiesData.stories} />
+          <HomeStoriesScroll stories={storiesData.stories.slice(0, 20)} />
         </section>
         <Newsletter />
       </main>

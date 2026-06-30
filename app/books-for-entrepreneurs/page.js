@@ -34,7 +34,7 @@ const authors = [
     rating: '4.5 (1,400+)',
     ratingHref: 'https://amzn.to/3xzv6I9?tag=scribemedia0a-20',
     desc: 'Grew a dating app from zero to 100 million users with the playbook he documented in his book.',
-    storyHref: '/success-stories/cliff-lerner-entrepreneurship-playbook',
+    storyHref: null,
   },
   {
     name: 'Chris Heivly',

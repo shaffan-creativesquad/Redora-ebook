@@ -45,7 +45,6 @@ export default function BooksForFitnessPage() {
                   </span>
                 </div>
                 <div className="ind__author-desc">Chasing Excellence became the definitive guide to building elite athletes and high performers.</div>
-                <a href="/success-stories/cheri-bergeron-mission-motherhood-fertility-journey" className="ind__author-link">Read their success story →</a>
               </div>
 
               {/* Jade Teta */}
@@ -120,7 +119,6 @@ export default function BooksForFitnessPage() {
           <div className="ind__browse">
             <div className="ind__browse-links">
               <a href="/#published-books" className="ind__browse-link">Browse All Books</a>
-              <a href="/success-stories" className="ind__browse-link">Success Stories</a>
               <a href="/books-for-industries" className="ind__browse-link">All Industries</a>
             </div>
           </div>

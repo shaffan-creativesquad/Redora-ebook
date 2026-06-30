@@ -56,13 +56,6 @@ export default function FreeResourcesPage() {
             <h2 className="fr__section-title">See the Results</h2>
             <div className="fr__grid">
 
-              <a href="/#success-stories" className="fr__card">
-                <div className="fr__card-icon">🏆</div>
-                <h3>Author Success Stories</h3>
-                <p>How Scribe authors used their books to generate leads, close deals, land speaking gigs, and build authority in their industries.</p>
-                <span className="fr__card-link">View Success Stories →</span>
-              </a>
-
               <a href="/#published-books" className="fr__card">
                 <div className="fr__card-icon">📚</div>
                 <h3>Published Books</h3>

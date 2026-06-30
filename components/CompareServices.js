@@ -1,7 +1,6 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Authors2.png', alt: 'Scribe Media author success stories', title: 'Get Inspired with Our Author Success Stories', href: '/#success-stories' },
   { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '/free-resources' },
   { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/#published-books' },
 ]
@@ -45,7 +44,7 @@ export default function CompareServices() {
         </div>
 
         {/* 3-card grid */}
-        <div className="cs-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,minmax(0,1fr))', gap: 'clamp(0.75rem,1.5vw,1.05rem)' }}>
+        <div className="cs-cards" style={{ display: 'grid', gridTemplateColumns: 'repeat(2,minmax(0,1fr))', gap: 'clamp(0.75rem,1.5vw,1.05rem)' }}>
           {cards.map((card, i) => (
             <article key={i} style={{
               borderRadius: '14px', overflow: 'hidden',
