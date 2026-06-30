@@ -219,10 +219,14 @@ export default function Navbar() {
                       <i className="ph ph-caret-down" style={{ fontSize: '0.75rem', transition: 'transform 0.25s', transform: mobileExpanded[item.label] ? 'rotate(180deg)' : 'none', display: 'inline-block' }} />
                     </button>
                     {mobileExpanded[item.label] && (
-                      <ul style={{ listStyle: 'none', margin: 0, padding: '0 0 0 1rem' }}>
+                      <ul style={{
+                        listStyle: 'none', margin: '0 0 0.5rem', padding: '0.5rem 0 0.5rem 1rem',
+                        background: '#181818', borderRadius: '0 0 6px 6px',
+                        borderLeft: '2px solid rgba(224,45,45,0.35)',
+                      }}>
                         {item.dropdown.filter(d => !d.divider && !d.groupLabel).map((sub, si) => (
                           <li key={si}>
-                            <a href={sub.href} style={{ display: 'block', padding: '0.5rem 0', fontSize: '0.9rem', color: '#a8a29e', textDecoration: 'none', borderBottom: 'none' }}>
+                            <a href={sub.href} style={{ display: 'block', padding: '0.5rem 0.75rem', fontSize: '0.9rem', color: '#c0bbb5', textDecoration: 'none' }}>
                               {sub.label}
                             </a>
                           </li>
