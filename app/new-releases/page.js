@@ -12,23 +12,12 @@ export const metadata = {
 function BookCard({ b }) {
   return (
     <div className="bl-card">
-      <a className="bl-card__cover-link" href={b.href}>
-        <div className="bl-card__cover-wrap book-shadow">
-          <img src={b.img} alt={b.title} loading="lazy" decoding="async" />
-          <div className="bl-card__overlay">
-            <span className="bl-card__overlay-label">View Book</span>
-          </div>
-        </div>
-      </a>
+      <div className="bl-card__cover-wrap book-shadow">
+        <img src={b.img} alt={b.title} loading="lazy" decoding="async" />
+      </div>
       {b.launchDate && <p className="bl-card__launch-date">{b.launchDate}</p>}
-      <h4 className="bl-card__title">
-        <a className="bl-card__title-link" href={b.href}>{b.title}</a>
-      </h4>
-      {b.author && (
-        <p className="bl-card__author">
-          <a className="bl-card__author-link" href={b.authorHref}>{b.author}</a>
-        </p>
-      )}
+      <h4 className="bl-card__title">{b.title}</h4>
+      {b.author && <p className="bl-card__author">{b.author}</p>}
       {b.rating && (
         <div className="bl-card__rating">
           <span className="bl-card__rating-star">★</span>

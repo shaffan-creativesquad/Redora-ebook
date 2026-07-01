@@ -14,6 +14,7 @@ export default function HomeStoriesScroll({ stories }) {
   const ref = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(true)
+  const pausedRef = useRef(false)
 
   function updateArrows() {
     const el = ref.current
@@ -30,6 +31,22 @@ export default function HomeStoriesScroll({ stories }) {
     return () => el.removeEventListener('scroll', updateArrows)
   }, [])
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (pausedRef.current) return
+      const el = ref.current
+      if (!el) return
+      const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1
+      if (atEnd) {
+        el.scrollTo({ left: 0, behavior: 'smooth' })
+      } else {
+        const itemWidth = el.querySelector('.hss-item')?.offsetWidth || 300
+        el.scrollBy({ left: itemWidth + 24, behavior: 'smooth' })
+      }
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [])
+
   function scrollBy(dir) {
     const el = ref.current
     if (!el) return
@@ -38,9 +55,12 @@ export default function HomeStoriesScroll({ stories }) {
   }
 
   return (
-    <div className="hbs-wrapper">
+    <div
+      className="hbs-wrapper"
+      onMouseEnter={() => { pausedRef.current = true }}
+      onMouseLeave={() => { pausedRef.current = false }}
+    >
       <div className="hbs-header">
-        <p className="hbs-count">Showing {stories.length} success stories</p>
         <div className="hbs-arrows">
           <button
             className={`hbs-arrow${!canScrollLeft ? ' hbs-arrow--disabled' : ''}`}
@@ -59,7 +79,7 @@ export default function HomeStoriesScroll({ stories }) {
 
       <div ref={ref} className="hss-scroll">
         {stories.map((s, i) => (
-          <a key={i} className="hss-item" href={s.href} aria-label={`Read ${s.title}`}>
+          <div key={i} className="hss-item">
             <div className="hss-item__img-wrap">
               {s.img ? (
                 <img src={s.img} alt={s.title} className="hss-item__img" loading="lazy" />
@@ -73,9 +93,8 @@ export default function HomeStoriesScroll({ stories }) {
               {s.author && <p className="hss-item__author">{s.author}</p>}
               <h3 className="hss-item__title">{s.title}</h3>
               {s.excerpt && <p className="hss-item__excerpt">{s.excerpt}</p>}
-              <span className="hss-item__read-more">Read story →</span>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </div>

@@ -1,4 +1,4 @@
-import './books-for-industries.css'
+﻿import './books-for-industries.css'
 import Navbar from '@/components/Navbar'
 import ScribeIndustries from '@/components/ScribeIndustries'
 import Newsletter from '@/components/Newsletter'

@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -29,68 +29,29 @@ export default function BooksForRetail() {
               {/* Melissa Gonzalez */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/the-pop-up-paradigm">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-pop-up-paradigm.jpg" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-pop-up-paradigm.jpg" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Melissa Gonzalez
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/the-pop-up-paradigm">The Pop Up Paradigm</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Pop-Up-Paradigm-Connections-Digital/dp/1619613026/?&_encoding=UTF8&tag=scribemedia0a-20" target="_blank" rel="noopener">4.3 (45+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Pioneered the pop-up retail movement, advising brands like Nike, Nordstrom, and Coach.</div>
+                <div className="ind__author-name">Melissa Gonzalez</div>
+                <div className="ind__author-title">The Pop Up Paradigm</div>
               </div>
 
               {/* Ron Thurston */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Ron_Thurston_Headshot.jpg" alt="Ron Thurston" loading="lazy" />
-                  <a href="/published-books/retail-pride">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Retail-Pride-2.jpg" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Retail-Pride-2.jpg" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Ron Thurston
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/retail-pride">Retail Pride</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Retail-Pride-Celebrating-Accidental-Career-ebook/dp/B08JNDR73Y/ref=sr_1_1?dchild=1&keywords=retail+pride&qid=1602595488&sr=8-1&tag=scribemedia0a-20" target="_blank" rel="noopener">4.7 (380+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Retail Pride became a rallying cry for frontline retail workers and leaders.</div>
+                <div className="ind__author-name">Ron Thurston</div>
+                <div className="ind__author-title">Retail Pride</div>
               </div>
 
               {/* Joe Geng */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/rethinking-hand-safety">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/rethinking-hand-safety.jpg" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/rethinking-hand-safety.jpg" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Joe Geng
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/rethinking-hand-safety">Rethinking Hand Safety</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Rethinking-Hand-Safety-Truths-Practices/dp/1544506252/ref=sr_1_1?dib=eyJ2IjoiMSJ9.MuEHpPJ1p4aL7kyavXAhyNINQ2SeEGrCrfVAtfaJX9w.JaAle6HsCdCXWhoZjPf6ARN40ZRvWIUiYlW48zjW9lU&dib_tag=se&keywords=rethinking+hand+safety&qid=1738271732&sr=8-1&tag=scribemedia0a-20" target="_blank" rel="noopener">4.5 (35+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Transformed workplace safety practices across the industrial glove industry.</div>
+                <div className="ind__author-name">Joe Geng</div>
+                <div className="ind__author-title">Rethinking Hand Safety</div>
               </div>
 
             </div>

@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -35,127 +35,31 @@ export default function BooksForSalesPage() {
               {/* Tim Kintz */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img
-                    className="ind__author-headshot"
-                    src="https://scribemedia.com/hubfs/author-headshots/Tim_Kintz_Headshot.jpg"
-                    alt="Tim Kintz"
-                    loading="lazy"
-                  />
-                  <a href="/published-books/frictionless">
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/Frictionless.jpg"
-                      alt="Frictionless"
-                      loading="lazy"
-                    />
-                  </a>
+                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Tim_Kintz_Headshot.jpg" alt="Tim Kintz" loading="lazy" />
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Frictionless.jpg" alt="Frictionless" loading="lazy" />
                 </div>
-                <div className="ind__author-name">
-                  Tim Kintz
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/frictionless">Frictionless</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://www.amazon.com/Frictionless-Closing-Negotiating-Tim-Kintz/dp/1544506864/ref=sr_1_1?&_encoding=UTF8&tag=scribemedia0a-20"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      4.7 (320+)
-                    </a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">
-                  Transformed auto sales training with a framework used by dealerships across
-                  North America.
-                </div>
+                <div className="ind__author-name">Tim Kintz</div>
+                <div className="ind__author-title">Frictionless</div>
               </div>
 
               {/* John Ruhlin */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img
-                    className="ind__author-headshot"
-                    src="https://scribemedia.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg"
-                    alt="John Ruhlin"
-                    loading="lazy"
-                  />
-                  <a href="/published-books/beyond-giftology">
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/711vuXOgjmL._SL1500_.jpg"
-                      alt="Beyond Giftology"
-                      loading="lazy"
-                    />
-                  </a>
+                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg" alt="John Ruhlin" loading="lazy" />
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/711vuXOgjmL._SL1500_.jpg" alt="Beyond Giftology" loading="lazy" />
                 </div>
-                <div className="ind__author-name">
-                  John Ruhlin
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/beyond-giftology">Beyond Giftology</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://amzn.to/4iyBW2W?tag=scribemedia0a-20"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      4.7 (2,100+)
-                    </a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">
-                  Giftology became the go-to resource for relationship-based selling, landing him
-                  on hundreds of stages.
-                </div>
+                <div className="ind__author-name">John Ruhlin</div>
+                <div className="ind__author-title">Beyond Giftology</div>
               </div>
 
               {/* Chris Voss */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img
-                    className="ind__author-headshot"
-                    src="https://scribemedia.com/hubfs/author-headshots/Chris_Voss_Headshot.jpg"
-                    alt="Chris Voss"
-                    loading="lazy"
-                  />
-                  <a href="/published-books/the-full-fee-agent">
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/VossShull_WebsiteCover.jpg"
-                      alt="The Full Fee Agent"
-                      loading="lazy"
-                    />
-                  </a>
+                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Chris_Voss_Headshot.jpg" alt="Chris Voss" loading="lazy" />
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/VossShull_WebsiteCover.jpg" alt="The Full Fee Agent" loading="lazy" />
                 </div>
-                <div className="ind__author-name">
-                  Chris Voss
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/the-full-fee-agent">The Full Fee Agent</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://geni.us/TheFullFeeAgent"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      4.6 (480+)
-                    </a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">
-                  Former FBI hostage negotiator who brought elite negotiation tactics to real
-                  estate professionals.
-                </div>
+                <div className="ind__author-name">Chris Voss</div>
+                <div className="ind__author-title">The Full Fee Agent</div>
               </div>
 
             </div>

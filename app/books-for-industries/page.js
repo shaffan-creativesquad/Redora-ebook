@@ -1,4 +1,4 @@
-import './books-for-industries.css'
+﻿import './books-for-industries.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'

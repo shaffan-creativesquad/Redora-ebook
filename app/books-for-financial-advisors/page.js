@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -38,132 +38,21 @@ export default function BooksForFinancialAdvisorsPage() {
             </p>
             <div className="ind__authors-grid">
 
-              {/* Author 1 — Sheryl Sculley (no headshot in source) */}
-              <div className="ind__author-card" style={{ textAlign: 'center' }}>
-                <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <Link href="/published-books/greedy-bastards" style={{ borderRadius: '4px', width: 'auto', border: 'none' }}>
-                    <Image
-                      src="https://scribemedia.com/hubfs/images/books/GreedyBastards.jpg"
-                      alt="Greedy Bastards"
-                      width={70}
-                      height={105}
-                      className="ind__author-book"
-                      unoptimized
-                      style={{ width: '70px', height: '105px' }}
-                    />
-                  </Link>
-                </div>
-                <p className="ind__author-name">
-                  Sheryl Sculley
-                </p>
-                <p className="ind__author-title">
-                  <Link href="/published-books/greedy-bastards">Greedy Bastards</Link>
-                </p>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://www.amazon.com/gp/product/B08D8PY9SM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0?tag=scribemedia0a-20"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      4.5 (340+)
-                    </a>
-                  </span>
-                </div>
-                <p className="ind__author-desc">
-                  Documented her journey as the longest-serving city manager in San Antonio history.
-                </p>
-              </div>
-
-              {/* Author 2 — Alex Gurevich */}
+              {/* Author 1 — Sheryl Sculley */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <Image
-                    src="https://scribemedia.com/hubfs/author-headshots/Alex_Gurevich_Headshot.jpg"
-                    alt="Alex Gurevich"
+                    src="https://scribemedia.com/hubfs/images/books/GreedyBastards.jpg"
+                    alt="Greedy Bastards"
                     width={70}
-                    height={70}
-                    className="ind__author-headshot"
+                    height={105}
+                    className="ind__author-book"
                     unoptimized
+                    style={{ width: '70px', height: '105px' }}
                   />
-                  <Link href="/published-books/the-trades-of-march-2020">
-                    <Image
-                      src="https://scribemedia.com/hubfs/images/books/the-trades-of-march.jpg"
-                      alt="The Trades of March 2020"
-                      width={70}
-                      height={105}
-                      className="ind__author-book"
-                      unoptimized
-                    />
-                  </Link>
                 </div>
-                <p className="ind__author-name">
-                  Alex Gurevich
-                </p>
-                <p className="ind__author-title">
-                  <Link href="/published-books/the-trades-of-march-2020">The Trades of March 2020</Link>
-                </p>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://www.amazon.com/Trades-March-2020-against-Uncertainty-ebook/dp/B09NX372KG/ref=sr_1_1?crid=V7Z9W6ZS9UCK&keywords=alex+gurevich&qid=1643132181&sprefix=alex+gur%2Caps%2C112&sr=8-1&tag=scribemedia0a-20"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      4.3 (60+)
-                    </a>
-                  </span>
-                </div>
-                <p className="ind__author-desc">
-                  Shared trading insights from the March 2020 crisis that resonated across Wall Street.
-                </p>
-              </div>
-
-              {/* Author 3 — Chad Willardson */}
-              <div className="ind__author-card" style={{ textAlign: 'center' }}>
-                <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <Image
-                    src="https://scribemedia.com/hubfs/author-headshots/Chad_Willardson_Headshot.jpg"
-                    alt="Chad Willardson"
-                    width={70}
-                    height={70}
-                    className="ind__author-headshot"
-                    unoptimized
-                  />
-                  <Link href="/published-books/stress-free-money">
-                    <Image
-                      src="https://scribemedia.com/hubfs/images/books/Stress-Free-Money-2.jpeg"
-                      alt="Stress-Free Money"
-                      width={70}
-                      height={105}
-                      className="ind__author-book"
-                      unoptimized
-                    />
-                  </Link>
-                </div>
-                <p className="ind__author-name">
-                  Chad Willardson
-                </p>
-                <p className="ind__author-title">
-                  <Link href="/published-books/stress-free-money">Stress-Free Money</Link>
-                </p>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a
-                      href="https://www.amazon.com/gp/product/1544516738?pf_rd_r=FR3XKCK6GFZPRC74XP1S&pf_rd_p=edaba0ee-c2fe-4124-9f5d-b31d6b1bfbee&tag=scribemedia0a-20"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      4.7 (480+)
-                    </a>
-                  </span>
-                </div>
-                <p className="ind__author-desc">
-                  Positioned himself as the go-to advisor for entrepreneurs and high-net-worth clients.
-                </p>
+                <p className="ind__author-name">Sheryl Sculley</p>
+                <p className="ind__author-title">Greedy Bastards</p>
               </div>
 
             </div>

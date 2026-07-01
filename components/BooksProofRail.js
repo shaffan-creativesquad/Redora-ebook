@@ -30,7 +30,7 @@ export default function BooksProofRail() {
       <p className="ws-proof__heading">Books We Helped Bring to Market</p>
       <div className="ws-proof__rail">
         {books.map((book, i) => (
-          <a key={i} href={book.href} className="ws-proof__item">
+          <div key={i} className="ws-proof__item">
             <div className="ws-proof__cover">
               <Image
                 src={book.src} alt={book.title}
@@ -44,7 +44,7 @@ export default function BooksProofRail() {
               <span>{book.rating}</span>
               <span className="ws-proof__rating-count">{book.count}</span>
             </div>
-          </a>
+          </div>
         ))}
       </div>
       <a href="/#published-books" className="ws-proof__link">Browse All Published Books →</a>

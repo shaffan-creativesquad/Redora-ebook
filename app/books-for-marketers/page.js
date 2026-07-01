@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -32,90 +32,29 @@ export default function BooksForMarketersPage() {
               {/* Deb Gabor */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img
-                    className="ind__author-headshot"
-                    src="https://scribemedia.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg"
-                    alt="Deb Gabor"
-                    loading="lazy"
-                  />
-                  <a href="/published-books/person-ality">
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/DebGabor_WebsiteCover.jpg"
-                      alt="Person-ality"
-                      loading="lazy"
-                    />
-                  </a>
+                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg" alt="Deb Gabor" loading="lazy" />
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/DebGabor_WebsiteCover.jpg" alt="Person-ality" loading="lazy" />
                 </div>
-                <div className="ind__author-name">
-                  Deb Gabor
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/person-ality">Person-ality</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://geni.us/Person-ality" target="_blank" rel="noopener">4.6 (210+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Her branding methodology is used by companies from startups to the Fortune 500.</div>
+                <div className="ind__author-name">Deb Gabor</div>
+                <div className="ind__author-title">Person-ality</div>
               </div>
 
               {/* Randy Frisch */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/fck-content-marketing" style={{ borderRadius: '4px', width: 'auto', border: 'none' }}>
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/fck-content-marketing.jpg"
-                      alt="F#ck Content Marketing"
-                      loading="lazy"
-                      style={{ width: '70px', height: '105px' }}
-                    />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/fck-content-marketing.jpg" alt="F#ck Content Marketing" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Randy Frisch
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/fck-content-marketing">F#ck Content Marketing</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Content-Marketing-Experience-Revenue-Relationships/dp/154451364X/ref=tmm_pap_swatch_0?&_encoding=UTF8&tag=scribemedia0a-20" target="_blank" rel="noopener">4.4 (130+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Challenged the content marketing industry to focus on experience over volume.</div>
+                <div className="ind__author-name">Randy Frisch</div>
+                <div className="ind__author-title">F#ck Content Marketing</div>
               </div>
 
               {/* Phillip Stutts */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/fire-them-now-the-7-lies-digital-marketers-sell-and-the-truth-about-political-strategies-that-help-businesses-win" style={{ borderRadius: '4px', width: 'auto', border: 'none' }}>
-                    <img
-                      className="ind__author-book"
-                      src="https://scribemedia.com/hubfs/images/books/fire-them-now.jpg"
-                      alt="Fire Them Now"
-                      loading="lazy"
-                      style={{ width: '70px', height: '105px' }}
-                    />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/fire-them-now.jpg" alt="Fire Them Now" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Phillip Stutts
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/fire-them-now-the-7-lies-digital-marketers-sell-and-the-truth-about-political-strategies-that-help-businesses-win">Fire Them Now</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Fire-Them-Now-Strategies-Businesses/dp/1619618869/?_encoding=UTF8&tag=scribemedia0a-20" target="_blank" rel="noopener">4.6 (310+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Applied political campaign strategies to business marketing, working with brands like Ford and Under Armour.</div>
+                <div className="ind__author-name">Phillip Stutts</div>
+                <div className="ind__author-title">Fire Them Now</div>
               </div>
 
             </div>

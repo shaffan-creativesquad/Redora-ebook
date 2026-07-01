@@ -1,18 +1,6 @@
 ﻿'use client'
 import { useState } from 'react'
 
-const tags = [
-  { label: 'All Posts', href: null },
-  { label: 'Book Writing', href: '/blog/tag/book-writing' },
-  { label: 'Book Bites', href: '/blog/tag/book-bites' },
-  { label: 'Book Marketing', href: '/blog/tag/book-marketing' },
-  { label: 'Idea to Execution', href: '/blog/tag/idea-to-execution' },
-  { label: 'Book Positioning', href: '/blog/tag/book-positioning' },
-  { label: 'Author Royalties', href: null },
-  { label: 'Book Topic', href: null },
-  { label: 'Speaking', href: null },
-]
-
 const featured = {
   href: '/blog/a-peek-into-lenas-journey',
   img: '/assets/VivianLiu_Twitter_Post_AvailableNow.webp',
@@ -129,13 +117,10 @@ const posts = [
 
 export default function ScribeBlog() {
   const [search, setSearch] = useState('')
-  const [activeTag, setActiveTag] = useState('All Posts')
 
-  const filtered = posts.filter(p => {
-    const matchTag = activeTag === 'All Posts' || p.tag === activeTag
-    const matchSearch = !search || p.title.toLowerCase().includes(search.toLowerCase()) || p.excerpt.toLowerCase().includes(search.toLowerCase())
-    return matchTag && matchSearch
-  })
+  const filtered = posts.filter(p =>
+    !search || p.title.toLowerCase().includes(search.toLowerCase()) || p.excerpt.toLowerCase().includes(search.toLowerCase())
+  )
 
   return (
     <div className="blog-listing">
@@ -165,38 +150,13 @@ export default function ScribeBlog() {
         <div className="blog-search__count">{filtered.length} result{filtered.length !== 1 ? 's' : ''} for &ldquo;{search}&rdquo;</div>
       )}
 
-      {/* Tags */}
-      <div className="blog-tags">
-        {tags.map(({ label, href }) => (
-          href ? (
-            <a
-              key={label}
-              href={href}
-              className={`blog-tags__link${activeTag === label ? ' blog-tags__link--active' : ''}`}
-            >
-              {label}
-            </a>
-          ) : (
-            <button
-              key={label}
-              onClick={() => setActiveTag(label)}
-              className={`blog-tags__link${activeTag === label ? ' blog-tags__link--active' : ''}`}
-              style={{ background: 'none', border: '1px solid rgba(220,45,45,0.15)', cursor: 'pointer', fontFamily: 'inherit' }}
-            >
-              {label}
-            </button>
-          )
-        ))}
-      </div>
-
-      {/* Featured post (only show when no search/tag filter) */}
-      {!search && activeTag === 'All Posts' && (
+      {/* Featured post */}
+      {!search && (
         <div className="blog-featured">
           <a href={featured.href} className="blog-featured__image-wrap">
             <img src={featured.img} alt={featured.alt} className="blog-featured__image" loading="eager" width={960} height={600} />
           </a>
           <div className="blog-featured__content">
-            <span className="blog-featured__tag">{featured.tag}</span>
             <h2 className="blog-featured__title"><a href={featured.href}>{featured.title}</a></h2>
             <p className="blog-featured__excerpt">{featured.excerpt}</p>
             <div className="blog-featured__meta">
@@ -219,7 +179,6 @@ export default function ScribeBlog() {
                 <img src={p.img} alt={p.alt} className="blog-card__image" loading="lazy" width={960} height={600} />
               </a>
               <div className="blog-card__body">
-                <span className="blog-card__tag">{p.tag}</span>
                 <h3 className="blog-card__title"><a href={p.href}>{p.title}</a></h3>
                 <p className="blog-card__excerpt">{p.excerpt}</p>
                 <div className="blog-card__meta">
@@ -236,19 +195,8 @@ export default function ScribeBlog() {
       ) : (
         <div className="blog-search__no-results">
           <h3>No matching posts found</h3>
-          <p>Try a different search term or tag.</p>
+          <p>Try a different search term.</p>
         </div>
-      )}
-
-      {/* Pagination */}
-      {!search && activeTag === 'All Posts' && (
-        <nav className="blog-pagination" aria-label="Blog pagination">
-          <span className="active">1</span>
-          <a href="/blog/page/2">2</a>
-          <a href="/blog/page/3">3</a>
-          <a href="/blog/page/4">4</a>
-          <a href="/blog/page/2">Next →</a>
-        </nav>
       )}
 
       {/* CTA */}

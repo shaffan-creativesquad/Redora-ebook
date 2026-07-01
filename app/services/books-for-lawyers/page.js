@@ -1,4 +1,4 @@
-import './books-for-lawyers.css'
+﻿import './books-for-lawyers.css'
 import Navbar from '@/components/Navbar'
 import ScribeBooksForLawyers from '@/components/ScribeBooksForLawyers'
 import Newsletter from '@/components/Newsletter'

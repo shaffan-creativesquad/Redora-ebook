@@ -12,14 +12,11 @@ const aboutLinks = [
   ['FAQs', '/faq'],
 ]
 const booksLinks = [
-  ['Book Bites', '/blog/tag/book-bites'],
   ['Reviews', '/reviews'],
-  ['Book Directory', '/book-directory'],
 ]
 const resourcesLinks = [
   ['The Scribe Method', '/scribe-method-book'],
   ['The Scribe Blog', '/blog'],
-  ['Book Directory', '/book-directory'],
   ['Author FAQs', '/author-faqs'],
   ['Author Services', '/author-services'],
   ['Interviewing Guide', '/author-guides-interviewing'],

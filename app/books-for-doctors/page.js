@@ -99,26 +99,16 @@ export default function BooksForDoctorsPage() {
                 <div key={i} className="ind__author-card" style={{ textAlign: 'center' }}>
                   <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                     {a.headshot && (
-                      <a href={a.nameHref}>
-                        <img className="ind__author-headshot" src={a.headshot} alt={a.name} loading="lazy" />
-                      </a>
+                      <img className="ind__author-headshot" src={a.headshot} alt={a.name} loading="lazy" />
                     )}
-                    <a href={a.bookHref}>
-                      <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
-                    </a>
+                    <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
                   </div>
-                  <div className="ind__author-name"><a href={a.nameHref}>{a.name}</a></div>
-                  <div className="ind__author-title"><a href={a.bookHref}>{a.book}</a></div>
+                  <div className="ind__author-name">{a.name}</div>
+                  <div className="ind__author-title">{a.book}</div>
                   <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                     <span className="ind__author-stars">{a.stars}</span>
-                    <span className="ind__author-review-count">
-                      <a href={a.ratingHref} target="_blank" rel="noopener noreferrer">{a.rating}</a>
-                    </span>
+                    <span className="ind__author-review-count"> {a.rating}</span>
                   </div>
-                  <div className="ind__author-desc">{a.desc}</div>
-                  {a.storyHref && (
-                    <a href={a.storyHref} className="ind__author-link">Read their success story →</a>
-                  )}
                 </div>
               ))}
             </div>

@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -32,38 +32,20 @@ export default function BooksForFitnessPage() {
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Ben_Bergeron_Headshot.jpg" alt="Ben Bergeron" loading="lazy" />
-                  <a href="/published-books/mission-motherhood">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Ben Bergeron</div>
-                <div className="ind__author-title"><a href="/published-books/mission-motherhood">Mission: Motherhood</a></div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://amzn.to/4jJviru?tag=scribemedia0a-20" target="_blank" rel="noopener">4.8 (4,200+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Chasing Excellence became the definitive guide to building elite athletes and high performers.</div>
+                <div className="ind__author-title">Mission: Motherhood</div>
               </div>
 
               {/* Jade Teta */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Jade_Teta_Headshot.jpg" alt="Jade Teta" loading="lazy" />
-                  <a href="/published-books/next-level-metabolism">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Jade Teta</div>
-                <div className="ind__author-title"><a href="/published-books/next-level-metabolism">Next-Level Metabolism</a></div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://geni.us/NextLevelMetabolism" target="_blank" rel="noopener">4.5 (290+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Pioneered metabolic health approaches that helped thousands transform their bodies.</div>
+                <div className="ind__author-title">Next-Level Metabolism</div>
               </div>
 
             </div>

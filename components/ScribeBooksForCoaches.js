@@ -79,37 +79,16 @@ export default function ScribeBooksForCoaches() {
             <div key={i} className="ind__author-card">
               <div className="ind__author-img-wrap">
                 {a.headshot && <img className="ind__author-headshot" src={a.headshot} alt={a.name} loading="lazy" />}
-                <a href={a.bookHref}>
-                  <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
-                </a>
+                <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
               </div>
               <div className="ind__author-name">{a.name}</div>
-              <div className="ind__author-title"><a href={a.bookHref}>{a.book}</a></div>
-              <div className="ind__author-rating">
+              <div className="ind__author-title">{a.book}</div>
+              <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                 <span className="ind__author-stars">{a.stars}</span>
-                <span className="ind__author-review-count">
-                  <a href={a.ratingHref} target="_blank" rel="noopener noreferrer">{a.rating}</a>
-                </span>
+                <span className="ind__author-review-count"> {a.rating}</span>
               </div>
-              <div className="ind__author-desc">{a.desc}</div>
-              {a.storyHref && <a href={a.storyHref} className="ind__author-link">Read their success story →</a>}
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Video */}
-      <div className="ind__video-section">
-        <h2>Hear From a Scribe Author</h2>
-        <p className="subtitle">Cameron Herold on getting free PR for your business</p>
-        <div className="ind__video-embed">
-          <iframe
-            src="https://www.youtube.com/embed/nbu-CfLEes0?rel=0"
-            title="Cameron Herold on getting free PR for your business"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
         </div>
       </div>
 

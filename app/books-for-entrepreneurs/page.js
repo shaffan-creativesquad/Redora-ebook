@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -130,33 +130,19 @@ export default function BooksForEntrepreneursPage() {
                     ) : (
                       <span className="ind__author-initials">{a.name.charAt(0)}</span>
                     )}
-                    <a href={a.bookHref}>
-                      <img
+                    <img
                         className="ind__author-book"
                         src={a.bookImg}
                         alt={a.book}
                         loading="lazy"
                       />
-                    </a>
                   </div>
-                  <div className="ind__author-name">
-                    <a href={a.nameHref}>{a.name}</a>
-                  </div>
-                  <div className="ind__author-title">
-                    <a href={a.bookHref}>{a.book}</a>
-                  </div>
+                  <div className="ind__author-name">{a.name}</div>
+                  <div className="ind__author-title">{a.book}</div>
                   <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
                     <span className="ind__author-stars">{a.stars}</span>
-                    <span className="ind__author-review-count">
-                      <a href={a.ratingHref} target="_blank" rel="noopener">{a.rating}</a>
-                    </span>
+                    <span className="ind__author-review-count"> {a.rating}</span>
                   </div>
-                  <div className="ind__author-desc">{a.desc}</div>
-                  {a.storyHref && (
-                    <a href={a.storyHref} className="ind__author-link">
-                      Read their success story →
-                    </a>
-                  )}
                 </div>
               ))}
             </div>

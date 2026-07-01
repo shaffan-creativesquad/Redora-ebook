@@ -1,4 +1,4 @@
-import '../books-for-doctors/books-for-doctors.css'
+﻿import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -26,71 +26,32 @@ export default function BooksForTech() {
             <p className="subtitle">These tech professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
-              {/* Eric Jorgenson — has headshot */}
+              {/* Eric Jorgenson */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Eric_Jorgenson_Headshot.jpg" alt="Eric Jorgenson" loading="lazy" />
-                  <a href="/published-books/the-almanack-of-naval-ravikant">
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-almanack-of-navl-ravikant.jpg" alt="The Almanack of Naval Ravikant" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-almanack-of-navl-ravikant.jpg" alt="The Almanack of Naval Ravikant" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Eric Jorgenson
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/the-almanack-of-naval-ravikant">The Almanack of Naval Ravikant</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Almanack-Naval-Ravikant-Wealth-Happiness/dp/B0F9VM4V5N?tag=scribemedia0a-20" target="_blank" rel="noopener">4.7 (18,500+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">The Almanack of Naval Ravikant became a global phenomenon with 18,500+ Amazon reviews.</div>
+                <div className="ind__author-name">Eric Jorgenson</div>
+                <div className="ind__author-title">The Almanack of Naval Ravikant</div>
               </div>
 
-              {/* Joe Mechlinski — book only */}
+              {/* Joe Mechlinski */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/shift-the-work" style={{ borderRadius: '4px', width: 'auto', border: 'none' }}>
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/shift-the-work.jpg" alt="Shift the Work" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/shift-the-work.jpg" alt="Shift the Work" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Joe Mechlinski
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/shift-the-work">Shift the Work</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Shift-Work-Revolutionary-Science-Apathetic-ebook/dp/B07GVQT11B?tag=scribemedia0a-20" target="_blank" rel="noopener">4.5 (120+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">Challenged conventional leadership with a human-centered approach to organizational change.</div>
+                <div className="ind__author-name">Joe Mechlinski</div>
+                <div className="ind__author-title">Shift the Work</div>
               </div>
 
-              {/* Nassim Taleb — book only */}
+              {/* Nassim Taleb */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <a href="/published-books/statistical-consequences-of-fat-tails" style={{ borderRadius: '4px', width: 'auto', border: 'none' }}>
-                    <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Nassim-Taleb_SCoFT_WP.jpeg" alt="Statistical Consequences of Fat Tails" loading="lazy" style={{ width: '70px', height: '105px' }} />
-                  </a>
+                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Nassim-Taleb_SCoFT_WP.jpeg" alt="Statistical Consequences of Fat Tails" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
-                <div className="ind__author-name">
-                  Nassim Taleb
-                </div>
-                <div className="ind__author-title">
-                  <a href="/published-books/statistical-consequences-of-fat-tails">Statistical Consequences of Fat Tails</a>
-                </div>
-                <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
-                  <span className="ind__author-stars">★★★★★</span>
-                  <span className="ind__author-review-count">
-                    <a href="https://www.amazon.com/Statistical-Consequences-Fat-Tails-Preasymptotics/dp/1544508050/ref=sr_1_1?&_encoding=UTF8&tag=scribemedia0a-20" target="_blank" rel="noopener">4.4 (280+)</a>
-                  </span>
-                </div>
-                <div className="ind__author-desc">One of the world&apos;s most influential thinkers on risk, uncertainty, and decision-making.</div>
+                <div className="ind__author-name">Nassim Taleb</div>
+                <div className="ind__author-title">Statistical Consequences of Fat Tails</div>
               </div>
 
             </div>

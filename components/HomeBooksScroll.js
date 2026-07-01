@@ -5,6 +5,7 @@ export default function HomeBooksScroll({ books }) {
   const ref = useRef(null)
   const [canScrollLeft, setCanScrollLeft] = useState(false)
   const [canScrollRight, setCanScrollRight] = useState(true)
+  const pausedRef = useRef(false)
 
   function updateArrows() {
     const el = ref.current
@@ -21,6 +22,22 @@ export default function HomeBooksScroll({ books }) {
     return () => el.removeEventListener('scroll', updateArrows)
   }, [])
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (pausedRef.current) return
+      const el = ref.current
+      if (!el) return
+      const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1
+      if (atEnd) {
+        el.scrollTo({ left: 0, behavior: 'smooth' })
+      } else {
+        const itemWidth = el.querySelector('.home-books-scroll__item')?.offsetWidth || 200
+        el.scrollBy({ left: itemWidth + 24, behavior: 'smooth' })
+      }
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [])
+
   function scrollBy(dir) {
     const el = ref.current
     if (!el) return
@@ -29,7 +46,11 @@ export default function HomeBooksScroll({ books }) {
   }
 
   return (
-    <div className="hbs-wrapper">
+    <div
+      className="hbs-wrapper"
+      onMouseEnter={() => { pausedRef.current = true }}
+      onMouseLeave={() => { pausedRef.current = false }}
+    >
       <div className="hbs-header">
         <p className="hbs-count">Showing {books.length} published books</p>
         <div className="hbs-arrows">
@@ -52,17 +73,10 @@ export default function HomeBooksScroll({ books }) {
         {books.map((b, i) => (
           <div key={i} className="home-books-scroll__item">
             <div className="bl-card">
-              <a className="bl-card__cover-link" href={b.href}>
-                <div className="bl-card__cover-wrap book-shadow">
-                  <img src={b.img} alt={b.title} loading="lazy" width="186" height="286" />
-                  <div className="bl-card__overlay">
-                    <span className="bl-card__overlay-label">View Book</span>
-                  </div>
-                </div>
-              </a>
-              <h4 className="bl-card__title">
-                <a className="bl-card__title-link" href={b.href} tabIndex={-1}>{b.title}</a>
-              </h4>
+              <div className="bl-card__cover-wrap book-shadow">
+                <img src={b.img} alt={b.title} loading="lazy" width="186" height="286" />
+              </div>
+              <h4 className="bl-card__title">{b.title}</h4>
               <p className="bl-card__author">{b.author}</p>
               {b.rating && (
                 <div className="bl-card__rating">

@@ -1,4 +1,4 @@
-import './books-for-brands.css'
+﻿import './books-for-brands.css'
 import Navbar from '@/components/Navbar'
 import ScribeBooksForBrands from '@/components/ScribeBooksForBrands'
 import Newsletter from '@/components/Newsletter'

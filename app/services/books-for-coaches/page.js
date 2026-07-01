@@ -1,4 +1,4 @@
-import './books-for-coaches.css'
+﻿import './books-for-coaches.css'
 import Navbar from '@/components/Navbar'
 import ScribeBooksForCoaches from '@/components/ScribeBooksForCoaches'
 import Newsletter from '@/components/Newsletter'
