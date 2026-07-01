@@ -103,7 +103,7 @@ export default function BooksForSpeakersPage() {
                     <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
                   </div>
                   <div className="ind__author-name">
-                    {a.nameHref ? {a.name} : a.name}
+                    {a.nameHref ? <a href={a.nameHref}>{a.name}</a> : a.name}
                   </div>
                   <div className="ind__author-title">{a.book}</div>
                   <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
