@@ -52,7 +52,7 @@ export default function HomeBooksScroll({ books }) {
       onMouseLeave={() => { pausedRef.current = false }}
     >
       <div className="hbs-header">
-        <p className="hbs-count">Showing {books.length} published books</p>
+
         <div className="hbs-arrows">
           <button
             className={`hbs-arrow${!canScrollLeft ? ' hbs-arrow--disabled' : ''}`}

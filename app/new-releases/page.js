@@ -45,9 +45,7 @@ export default function NewReleasesPage() {
           <p className="new-releases__subheading">
             Books published by Scribe authors in the last 90 days. Updated automatically.
           </p>
-          <p className="new-releases__count">
-            <strong>{books.length}</strong> books in the last 90 days
-          </p>
+
 
           <div className="new-releases__grid">
             {books.length === 0
