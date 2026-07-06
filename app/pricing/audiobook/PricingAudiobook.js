@@ -3,7 +3,7 @@ import { useState } from 'react'
 import '../configurator.css'
 
 const TIER = 'NSA - Audiobook'
-const API_BASE = 'https://scribe-pricing-api.vercel.app'
+const API_BASE = 'https://e-book-nine-mu.vercel.app'
 
 const WORD_PRICES = { '50000': 8000, '80000': 10000, '120000': 12000, '120001': 14000 }
 const WORD_LABELS = { '50000': 'up to 50,000 words', '80000': '50,001–80,000 words', '120000': '80,001–120,000 words', '120001': '120,001+ words' }

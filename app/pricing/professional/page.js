@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 const BASE_PRICE = 56000
 const NUM_MONTHS = 12
-const API_BASE = 'https://scribe-pricing-api.vercel.app'
+const API_BASE = 'https://e-book-nine-mu.vercel.app'
 const EXTRA_AUTHOR_PRICE = 3500
 const RETURNING_DISCOUNT = 2000
 

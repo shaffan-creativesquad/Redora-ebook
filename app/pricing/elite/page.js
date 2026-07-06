@@ -8,7 +8,7 @@ const BASE_PRICE = 135000
 const NUM_MONTHS = 15
 const EXTRA_AUTHOR_PRICE = 3500
 const RETURNING_DISCOUNT = 4000
-const API_BASE = 'https://scribe-pricing-api.vercel.app'
+const API_BASE = 'https://e-book-nine-mu.vercel.app'
 
 const INCLUDED = [
   { icon: 'ph ph-user-circle',     label: 'Dedicated Publishing Manager',       detail: 'Your single point of contact from start to finish' },

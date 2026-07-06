@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import '../configurator.css'
 
-const API_BASE = 'https://scribe-pricing-api.vercel.app'
+const API_BASE = 'https://e-book-nine-mu.vercel.app'
 const TIER = 'NSA - Marketing'
 
 const SERVICES = {
