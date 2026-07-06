@@ -430,9 +430,9 @@ export default function Reviews() {
                 }
                 <div className="review-card__credential">{r.credential}</div>
                 {r.book && (
-                  <a className="review-card__book" href={r.bookHref}>
+                  <div className="review-card__book">
                     <span className="review-card__book-label">BOOK </span>{r.book}
-                  </a>
+                  </div>
                 )}
               </div>
             </div>
