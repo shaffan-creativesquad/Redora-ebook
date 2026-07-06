@@ -87,7 +87,7 @@ export default function NorthStarCheckPage() {
             <p>For more detailed guidance on creating and publishing a book that achieves your goals, check out the free online copy of <em>The Scribe Method</em> or purchase a hard copy today.</p>
             <ul>
               <li><a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the free online copy here.</a></li>
-              <li><a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
+              <li><a href="/consult" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
             </ul>
             <p>With your North Star in place, you&apos;ll have the clarity and focus needed to write a book that not only stands out but also delivers real results.</p>
           </div>

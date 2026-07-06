@@ -73,7 +73,7 @@ export default function FigureOutYourBookIdeaPage() {
             <p>If you&apos;re ready to take the next step in your writing journey, check out <em>The Scribe Method</em>!</p>
             <ul>
               <li><a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the free online copy here.</a></li>
-              <li><a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
+              <li><a href="/consult" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
             </ul>
             <p>This guide will walk you through every step of writing and publishing a book, ensuring you not only finish but create something truly impactful.</p>
           </div>

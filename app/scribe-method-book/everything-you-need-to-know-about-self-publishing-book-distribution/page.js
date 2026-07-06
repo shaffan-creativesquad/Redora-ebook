@@ -57,7 +57,7 @@ export default function BookDistributionPage() {
             <p>Get a <strong>free online copy of <em>The Scribe Method</em></strong>{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
               {' '}or <strong>purchase a hard copy</strong>{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">here</a>!
+              <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>!
             </p>
           </div>
 

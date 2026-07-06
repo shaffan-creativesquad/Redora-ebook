@@ -91,7 +91,7 @@ export default function BookObjectivesPage() {
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>free online copy of <em>The Scribe Method</em></strong></a> here.
             </p>
             <p>Prefer the feel of a physical book? Purchase the{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Scribe Method</em></strong></a> here.
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Scribe Method</em></strong></a> here.
             </p>
             <p>Get started today and make your book the tool that transforms your future!</p>
           </div>

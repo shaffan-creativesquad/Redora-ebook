@@ -88,7 +88,7 @@ export default function ScribeMethodDraftPage() {
             <p><strong>Get a free online copy of <em>The Scribe Method</em></strong>{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>.
               {' '}<strong>Prefer a hard copy?</strong>{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">Buy it now</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">Buy it now</a>.
             </p>
           </div>
 

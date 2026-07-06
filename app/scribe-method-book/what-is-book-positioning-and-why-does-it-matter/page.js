@@ -68,7 +68,7 @@ export default function BookPositioningPage() {
             <p>If you&apos;re ready to position your book for success and start writing with purpose,{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">grab your free online copy</a>
               {' '}of <em>The Scribe Method</em> now, and start applying these strategies to your own book. Want a physical copy?{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">You can purchase one here.</a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer">You can purchase one here.</a>
             </p>
             <p>Position your book correctly today, and watch it thrive for years to come.</p>
           </div>

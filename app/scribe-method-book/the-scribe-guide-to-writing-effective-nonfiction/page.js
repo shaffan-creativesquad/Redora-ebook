@@ -83,7 +83,7 @@ export default function ScribeGuideNonfictionPage() {
             <p>Access the{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>full Scribe Method</strong></a>
               {' '}for free, or grab a hard copy{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.
             </p>
           </div>
 

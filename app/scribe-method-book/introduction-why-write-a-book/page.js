@@ -75,7 +75,7 @@ export default function IntroductionWhyWriteABook() {
             <p>
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Read the full book online here</strong></a>
               {' '}or{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer"><strong>Order your hard copy now</strong></a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>Order your hard copy now</strong></a>
               {' '}to begin your journey to becoming an author.
             </p>
           </div>

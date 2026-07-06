@@ -57,7 +57,7 @@ export default function AskForFeedbackPage() {
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Get the free book</a>
             </p>
             <p>Prefer a hard copy?{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">You can purchase <em>The Scribe Method</em> here</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">You can purchase <em>The Scribe Method</em> here</a>.
             </p>
           </div>
 

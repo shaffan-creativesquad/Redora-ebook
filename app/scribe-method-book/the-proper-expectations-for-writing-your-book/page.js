@@ -81,7 +81,7 @@ export default function ProperExpectationsPage() {
             <p>
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Read the full guide online</strong></a>
               {' '}or{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer"><strong>Order your copy here</strong></a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>Order your copy here</strong></a>
               {' '}to take the next step.
             </p>
           </div>

@@ -20,7 +20,6 @@ const authors = [
     stars: '★★★★★',
     
     rating: '4.4 (190+)',
-    ratingHref: 'https://www.amazon.com/dp/B07BZVQHBD?tag=scribemedia0a-20',
     desc: 'Turned his personal health transformation into a bestselling guide that built his food brand.',
     storyHref: null,
   },
@@ -33,7 +32,6 @@ const authors = [
     headshot: '/assets/Tracy_Thomas_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (45+)',
-    ratingHref: 'https://geni.us/the-commitments',
     desc: 'Shared groundbreaking emotional health research that attracted a global coaching practice.',
     storyHref: null,
   },
@@ -46,7 +44,6 @@ const authors = [
     headshot: '/assets/Emily_Lewis_Bowers_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (120+)',
-    ratingHref: 'https://geni.us/mother-trauma',
     desc: 'Pioneered nutritional approaches to brain health, reaching thousands of patients and families.',
     storyHref: null,
   },

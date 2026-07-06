@@ -71,7 +71,7 @@ export default function BeatYourFearsPage() {
             <p>Ready to take the next step? Dive deeper into <em>The Scribe Method</em> and discover actionable strategies to help you write, publish, and market your book.{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the full book online</a>
               {' '}or{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
               {' '}to have all the tools at your fingertips.
             </p>
           </div>

@@ -211,49 +211,12 @@ export default function ScribeMethodBookPage() {
           </div>
         </div>
 
-        {/* About the Authors */}
-        <div className="sm-authors">
-          <p className="sm-authors__label">About the Authors</p>
-          <h2 className="sm-authors__heading">Written by the Founders of Scribe Media</h2>
-          <div className="sm-authors__grid">
-            <div className="sm-authors__card">
-              <img
-                className="sm-authors__photo"
-                src="/assets/tucker-max-headshot.jpg"
-                alt="Tucker Max"
-                loading="lazy"
-                width="80"
-                height="80"
-              />
-              <div className="sm-authors__info">
-                <h3 className="sm-authors__name">Tucker Max</h3>
-                <p className="sm-authors__role">Co-founder, Scribe Media</p>
-                <p className="sm-authors__bio">4x NYT bestselling author who has sold over 4.5 million copies worldwide. He co-founded Scribe Media to help people write great books.</p>
-              </div>
-            </div>
-            <div className="sm-authors__card">
-              <img
-                className="sm-authors__photo"
-                src="/assets/zach-obront-headshot.png"
-                alt="Zach Obront"
-                loading="lazy"
-                width="80"
-                height="80"
-              />
-              <div className="sm-authors__info">
-                <h3 className="sm-authors__name">Zach Obront</h3>
-                <p className="sm-authors__role">Co-founder, Scribe Media</p>
-                <p className="sm-authors__bio">A publishing veteran who has helped thousands of entrepreneurs, executives, and experts turn their ideas into bestselling books.</p>
-              </div>
-            </div>
-          </div>
-        </div>
 
         {/* Also Available */}
         <div className="sm-also">
           <div className="sm-also__box">
             <a
-              href="https://www.amazon.com/Scribe-Method-Best-Write-Publish/dp/1544514050?tag=scribemedia0a-20"
+              href="/consult"
               target="_blank"
               rel="noopener noreferrer"
               className="sm-also__link"
@@ -261,12 +224,10 @@ export default function ScribeMethodBookPage() {
               <i className="ph ph-book"></i> Buy Physical Copy
             </a>
             <a
-              href="https://www.audible.com/pd/The-Scribe-Method-Audiobook/B0B35B1CWB"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="sm-also__link"
             >
-              <i className="ph ph-headphones"></i> Listen to Audiobook
+              <i className="ph ph-envelope"></i> Contact Us
             </a>
           </div>
         </div>

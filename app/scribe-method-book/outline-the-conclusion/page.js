@@ -84,7 +84,7 @@ export default function OutlineTheConclusionPage() {
             <p>Want more expert guidance on writing your book? Get a{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>free digital copy of The Scribe Method</strong></a>
               {' '}here or purchase a{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer"><strong>hard copy</strong></a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy</strong></a>
               {' '}here to take your book-writing journey to the next level!
             </p>
           </div>

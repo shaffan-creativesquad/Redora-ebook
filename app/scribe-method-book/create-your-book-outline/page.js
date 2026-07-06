@@ -72,7 +72,7 @@ export default function CreateYourBookOutlinePage() {
             <p>For a more in-depth guide to writing and publishing your book, check out <strong>The Scribe Method</strong>—available for{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">free online</a>
               {' '}or as a hard copy purchase{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">here</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </div>
 

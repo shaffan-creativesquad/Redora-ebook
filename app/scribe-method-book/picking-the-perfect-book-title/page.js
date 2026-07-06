@@ -145,7 +145,7 @@ export default function PerfectBookTitlePage() {
             <p>Need more guidance? Download <em>The Scribe Method</em> for free{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
               {' '}or grab a hard copy{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">here</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </div>
 

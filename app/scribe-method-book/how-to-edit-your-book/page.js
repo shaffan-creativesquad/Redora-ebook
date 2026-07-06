@@ -77,7 +77,7 @@ export default function HowToEditYourBookPage() {
             <p>For more in-depth guidance, check out the free online copy of <em>The Scribe Method</em>{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
               {' '}or purchase a hard copy{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">here</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
           </div>
 

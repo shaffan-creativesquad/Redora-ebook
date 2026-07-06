@@ -70,7 +70,7 @@ export default function BookWritingPlanPage() {
             <p>Ready to start writing?{' '}
               <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Get a free copy of The Scribe Method online</strong></a>
               {' '}here or{' '}
-              <a href="https://amzn.to/3P14NjR" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
+              <a href="/consult" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
               {' '}today!
             </p>
           </div>
