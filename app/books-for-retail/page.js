@@ -57,19 +57,6 @@ export default function BooksForRetail() {
             </div>
           </div>
 
-          <div className="ind__video-section">
-            <h2>Hear From a Scribe Author</h2>
-            <p className="subtitle">Ron Thurston on building pride in the retail industry</p>
-            <div className="ind__video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/dsg1JOzEXiA?rel=0"
-                title="Ron Thurston on building pride in the retail industry"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
 
           <div className="ind__section">
             <h2>Why Retail Professionals Write Books</h2>

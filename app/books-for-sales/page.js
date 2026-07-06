@@ -65,20 +65,6 @@ export default function BooksForSalesPage() {
             </div>
           </div>
 
-          {/* ── Video ── */}
-          <div className="ind__video-section">
-            <h2>Hear From a Scribe Author</h2>
-            <p className="subtitle">John Ruhlin on the art of strategic gifting</p>
-            <div className="ind__video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/4GGdrWYUdIg?rel=0"
-                title="John Ruhlin on the art of strategic gifting"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
-            </div>
-          </div>
 
           {/* ── Benefits ── */}
           <div className="ind__section">

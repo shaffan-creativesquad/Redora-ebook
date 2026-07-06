@@ -60,20 +60,6 @@ export default function BooksForMarketersPage() {
             </div>
           </div>
 
-          {/* ── Video ── */}
-          <div className="ind__video-section">
-            <h2>Hear From a Scribe Author</h2>
-            <p className="subtitle">Deb Gabor on why branding is everything</p>
-            <div className="ind__video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/1UurB3ysx1g?rel=0"
-                title="Deb Gabor on why branding is everything"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
 
           {/* ── Benefits ── */}
           <div className="ind__section">

@@ -59,19 +59,6 @@ export default function BooksForMilitary() {
             </div>
           </div>
 
-          <div className="ind__video-section">
-            <h2>Hear From a Scribe Author</h2>
-            <p className="subtitle">David Goggins on mastering your mind</p>
-            <div className="ind__video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/sLtHFE6qLCI?rel=0"
-                title="David Goggins on mastering your mind"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
 
           <div className="ind__section">
             <h2>Why Military &amp; Veterans Professionals Write Books</h2>

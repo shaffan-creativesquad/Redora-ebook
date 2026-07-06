@@ -12,62 +12,62 @@ const industries = [
   {
     title: 'Books for Doctors',
     desc: 'Educate patients at scale and establish thought leadership in your specialty.',
-    href: '#',
+    href: '/books-for-doctors',
   },
   {
     title: 'Books for Financial Advisors',
     desc: 'Build trust with high-net-worth clients before your first meeting.',
-    href: '#',
+    href: '/books-for-financial-advisors',
   },
   {
     title: 'Books for Coaches',
     desc: 'Codify your methodology and attract premium clients at scale.',
-    href: '/services/books-for-coaches',
+    href: '/books-for-coaches',
   },
   {
     title: 'Books for Consultants',
     desc: 'Generate inbound leads and close bigger engagements with a published book.',
-    href: '#',
+    href: '/books-for-consultants',
   },
   {
     title: 'Books for Speakers',
     desc: 'Land more keynotes, increase your fee, and extend your message.',
-    href: '#',
+    href: '/books-for-speakers',
   },
   {
     title: 'Books for Entrepreneurs',
     desc: 'Attract investors, recruit talent, and build a personal brand that lasts.',
-    href: '#',
+    href: '/books-for-entrepreneurs',
   },
   {
     title: 'Books for Sales Professionals',
     desc: 'Become the authority in your industry and open doors before you pick up the phone.',
-    href: '#',
+    href: '/books-for-sales',
   },
   {
     title: 'Books for Marketers',
     desc: 'Prove your expertise and attract agency clients with a published methodology.',
-    href: '#',
+    href: '/books-for-marketers',
   },
   {
     title: 'Books for Fitness & Wellness',
     desc: 'Reach a global audience and launch programs beyond the gym floor.',
-    href: '#',
+    href: '/books-for-fitness',
   },
   {
     title: 'Books for Tech Leaders',
     desc: 'Share your vision and establish yourself as a voice that matters in technology.',
-    href: '#',
+    href: '/books-for-tech',
   },
   {
     title: 'Books for Military & Veterans',
     desc: 'Turn your service into your next mission with a book that inspires.',
-    href: '#',
+    href: '/books-for-military',
   },
   {
     title: 'Books for Retail Leaders',
     desc: 'Lead the conversation in a rapidly evolving industry.',
-    href: '#',
+    href: '/books-for-retail',
   },
 ]
 

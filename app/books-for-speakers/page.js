@@ -103,7 +103,7 @@ export default function BooksForSpeakersPage() {
                     <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
                   </div>
                   <div className="ind__author-name">
-                    {a.nameHref ? <a href={a.nameHref}>{a.name}</a> : a.name}
+                    {a.name}
                   </div>
                   <div className="ind__author-title">{a.book}</div>
                   <div className="ind__author-rating" style={{ justifyContent: 'center' }}>
@@ -115,20 +115,6 @@ export default function BooksForSpeakersPage() {
             </div>
           </div>
 
-          {/* ── Video ── */}
-          <div className="ind__video-section">
-            <h2>Hear From a Scribe Author</h2>
-            <p className="ind__section-sub">Joey Coleman on never losing a customer again</p>
-            <div className="ind__video-embed">
-              <iframe
-                src="https://www.youtube.com/embed/gHV_hTjy25w?rel=0"
-                title="Joey Coleman on never losing a customer again"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
-            </div>
-          </div>
 
           {/* ── Benefits ── */}
           <div className="ind__section">
