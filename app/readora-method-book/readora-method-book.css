@@ -740,7 +740,7 @@ a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-b
   /* ===== WHATS INSIDE GRID ===== */
   .sm-features {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 3rem auto 0;
     padding: 4rem 2rem;
   }
   .sm-features__label {

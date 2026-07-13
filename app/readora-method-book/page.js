@@ -2,7 +2,6 @@ import './readora-method-book.css'
 import Navbar from '@/components/Navbar'
 import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
-import ScribeMethodForm from '@/components/ScribeMethodForm'
 
 export const metadata = {
   title: 'The Readora Method - Free Book | Readora',
@@ -120,7 +119,7 @@ export default function ScribeMethodBookPage() {
               <h1>The Readora Method</h1>
               <h3>A Wall Street Journal Bestseller</h3>
               <p>We believe the world needs more writers and that everyone has a story worth telling. That&apos;s why we&apos;re giving away The Readora Method for free. No catch, just everything you need to write, publish, and own your book.</p>
-              <a href="#smb-form" className="smb__cta-btn">Get the Free Book</a>
+              <a href="#sm-toc" className="smb__cta-btn">Get the Free Book</a>
             </div>
             <div className="smb__hero-img">
               <img
@@ -138,14 +137,6 @@ export default function ScribeMethodBookPage() {
             <p className="smb__about">The Readora Method covers the complete process for writing, publishing, and marketing a non-fiction book. Written by Tucker Max and Zach Obront, it distills everything they learned helping 2,000+ authors publish their books.</p>
           </div>
 
-          {/* Get Free Copy Form */}
-          <div className="smb__form-section" id="smb-form">
-            <h2>Get Your Free Copy</h2>
-            <p>Enter your information below to get free access to The Readora Method.</p>
-            <div className="smb__form-wrapper">
-              <ScribeMethodForm />
-            </div>
-          </div>
         </div>
 
         {/* What's Inside */}
@@ -188,7 +179,7 @@ export default function ScribeMethodBookPage() {
         </div>
 
         {/* Table of Contents */}
-        <div className="sm-toc">
+        <div className="sm-toc" id="sm-toc">
           <p className="sm-toc__label">Read It Free</p>
           <h2 className="sm-toc__heading">Table of Contents</h2>
           <p className="sm-toc__sub">Read the entire Readora Method online for free, chapter by chapter.</p>
