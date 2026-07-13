@@ -65,7 +65,7 @@ const testimonials = [
     quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We're excited to continue sharing our message with a broader audience when the book is distributed. We couldn't have reached this milestone without the support of Readora — especially Mark. He has been fantastic to work with. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
-    avatar: '/assets/eby-headshots.png',
+    avatar: '/assets/Eby-Headshots.jpg',
   },
   {
     quote: "[The editor] at Readora just reads a gazillion books. He said, we're all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character.",

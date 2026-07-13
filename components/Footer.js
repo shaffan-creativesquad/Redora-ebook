@@ -8,7 +8,7 @@ const aboutLinks = [
   ['Alumni', '/alumni'],
   ['Contact', '/contact'],
   ['Ambassadors', '/ambassadors'],
-  ['FAQs', '/faq'],
+  ['FAQs', '/faqs'],
   ['Reviews', '/reviews'],
 ]
 const resourcesLinks = [
