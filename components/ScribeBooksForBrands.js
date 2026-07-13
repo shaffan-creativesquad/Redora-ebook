@@ -71,7 +71,7 @@ export default function ScribeBooksForBrands() {
         </div>
       </div>
 
-      {/* The Scribe Process */}
+      {/* The Readora Process */}
       <div className="bfb__section bfb__section--alt">
         <h2>The Readora process for corporate thought leadership.</h2>
         <p className="subtitle">We make book publishing effortless for corporate leaders, entrepreneurs, and executives.</p>

@@ -1,140 +1,140 @@
-SCRIBE MEDIA — ALL ACTIVE PAGE LINKS
-Updated: 2026-07-01
+READORA — ALL ACTIVE PAGE LINKS
+Updated: 2026-07-13
 ============================================================
 
 ── MAIN (19) ──
-  https://e-book-nine-mu.vercel.app/
-  https://e-book-nine-mu.vercel.app/allservices
-  https://e-book-nine-mu.vercel.app/alumni
-  https://e-book-nine-mu.vercel.app/ambassadors
-  https://e-book-nine-mu.vercel.app/careers
-  https://e-book-nine-mu.vercel.app/consult
-  https://e-book-nine-mu.vercel.app/contact
-  https://e-book-nine-mu.vercel.app/faqs
-  https://e-book-nine-mu.vercel.app/free-resources
-  https://e-book-nine-mu.vercel.app/ghostwriting
-  https://e-book-nine-mu.vercel.app/ghostwriting-vs-self-writing
-  https://e-book-nine-mu.vercel.app/how-it-works
-  https://e-book-nine-mu.vercel.app/our-origin
-  https://e-book-nine-mu.vercel.app/privacy
-  https://e-book-nine-mu.vercel.app/publishing-book-cover
-  https://e-book-nine-mu.vercel.app/publishing-formatting-tips
-  https://e-book-nine-mu.vercel.app/reviews
-  https://e-book-nine-mu.vercel.app/terms-of-service
-  https://e-book-nine-mu.vercel.app/why-scribe
-  https://e-book-nine-mu.vercel.app/write-your-book
+  https://redora-ebook-olive.vercel.app/
+  https://redora-ebook-olive.vercel.app/allservices
+  https://redora-ebook-olive.vercel.app/alumni
+  https://redora-ebook-olive.vercel.app/ambassadors
+  https://redora-ebook-olive.vercel.app/careers
+  https://redora-ebook-olive.vercel.app/consult
+  https://redora-ebook-olive.vercel.app/contact
+  https://redora-ebook-olive.vercel.app/faqs
+  https://redora-ebook-olive.vercel.app/free-resources
+  https://redora-ebook-olive.vercel.app/ghostwriting
+  https://redora-ebook-olive.vercel.app/ghostwriting-vs-self-writing
+  https://redora-ebook-olive.vercel.app/how-it-works
+  https://redora-ebook-olive.vercel.app/our-origin
+  https://redora-ebook-olive.vercel.app/privacy
+  https://redora-ebook-olive.vercel.app/publishing-book-cover
+  https://redora-ebook-olive.vercel.app/publishing-formatting-tips
+  https://redora-ebook-olive.vercel.app/reviews
+  https://redora-ebook-olive.vercel.app/terms-of-service
+  https://redora-ebook-olive.vercel.app/why-scribe
+  https://redora-ebook-olive.vercel.app/write-your-book
 
 ── SERVICES (17) ──
-  https://e-book-nine-mu.vercel.app/services
-  https://e-book-nine-mu.vercel.app/services/audiobook
-  https://e-book-nine-mu.vercel.app/services/book-coaching
-  https://e-book-nine-mu.vercel.app/services/book-marketing
-  https://e-book-nine-mu.vercel.app/services/book-writing
-  https://e-book-nine-mu.vercel.app/services/books-for-brands
-  https://e-book-nine-mu.vercel.app/services/books-for-coaches
-  https://e-book-nine-mu.vercel.app/services/books-for-industries
-  https://e-book-nine-mu.vercel.app/services/books-for-lawyers
-  https://e-book-nine-mu.vercel.app/services/ghostwriting
-  https://e-book-nine-mu.vercel.app/services/guided-author
-  https://e-book-nine-mu.vercel.app/services/professional-book-writers
-  https://e-book-nine-mu.vercel.app/services/publishing
-  https://e-book-nine-mu.vercel.app/services/scribe-compass
-  https://e-book-nine-mu.vercel.app/services/scribe-pr
-  https://e-book-nine-mu.vercel.app/services/scribe-signature
-  https://e-book-nine-mu.vercel.app/services/write-a-self-help-book
+  https://redora-ebook-olive.vercel.app/services
+  https://redora-ebook-olive.vercel.app/services/audiobook
+  https://redora-ebook-olive.vercel.app/services/book-coaching
+  https://redora-ebook-olive.vercel.app/services/book-marketing
+  https://redora-ebook-olive.vercel.app/services/book-writing
+  https://redora-ebook-olive.vercel.app/services/books-for-brands
+  https://redora-ebook-olive.vercel.app/services/books-for-coaches
+  https://redora-ebook-olive.vercel.app/services/books-for-industries
+  https://redora-ebook-olive.vercel.app/services/books-for-lawyers
+  https://redora-ebook-olive.vercel.app/services/ghostwriting
+  https://redora-ebook-olive.vercel.app/services/guided-author
+  https://redora-ebook-olive.vercel.app/services/professional-book-writers
+  https://redora-ebook-olive.vercel.app/services/publishing
+  https://redora-ebook-olive.vercel.app/services/scribe-compass
+  https://redora-ebook-olive.vercel.app/services/scribe-pr
+  https://redora-ebook-olive.vercel.app/services/scribe-signature
+  https://redora-ebook-olive.vercel.app/services/write-a-self-help-book
 
 ── PRICING (8) ──
-  https://e-book-nine-mu.vercel.app/pricing
-  https://e-book-nine-mu.vercel.app/pricing/audiobook
-  https://e-book-nine-mu.vercel.app/pricing/elite
-  https://e-book-nine-mu.vercel.app/pricing/guided-author
-  https://e-book-nine-mu.vercel.app/pricing/marketing
-  https://e-book-nine-mu.vercel.app/pricing/professional
-  https://e-book-nine-mu.vercel.app/pricing/publishing
-  https://e-book-nine-mu.vercel.app/pricing/quote
+  https://redora-ebook-olive.vercel.app/pricing
+  https://redora-ebook-olive.vercel.app/pricing/audiobook
+  https://redora-ebook-olive.vercel.app/pricing/elite
+  https://redora-ebook-olive.vercel.app/pricing/guided-author
+  https://redora-ebook-olive.vercel.app/pricing/marketing
+  https://redora-ebook-olive.vercel.app/pricing/professional
+  https://redora-ebook-olive.vercel.app/pricing/publishing
+  https://redora-ebook-olive.vercel.app/pricing/quote
 
 ── BOOKS FOR INDUSTRIES (13) ──
-  https://e-book-nine-mu.vercel.app/books-for-coaches
-  https://e-book-nine-mu.vercel.app/books-for-consultants
-  https://e-book-nine-mu.vercel.app/books-for-doctors
-  https://e-book-nine-mu.vercel.app/books-for-entrepreneurs
-  https://e-book-nine-mu.vercel.app/books-for-financial-advisors
-  https://e-book-nine-mu.vercel.app/books-for-fitness
-  https://e-book-nine-mu.vercel.app/books-for-industries
-  https://e-book-nine-mu.vercel.app/books-for-marketers
-  https://e-book-nine-mu.vercel.app/books-for-military
-  https://e-book-nine-mu.vercel.app/books-for-retail
-  https://e-book-nine-mu.vercel.app/books-for-sales
-  https://e-book-nine-mu.vercel.app/books-for-speakers
-  https://e-book-nine-mu.vercel.app/books-for-tech
+  https://redora-ebook-olive.vercel.app/books-for-coaches
+  https://redora-ebook-olive.vercel.app/books-for-consultants
+  https://redora-ebook-olive.vercel.app/books-for-doctors
+  https://redora-ebook-olive.vercel.app/books-for-entrepreneurs
+  https://redora-ebook-olive.vercel.app/books-for-financial-advisors
+  https://redora-ebook-olive.vercel.app/books-for-fitness
+  https://redora-ebook-olive.vercel.app/books-for-industries
+  https://redora-ebook-olive.vercel.app/books-for-marketers
+  https://redora-ebook-olive.vercel.app/books-for-military
+  https://redora-ebook-olive.vercel.app/books-for-retail
+  https://redora-ebook-olive.vercel.app/books-for-sales
+  https://redora-ebook-olive.vercel.app/books-for-speakers
+  https://redora-ebook-olive.vercel.app/books-for-tech
 
 ── VS COMPETITORS (5) ──
-  https://e-book-nine-mu.vercel.app/vs/forbes-books
-  https://e-book-nine-mu.vercel.app/vs/kevin-anderson-associates
-  https://e-book-nine-mu.vercel.app/vs/page-two
-  https://e-book-nine-mu.vercel.app/vs/peaceful-profits
-  https://e-book-nine-mu.vercel.app/vs/self-publishing-com
+  https://redora-ebook-olive.vercel.app/vs/forbes-books
+  https://redora-ebook-olive.vercel.app/vs/kevin-anderson-associates
+  https://redora-ebook-olive.vercel.app/vs/page-two
+  https://redora-ebook-olive.vercel.app/vs/peaceful-profits
+  https://redora-ebook-olive.vercel.app/vs/self-publishing-com
 
 ── AUTHOR RESOURCES (4) ──
-  https://e-book-nine-mu.vercel.app/audiobook-submission-guidelines
-  https://e-book-nine-mu.vercel.app/author-faqs
-  https://e-book-nine-mu.vercel.app/author-guides-interviewing
-  https://e-book-nine-mu.vercel.app/author-services
+  https://redora-ebook-olive.vercel.app/audiobook-submission-guidelines
+  https://redora-ebook-olive.vercel.app/author-faqs
+  https://redora-ebook-olive.vercel.app/author-guides-interviewing
+  https://redora-ebook-olive.vercel.app/author-services
 
 ── PUBLISHED BOOKS (1) ──
-  https://e-book-nine-mu.vercel.app/new-releases
+  https://redora-ebook-olive.vercel.app/new-releases
 
-── SCRIBE METHOD BOOK (47) ──
-  https://e-book-nine-mu.vercel.app/scribe-method-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/about-the-authors
-  https://e-book-nine-mu.vercel.app/scribe-method-book/conclusion-publish-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/create-your-book-outline
-  https://e-book-nine-mu.vercel.app/scribe-method-book/design-your-book-layout
-  https://e-book-nine-mu.vercel.app/scribe-method-book/everything-you-need-to-know-about-book-chapters
-  https://e-book-nine-mu.vercel.app/scribe-method-book/everything-you-need-to-know-about-self-publishing-book-distribution
-  https://e-book-nine-mu.vercel.app/scribe-method-book/figure-out-your-audience
-  https://e-book-nine-mu.vercel.app/scribe-method-book/figure-out-your-book-idea
-  https://e-book-nine-mu.vercel.app/scribe-method-book/figure-out-your-book-objectives
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-do-you-beat-writers-block
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-much-does-it-cost-to-self-publish-a-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-much-of-your-story-should-be-in-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-much-should-you-give-away-in-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-people-really-judge-a-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-beat-your-fears-and-finish-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-create-your-book-writing-plan
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-edit-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-get-a-great-book-cover
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-get-incredible-blurbs-for-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-make-money-with-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-pick-the-right-book-publishing-option
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-properly-price-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-take-the-right-author-photo
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-write-a-book-descriptions-that-sells
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-write-a-nonfiction-book-proposal-with-template
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-write-your-author-bio-and-why-it-matters
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-write-your-first-draft-the-scribe-method
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-to-write-your-first-draft-the-vomit-method
-  https://e-book-nine-mu.vercel.app/scribe-method-book/how-writing-a-book-can-build-your-brand
-  https://e-book-nine-mu.vercel.app/scribe-method-book/introduction-why-write-a-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/lock-in-your-manuscript-copyediting
-  https://e-book-nine-mu.vercel.app/scribe-method-book/outline-the-conclusion
-  https://e-book-nine-mu.vercel.app/scribe-method-book/outline-the-introduction
-  https://e-book-nine-mu.vercel.app/scribe-method-book/picking-the-perfect-book-title
-  https://e-book-nine-mu.vercel.app/scribe-method-book/realistic-and-unrealistic-expectations-for-a-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/should-you-ask-people-for-feedback
-  https://e-book-nine-mu.vercel.app/scribe-method-book/the-north-star-check
-  https://e-book-nine-mu.vercel.app/scribe-method-book/the-only-software-you-need-to-write-a-book-is-already-on-your-computer
-  https://e-book-nine-mu.vercel.app/scribe-method-book/the-proper-expectations-for-writing-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/the-scribe-guide-to-writing-effective-nonfiction
-  https://e-book-nine-mu.vercel.app/scribe-method-book/the-six-fears-you-could-face-writing-your-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/what-is-book-positioning-and-why-does-it-matter
-  https://e-book-nine-mu.vercel.app/scribe-method-book/whats-the-intangible-impact-of-a-book
-  https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-acknowledgments
-  https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-dedication
-  https://e-book-nine-mu.vercel.app/scribe-method-book/write-your-book-foreword
+── READORA METHOD BOOK (47) ──
+  https://redora-ebook-olive.vercel.app/readora-method-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/about-the-authors
+  https://redora-ebook-olive.vercel.app/readora-method-book/conclusion-publish-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/create-your-book-outline
+  https://redora-ebook-olive.vercel.app/readora-method-book/design-your-book-layout
+  https://redora-ebook-olive.vercel.app/readora-method-book/everything-you-need-to-know-about-book-chapters
+  https://redora-ebook-olive.vercel.app/readora-method-book/everything-you-need-to-know-about-self-publishing-book-distribution
+  https://redora-ebook-olive.vercel.app/readora-method-book/figure-out-your-audience
+  https://redora-ebook-olive.vercel.app/readora-method-book/figure-out-your-book-idea
+  https://redora-ebook-olive.vercel.app/readora-method-book/figure-out-your-book-objectives
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-do-you-beat-writers-block
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-much-does-it-cost-to-self-publish-a-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-much-of-your-story-should-be-in-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-much-should-you-give-away-in-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-people-really-judge-a-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-beat-your-fears-and-finish-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-create-your-book-writing-plan
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-edit-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-get-a-great-book-cover
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-get-incredible-blurbs-for-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-make-money-with-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-pick-the-right-book-publishing-option
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-properly-price-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-take-the-right-author-photo
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-write-a-book-descriptions-that-sells
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-write-a-nonfiction-book-proposal-with-template
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-write-your-author-bio-and-why-it-matters
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-write-your-first-draft-the-readora-method
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-to-write-your-first-draft-the-vomit-method
+  https://redora-ebook-olive.vercel.app/readora-method-book/how-writing-a-book-can-build-your-brand
+  https://redora-ebook-olive.vercel.app/readora-method-book/introduction-why-write-a-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/lock-in-your-manuscript-copyediting
+  https://redora-ebook-olive.vercel.app/readora-method-book/outline-the-conclusion
+  https://redora-ebook-olive.vercel.app/readora-method-book/outline-the-introduction
+  https://redora-ebook-olive.vercel.app/readora-method-book/picking-the-perfect-book-title
+  https://redora-ebook-olive.vercel.app/readora-method-book/realistic-and-unrealistic-expectations-for-a-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/should-you-ask-people-for-feedback
+  https://redora-ebook-olive.vercel.app/readora-method-book/the-north-star-check
+  https://redora-ebook-olive.vercel.app/readora-method-book/the-only-software-you-need-to-write-a-book-is-already-on-your-computer
+  https://redora-ebook-olive.vercel.app/readora-method-book/the-proper-expectations-for-writing-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/the-readora-guide-to-writing-effective-nonfiction
+  https://redora-ebook-olive.vercel.app/readora-method-book/the-six-fears-you-could-face-writing-your-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/what-is-book-positioning-and-why-does-it-matter
+  https://redora-ebook-olive.vercel.app/readora-method-book/whats-the-intangible-impact-of-a-book
+  https://redora-ebook-olive.vercel.app/readora-method-book/write-your-book-acknowledgments
+  https://redora-ebook-olive.vercel.app/readora-method-book/write-your-book-dedication
+  https://redora-ebook-olive.vercel.app/readora-method-book/write-your-book-foreword
 
 ── BLOG (1) ──
-  https://e-book-nine-mu.vercel.app/blog
+  https://redora-ebook-olive.vercel.app/blog
 
 ============================================================
 TOTAL: 117 pages
@@ -145,7 +145,7 @@ TOTAL: 117 pages
   VS COMPETITORS ....... 5
   AUTHOR RESOURCES ..... 4
   PUBLISHED BOOKS ...... 1   
-  SCRIBE METHOD BOOK .. 47
+  READORA METHOD BOOK .. 47
   BLOG ................. 1  
  
 ============================================================

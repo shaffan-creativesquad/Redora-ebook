@@ -14,7 +14,7 @@ const booksLinks = [
   ['Reviews', '/reviews'],
 ]
 const resourcesLinks = [
-  ['The Readora Method', '/scribe-method-book'],
+  ['The Readora Method', '/readora-method-book'],
   ['The Readora Blog', '/blog'],
   ['Author FAQs', '/author-faqs'],
   ['Author Services', '/author-services'],

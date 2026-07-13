@@ -27,7 +27,7 @@ export default function FreeResourcesPage() {
             <div className="fr__grid">
 
 
-              <a href="/scribe-method-book" className="fr__card fr__card--featured">
+              <a href="/readora-method-book" className="fr__card fr__card--featured">
                 <span className="fr__badge">WSJ Bestseller</span>
                 <div className="fr__card-icon">📖</div>
                 <h3>The Readora Method</h3>

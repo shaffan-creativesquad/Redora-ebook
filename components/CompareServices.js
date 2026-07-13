@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'Free writing and publishing guides from Readora', title: 'Free Guides, Frameworks, and Publishing Playbooks', href: '/free-resources' },
+  { image: '/assets/Bottom_Readora_Method.webp', alt: 'Free writing and publishing guides from Readora', title: 'Free Guides, Frameworks, and Publishing Playbooks', href: '/free-resources' },
   { image: '/assets/Bottom_Books.webp', alt: 'Browse books published by Readora authors', title: 'Browse the Full Catalogue of Readora-Published Books', href: '/#published-books' },
 ]
 

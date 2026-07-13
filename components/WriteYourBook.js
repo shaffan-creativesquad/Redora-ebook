@@ -2,68 +2,68 @@ import BookingCalendar from './BookingCalendar'
 
 const books = [
   {
-    href: '/published-books/cant-hurt-me',
-    cover: '/assets/cant-hurt-me.webp',
-    title: "Can't Hurt Me",
-    author: 'David Goggins',
+    href: '/published-books',
+    cover: '/assets/Book Covers/01.jpg',
+    title: 'Lead with Purpose',
+    author: 'Readora Author',
     rating: '4.8',
-    count: '127,000+',
-  },
-  {
-    href: '/published-books/the-almanack-of-naval-ravikant',
-    cover: '/assets/the-almanack-of-navl-ravikant.png',
-    title: 'The Almanack of Naval Ravikant',
-    author: 'Eric Jorgenson',
-    rating: '4.7',
-    count: '18,500+',
-  },
-  {
-    href: '/published-books/never-finished',
-    cover: '/assets/DavidGoggins_WebsiteCover.jpg',
-    title: 'Never Finished',
-    author: 'David Goggins',
-    rating: '4.8',
-    count: '16,200+',
-  },
-  {
-    href: '/published-books/who-not-how',
-    cover: '/assets/who-not-how.jpg',
-    title: 'Who Not How',
-    author: 'Dan Sullivan',
-    rating: '4.6',
-    count: '8,400+',
-  },
-  {
-    href: '/published-books/never-lose-a-customer-again-joey-coleman',
-    cover: '/assets/NLaCA.jpg',
-    title: 'Never Lose a Customer Again',
-    author: 'Joey Coleman',
-    rating: '4.7',
-    count: '3,200+',
-  },
-  {
-    href: '/published-books/buy-then-build',
-    cover: '/assets/Buy&build.png',
-    title: 'Buy Then Build',
-    author: 'Walker Deibel',
-    rating: '4.6',
     count: '2,100+',
   },
   {
-    href: '/published-books/niching-up',
-    cover: '/assets/ChrisDreyer_WebsiteCover.jpg',
-    title: 'Niching Up',
-    author: 'Chris Dreyer',
+    href: '/published-books',
+    cover: '/assets/Book Covers/002.png',
+    title: 'Rise Beyond Limits',
+    author: 'Readora Author',
     rating: '4.7',
     count: '1,800+',
   },
   {
-    href: '/published-books/i-forgot-to-die',
-    cover: '/assets/i-forgot-to-die.jpg',
-    title: 'I Forgot to Die',
-    author: 'Khalil Rafati',
+    href: '/published-books',
+    cover: '/assets/Book Covers/003.jpg',
+    title: 'The Growth Path',
+    author: 'Readora Author',
     rating: '4.8',
-    count: '2,000+',
+    count: '1,600+',
+  },
+  {
+    href: '/published-books',
+    cover: '/assets/Book Covers/004.png',
+    title: 'Unbreakable Within',
+    author: 'Readora Author',
+    rating: '4.7',
+    count: '1,300+',
+  },
+  {
+    href: '/published-books',
+    cover: '/assets/Book Covers/005.jpg',
+    title: 'Clarity First',
+    author: 'Readora Author',
+    rating: '4.6',
+    count: '1,100+',
+  },
+  {
+    href: '/published-books',
+    cover: '/assets/Book Covers/006.png',
+    title: 'Built for the Storm',
+    author: 'Readora Author',
+    rating: '4.7',
+    count: '870+',
+  },
+  {
+    href: '/published-books',
+    cover: '/assets/Book Covers/007.jpg',
+    title: 'The Inner Edge',
+    author: 'Readora Author',
+    rating: '4.7',
+    count: '760+',
+  },
+  {
+    href: '/published-books',
+    cover: '/assets/Book Covers/008.png',
+    title: 'The Power of Relentless',
+    author: 'Readora Author',
+    rating: '4.7',
+    count: '650+',
   },
 ]
 
@@ -93,7 +93,7 @@ export default function WriteYourBook() {
             <span className="consult-trust__icon">✓</span> No obligation
           </div>
           <div className="consult-trust__item">
-            <span className="consult-trust__icon">✓</span> 2,000+ authors served
+            <span className="consult-trust__icon">✓</span> 500+ authors served
           </div>
           <div className="consult-trust__item">
             <span className="consult-trust__icon">✓</span> Clear answer on fit
@@ -106,12 +106,12 @@ export default function WriteYourBook() {
       <section className="consult-books">
         <div className="consult-books__inner">
           <div className="consult-books__header">
-            <h2 className="consult-books__heading">Join 2,000+ Published Authors</h2>
+            <h2 className="consult-books__heading">Join 500+ Published Authors</h2>
             <p className="consult-books__sub">These authors trusted Readora to bring their books to life. Sorted by most Amazon reviews.</p>
           </div>
           <div className="consult-books__grid">
             {books.map((book, i) => (
-              <a key={i} className="consult-books__item" href={book.href}>
+              <div key={i} className="consult-books__item">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img className="consult-books__cover" src={book.cover} alt={book.title} loading="lazy" />
                 <div className="consult-books__title">{book.title}</div>
@@ -120,7 +120,7 @@ export default function WriteYourBook() {
                   <span className="consult-books__stars">★★★★★</span>
                   <span className="consult-books__count">{book.rating} ({book.count})</span>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </div>

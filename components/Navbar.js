@@ -37,7 +37,7 @@ const navItems = [
     label: 'Free Resources',
     dropdown: [
       { label: 'Blog', href: '/blog' },
-      { label: 'The Readora Method Book', href: '/scribe-method-book' },
+      { label: 'The Readora Method Book', href: '/readora-method-book' },
     ],
   },
   { label: 'FAQs', href: '/faqs' },
