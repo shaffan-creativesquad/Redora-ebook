@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -29,8 +29,8 @@ export default function BooksForMilitary() {
               {/* Clint Emerson */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Clint_Emerson_Headshot.jpg" alt="Clint Emerson" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/100-deadly-skills.jpg" alt="100 Deadly Skills" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="/assets/Clint_Emerson_Headshot.webp" alt="Clint Emerson" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/011.png" alt="100 Deadly Skills" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Clint Emerson</div>
                 <div className="ind__author-title">100 Deadly Skills</div>
@@ -39,8 +39,8 @@ export default function BooksForMilitary() {
               {/* Mike Sarraille */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Michael_Sarraille_Headshot.jpg" alt="Mike Sarraille" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/The-Talent-War-1.jpg" alt="The Talent War" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="/assets/Michael_Sarraille_Headshot.png" alt="Mike Sarraille" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/012.png" alt="The Talent War" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Mike Sarraille</div>
                 <div className="ind__author-title">The Talent War</div>
@@ -49,8 +49,8 @@ export default function BooksForMilitary() {
               {/* David Goggins */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/David_Goggins_Headshot.jpg" alt="David Goggins" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/cant-hurt-me.jpg" alt="Can't Hurt Me" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="/assets/David_Goggins_Headshot.jpg" alt="David Goggins" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/013.png" alt="Can't Hurt Me" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">David Goggins</div>
                 <div className="ind__author-title">Can&apos;t Hurt Me</div>

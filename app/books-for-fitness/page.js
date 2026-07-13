@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -31,8 +31,8 @@ export default function BooksForFitnessPage() {
               {/* Ben Bergeron */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Ben_Bergeron_Headshot.jpg" alt="Ben Bergeron" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/Brian_Reese_Headshot.jpg" alt="Ben Bergeron" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/002.png" alt="Mission: Motherhood" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Ben Bergeron</div>
                 <div className="ind__author-title">Mission: Motherhood</div>
@@ -41,8 +41,8 @@ export default function BooksForFitnessPage() {
               {/* Jade Teta */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Jade_Teta_Headshot.jpg" alt="Jade Teta" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/Kain_Ramsay_Headshot.jpg" alt="Jade Teta" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/004.png" alt="Next-Level Metabolism" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Jade Teta</div>
                 <div className="ind__author-title">Next-Level Metabolism</div>

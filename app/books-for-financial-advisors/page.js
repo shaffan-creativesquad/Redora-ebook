@@ -2,7 +2,6 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export const metadata = {
   title: 'Books for Finance | Readora',
@@ -41,14 +40,17 @@ export default function BooksForFinancialAdvisorsPage() {
               {/* Author 1 — Sheryl Sculley */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <Image
-                    src="https://readora.com/hubfs/images/books/GreedyBastards.jpg"
+                  <img
+                    src="/assets/Chad_Willardson_Headshot.jpg"
+                    alt="Sheryl Sculley"
+                    className="ind__author-headshot"
+                    loading="lazy"
+                  />
+                  <img
+                    src="/assets/Book Covers/013.png"
                     alt="Greedy Bastards"
-                    width={70}
-                    height={105}
                     className="ind__author-book"
-                    unoptimized
-                    style={{ width: '70px', height: '105px' }}
+                    loading="lazy"
                   />
                 </div>
                 <p className="ind__author-name">Sheryl Sculley</p>

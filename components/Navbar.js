@@ -6,7 +6,7 @@ const navItems = [
   {
     label: 'Why Readora?',
     dropdown: [
-      { label: 'Why Readora', href: '/why-scribe' },
+      { label: 'Why Readora', href: '/why-readora' },
       { label: 'Reviews', href: '/reviews' },
     ],
   },
@@ -22,7 +22,7 @@ const navItems = [
       { label: 'Readora Publishing', href: '/services/publishing' },
       { divider: true },
       { groupLabel: 'Add-Ons' },
-      { label: 'Readora Compass', href: '/services/scribe-compass' },
+      { label: 'Readora Compass', href: '/services/readora-compass' },
       { label: 'Audiobook', href: '/services/audiobook' },
       { label: 'Book Marketing', href: '/services/book-marketing' },
       { divider: true },

@@ -2,6 +2,7 @@ import './consult.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ConsultSection from './ConsultSection'
+import ContactForm from './ContactForm'
 
 export const metadata = {
   title: 'Schedule a Free Strategy Consult | Readora',
@@ -122,15 +123,7 @@ export default function ConsultPage() {
             <h2 className="cs-contact__heading">Just reach out. We&apos;ll help you figure it out.</h2>
             <p className="cs-contact__sub">No pitch, no pressure — just a quick note and we&apos;ll point you in the right direction.</p>
             <div className="cs-contact__form-wrap">
-              <div className="cs-form-placeholder">
-                Contact form will be configured soon.<br />
-                <span style={{ fontSize: '0.85rem', opacity: 0.7 }}>
-                  Email us directly at{' '}
-                  <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>
-                    privacy@readora.com
-                  </a>
-                </span>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </section>

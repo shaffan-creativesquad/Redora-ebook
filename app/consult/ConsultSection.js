@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import ContactForm from './ContactForm'
 
 const panelCopy = {
   write: {
@@ -136,10 +137,7 @@ export default function ConsultSection() {
               <div className="cs-form-box">
                 <p className="cs-form-box__heading">Book your free strategy call</p>
                 <p className="cs-form-box__sub">Fill out the form below and you&apos;ll be able to pick a time that works for you.</p>
-                <div className="cs-form-placeholder">
-                  Booking form will be configured soon.<br />
-                  <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>privacy@readora.com</a> in the meantime.</span>
-                </div>
+                <ContactForm />
               </div>
             </div>
           </>
@@ -157,10 +155,7 @@ export default function ConsultSection() {
           <span className="cs-mkt-chip">Amazon &amp; Retail Distribution</span>
           <span className="cs-mkt-chip">Speaking &amp; Media Strategy</span>
         </div>
-        <div className="cs-form-placeholder">
-          Marketing inquiry form will be configured soon.<br />
-          <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>privacy@readora.com</a> in the meantime.</span>
-        </div>
+        <ContactForm />
       </div>
     </>
   )

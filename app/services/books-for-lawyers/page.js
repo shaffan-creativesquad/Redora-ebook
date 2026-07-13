@@ -1,6 +1,6 @@
-﻿import './books-for-lawyers.css'
+import './books-for-lawyers.css'
 import Navbar from '@/components/Navbar'
-import ScribeBooksForLawyers from '@/components/ScribeBooksForLawyers'
+import ReadoraBooksForLawyers from '@/components/ReadoraBooksForLawyers'
 import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
@@ -14,7 +14,7 @@ export default function BooksForLawyersPage() {
     <>
       <Navbar />
       <main id="main-content" style={{ paddingTop: '84px' }}>
-        <ScribeBooksForLawyers />
+        <ReadoraBooksForLawyers />
         <Newsletter />
       </main>
       <Footer />

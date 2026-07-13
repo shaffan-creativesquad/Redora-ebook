@@ -18,7 +18,7 @@
 .ind__hero h1 {
   font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 700;
-  color: #f0f0f0;
+  color: #e02d2d;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -70,7 +70,7 @@
 .ind__section h2 {
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
   font-weight: 700;
-  color: #f0f0f0;
+  color: #e02d2d;
   margin-bottom: 0.6rem;
   text-align: center;
 }
@@ -302,6 +302,12 @@
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.08));
   border-radius: 14px;
   padding: 1.75rem 1.5rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.ind__process-card:hover {
+  border-color: rgba(224, 45, 45, 0.35);
+  transform: translateY(-3px);
 }
 
 .ind__process-num {
@@ -343,7 +349,7 @@
 .ind__video-section h2 {
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
   font-weight: 700;
-  color: #f0f0f0;
+  color: #e02d2d;
   margin-bottom: 0.5rem;
 }
 
@@ -380,7 +386,7 @@
 .ind__browse h2 {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #f0f0f0;
+  color: #e02d2d;
   margin-bottom: 1.25rem;
 }
 
@@ -419,7 +425,7 @@
 .ind__bottom-cta h2 {
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
   font-weight: 700;
-  color: #f0f0f0;
+  color: #e02d2d;
   margin-bottom: 0.75rem;
 }
 

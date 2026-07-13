@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -15,8 +15,8 @@ const authors = [
     nameHref: '/authors/brian-scudamore',
     book: 'BYOB',
     bookHref: '/published-books/byob',
-    bookImg: 'https://readora.com/hubfs/images/books/BrianScudamore_WebsiteCover.jpg',
-    headshot: 'https://readora.com/hubfs/author-headshots/_Headshot.jpg',
+    bookImg: '/assets/Book Covers/22.png',
+    headshot: '/assets/Jayson_Waller_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (380+)',
     desc: 'Founded 1-800-GOT-JUNK and shared the mindset that turned failure into a billion-dollar brand.',
@@ -27,7 +27,7 @@ const authors = [
     nameHref: '/authors/cliff-lerner',
     book: 'Explosive Growth',
     bookHref: '/published-books/explosive-growth',
-    bookImg: 'https://readora.com/hubfs/images/books/explosive-growth.jpg',
+    bookImg: '/assets/Book Covers/23.png',
     headshot: null,
     stars: '★★★★★',
     rating: '4.5 (1,400+)',
@@ -39,8 +39,8 @@ const authors = [
     nameHref: '/authors/chris-heivly',
     book: 'Build the Fort',
     bookHref: '/published-books/build-the-fort',
-    bookImg: 'https://readora.com/hubfs/images/books/ChrisHeivly_WebsiteCover.jpg',
-    headshot: 'https://readora.com/hubfs/author-headshots/Chris_Heivly_Headshot.jpg',
+    bookImg: '/assets/Book Covers/24.png',
+    headshot: '/assets/Joshua_Miller_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (75+)',
     desc: 'Built startup communities from the ground up, earning recognition as a leading entrepreneurial voice.',

@@ -1,47 +1,47 @@
-﻿const authors = [
+const authors = [
   {
-    name: 'Dan Sullivan',
-    nameHref: '/authors/dan-sullivan',
-    book: 'Fear Ends Here',
-    bookHref: '/published-books',
-    bookImg: '/assets/Book Covers/010.png',
-    headshot: '/assets/Dan_Sullivan_Headshot.jpg',
-    stars: '★★★★★',
-    rating: '4.7 (490+)',
-    desc: 'A powerful guide to breaking through the fears that hold coaches and their clients back from lasting transformation.',
-    storyHref: null,
-  },
-  {
-    name: 'Cameron Herold',
-    nameHref: '/authors/cameron-herold',
-    book: 'The Dog in the Rake',
-    bookHref: '/published-books',
-    bookImg: '/assets/Book Covers/011.png',
-    headshot: '/assets/Cameron_Herold_Headshot.jpg',
-    stars: '★★★★★',
-    rating: '4.5 (430+)',
-    desc: 'An unconventional coaching memoir that reframes failure as the ultimate teacher on the path to mastery.',
-    storyHref: null,
-  },
-  {
-    name: 'Todd Herman',
-    nameHref: '/authors/sean-herman',
-    book: 'When Our Days Dark',
-    bookHref: '/published-books',
-    bookImg: '/assets/Book Covers/012.png',
+    name: 'Michael Mogill',
+    nameHref: '/authors/michael-mogill',
+    book: 'The Game Changing Attorney',
+    bookHref: '/published-books/the-game-changing-attorney/',
+    bookImg: '/assets/Book Covers/27.png',
     headshot: null,
     stars: '★★★★★',
-    rating: '4.6 (390+)',
-    desc: 'A resilience blueprint for coaches working with clients through adversity, grief, and personal reinvention.',
+    rating: '4.7 (1,100+)',
+    desc: 'His book brought in $5M in new business for his law firm and established him as the top voice in legal marketing.',
+    storyHref: null,
+  },
+  {
+    name: 'Richard Brock',
+    nameHref: '/authors/richard-brock',
+    book: 'Pillar-Based Marketing',
+    bookHref: '/published-books/pillar-based-marketing',
+    bookImg: '/assets/Book Covers/28.png',
+    headshot: '/assets/Richard_Brock_Headshot.jpg',
+    stars: '★★★★★',
+    rating: '4.6 (85+)',
+    desc: 'Used his book to attract top lateral legal talent to his recruiting firm.',
+    storyHref: null,
+  },
+  {
+    name: 'James Cunningham',
+    nameHref: '/published-books/savvy-estate-planning-2',
+    book: 'Savvy Estate Planning',
+    bookHref: '/published-books/savvy-estate-planning-2',
+    bookImg: '/assets/Book Covers/29.png',
+    headshot: null,
+    stars: '★★★★★',
+    rating: '4.7 (280+)',
+    desc: 'Empowered families to protect their assets with clear, practical estate planning guidance.',
     storyHref: null,
   },
 ]
 
 const benefits = [
-  { title: 'Codify your method', desc: 'Transform your coaching framework into a tangible system that clients can reference and share.' },
-  { title: 'Attract premium clients', desc: 'A published book positions you as the authority, letting you charge what you are worth.' },
-  { title: 'Scale beyond sessions', desc: 'Your book coaches thousands of people simultaneously, creating passive income and brand awareness.' },
-  { title: 'Build a movement', desc: 'Great coaching books become the foundation for courses, speaking tours, and certified programs.' },
+  { title: 'Win more clients', desc: 'A book is the ultimate credibility signal. Prospective clients choose the attorney who literally wrote the book.' },
+  { title: 'Command higher fees', desc: 'Published authors are perceived as top-tier experts, justifying premium billing rates.' },
+  { title: 'Land speaking gigs', desc: 'Bar associations, legal conferences, and CLEs actively seek published attorney speakers.' },
+  { title: 'Build a legacy', desc: 'Document your legal philosophy and approach for future partners, associates, and clients.' },
 ]
 
 const steps = [
@@ -52,30 +52,29 @@ const steps = [
 
 const browseLinks = [
   { label: 'Browse All Books', href: '/#published-books' },
-
   { label: 'All Industries', href: '/books-for-industries' },
 ]
 
-export default function ScribeBooksForCoaches() {
+export default function ReadoraBooksForLawyers() {
   return (
     <div className="ind">
       {/* Hero */}
       <div className="ind__hero">
-        <h1>The Book That Makes You the Coach Everyone Wants to Hire</h1>
-        <p>Executive coaches, business coaches, and life coaches use books to codify their methodology, attract premium clients, and scale their impact beyond one-on-one sessions.</p>
+        <h1>The Book That Wins You Clients Before They Walk In</h1>
+        <p>Top attorneys use books to establish authority, attract high-value clients, and differentiate their practice. Readora has helped lawyers at every level turn their expertise into published books.</p>
         <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
 
-      {/* Authors */}
+      {/* Legal Leaders */}
       <div className="ind__section">
-        <h2>Coaching Leaders Who Published with Readora</h2>
-        <p className="subtitle">These coaching professionals turned their expertise into bestselling books.</p>
+        <h2>Legal Leaders Who Published with Readora</h2>
+        <p className="subtitle">These legal professionals turned their expertise into bestselling books.</p>
         <div className="ind__authors-grid">
           {authors.map((a, i) => (
-            <div key={i} className="ind__author-card">
-              <div className="ind__author-img-wrap">
+            <div key={i} className="ind__author-card" style={{ textAlign: 'center' }}>
+              <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                 {a.headshot && <img className="ind__author-headshot" src={a.headshot} alt={a.name} loading="lazy" />}
-                <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" />
+                <img className="ind__author-book" src={a.bookImg} alt={a.book} loading="lazy" style={!a.headshot ? { width: '70px', height: '105px' } : undefined} />
               </div>
               <div className="ind__author-name">{a.name}</div>
               <div className="ind__author-title">{a.book}</div>
@@ -90,7 +89,7 @@ export default function ScribeBooksForCoaches() {
 
       {/* Benefits */}
       <div className="ind__section">
-        <h2>Why Coaching Professionals Write Books</h2>
+        <h2>Why Legal Professionals Write Books</h2>
         <div className="ind__benefits-grid">
           {benefits.map((b, i) => (
             <div key={i} className="ind__benefit">
@@ -128,7 +127,7 @@ export default function ScribeBooksForCoaches() {
       {/* Bottom CTA */}
       <div className="ind__bottom-cta">
         <h2>Ready to Write Your Book?</h2>
-        <p>Schedule a free strategy call to explore how a book can grow your coaching practice.</p>
+        <p>Schedule a free strategy call to explore how a book can grow your legal practice.</p>
         <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
     </div>

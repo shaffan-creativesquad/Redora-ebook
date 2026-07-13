@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -35,8 +35,8 @@ export default function BooksForSalesPage() {
               {/* Tim Kintz */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Tim_Kintz_Headshot.jpg" alt="Tim Kintz" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/Frictionless.jpg" alt="Frictionless" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/Tim_Kintz_Headshot.png" alt="Tim Kintz" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/25.png" alt="Frictionless" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Tim Kintz</div>
                 <div className="ind__author-title">Frictionless</div>
@@ -45,8 +45,8 @@ export default function BooksForSalesPage() {
               {/* John Ruhlin */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg" alt="John Ruhlin" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/711vuXOgjmL._SL1500_.jpg" alt="Beyond Giftology" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/John_Ruhlin_Headshot.jpg" alt="John Ruhlin" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/26.png" alt="Beyond Giftology" loading="lazy" />
                 </div>
                 <div className="ind__author-name">John Ruhlin</div>
                 <div className="ind__author-title">Beyond Giftology</div>
@@ -55,8 +55,8 @@ export default function BooksForSalesPage() {
               {/* Chris Voss */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Chris_Voss_Headshot.jpg" alt="Chris Voss" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/VossShull_WebsiteCover.jpg" alt="The Full Fee Agent" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/Monty_Moran_Headshot.jpg" alt="Chris Voss" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/30.png" alt="The Full Fee Agent" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Chris Voss</div>
                 <div className="ind__author-title">The Full Fee Agent</div>

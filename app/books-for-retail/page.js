@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -29,7 +29,7 @@ export default function BooksForRetail() {
               {/* Melissa Gonzalez */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/the-pop-up-paradigm.jpg" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/014.png" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Melissa Gonzalez</div>
                 <div className="ind__author-title">The Pop Up Paradigm</div>
@@ -38,8 +38,8 @@ export default function BooksForRetail() {
               {/* Ron Thurston */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Ron_Thurston_Headshot.jpg" alt="Ron Thurston" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/Retail-Pride-2.jpg" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="/assets/Ron_Thurston_Headshot.png" alt="Ron Thurston" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/015.png" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Ron Thurston</div>
                 <div className="ind__author-title">Retail Pride</div>
@@ -48,7 +48,7 @@ export default function BooksForRetail() {
               {/* Joe Geng */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/rethinking-hand-safety.jpg" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/016.png" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Joe Geng</div>
                 <div className="ind__author-title">Rethinking Hand Safety</div>

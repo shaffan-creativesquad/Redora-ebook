@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Link from 'next/link'
@@ -32,8 +32,8 @@ export default function BooksForMarketersPage() {
               {/* Deb Gabor */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg" alt="Deb Gabor" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/DebGabor_WebsiteCover.jpg" alt="Person-ality" loading="lazy" />
+                  <img className="ind__author-headshot" src="/assets/Deb_Gabor_Headshot.jpg" alt="Deb Gabor" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/31.png" alt="Person-ality" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Deb Gabor</div>
                 <div className="ind__author-title">Person-ality</div>
@@ -42,7 +42,7 @@ export default function BooksForMarketersPage() {
               {/* Randy Frisch */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/fck-content-marketing.jpg" alt="F#ck Content Marketing" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/32.png" alt="F#ck Content Marketing" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Randy Frisch</div>
                 <div className="ind__author-title">F#ck Content Marketing</div>
@@ -51,7 +51,7 @@ export default function BooksForMarketersPage() {
               {/* Phillip Stutts */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/fire-them-now.jpg" alt="Fire Them Now" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/33.png" alt="Fire Them Now" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Phillip Stutts</div>
                 <div className="ind__author-title">Fire Them Now</div>

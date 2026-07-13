@@ -1,4 +1,4 @@
-﻿import '../books-for-doctors/books-for-doctors.css'
+import '../books-for-doctors/books-for-doctors.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -29,8 +29,8 @@ export default function BooksForTech() {
               {/* Eric Jorgenson */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Eric_Jorgenson_Headshot.jpg" alt="Eric Jorgenson" loading="lazy" />
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/the-almanack-of-navl-ravikant.jpg" alt="The Almanack of Naval Ravikant" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="/assets/Eric_Jorgenson_Headshot.jpg" alt="Eric Jorgenson" loading="lazy" />
+                  <img className="ind__author-book" src="/assets/Book Covers/006.png" alt="The Almanack of Naval Ravikant" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Eric Jorgenson</div>
                 <div className="ind__author-title">The Almanack of Naval Ravikant</div>
@@ -39,7 +39,7 @@ export default function BooksForTech() {
               {/* Joe Mechlinski */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/shift-the-work.jpg" alt="Shift the Work" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/008.png" alt="Shift the Work" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Joe Mechlinski</div>
                 <div className="ind__author-title">Shift the Work</div>
@@ -48,7 +48,7 @@ export default function BooksForTech() {
               {/* Nassim Taleb */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/Nassim-Taleb_SCoFT_WP.jpeg" alt="Statistical Consequences of Fat Tails" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="/assets/Book Covers/010.png" alt="Statistical Consequences of Fat Tails" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Nassim Taleb</div>
                 <div className="ind__author-title">Statistical Consequences of Fat Tails</div>

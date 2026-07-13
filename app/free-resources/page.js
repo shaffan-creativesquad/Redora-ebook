@@ -1,6 +1,7 @@
 import './free-resources.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import NewsletterForm from '@/components/NewsletterForm'
 
 export const metadata = {
   title: 'Free Resources | Readora',
@@ -119,12 +120,7 @@ export default function FreeResourcesPage() {
                 <span className="fr-cta__pill">Launch case studies</span>
               </div>
               <div className="fr-cta__form-wrap">
-                <div className="fr-cta__form-placeholder">
-                  Newsletter signup will be configured soon.<br />
-                  <span style={{ fontSize: '0.82rem', opacity: 0.7 }}>
-                    In the meantime, email <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>privacy@readora.com</a> to get in touch.
-                  </span>
-                </div>
+                <NewsletterForm />
                 <p className="fr-cta__privacy">
                   By submitting, you agree to our <a href="/privacy">Privacy Policy</a> and <a href="/terms-of-service">Terms of Service</a>.
                 </p>

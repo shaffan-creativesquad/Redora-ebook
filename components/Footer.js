@@ -1,7 +1,7 @@
 'use client'
 
 const aboutLinks = [
-  ['About', '/why-scribe'],
+  ['About', '/why-readora'],
   ['How It Works', '/how-it-works'],
   ['Our Story', '/our-origin'],
   ['Careers', '/careers'],
@@ -9,8 +9,6 @@ const aboutLinks = [
   ['Contact', '/contact'],
   ['Ambassadors', '/ambassadors'],
   ['FAQs', '/faq'],
-]
-const booksLinks = [
   ['Reviews', '/reviews'],
 ]
 const resourcesLinks = [
@@ -31,13 +29,13 @@ const servicesLinks = [
   ['Readora Guided Author', '/services/guided-author'],
   ['Readora Professional', '/services/professional-book-writers'],
   ['Readora Elite', '/services/ghostwriting'],
-  ['Readora Signature', '/services/scribe-signature'],
+  ['Readora Signature', '/services/readora-signature'],
   ['Readora Audiobook', '/services/audiobook'],
   ['Readora Marketing', '/services/book-marketing'],
-  ['Readora Compass', '/services/scribe-compass'],
+  ['Readora Compass', '/services/readora-compass'],
   ['Book Coaching', '/services/book-coaching'],
   ['Book Writing', '/services/book-writing'],
-  ['Readora PR', '/services/scribe-pr'],
+  ['Readora PR', '/services/readora-pr'],
   ['Write a Self-Help Book', '/services/write-a-self-help-book'],
   ['Books for Brands', '/services/books-for-brands'],
   ['Get a Quote', '/pricing/quote'],
@@ -94,7 +92,7 @@ export default function Footer() {
       <div style={{ maxWidth: '1240px', margin: '0 auto', padding: '0 1.5rem' }}>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6" style={{ gap: '1.05rem', marginBottom: '1.65rem', alignItems: 'start' }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5" style={{ gap: '1.05rem', marginBottom: '1.65rem', alignItems: 'start' }}>
 
           {/* Brand col */}
           <div className="lg:col-span-1" style={{ paddingRight: '0.65rem' }}>
@@ -126,7 +124,6 @@ export default function Footer() {
           </div>
 
           <LinkCol title="About Readora" links={aboutLinks} />
-          <LinkCol title="Books and Authors" links={booksLinks} />
           <LinkCol title="Free Resources" links={resourcesLinks} />
           <LinkCol title="Services" links={servicesLinks} />
           <LinkCol title="Compare Readora" links={compareLinks} />
