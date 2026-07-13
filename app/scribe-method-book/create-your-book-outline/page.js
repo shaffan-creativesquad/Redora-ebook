@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Create Your Book Outline | The Scribe Method | Scribe Media',
+  title: 'Create Your Book Outline | The Readora Method | Readora',
   description: 'Learn how to create a powerful book outline in three steps to write with clarity, structure, and confidence.',
 }
 
@@ -15,7 +15,7 @@ export default function CreateYourBookOutlinePage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 3: OUTLINE YOUR BOOK</p>
@@ -28,7 +28,7 @@ export default function CreateYourBookOutlinePage() {
             </blockquote>
 
             <p>One of the biggest mistakes aspiring authors make is starting their book without an outline. Without a clear structure, the writing process becomes slow, frustrating, and often incomplete. Worse, many writers who don&apos;t use an outline never finish their books at all.</p>
-            <p>At Scribe, we&apos;ve developed a simple yet powerful outlining method to help authors complete their books with clarity and confidence. Our approach is different from traditional school outlines—it&apos;s designed to spark ideas and provide a clear direction without being overly rigid.</p>
+            <p>At Readora, we&apos;ve developed a simple yet powerful outlining method to help authors complete their books with clarity and confidence. Our approach is different from traditional school outlines—it&apos;s designed to spark ideas and provide a clear direction without being overly rigid.</p>
             <p>Follow these three steps to create a strong book outline and set yourself up for success.</p>
 
             <h2>Step 1: Brainstorm Your Chapters</h2>
@@ -69,8 +69,8 @@ export default function CreateYourBookOutlinePage() {
 
             <h2>Ready to Start Writing?</h2>
             <p>A solid outline makes writing your book significantly easier. It gives you a roadmap, reduces writer&apos;s block, and keeps your content structured and compelling.</p>
-            <p>For a more in-depth guide to writing and publishing your book, check out <strong>The Scribe Method</strong>—available for{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">free online</a>
+            <p>For a more in-depth guide to writing and publishing your book, check out <strong>The Readora Method</strong>—available for{' '}
+              
               {' '}or as a hard copy purchase{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
@@ -89,7 +89,7 @@ export default function CreateYourBookOutlinePage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

@@ -2,12 +2,12 @@ export default function PublishingBookCover() {
   return (
     <section className="content-page">
       <div className="content-page__header">
-        <h1 className="content-page__heading">Scribe Publishing: Getting Started on Your Book Cover</h1>
+        <h1 className="content-page__heading">Readora Publishing: Getting Started on Your Book Cover</h1>
       </div>
 
       <div className="content-page__body">
         <h3>3 Steps to Prepare for Your Welcome Call</h3>
-        <p>Congratulations on starting your book with Scribe Publishing!</p>
+        <p>Congratulations on starting your book with Readora Publishing!</p>
         <p>Our goal is to publish the best book possible for you, and we know the sooner your book gets out into the world to start changing lives, the better.</p>
         <p>One thing that will help us complete your book faster — and make the best use of your time overall — is to have a clear idea of what you&apos;d like on your book cover.</p>
         <p>You may already have ideas for what you want on the cover. That&apos;s excellent, and it&apos;ll help our design team focus on your vision.</p>

@@ -40,10 +40,10 @@ const faqs = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -60,25 +60,25 @@ const testimonials = [
     avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
-    quote: "There's a real silo in publishing for, there are voices that aren't heard that Scribe is allowing to be heard.",
+    quote: "There's a real silo in publishing for, there are voices that aren't heard that Readora is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
     avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
-    quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional.",
+    quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Readora — especially Mark. He has been fantastic to work with. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
     avatar: '/assets/Eby-Headshots.png',
   },
   {
-    quote: "[The editor] at Scribe just reads a gazillion books. He said, we're all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character.",
+    quote: "[The editor] at Readora just reads a gazillion books. He said, we're all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
     avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
-    quote: "Writing that book and working with [Scribe] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined.",
+    quote: "Writing that book and working with [Readora] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined.",
     name: 'Linden Loren',
     credential: 'Co-Founder, Camo & Wind',
     avatar: '/assets/Linden-v2.png',
@@ -98,7 +98,7 @@ function FaqItem({ q, a }) {
   )
 }
 
-export default function ScribeAudiobook() {
+export default function ReadoraAudiobook() {
   return (
     <>
       <div className="svc-detail">
@@ -200,7 +200,7 @@ export default function ScribeAudiobook() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

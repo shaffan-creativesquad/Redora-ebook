@@ -16,7 +16,7 @@ const themPoints = [
 
 const usPoints = [
   'Flat fees: $29K Publishing · $56K Professional · $135K Elite — no licensing premium',
-  '100% author IP, royalties, and rights — Scribe takes no royalties',
+  '100% author IP, royalties, and rights — Readora takes no royalties',
   'Credibility earned through editorial quality, not borrowed from a logo',
   'Editorial team with Big 5 traditional publishing credits and MFAs',
   '3,000+ authors published — Navy SEALs, billionaires, Nobel Prize winners',
@@ -31,7 +31,7 @@ const reasons = [
   {
     num: '02',
     title: 'You get the team — not the turnover.',
-    desc: "We've heard from authors who cycled through 3 writers, 3 editors, and 3 account executives at Forbes Books before their book was done. At Scribe, you pick your scribe from a shortlist of 3 senior writers, and you keep them.",
+    desc: "We've heard from authors who cycled through 3 writers, 3 editors, and 3 account executives at Forbes Books before their book was done. At Readora, you pick your writer from a shortlist of 3 senior writers, and you keep them.",
   },
   {
     num: '03',
@@ -85,7 +85,7 @@ const differentiators = [
 
 const pricingTiers = [
   {
-    tier: 'Scribe Publishing',
+    tier: 'Readora Publishing',
     amount: '$29,000',
     note: 'flat · 6 months',
     desc: 'For authors who have a completed manuscript and need professional editing, design, audiobook, and full distribution.',
@@ -98,7 +98,7 @@ const pricingTiers = [
     featured: false,
   },
   {
-    tier: 'Scribe Professional',
+    tier: 'Readora Professional',
     amount: '$56,000',
     note: 'flat · 12 months',
     desc: "Our flagship — chosen by ~80% of authors. You don't write a word. We pair you with a senior scribe and capture your voice through structured interviews.",
@@ -113,7 +113,7 @@ const pricingTiers = [
     featured: true,
   },
   {
-    tier: 'Scribe Elite',
+    tier: 'Readora Elite',
     amount: '$135,000',
     note: 'flat · 15 months',
     desc: 'White-glove, prestige-tier service for legacy-defining books. In-person collaboration option, top scribe circle, $25K discretionary marketing budget.',
@@ -148,10 +148,10 @@ const faqs = [
   },
   {
     q: 'How long does it take?',
-    a: "9–12 months for Scribe Professional. 12–16 months for Scribe Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
+    a: "9–12 months for Readora Professional. 12–16 months for Readora Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
   },
   {
-    q: 'What about the Scribe 1.0 issues I read about?',
+    q: 'What about the Readora 1.0 issues I read about?',
     a: "New ownership and leadership took over in 2023 and made structural improvements across the board — financial oversight (we have a CFO now), governance (board meets weekly), transparency (weekly cash flow reporting), and installment-based payment structures so you see progress before making additional payments. We've now published approximately 120 books for affected authors at cost. Full transparency about what happened — happy to walk through it on a call.",
   },
 ]
@@ -164,7 +164,7 @@ export default function VsForbesBooks() {
         <div className="vs-page__container">
           <span className="vs-page__eyebrow">Forbes Books Alternative</span>
           <h1>You can buy a <em>logo</em>.<br />Or you can build <em>credibility</em>.</h1>
-          <p className="vs-page__subhead">Forbes Books (now &ldquo;The Authority Company&rdquo;) sells the right to associate with the Forbes brand. Scribe builds the kind of book that earns credibility on its own. If you&apos;re choosing between us, here&apos;s what every prospective Forbes author should know first.</p>
+          <p className="vs-page__subhead">Forbes Books (now &ldquo;The Authority Company&rdquo;) sells the right to associate with the Forbes brand. Readora builds the kind of book that earns credibility on its own. If you&apos;re choosing between us, here&apos;s what every prospective Forbes author should know first.</p>
           <div className="vs-page__hero-ctas">
             <a href="#consult" className="vs-page__btn vs-page__btn--primary">Book a Free Consult</a>
             <a href="#compare" className="vs-page__btn vs-page__btn--secondary">See the Comparison →</a>
@@ -189,7 +189,7 @@ export default function VsForbesBooks() {
       <section className="vs-page__section" id="compare">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">The Comparison</div>
-          <h2>Forbes Books vs. <em>Scribe Media</em></h2>
+          <h2>Forbes Books vs. <em>Readora</em></h2>
           <p className="vs-page__section-lead">Both companies are real and have served real authors. Here&apos;s how the sales-team&apos;s own competitive briefing describes the difference — verbatim — so you can decide which one matches what you actually need.</p>
           <div className="vs-page__two-col">
             <div className="vs-page__col vs-page__col--them">
@@ -198,7 +198,7 @@ export default function VsForbesBooks() {
               <ul>{themPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
             <div className="vs-page__col">
-              <div className="vs-page__col-label">Scribe Media</div>
+              <div className="vs-page__col-label">Readora</div>
               <h3>A book that builds <em>brand, credibility, and legacy</em>.</h3>
               <ul>{usPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
@@ -210,8 +210,8 @@ export default function VsForbesBooks() {
       <section className="vs-page__quote">
         <div className="vs-page__container">
           <div className="vs-page__quote-eyebrow">How Our Sales Team Describes the Difference</div>
-          <p className="vs-page__quote-lead">&ldquo;Anyone can pay to slap the Forbes logo on their book. But savvy audiences can smell that a mile away. With Scribe, you earn credibility through quality, thought leadership, and truly original work — not licensing. We don&apos;t sell logos — we build legacies.&rdquo;</p>
-          <p className="vs-page__quote-attrib">— From the Scribe Media internal Competitive Comparison briefing for Forbes Books.</p>
+          <p className="vs-page__quote-lead">&ldquo;Anyone can pay to slap the Forbes logo on their book. But savvy audiences can smell that a mile away. With Readora, you earn credibility through quality, thought leadership, and truly original work — not licensing. We don&apos;t sell logos — we build legacies.&rdquo;</p>
+          <p className="vs-page__quote-attrib">— From the Readora internal Competitive Comparison briefing for Forbes Books.</p>
         </div>
       </section>
 
@@ -219,7 +219,7 @@ export default function VsForbesBooks() {
       <section className="vs-page__section">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">Why Authors Switch</div>
-          <h2>Three reasons people choose Scribe<br />over Forbes Books.</h2>
+          <h2>Three reasons people choose Readora<br />over Forbes Books.</h2>
           <div className="vs-page__reasons">
             {reasons.map((r, i) => (
               <div key={i} className="vs-page__reason">
@@ -237,7 +237,7 @@ export default function VsForbesBooks() {
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">What We&apos;ve Heard From Forbes Authors</div>
           <h2>Real patterns from authors who chose Forbes Books<br /><em>— and later wished they hadn&apos;t.</em></h2>
-          <p className="vs-page__section-lead">These are anonymized patterns we&apos;ve heard directly from authors who paid Forbes Books and then sought us out. Names withheld. We share them because we believe the prospect deciding between Forbes Books and Scribe deserves a real look at what we&apos;ve seen.</p>
+          <p className="vs-page__section-lead">These are anonymized patterns we&apos;ve heard directly from authors who paid Forbes Books and then sought us out. Names withheld. We share them because we believe the prospect deciding between Forbes Books and Readora deserves a real look at what we&apos;ve seen.</p>
           <div className="vs-page__reasons">
             {forbesPatterns.slice(0, 3).map((p, i) => (
               <div key={i} className="vs-page__reason">
@@ -263,7 +263,7 @@ export default function VsForbesBooks() {
       {/* Differentiators */}
       <section className="vs-page__section">
         <div className="vs-page__container">
-          <div className="vs-page__section-eyebrow">What Makes Scribe Different</div>
+          <div className="vs-page__section-eyebrow">What Makes Readora Different</div>
           <h2>Seven things authors consistently<br />tell us <em>made the difference</em>.</h2>
           <div className="vs-page__reasons vs-page__reasons--two-col">
             {differentiators.map((d, i) => (
@@ -326,7 +326,7 @@ export default function VsForbesBooks() {
       {/* Sources */}
       <section className="vs-page__sources">
         <div className="vs-page__container">
-          Sources: Scribe Media internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Scribe Professional &amp; Scribe Elite Sales Call Scripts · scribemedia.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
+          Sources: Readora internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Readora Professional &amp; Readora Elite Sales Call Scripts · readora.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
         </div>
       </section>
     </div>

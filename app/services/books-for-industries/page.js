@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Every Industry | Scribe Media',
-  description: 'Scribe has helped professionals across every industry write and publish books that build authority and grow their business.',
+  title: 'Books for Every Industry | Readora',
+  description: 'Readora has helped professionals across every industry write and publish books that build authority and grow their business.',
 }
 
 export default function BooksForIndustriesPage() {

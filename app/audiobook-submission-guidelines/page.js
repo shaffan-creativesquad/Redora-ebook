@@ -4,8 +4,8 @@ import AudiobookSubmissionGuidelines from '@/components/AudiobookSubmissionGuide
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Audiobook Submission Guidelines | Scribe Media',
-  description: 'Submit your interior PDF, cover source files, and imprint information to begin audiobook production with Scribe Media.',
+  title: 'Audiobook Submission Guidelines | Readora',
+  description: 'Submit your interior PDF, cover source files, and imprint information to begin audiobook production with Readora.',
 }
 
 export default function AudiobookSubmissionGuidelinesPage() {

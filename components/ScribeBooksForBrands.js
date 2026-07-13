@@ -54,7 +54,7 @@ export default function ScribeBooksForBrands() {
       <div className="bfb__hero">
         <h1>Your brand has a story. We help you tell it.</h1>
         <p>Your brand&apos;s knowledge, insights, and vision deserve to be shared. A book is the most powerful way to elevate your brand&apos;s authority, create lasting impact, and connect with your audience in a meaningful way.</p>
-        <p>At Scribe, we partner with corporate brands to turn their knowledge into professionally published books without disrupting business operations. From strategy to distribution, we handle everything.</p>
+        <p>At Readora, we partner with corporate brands to turn their knowledge into professionally published books without disrupting business operations. From strategy to distribution, we handle everything.</p>
         <a href="/consult" className="bfb__cta-btn">Get Started</a>
       </div>
 
@@ -73,7 +73,7 @@ export default function ScribeBooksForBrands() {
 
       {/* The Scribe Process */}
       <div className="bfb__section bfb__section--alt">
-        <h2>The Scribe process for corporate thought leadership.</h2>
+        <h2>The Readora process for corporate thought leadership.</h2>
         <p className="subtitle">We make book publishing effortless for corporate leaders, entrepreneurs, and executives.</p>
         <div className="bfb__process-grid">
           {processItems.map((item, i) => (
@@ -87,7 +87,7 @@ export default function ScribeBooksForBrands() {
 
       {/* Why Brands */}
       <div className="bfb__section">
-        <h2>Why brands publish books with Scribe</h2>
+        <h2>Why brands publish books with Readora</h2>
         <div className="bfb__benefits-grid">
           {benefits.map((b, i) => (
             <div key={i} className="bfb__benefit">

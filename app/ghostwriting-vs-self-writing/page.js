@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Ghostwriting vs. Writing It Yourself | Scribe Media',
+  title: 'Ghostwriting vs. Writing It Yourself | Readora',
   description: 'An honest comparison of ghostwriting vs. self-writing. Cost, time, quality, and completion rate — everything you need to decide which path is right for your book.',
 }
 

@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Scribe Media — Professional Book Publishing Services',
+  title: 'Readora — Professional Book Publishing Services',
   description:
     "We help entrepreneurs, executives, and experts write, publish, and market their books. Because it's not just a book, it's your legacy.",
 }

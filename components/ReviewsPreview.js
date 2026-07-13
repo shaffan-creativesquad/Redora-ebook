@@ -4,15 +4,15 @@ const reviews = [
     author: 'Sarma Melngailis - The Girl With The Duck Tattoo',
   },
   {
-    text: "As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.",
+    text: "As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.",
     author: 'Adam Skolnick - American Tiger',
   },
   {
-    text: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    text: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     author: 'Rich Kurtzman - Like a Fish in Water',
   },
   {
-    text: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Scribe, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
+    text: "Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Readora, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     author: 'John Schachnovsky - Beyond the Badge',
   },
 ]

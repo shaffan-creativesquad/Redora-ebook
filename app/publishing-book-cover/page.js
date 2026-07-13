@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Publishing: Getting Started on Your Book Cover | Scribe Media',
-  description: 'Three steps to prepare for your welcome call and get started on your book cover with Scribe Publishing — identify covers you love, covers you hate, and email your Publishing Manager.',
+  title: 'Readora Publishing: Getting Started on Your Book Cover | Readora',
+  description: 'Three steps to prepare for your welcome call and get started on your book cover with Readora Publishing — identify covers you love, covers you hate, and email your Publishing Manager.',
 }
 
 export default function PublishingBookCoverPage() {

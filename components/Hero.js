@@ -16,9 +16,9 @@ const bookStyles = [
 ]
 
 const stats = [
-  { value: '2,000+', label: 'Authors Served' },
-  { value: '3,000+', label: 'Books Published' },
-  { value: '23',     label: 'NYT and WSJ Best Sellers' },
+  { value: '1,500+', label: 'Authors Published' },
+  { value: '2,400+', label: 'Books in Print' },
+  { value: '18',     label: 'National Bestsellers' },
 ]
 
 export default function Hero() {
@@ -47,16 +47,21 @@ export default function Hero() {
 
           {/* Left content */}
           <div>
+            <p style={{ margin: '0 0 0.85rem', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.78rem', fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#e02d2d' }}>
+              <span style={{ width: '18px', height: '2px', background: '#e02d2d', display: 'inline-block' }} />
+              The Complete Author Platform
+            </p>
+
             <h1 className="font-playfair" style={{
               margin: '0 0 1.1rem', color: '#f0f0f0',
               fontSize: 'clamp(2.35rem,5.4vw,4.65rem)',
               lineHeight: 1.02, letterSpacing: '-0.025em', maxWidth: '16ch',
             }}>
-              Professional publishing services to help you <span style={{ color: '#e02d2d' }}>write</span> your book.
+              Write the book that becomes your greatest <span style={{ color: '#e02d2d' }}>business asset.</span>
             </h1>
 
             <p style={{ margin: '0 0 1.45rem', color: '#d0d0d0', fontSize: 'clamp(0.95rem,1.1vw,1.05rem)', lineHeight: 1.6, maxWidth: '52ch' }}>
-              We help entrepreneurs, executives, and experts write, publish, and market their books. Because it&apos;s not just a book, it&apos;s your legacy.
+              Readora guides entrepreneurs, executives, and industry experts through every stage — from the first idea to a published book that opens doors, drives revenue, and cements your authority.
             </p>
 
             <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
@@ -68,7 +73,7 @@ export default function Hero() {
                 whiteSpace: 'nowrap',
                 boxShadow: '0 2px 16px rgba(220,45,45,0.3)',
               }}>
-                Schedule a Consult
+                Book a Free Consultation
               </a>
               <a href="/services" style={{
                 display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
@@ -77,7 +82,7 @@ export default function Hero() {
                 color: '#f0f0f0', border: '1.5px solid rgba(220,45,45,0.52)',
                 background: 'rgba(220,45,45,0.08)', whiteSpace: 'nowrap',
               }}>
-                Compare Scribe Services
+                Explore Our Services
               </a>
             </div>
           </div>

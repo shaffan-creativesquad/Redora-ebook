@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Books for Sales Professionals | Scribe Media',
+  title: 'Books for Sales Professionals | Readora',
   description:
     'Sales leaders and top performers use books to share their methodology, build authority in their industry, and create a powerful business development tool.',
 }
@@ -28,15 +28,15 @@ export default function BooksForSalesPage() {
 
           {/* ── Authors ── */}
           <div className="ind__section">
-            <h2>Sales Leaders Who Published with Scribe</h2>
+            <h2>Sales Leaders Who Published with Readora</h2>
             <p className="subtitle">These sales professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
               {/* Tim Kintz */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Tim_Kintz_Headshot.jpg" alt="Tim Kintz" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Frictionless.jpg" alt="Frictionless" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Tim_Kintz_Headshot.jpg" alt="Tim Kintz" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/Frictionless.jpg" alt="Frictionless" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Tim Kintz</div>
                 <div className="ind__author-title">Frictionless</div>
@@ -45,8 +45,8 @@ export default function BooksForSalesPage() {
               {/* John Ruhlin */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg" alt="John Ruhlin" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/711vuXOgjmL._SL1500_.jpg" alt="Beyond Giftology" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/John_Ruhlin_Headshot.jpg" alt="John Ruhlin" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/711vuXOgjmL._SL1500_.jpg" alt="Beyond Giftology" loading="lazy" />
                 </div>
                 <div className="ind__author-name">John Ruhlin</div>
                 <div className="ind__author-title">Beyond Giftology</div>
@@ -55,8 +55,8 @@ export default function BooksForSalesPage() {
               {/* Chris Voss */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Chris_Voss_Headshot.jpg" alt="Chris Voss" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/VossShull_WebsiteCover.jpg" alt="The Full Fee Agent" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Chris_Voss_Headshot.jpg" alt="Chris Voss" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/VossShull_WebsiteCover.jpg" alt="The Full Fee Agent" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Chris Voss</div>
                 <div className="ind__author-title">The Full Fee Agent</div>

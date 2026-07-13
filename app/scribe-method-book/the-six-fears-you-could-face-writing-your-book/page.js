@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'The Six Fears You Could Face Writing Your Book | The Scribe Method | Scribe Media',
+  title: 'The Six Fears You Could Face Writing Your Book | The Readora Method | Readora',
   description: 'Explore the six most common fears authors face when writing a book and learn strategies to overcome them.',
 }
 
@@ -15,7 +15,7 @@ export default function SixFearsPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 1: PREPARE TO WRITE YOUR BOOK</p>
@@ -49,7 +49,7 @@ export default function SixFearsPage() {
               </li>
               <li>
                 <strong>Fear of Starting</strong>
-                <p>The blank page can be intimidating. Where do you even begin? Start by outlining your ideas or dictating your thoughts aloud. Tools like Scribe&apos;s guided writing process make it easier to turn your expertise into a cohesive book without the overwhelm.</p>
+                <p>The blank page can be intimidating. Where do you even begin? Start by outlining your ideas or dictating your thoughts aloud. Tools like Readora&apos;s guided writing process make it easier to turn your expertise into a cohesive book without the overwhelm.</p>
               </li>
               <li>
                 <strong>Fear of Commitment</strong>
@@ -60,7 +60,7 @@ export default function SixFearsPage() {
             <p>Facing these fears is a normal part of the author&apos;s journey. By understanding and addressing them, you can move forward with confidence and clarity.</p>
 
             <p>
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Read the full guide online</strong></a>
+              
               {' '}or{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>order your copy here</strong></a>
               {' '}to take the next step.
@@ -80,7 +80,7 @@ export default function SixFearsPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

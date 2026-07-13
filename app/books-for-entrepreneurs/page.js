@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Books for Entrepreneurs | Scribe Media',
+  title: 'Books for Entrepreneurs | Readora',
   description:
     'Founders, CEOs, and business owners use books to attract investors, recruit talent, land press coverage, and establish their company as a category leader.',
 }
@@ -15,8 +15,8 @@ const authors = [
     nameHref: '/authors/brian-scudamore',
     book: 'BYOB',
     bookHref: '/published-books/byob',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/BrianScudamore_WebsiteCover.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/BrianScudamore_WebsiteCover.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (380+)',
     desc: 'Founded 1-800-GOT-JUNK and shared the mindset that turned failure into a billion-dollar brand.',
@@ -27,7 +27,7 @@ const authors = [
     nameHref: '/authors/cliff-lerner',
     book: 'Explosive Growth',
     bookHref: '/published-books/explosive-growth',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/explosive-growth.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/explosive-growth.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.5 (1,400+)',
@@ -39,8 +39,8 @@ const authors = [
     nameHref: '/authors/chris-heivly',
     book: 'Build the Fort',
     bookHref: '/published-books/build-the-fort',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/ChrisHeivly_WebsiteCover.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Chris_Heivly_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/ChrisHeivly_WebsiteCover.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/Chris_Heivly_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (75+)',
     desc: 'Built startup communities from the ground up, earning recognition as a leading entrepreneurial voice.',
@@ -109,7 +109,7 @@ export default function BooksForEntrepreneursPage() {
 
           {/* ── Authors ── */}
           <div className="ind__section">
-            <h2>Entrepreneurs Leaders Who Published with Scribe</h2>
+            <h2>Entrepreneurs Leaders Who Published with Readora</h2>
             <p className="subtitle">
               These entrepreneurs professionals turned their expertise into bestselling books.
             </p>

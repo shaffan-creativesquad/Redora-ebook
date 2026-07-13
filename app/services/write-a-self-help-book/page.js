@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Write a Self-Help Book | Scribe Media',
+  title: 'Write a Self-Help Book | Readora',
   description: 'Transform your personal growth expertise and life lessons into a professionally published self-help book that helps others.',
 }
 

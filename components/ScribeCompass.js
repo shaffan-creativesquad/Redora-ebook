@@ -25,16 +25,16 @@ const notFor = [
 ]
 
 const faqs = [
-  { q: 'Can I use Compass before starting a Scribe program?', a: 'Yes, Compass is designed to be used before you begin writing, whether you plan to use a Scribe service or write independently.' },
-  { q: 'Who is Scribe Compass best for?', a: 'Scribe Compass is for authors who want expert structure and strategy before committing to a full writing or publishing package.' },
+  { q: 'Can I use Compass before starting a Readora program?', a: 'Yes, Compass is designed to be used before you begin writing, whether you plan to use a Readora service or write independently.' },
+  { q: 'Who is Readora Compass best for?', a: 'Readora Compass is for authors who want expert structure and strategy before committing to a full writing or publishing package.' },
   { q: 'What do I leave with at the end of Compass?', a: 'You leave with a clear North Star, a professional table of contents, and a practical chapter roadmap you can execute.' },
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -75,13 +75,13 @@ const testimonials = [
     avatar: '/assets/Iona-Holloway-541-296.jpg',
   },
   {
-    quote: "There's a real silo in publishing — there are voices that aren't heard that Scribe is allowing to be heard.",
+    quote: "There's a real silo in publishing — there are voices that aren't heard that Readora is allowing to be heard.",
     name: 'MyLinh Shattan',
     credential: 'Author, Raising Athena',
     avatar: '/assets/mylinh-shattan-headshot.png',
   },
   {
-    quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Scribe — especially Mark. A truly skilled professional.",
+    quote: "The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn't have reached this milestone without the support of Readora — especially Mark. A truly skilled professional.",
     name: 'Matthew Eby, Joanne Eby',
     credential: 'Co-Founders, Nth Degree Financial Solutions',
     avatar: '/assets/Eby-Headshots.jpg',
@@ -101,13 +101,13 @@ function FaqItem({ q, a }) {
   )
 }
 
-export default function ScribeCompass() {
+export default function ReadoraCompass() {
   return (
     <>
       <div className="svc-detail">
         {/* Hero */}
         <div className="svc-detail__hero">
-          <h1>Scribe Compass: Strategic book positioning and planning.</h1>
+          <h1>Readora Compass: Strategic book positioning and planning.</h1>
           <p className="svc-detail__subtitle">Before you write a word, Compass helps you define your book&apos;s strategy, positioning, audience, and path to success.</p>
           <div className="svc-detail__price">Contact for Pricing</div>
           <div className="svc-detail__price-note">Strategic planning service</div>
@@ -195,7 +195,7 @@ export default function ScribeCompass() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

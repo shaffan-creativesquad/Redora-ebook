@@ -10,7 +10,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: "Why Scribe | World's #1 Professional Publishing Company",
+  title: "Why Readora | World's #1 Professional Publishing Company",
   description: "We've published over 3,000 books for more than 2,000 authors, including 23 NYT and WSJ Bestsellers.",
 }
 

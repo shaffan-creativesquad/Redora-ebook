@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'The Proper Expectations For Writing Your Book | The Scribe Method | Scribe Media',
+  title: 'The Proper Expectations For Writing Your Book | The Readora Method | Readora',
   description: 'Before you start writing, set the right expectations. Learn what every author should anticipate on their book-writing journey.',
 }
 
@@ -15,7 +15,7 @@ export default function ProperExpectationsPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 1: PREPARE TO WRITE YOUR BOOK</p>
@@ -29,7 +29,7 @@ export default function ProperExpectationsPage() {
             </blockquote>
 
             <p>Writing a book is one of the most rewarding things you can do—but it&apos;s not without challenges. Before you dive in, it&apos;s important to set proper expectations for your journey.</p>
-            <p>At Scribe, we&apos;ve helped over 1,200 authors write and publish their books. What separates those who succeed from those who don&apos;t? It&apos;s not talent or connections—it&apos;s having the right mindset and realistic expectations.</p>
+            <p>At Readora, we&apos;ve helped over 1,200 authors write and publish their books. What separates those who succeed from those who don&apos;t? It&apos;s not talent or connections—it&apos;s having the right mindset and realistic expectations.</p>
             <p>Let&apos;s walk through what you should anticipate when writing your book and how to prepare for the road ahead.</p>
 
             <h2>Why Expectations Matter</h2>
@@ -56,13 +56,13 @@ export default function ProperExpectationsPage() {
               <li>
                 <strong>Expect Confusion Along the Way</strong>
                 <p>Writing a book isn&apos;t a linear process. Positioning your ideas, structuring your chapters, and even crafting sentences can feel overwhelming.</p>
-                <p>You might encounter advice in this guide that feels counterintuitive or unfamiliar, but trust the process. Much like <em>The Karate Kid</em>, where Daniel learned karate through seemingly unrelated tasks, the exercises in <em>The Scribe Method</em> are designed to build your book step by step.</p>
+                <p>You might encounter advice in this guide that feels counterintuitive or unfamiliar, but trust the process. Much like <em>The Karate Kid</em>, where Daniel learned karate through seemingly unrelated tasks, the exercises in <em>The Readora Method</em> are designed to build your book step by step.</p>
                 <p>Follow the instructions, even when they feel unusual. Every step is intentional and builds toward your end goal.</p>
               </li>
               <li>
                 <strong>Expect to Feel Overwhelmed</strong>
                 <p>Writing a book can feel like drinking from a firehose. There&apos;s a lot to process, and at times, you might feel like it&apos;s too much.</p>
-                <p>Here&apos;s the good news: overwhelm happens when you don&apos;t know what to do next. <em>The Scribe Method</em> eliminates this by providing a clear, step-by-step roadmap. Follow it, and you&apos;ll always know your next move.</p>
+                <p>Here&apos;s the good news: overwhelm happens when you don&apos;t know what to do next. <em>The Readora Method</em> eliminates this by providing a clear, step-by-step roadmap. Follow it, and you&apos;ll always know your next move.</p>
               </li>
               <li>
                 <strong>Expect Emotional Discomfort (and Maybe Fear)</strong>
@@ -77,9 +77,9 @@ export default function ProperExpectationsPage() {
             <p>Writing your book is no exception. While the process will challenge you, the rewards—personal fulfillment, professional growth, and the ability to share your story—are unmatched.</p>
 
             <h2>Ready to Begin Your Journey?</h2>
-            <p>With proper expectations and the right guidance, you can write a book that leaves a lasting impact. Dive into <em>The Scribe Method</em> to start your journey today.</p>
+            <p>With proper expectations and the right guidance, you can write a book that leaves a lasting impact. Dive into <em>The Readora Method</em> to start your journey today.</p>
             <p>
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Read the full guide online</strong></a>
+              
               {' '}or{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>Order your copy here</strong></a>
               {' '}to take the next step.
@@ -99,7 +99,7 @@ export default function ProperExpectationsPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

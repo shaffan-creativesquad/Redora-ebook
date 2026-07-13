@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Author Reviews | Scribe Media',
-  description: 'Real stories from real authors who trusted Scribe to bring their books to life.',
+  title: 'Author Reviews | Readora',
+  description: 'Real stories from real authors who trusted Readora to bring their books to life.',
 }
 
 export default function ReviewsPage() {

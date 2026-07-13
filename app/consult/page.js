@@ -4,8 +4,8 @@ import Footer from '@/components/Footer'
 import ConsultSection from './ConsultSection'
 
 export const metadata = {
-  title: 'Schedule a Free Strategy Consult | Scribe Media',
-  description: 'Book a free 15-minute strategy consult with Scribe Media. Learn more from our expert nonfiction writing, publishing, and book marketing team.',
+  title: 'Schedule a Free Strategy Consult | Readora',
+  description: 'Book a free 15-minute strategy consult with Readora. Learn more from our expert nonfiction writing, publishing, and book marketing team.',
 }
 
 export default function ConsultPage() {
@@ -38,12 +38,12 @@ export default function ConsultPage() {
           <div className="cs-testimonials__inner">
             <span className="cs-eyebrow--muted">What Authors Say</span>
             <h2 className="cs-testimonials__heading">Real authors. Real results.</h2>
-            <p className="cs-testimonials__sub">Over 3,000 authors have trusted Scribe to help them write, publish, and market their books.</p>
+            <p className="cs-testimonials__sub">Over 3,000 authors have trusted Readora to help them write, publish, and market their books.</p>
             <div className="cs-testimonials__grid">
 
               <div className="cs-testimonial-card">
                 <div className="cs-testimonial-card__stars">★★★★★</div>
-                <p className="cs-testimonial-card__quote">&ldquo;Scribe turned years of workshops into a clear, compelling book — and the book turned into credibility, new revenue, and relationships I never could have built otherwise.&rdquo;</p>
+                <p className="cs-testimonial-card__quote">&ldquo;Readora turned years of workshops into a clear, compelling book — and the book turned into credibility, new revenue, and relationships I never could have built otherwise.&rdquo;</p>
                 <div className="cs-testimonial-card__author">
                   <div className="cs-testimonial-card__name">Rich Kurtzman</div>
                   <div className="cs-testimonial-card__role">Founder &amp; CEO, Barcelona SAE</div>
@@ -73,15 +73,15 @@ export default function ConsultPage() {
         </section>
 
         {/* Authority / Stats */}
-        <section className="cs-authority" aria-label="Why Scribe Media">
+        <section className="cs-authority" aria-label="Why Readora">
           <div className="cs-authority__inner">
             <div className="cs-authority__layout">
 
               <div>
-                <div className="cs-authority__eyebrow">Why Scribe Media</div>
+                <div className="cs-authority__eyebrow">Why Readora</div>
                 <h2 className="cs-authority__heading">The team behind 3,000+ published books</h2>
                 <p className="cs-authority__body">
-                  Scribe has spent over a decade building the system, the team, and the track record that makes publishing a professional-quality book actually achievable — for executives, entrepreneurs, and experts who have a story worth sharing.
+                  Readora has spent over a decade building the system, the team, and the track record that makes publishing a professional-quality book actually achievable — for executives, entrepreneurs, and experts who have a story worth sharing.
                 </p>
                 <ul className="cs-authority__list">
                   <li>Dedicated team of writers, editors, designers, and publishing specialists</li>
@@ -126,8 +126,8 @@ export default function ConsultPage() {
                 Contact form will be configured soon.<br />
                 <span style={{ fontSize: '0.85rem', opacity: 0.7 }}>
                   Email us directly at{' '}
-                  <a href="mailto:privacy@scribemedia.com" style={{ color: '#e02d2d' }}>
-                    privacy@scribemedia.com
+                  <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>
+                    privacy@readora.com
                   </a>
                 </span>
               </div>

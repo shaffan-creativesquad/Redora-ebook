@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Coaches | Scribe Media',
+  title: 'Books for Coaches | Readora',
   description:
-    'Scribe Media helps coaching professionals write and publish books that build authority, attract clients, and grow their business. See our coaching authors.',
+    'Readora helps coaching professionals write and publish books that build authority, attract clients, and grow their business. See our coaching authors.',
 }
 
 const authors = [
@@ -14,8 +14,8 @@ const authors = [
     nameHref: '/authors/dan-sullivan',
     book: 'Who Not How',
     bookHref: '/published-books/who-not-how',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/who-not-how.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Dan_Sullivan_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/who-not-how.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/Dan_Sullivan_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.6 (8,400+)',
     desc: "Who Not How became a business classic, accelerating Strategic Coach's global reach.",
@@ -26,11 +26,11 @@ const authors = [
     nameHref: '/authors/cameron-herold',
     book: 'It Pays to PLAY',
     bookHref: '/published-books/it-pays-to-play',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/KristiHerold_WebsiteCover.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Cameron_Herold_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/KristiHerold_WebsiteCover.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/Cameron_Herold_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (1,200+)',
-    desc: 'Published 4 books with Scribe, building a global empire as the CEO Whisperer.',
+    desc: 'Published 4 books with Readora, building a global empire as the CEO Whisperer.',
     storyHref: null,
   },
   {
@@ -38,7 +38,7 @@ const authors = [
     nameHref: '/authors/sean-herman',
     book: 'Screen Captured',
     bookHref: '/published-books/screen-captured',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/screen-captured.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/screen-captured.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.6 (3,800+)',
@@ -85,7 +85,7 @@ export default function BooksForCoachesPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Coaching Leaders Who Published with Scribe</h2>
+            <h2>Coaching Leaders Who Published with Readora</h2>
             <p className="ind__section-sub">
               These coaching professionals turned their expertise into bestselling books.
             </p>

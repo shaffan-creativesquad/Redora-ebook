@@ -158,7 +158,7 @@ export default function PricingAudiobook() {
                 Apple Books, and more.
               </p>
               <p className="pub-hero__note">
-                This is a standalone service. You will not be assigned a Scribe Publishing Manager.
+                This is a standalone service. You will not be assigned a Readora Publishing Manager.
                 Work is fulfilled by our vetted production partners.
               </p>
             </div>
@@ -269,7 +269,7 @@ export default function PricingAudiobook() {
                 <h4>Audiobook Production Agreement</h4>
                 <p>This agreement is intentionally written in plain English. We think the impenetrable lawyer-speak of modern contracts inhibits understanding, cooperation, and mutual benefit, which helps no one (except the lawyers). We want what&apos;s best for both of us, now and in the future, and we think plain English agreements help achieve that.</p>
                 <p>In short, the purpose of this agreement is simple:</p>
-                <p>You are hiring us, Scribe Media, to produce a professional audiobook from your completed, published manuscript. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
+                <p>You are hiring us, Readora, to produce a professional audiobook from your completed, published manuscript. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
 
                 <h4>Timeline</h4>
                 <p>The estimated timeline for audiobook production is 3–4 months from your kickoff call. This includes narrator selection or studio scheduling, recording, post-production editing, quality assurance, and distribution setup.</p>
@@ -314,9 +314,9 @@ export default function PricingAudiobook() {
                 <p><strong>Pricing Expiration:</strong> The price you commit to is good for 3 months. If you don&apos;t start within 3 months and prices have increased, an amended agreement will be required.</p>
 
                 <h4>Legal Terms</h4>
-                <p><strong>Intellectual Property:</strong> You retain full ownership of your audiobook content. Scribe Media does not claim any rights to your work.</p>
-                <p><strong>Royalties and Profits:</strong> You get all the profit from your audiobook. Neither Scribe Media, nor any third party is entitled to any share of audiobook profits. All distribution accounts are yours.</p>
-                <p><strong>Liability &amp; Indemnification:</strong> You are solely responsible for the content of your book. You represent and warrant that the content does not infringe the rights of any third party. You agree to indemnify Scribe Media for any liability arising from your book&apos;s content.</p>
+                <p><strong>Intellectual Property:</strong> You retain full ownership of your audiobook content. Readora does not claim any rights to your work.</p>
+                <p><strong>Royalties and Profits:</strong> You get all the profit from your audiobook. Neither Readora, nor any third party is entitled to any share of audiobook profits. All distribution accounts are yours.</p>
+                <p><strong>Liability &amp; Indemnification:</strong> You are solely responsible for the content of your book. You represent and warrant that the content does not infringe the rights of any third party. You agree to indemnify Readora for any liability arising from your book&apos;s content.</p>
                 <p><strong>Cancellation:</strong> If either party decides to part ways before production begins, we will refund your payment minus any costs already incurred. Once recording has begun, refunds will be prorated based on work completed.</p>
                 <p><strong>Delay:</strong> If you need to pause, we cannot guarantee the same timeline or production team when you restart. Pauses of 3+ months may require a price update.</p>
                 <p><strong>The Sunset Clause:</strong> If you are non-responsive for 12 months or more, we have the right to cancel the project and retain payment.</p>

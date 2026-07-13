@@ -26,10 +26,10 @@ const faqs = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -46,25 +46,25 @@ const testimonials = [
     avatar: '/assets/sarma-mengailis.png',
   },
   {
-    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
+    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Readora. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
+    quote: 'As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     avatar: '/assets/AdamSkolnick_Headshot.jpg',
   },
   {
-    quote: '[The Scribe team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.',
+    quote: '[The Readora team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    quote: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
     avatar: '/assets/RichKurtzman_Headshot.jpg',
@@ -93,7 +93,7 @@ export default function WriteASelfHelpBook() {
           <h1>Self-help book ghostwriting that changes lives.</h1>
           <p className="svc-detail__subtitle">Transform your personal growth expertise, life lessons, and transformative insights into a professionally published book that helps others.</p>
           <div className="svc-detail__price">From $56,000</div>
-          <div className="svc-detail__price-note">Scribe Professional or Elite Ghostwriting</div>
+          <div className="svc-detail__price-note">Readora Professional or Elite Ghostwriting</div>
           <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
         </div>
 
@@ -160,7 +160,7 @@ export default function WriteASelfHelpBook() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

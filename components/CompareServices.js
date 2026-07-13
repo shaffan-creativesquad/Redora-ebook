@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'The Scribe Method free resources', title: 'Enjoy Our Vast Library of Free Resources', href: '/free-resources' },
-  { image: '/assets/Bottom_Books.webp', alt: 'Explore 1000+ published books', title: "Explore the 1000+ Books We've Published", href: '/#published-books' },
+  { image: '/assets/Bottom_Scribe_Method.webp', alt: 'Free writing and publishing guides from Readora', title: 'Free Guides, Frameworks, and Publishing Playbooks', href: '/free-resources' },
+  { image: '/assets/Bottom_Books.webp', alt: 'Browse books published by Readora authors', title: 'Browse the Full Catalogue of Readora-Published Books', href: '/#published-books' },
 ]
 
 export default function CompareServices() {
@@ -27,10 +27,10 @@ export default function CompareServices() {
           marginBottom: 'clamp(1.1rem,2vw,1.6rem)',
         }}>
           <h2 className="font-playfair" style={{ margin: '0 0 0.6rem', color: '#f0f0f0', fontSize: 'clamp(1.9rem,3.1vw,2.95rem)', lineHeight: 1.14 }}>
-            Compare Scribe Services
+            One platform. Every service your book needs.
           </h2>
           <p style={{ margin: '0 auto 1rem', maxWidth: '62ch', color: '#bbbbb', fontSize: '1.01rem', lineHeight: 1.6 }}>
-            We offer everything you need to professionally write, publish, and market your non-fiction book.
+            Whether you need a ghostwriter, a publishing team, a launch strategy, or all three — Readora brings every service under one roof so nothing falls through the cracks.
           </p>
           <a href="/services" style={{
             display: 'inline-flex', alignItems: 'center', justifyContent: 'center',
@@ -39,7 +39,7 @@ export default function CompareServices() {
             background: '#e02d2d',
             whiteSpace: 'nowrap',
           }}>
-            All Writing and Publishing
+            See All Services
           </a>
         </div>
 

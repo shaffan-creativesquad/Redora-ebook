@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Military & Veterans | Scribe Media',
+  title: 'Books for Military & Veterans | Readora',
   description:
-    'Scribe Media helps military & veterans professionals write and publish books that build authority, attract clients, and grow their business.',
+    'Readora helps military & veterans professionals write and publish books that build authority, attract clients, and grow their business.',
 }
 
 export default function BooksForMilitary() {
@@ -22,15 +22,15 @@ export default function BooksForMilitary() {
           </div>
 
           <div className="ind__section">
-            <h2>Military &amp; Veterans Leaders Who Published with Scribe</h2>
+            <h2>Military &amp; Veterans Leaders Who Published with Readora</h2>
             <p className="subtitle">These military &amp; veterans professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
               {/* Clint Emerson */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Clint_Emerson_Headshot.jpg" alt="Clint Emerson" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/100-deadly-skills.jpg" alt="100 Deadly Skills" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Clint_Emerson_Headshot.jpg" alt="Clint Emerson" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/100-deadly-skills.jpg" alt="100 Deadly Skills" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Clint Emerson</div>
                 <div className="ind__author-title">100 Deadly Skills</div>
@@ -39,8 +39,8 @@ export default function BooksForMilitary() {
               {/* Mike Sarraille */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Michael_Sarraille_Headshot.jpg" alt="Mike Sarraille" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/The-Talent-War-1.jpg" alt="The Talent War" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Michael_Sarraille_Headshot.jpg" alt="Mike Sarraille" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/The-Talent-War-1.jpg" alt="The Talent War" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Mike Sarraille</div>
                 <div className="ind__author-title">The Talent War</div>
@@ -49,8 +49,8 @@ export default function BooksForMilitary() {
               {/* David Goggins */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/David_Goggins_Headshot.jpg" alt="David Goggins" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/cant-hurt-me.jpg" alt="Can't Hurt Me" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/David_Goggins_Headshot.jpg" alt="David Goggins" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/cant-hurt-me.jpg" alt="Can't Hurt Me" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">David Goggins</div>
                 <div className="ind__author-title">Can&apos;t Hurt Me</div>

@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'What is Book Positioning (and Why Does it Matter)? | The Scribe Method | Scribe Media',
+  title: 'What is Book Positioning (and Why Does it Matter)? | The Readora Method | Readora',
   description: 'Learn what book positioning is, why it matters, and how to position your book for long-term success.',
 }
 
@@ -15,7 +15,7 @@ export default function BookPositioningPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 2: POSITION YOUR BOOK</p>
@@ -38,10 +38,10 @@ export default function BookPositioningPage() {
             <h2>Modern Book Positioning: A Shift in Focus</h2>
             <p>In today&apos;s world, most nonfiction books are published outside the traditional model, and the way books are monetized has shifted. Most nonfiction authors don&apos;t earn significant revenue directly from book sales. Instead, a book serves as a powerful tool for indirect revenue generation.</p>
             <p>For example, your book can elevate your authority, increase your visibility, and help you attract more clients. It&apos;s not just about selling books – it&apos;s about using your book as a marketing tool to generate opportunities and income in other areas of your career or business.</p>
-            <p>At Scribe, we&apos;ve adapted the old positioning process to ensure that it serves your needs as an author, not just the publishing company&apos;s. Proper positioning doesn&apos;t just benefit your book – it benefits your career.</p>
+            <p>At Readora, we&apos;ve adapted the old positioning process to ensure that it serves your needs as an author, not just the publishing company&apos;s. Proper positioning doesn&apos;t just benefit your book – it benefits your career.</p>
 
             <h2>Positioning Done Right: Ensuring Your Book Works</h2>
-            <p>When done correctly, positioning ensures your book works for you. At Scribe, we&apos;ve developed a proven process that helps authors crystallize their book ideas into well-positioned concepts that achieve their goals.</p>
+            <p>When done correctly, positioning ensures your book works for you. At Readora, we&apos;ve developed a proven process that helps authors crystallize their book ideas into well-positioned concepts that achieve their goals.</p>
             <p>Here are the three key steps to positioning your book:</p>
             <ol>
               <li>
@@ -66,8 +66,8 @@ export default function BookPositioningPage() {
 
             <h2>Ready to Get Started?</h2>
             <p>If you&apos;re ready to position your book for success and start writing with purpose,{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">grab your free online copy</a>
-              {' '}of <em>The Scribe Method</em> now, and start applying these strategies to your own book. Want a physical copy?{' '}
+              
+              {' '}of <em>The Readora Method</em> now, and start applying these strategies to your own book. Want a physical copy?{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">You can purchase one here.</a>
             </p>
             <p>Position your book correctly today, and watch it thrive for years to come.</p>
@@ -86,7 +86,7 @@ export default function BookPositioningPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

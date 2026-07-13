@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Professional | Expert Ghostwriting & Publishing | Scribe Media',
-  description: 'Scribe Professional is our expert ghostwriting and publishing service. We interview you, write the manuscript, and handle full publishing — so you get a world-class book.',
+  title: 'Readora Professional | Expert Ghostwriting & Publishing | Readora',
+  description: 'Readora Professional is our expert ghostwriting and publishing service. We interview you, write the manuscript, and handle full publishing — so you get a world-class book.',
 }
 
 export default function ScribeProfessionalPage() {

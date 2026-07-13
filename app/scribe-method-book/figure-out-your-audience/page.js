@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Figure Out Your Audience | The Scribe Method | Scribe Media',
+  title: 'Figure Out Your Audience | The Readora Method | Readora',
   description: 'Learn how to identify your ideal reader and craft a message that resonates with your target audience.',
 }
 
@@ -15,7 +15,7 @@ export default function FigureOutYourAudiencePage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 2: POSITION YOUR BOOK</p>
@@ -81,10 +81,10 @@ export default function FigureOutYourAudiencePage() {
             <h2>Ready to Take the Next Step?</h2>
             <p>Figuring out your audience is the foundation of writing a successful book. It&apos;s the first step in crafting a message that resonates, makes an impact, and achieves your goals as an author.</p>
             <p><strong>Want to dive deeper into the book-writing process?</strong> Access a{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>free online copy of <em>The Scribe Method</em></strong></a> here.
+               here.
             </p>
             <p>Prefer the feel of a physical book? Purchase the{' '}
-              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Scribe Method</em></strong></a> here.
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Readora Method</em></strong></a> here.
             </p>
             <p>Get started today and make your book the tool that transforms your future!</p>
           </div>
@@ -102,7 +102,7 @@ export default function FigureOutYourAudiencePage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

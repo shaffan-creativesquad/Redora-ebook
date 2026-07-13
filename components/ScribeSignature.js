@@ -11,7 +11,7 @@ const features = [
 
 const steps = [
   { n: 1, title: 'Strategic Kickoff', desc: 'Start with a high-touch strategy session to define goals, positioning, audience, and the success criteria for your book project.' },
-  { n: 2, title: 'Collaborative Development', desc: 'Work with your dedicated Scribe team to shape structure, capture source material, and develop a manuscript aligned to your voice.' },
+  { n: 2, title: 'Collaborative Development', desc: 'Work with your dedicated Readora team to shape structure, capture source material, and develop a manuscript aligned to your voice.' },
   { n: 3, title: 'Premium Editorial and Production', desc: 'Your manuscript moves through editorial refinement, design direction, and publishing preparation with white-glove project management.' },
   { n: 4, title: 'Launch and Ongoing Support', desc: 'Finalize publishing and launch execution with coordinated guidance across visibility, messaging, and next-phase author strategy.' },
 ]
@@ -28,7 +28,7 @@ const notFor = [
 ]
 
 const faqs = [
-  { q: 'How does pricing work?', a: 'Scribe Signature is priced based on your specific project requirements. Schedule a consult to discuss your needs.' },
+  { q: 'How does pricing work?', a: 'Readora Signature is priced based on your specific project requirements. Schedule a consult to discuss your needs.' },
   { q: 'What makes Signature different?', a: 'Signature offers complete flexibility and customization that goes beyond our standard service packages.' },
 ]
 
@@ -39,33 +39,33 @@ const audiobookItems = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
   {
-    quote: '[The Scribe team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.',
+    quote: '[The Readora team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    quote: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
     avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
   {
-    quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
+    quote: 'The amount that we spent on the Readora project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
+    quote: "Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
     avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
@@ -109,13 +109,13 @@ function FaqItem({ q, a }) {
   )
 }
 
-export default function ScribeSignature() {
+export default function ReadoraSignature() {
   return (
     <>
       <div className="svc-detail">
         {/* Hero */}
         <div className="svc-detail__hero">
-          <h1>Scribe Signature: Your book, your way.</h1>
+          <h1>Readora Signature: Your book, your way.</h1>
           <p className="svc-detail__subtitle">A premium, customized book writing and publishing experience designed around your specific needs, timeline, and vision.</p>
           <div className="svc-detail__price">Custom Pricing</div>
           <div className="svc-detail__price-note">Contact us for a personalized quote</div>
@@ -220,7 +220,7 @@ export default function ScribeSignature() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

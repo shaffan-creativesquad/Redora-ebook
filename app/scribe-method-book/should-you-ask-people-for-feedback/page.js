@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Should You Ask People For Feedback? | The Scribe Method | Scribe Media',
+  title: 'Should You Ask People For Feedback? | The Readora Method | Readora',
   description: 'Learn who to ask for book feedback — and who to avoid — to ensure your manuscript improves rather than suffers.',
 }
 
@@ -13,7 +13,7 @@ export default function AskForFeedbackPage() {
       <Navbar />
       <main id="main-content">
         <div className="chapter">
-          <a href="/scribe-method-book" className="chapter__back">← The Scribe Method</a>
+          <a href="/scribe-method-book" className="chapter__back">← The Readora Method</a>
           <p className="chapter__part">PART 5: EDIT YOUR BOOK</p>
           <p className="chapter__num">Chapter 18</p>
           <h1 className="chapter__title">Should You Ask People For Feedback?</h1>
@@ -29,7 +29,7 @@ export default function AskForFeedbackPage() {
               <li>
                 <strong>Experienced Writers or Editors</strong>
                 <p>Professional writers and editors understand the structure, pacing, and clarity that make a book successful. However, keep in mind that not all writers or editors are equal. Many overestimate their abilities just because they write emails or reports for work.</p>
-                <p>At Scribe, we rigorously test editors before hiring them—and we reject about 98% of applicants, even those with experience. This high rejection rate shows how few people truly excel at giving valuable book feedback.</p>
+                <p>At Readora, we rigorously test editors before hiring them—and we reject about 98% of applicants, even those with experience. This high rejection rate shows how few people truly excel at giving valuable book feedback.</p>
               </li>
               <li>
                 <strong>Experts in Your Field</strong>
@@ -53,11 +53,11 @@ export default function AskForFeedbackPage() {
             <p>There&apos;s nothing wrong with asking for help—just make sure you&apos;re strategic. If you want to know if your writing voice is too casual for a finance book, ask an industry professional, not your neighbor.</p>
 
             <h2>Want More Guidance on Writing and Publishing?</h2>
-            <p>Download a <strong>free copy</strong> of <em>The Scribe Method</em> to learn the step-by-step process for writing, publishing, and marketing your book:{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Get the free book</a>
+            <p>Download a <strong>free copy</strong> of <em>The Readora Method</em> to learn the step-by-step process for writing, publishing, and marketing your book:{' '}
+              
             </p>
             <p>Prefer a hard copy?{' '}
-              <a href="/consult" target="_blank" rel="noopener noreferrer">You can purchase <em>The Scribe Method</em> here</a>.
+              <a href="/consult" target="_blank" rel="noopener noreferrer">You can purchase <em>The Readora Method</em> here</a>.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function AskForFeedbackPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
         </div>

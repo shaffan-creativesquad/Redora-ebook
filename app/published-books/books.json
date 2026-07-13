@@ -1,760 +1,764 @@
 {
-  "books": [
-    {
-      "title": "Can't Hurt Me",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/cant-hurt-me.jpg",
-      "author": "David Goggins",
-      "genres": [
-        "Memoir",
-        "Military",
-        "Personal Development"
-      ],
-      "industry": "",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "105.1k",
-      "industryLink": null
-    },
-    {
-      "title": "The Almanack of Naval Ravikant",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-almanack-of-navl-ravikant.jpg",
-      "author": "Eric Jorgenson",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Financial Planning",
-      "imprint": "",
-      "rating": "4.7",
-      "reviewCount": "22.6k",
-      "industryLink": null
-    },
-    {
-      "title": "Never Finished",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/DavidGoggins_WebsiteCover.jpg",
-      "author": "David Goggins",
-      "genres": [
-        "Military",
-        "Personal Development"
-      ],
-      "industry": "Training and Development",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "14.0k",
-      "industryLink": null
-    },
-    {
-      "title": "100 Deadly Skills",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/100-deadly-skills.jpg",
-      "author": "Clint Emerson",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Sports and Fitness",
-      "imprint": "",
-      "rating": "4.6",
-      "reviewCount": "11.2k",
-      "industryLink": null
-    },
-    {
-      "title": "Opting in to Optimization",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/opting-into-optimization.jpg",
-      "author": "Jon MacDonald",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Sales",
-      "imprint": "Houndstooth Press",
-      "rating": "4.4",
-      "reviewCount": "2.7k",
-      "industryLink": null
-    },
-    {
-      "title": "Go For Stupid",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/SteveSims_WebsiteCover.jpg",
-      "author": "Steve Sims",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Marketing and Advertising",
-      "imprint": "",
-      "rating": "4.7",
-      "reviewCount": "2.2k",
-      "industryLink": null
-    },
-    {
-      "title": "It’s About Time!",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/its-about-time.jpg",
-      "author": "David Smith",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Sales",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "2.2k",
-      "industryLink": null
-    },
-    {
-      "title": "Giftology",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/giftology.jpg",
-      "author": "John Ruhlin",
-      "genres": [
-        "Marketing",
-        "Business",
-        "Relationships",
-        "Personal Development"
-      ],
-      "industry": "Logistics",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "1.4k",
-      "industryLink": null
-    },
-    {
-      "title": "Elevate",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/elevate.jpg",
-      "author": "Robert Glazer",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "B2B Consulting",
-      "imprint": "",
-      "rating": "4.6",
-      "reviewCount": "1.3k",
-      "industryLink": null
-    },
-    {
-      "title": "The Private Equity Playbook",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-private-equity-playbook.jpg",
-      "author": "Adam Coffey",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "1.2k",
-      "industryLink": null
-    },
-    {
-      "title": "The Leader Assistant",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Leader-Assistant_EbookCVR.jpg",
-      "author": "Jeremy Burrows",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "",
-      "rating": "4.7",
-      "reviewCount": "1.2k",
-      "industryLink": null
-    },
-    {
-      "title": "Vivid Vision",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/vivid-vision.jpg",
-      "author": "Cameron Herold",
-      "genres": [
-        "Business"
-      ],
-      "industry": "B2B Consulting",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.5",
-      "reviewCount": "1.2k",
-      "industryLink": null
-    },
-    {
-      "title": "The Only Skill that Matters",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-only-skill-that-matters.jpg",
-      "author": "Jonathan A. Levi",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Technology",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.4",
-      "reviewCount": "1.1k",
-      "industryLink": null
-    },
-    {
-      "title": "Bluefishing",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/bluefishing.jpg",
-      "author": "Steve Sims",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Marketing and Advertising",
-      "imprint": "",
-      "rating": "4.6",
-      "reviewCount": "893",
-      "industryLink": null
-    },
-    {
-      "title": "The Freelance Manifesto",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-freelance-manifest.jpg",
-      "author": "Joey Korenman",
-      "genres": [
-        "Art and Design"
-      ],
-      "industry": "Education",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "712",
-      "industryLink": null
-    },
-    {
-      "title": "The Talent War",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/The-Talent-War-1.jpg",
-      "author": "Michael Sarraille",
-      "genres": [
-        "Business",
-        "Military"
-      ],
-      "industry": "Careers Services",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "684",
-      "industryLink": null
-    },
-    {
-      "title": "The Five Lost Superpowers",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-five-lost-superpower.jpg",
-      "author": "John Reid",
-      "genres": [
-        "Leadership"
-      ],
-      "industry": "Training and Development",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.4",
-      "reviewCount": "582",
-      "industryLink": null
-    },
-    {
-      "title": "The 30-Minute Stock Trader",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-30-minute-stock-trader.jpg",
-      "author": "Laurens Bensdorp",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Finance and Accounting",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.3",
-      "reviewCount": "530",
-      "industryLink": null
-    },
-    {
-      "title": "The Evolution of Medicine",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-evolution-of-medicine.jpg",
-      "author": "James Maskell",
-      "genres": [
-        "Health"
-      ],
-      "industry": "Healthcare and Medicine",
-      "imprint": "",
-      "rating": "4.4",
-      "reviewCount": "487",
-      "industryLink": null
-    },
-    {
-      "title": "You Deserve It",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/you-deserve-it.jpg",
-      "author": "Brian Reese",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Healthcare and Medicine,Military",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.5",
-      "reviewCount": "474",
-      "industryLink": null
-    },
-    {
-      "title": "You Deserve It Second Edition",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/BrianReese_SecEd_WebsiteCover.jpg",
-      "author": "Brian Reese",
-      "genres": [
-        "Business",
-        "Military"
-      ],
-      "industry": "Financial Planning",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.5",
-      "reviewCount": "474",
-      "industryLink": null
-    },
-    {
-      "title": "WTF?! (Willing to Fail)",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/wtf-willing-to-fail.jpeg",
-      "author": "Brian Scudamore",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.5",
-      "reviewCount": "461",
-      "industryLink": null
-    },
-    {
-      "title": "Connect",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/connect.jpg",
-      "author": "Josh Turner",
-      "genres": [
-        "Business",
-        "Marketing"
-      ],
-      "industry": "Marketing and Advertising",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.4",
-      "reviewCount": "448",
-      "industryLink": null
-    },
-    {
-      "title": "Meetings Suck",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/meetings-suck.jpg",
-      "author": "Cameron Herold",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.2",
-      "reviewCount": "439",
-      "industryLink": null
-    },
-    {
-      "title": "Find Your Yellow Tux",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/find-your-yellow-tux.jpg",
-      "author": "Jesse Cole",
-      "genres": [
-        "Leadership"
-      ],
-      "industry": "",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "432",
-      "industryLink": null
-    },
-    {
-      "title": "Burn Zones",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/burn-zones.jpg",
-      "author": "Jorge P. Newbery",
-      "genres": [
-        "Memoir"
-      ],
-      "industry": "Finance and Accounting",
-      "imprint": "",
-      "rating": "4.3",
-      "reviewCount": "408",
-      "industryLink": null
-    },
-    {
-      "title": "One to Many",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/one-to-many.jpg",
-      "author": "Jason Fladlien",
-      "genres": [
-        "Marketing",
-        "Business"
-      ],
-      "industry": "Marketing and Advertising",
-      "imprint": "",
-      "rating": "4.8",
-      "reviewCount": "407",
-      "industryLink": null
-    },
-    {
-      "title": "Responsibility Rebellion",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Responsibility-Rebellion.jpg",
-      "author": "Kain Ramsay",
-      "genres": [
-        "Psychology",
-        "Personal Development"
-      ],
-      "industry": "Training and Development",
-      "imprint": "Houndstooth Press",
-      "rating": "4.7",
-      "reviewCount": "388",
-      "industryLink": null
-    },
-    {
-      "title": "The Life",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-life.jpg",
-      "author": "Lisa Ann",
-      "genres": [
-        "Memoir"
-      ],
-      "industry": "Media and News",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.4",
-      "reviewCount": "379",
-      "industryLink": null
-    },
-    {
-      "title": "Escape the Wolf",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/ClintEmerson_WebsiteCover.jpg",
-      "author": "Clint Emerson",
-      "genres": [
-        "Military",
-        "Travel"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "376",
-      "industryLink": null
-    },
-    {
-      "title": "The San Francisco Fallacy",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-san-francisco-fallacy.jpg",
-      "author": "Jonathan Siegel",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "367",
-      "industryLink": null
-    },
-    {
-      "title": "Struggle Well",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/struggle-well.jpg",
-      "author": "Ken Falke",
-      "genres": [
-        "Personal Development",
-        "Psychology"
-      ],
-      "industry": "Psychology and Counseling",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "366",
-      "industryLink": null
-    },
-    {
-      "title": "Be the Better Broker",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/be-the-better-broker.jpg",
-      "author": "Dustan Woodhouse",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Finance and Accounting",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "364",
-      "industryLink": null
-    },
-    {
-      "title": "Spark Brilliance",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/JackieInsinger_WebsiteCover.jpg",
-      "author": "Jackie Insinger",
-      "genres": [
-        "Leadership"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "350",
-      "industryLink": null
-    },
-    {
-      "title": "Recruit Rockstars",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/recruit-rockstars.jpg",
-      "author": "Jeff Hyman",
-      "genres": [
-        "Leadership"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "344",
-      "industryLink": null
-    },
-    {
-      "title": "The Second in Command",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/CameronHerold4_WebsiteCover.jpg",
-      "author": "Cameron Herold",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "332",
-      "industryLink": null
-    },
-    {
-      "title": "Debt Cleanse",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/debt-cleanse.jpg",
-      "author": "Jorge P. Newbery",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Finance and Accounting",
-      "imprint": "",
-      "rating": "4.2",
-      "reviewCount": "331",
-      "industryLink": null
-    },
-    {
-      "title": "Automated Stock Trading Systems",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/AutomatedStockTradingSystems_186.jpg",
-      "author": "Laurens Bensdorp",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Financial Planning",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.4",
-      "reviewCount": "313",
-      "industryLink": null
-    },
-    {
-      "title": "Demand-Side Sales 101",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Demand-Side-Sales-101-1.jpg",
-      "author": "Bob Moesta",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Sales",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "299",
-      "industryLink": null
-    },
-    {
-      "title": "The Anthology of Balaji",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/EricJorgenson_EbookCover_Final-scaled.jpg",
-      "author": "Eric Jorgenson",
-      "genres": [
-        "Business",
-        "Technology"
-      ],
-      "industry": "Business Management,Technology",
-      "imprint": "",
-      "rating": "4.6",
-      "reviewCount": "268",
-      "industryLink": null
-    },
-    {
-      "title": "Change Your Life in 3 Minutes",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/change-your-life-in-3-minutes.jpg",
-      "author": "Regan Hillyer",
-      "genres": [
-        "Personal Development"
-      ],
-      "industry": "Training and Development",
-      "imprint": "",
-      "rating": "4.1",
-      "reviewCount": "243",
-      "industryLink": null
-    },
-    {
-      "title": "The Exit-Strategy Playbook",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-exit-strategy-playbook.jpg",
-      "author": "Adam Coffey",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "239",
-      "industryLink": null
-    },
-    {
-      "title": "NARANJAS VERDES",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/91N7uolP3HL._SL1500_.jpg",
-      "author": "Shin Fujiyama",
-      "genres": [],
-      "industry": "Translations",
-      "imprint": "Lioncrest Publishing",
-      "rating": "5.0",
-      "reviewCount": "232",
-      "industryLink": null
-    },
-    {
-      "title": "The Book in a Box Method",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-book-in-a-box-method.jpg",
-      "author": "Tucker Max",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Writing and Arts",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.2",
-      "reviewCount": "227",
-      "industryLink": null
-    },
-    {
-      "title": "The Scribe Method",
-      "img": "https://m.media-amazon.com/images/I/41YXhRHxNqL._SL500_.jpg",
-      "author": "Tucker Max",
-      "genres": [
-        "Business",
-        "Personal Development"
-      ],
-      "industry": "Writing and Arts",
-      "imprint": "",
-      "rating": "4.5",
-      "reviewCount": "227",
-      "industryLink": null
-    },
-    {
-      "title": "More Money, Less Hustle",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/JessLenouvel_WebsiteCover.jpg",
-      "author": "Jess Lenouvel",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.6",
-      "reviewCount": "215",
-      "industryLink": null
-    },
-    {
-      "title": "Love Is Free. Guac Is Extra",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Love-is-Free-2.jpg",
-      "author": "Monty Moran",
-      "genres": [
-        "Leadership"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "212",
-      "industryLink": null
-    },
-    {
-      "title": "Free PR",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/free-PR.jpg",
-      "author": "Cameron Herold",
-      "genres": [
-        "Marketing",
-        "Business"
-      ],
-      "industry": "Marketing and Advertising",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.7",
-      "reviewCount": "208",
-      "industryLink": null
-    },
-    {
-      "title": "The EXITPreneur's Playbook",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/The_Exitpreneurs_Playbook.jpg",
-      "author": "Joe Valley",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.9",
-      "reviewCount": "203",
-      "industryLink": null
-    },
-    {
-      "title": "Acting Up",
-      "img": "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/acting-up-1-1.webp",
-      "author": "Janice Bryant Howroyd",
-      "genres": [
-        "Business"
-      ],
-      "industry": "Business Management",
-      "imprint": "Lioncrest Publishing",
-      "rating": "4.8",
-      "reviewCount": "194",
-      "industryLink": null
-    }
-  ],
-  "industries": [
-    {
-      "value": "All",
-      "label": "All Industries"
-    },
-    {
-      "value": "Legal",
-      "label": "Industry: Legal"
-    },
-    {
-      "value": "Healthcare and Medicine",
-      "label": "Industry: Healthcare & Medicine"
-    },
-    {
-      "value": "Finance and Accounting",
-      "label": "Industry: Finance & Accounting"
-    },
-    {
-      "value": "Financial Planning",
-      "label": "Industry: Financial Planning"
-    },
-    {
-      "value": "Technology",
-      "label": "Industry: Technology"
-    },
-    {
-      "value": "Real Estate and Architecture",
-      "label": "Industry: Real Estate"
-    },
-    {
-      "value": "Education",
-      "label": "Industry: Education"
-    },
-    {
-      "value": "Entrepreneurship",
-      "label": "Industry: Entrepreneurship"
-    },
-    {
-      "value": "B2B Consulting",
-      "label": "Industry: B2B Consulting"
-    },
-    {
-      "value": "Sales",
-      "label": "Industry: Sales"
-    },
-    {
-      "value": "Marketing and Advertising",
-      "label": "Industry: Marketing"
-    },
-    {
-      "value": "Psychology and Counseling",
-      "label": "Industry: Psychology"
-    },
-    {
-      "value": "Military",
-      "label": "Industry: Military"
-    },
-    {
-      "value": "AI",
-      "label": "Industry: AI"
-    }
-  ],
-  "imprints": [
-    {
-      "value": "All",
-      "label": "All Imprints"
-    },
-    {
-      "value": "Lioncrest Publishing",
-      "label": "Imprint: Lioncrest"
-    },
-    {
-      "value": "Houndstooth Press",
-      "label": "Imprint: Houndstooth"
-    },
-    {
-      "value": "Scribe Media",
-      "label": "Imprint: Scribe Media"
-    }
-  ],
-  "genres": [
-    "All",
-    "Business",
-    "Memoir",
-    "Health",
-    "Leadership",
-    "Personal Development",
-    "Fiction",
-    "Education",
-    "Science",
-    "Technology"
-  ]
+    "books":  [
+                  {
+                      "title":  "Rise to Greatness",
+                      "img":  "/assets/Book%20Covers/01.jpg",
+                      "author":  "Jordan Flee",
+                      "genres":  [
+                                     "Memoir",
+                                     "Military",
+                                     "Personal Development"
+                                 ],
+                      "industry":  "",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "105.1k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Rise Beyond Limits",
+                      "img":  "/assets/Book%20Covers/002.png",
+                      "author":  "Ethan Mercer",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Financial Planning",
+                      "imprint":  "",
+                      "rating":  "4.7",
+                      "reviewCount":  "22.6k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Conquer Your Mind",
+                      "img":  "/assets/Book%20Covers/003.jpg",
+                      "author":  "Dylan Carter",
+                      "genres":  [
+                                     "Military",
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Training and Development",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "14.0k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Unbreakable Within",
+                      "img":  "/assets/Book%20Covers/004.png",
+                      "author":  "Adrian Cole",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Sports and Fitness",
+                      "imprint":  "",
+                      "rating":  "4.6",
+                      "reviewCount":  "11.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Strategic Mindset Limits",
+                      "img":  "/assets/Book%20Covers/005.jpg",
+                      "author":  "Elias Harrison",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Sales",
+                      "imprint":  "Houndstooth Press",
+                      "rating":  "4.4",
+                      "reviewCount":  "2.7k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Built for the Storm",
+                      "img":  "/assets/Book%20Covers/006.png",
+                      "author":  "Mason Brooks",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Marketing and Advertising",
+                      "imprint":  "",
+                      "rating":  "4.7",
+                      "reviewCount":  "2.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Chase the Impossible",
+                      "img":  "/assets/Book%20Covers/007.jpg",
+                      "author":  "Logan Dance",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Sales",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "2.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Power of Relentless",
+                      "img":  "/assets/Book%20Covers/008.png",
+                      "author":  "Caleb Hunter",
+                      "genres":  [
+                                     "Marketing",
+                                     "Business",
+                                     "Relationships",
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Logistics",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "1.4k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Silent Winner",
+                      "img":  "/assets/Book%20Covers/009.jpg",
+                      "author":  "Carter Mitchell",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "B2B Consulting",
+                      "imprint":  "",
+                      "rating":  "4.6",
+                      "reviewCount":  "1.3k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Fear Ends Here",
+                      "img":  "/assets/Book%20Covers/010.png",
+                      "author":  "Nathan Cross",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "1.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Dog in the Rake",
+                      "img":  "/assets/Book%20Covers/011.png",
+                      "author":  "Dyan Fisher",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "",
+                      "rating":  "4.7",
+                      "reviewCount":  "1.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "When Our Days Dark",
+                      "img":  "/assets/Book%20Covers/012.png",
+                      "author":  "Luan Evans",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "B2B Consulting",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.5",
+                      "reviewCount":  "1.2k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Chase the Impossible",
+                      "img":  "/assets/Book%20Covers/013.png",
+                      "author":  "Logan Mayer",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Technology",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.4",
+                      "reviewCount":  "1.1k",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Missing Method",
+                      "img":  "/assets/Book%20Covers/014.png",
+                      "author":  "Carla Harmon",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Marketing and Advertising",
+                      "imprint":  "",
+                      "rating":  "4.6",
+                      "reviewCount":  "893",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Anchored in Well",
+                      "img":  "/assets/Book%20Covers/015.png",
+                      "author":  "Jaye Hendrix",
+                      "genres":  [
+                                     "Art and Design"
+                                 ],
+                      "industry":  "Education",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "712",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Mind Over Every Battle",
+                      "img":  "/assets/Book%20Covers/016.png",
+                      "author":  "Lucas Bennett",
+                      "genres":  [
+                                     "Business",
+                                     "Military"
+                                 ],
+                      "industry":  "Careers Services",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "684",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "No Excuses Left",
+                      "img":  "/assets/Book%20Covers/017.png",
+                      "author":  "Ryan Foster",
+                      "genres":  [
+                                     "Leadership"
+                                 ],
+                      "industry":  "Training and Development",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.4",
+                      "reviewCount":  "582",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Beyond the Horizon",
+                      "img":  "/assets/Book%20Covers/018.png",
+                      "author":  "Ethan Walker",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Finance and Accounting",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.3",
+                      "reviewCount":  "530",
+                      "industryLink":  null
+                  },
+                  
+                  {
+                      "title":  "The Discipline Code",
+                      "img":  "/assets/Book%20Covers/20.png",
+                      "author":  "Owen Parker",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Healthcare and Medicine,Military",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.5",
+                      "reviewCount":  "474",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Winning Every Day",
+                      "img":  "/assets/Book%20Covers/21.png",
+                      "author":  "Benjamin Scott",
+                      "genres":  [
+                                     "Business",
+                                     "Military"
+                                 ],
+                      "industry":  "Financial Planning",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.5",
+                      "reviewCount":  "474",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Fear Ends Here",
+                      "img":  "/assets/Book%20Covers/22.png",
+                      "author":  "Chloe Mitchell",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.5",
+                      "reviewCount":  "461",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Next Chapter",
+                      "img":  "/assets/Book%20Covers/23.png",
+                      "author":  "Liam Foster",
+                      "genres":  [
+                                     "Business",
+                                     "Marketing"
+                                 ],
+                      "industry":  "Marketing and Advertising",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.4",
+                      "reviewCount":  "448",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Against the Current",
+                      "img":  "/assets/Book%20Covers/24.png",
+                      "author":  "Harper James",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.2",
+                      "reviewCount":  "439",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Limitless Vision",
+                      "img":  "/assets/Book%20Covers/25.png",
+                      "author":  "Daniel Ross",
+                      "genres":  [
+                                     "Leadership"
+                                 ],
+                      "industry":  "",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "432",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Success Blueprint",
+                      "img":  "/assets/Book%20Covers/26.png",
+                      "author":  "Elijah Moore",
+                      "genres":  [
+                                     "Memoir"
+                                 ],
+                      "industry":  "Finance and Accounting",
+                      "imprint":  "",
+                      "rating":  "4.3",
+                      "reviewCount":  "408",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Beneath Crystal Seas",
+                      "img":  "/assets/Book%20Covers/27.png",
+                      "author":  "Rowan Mercer",
+                      "genres":  [
+                                     "Marketing",
+                                     "Business"
+                                 ],
+                      "industry":  "Marketing and Advertising",
+                      "imprint":  "",
+                      "rating":  "4.8",
+                      "reviewCount":  "407",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Whispers in the Pines",
+                      "img":  "/assets/Book%20Covers/28.png",
+                      "author":  "Evelyn Hartwell",
+                      "genres":  [
+                                     "Psychology",
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Training and Development",
+                      "imprint":  "Houndstooth Press",
+                      "rating":  "4.7",
+                      "reviewCount":  "388",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Forgotten Compass",
+                      "img":  "/assets/Book%20Covers/29.png",
+                      "author":  "Mason Ellery",
+                      "genres":  [
+                                     "Memoir"
+                                 ],
+                      "industry":  "Media and News",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.4",
+                      "reviewCount":  "379",
+                      "industryLink":  null
+                  },
+
+                  {
+                      "title":  "The Winning Mindset",
+                      "img":  "/assets/Book%20Covers/019.png",
+                      "author":  "Carter Hayes",
+                      "genres":  [
+                                     "Health"
+                                 ],
+                      "industry":  "Healthcare and Medicine",
+                      "imprint":  "",
+                      "rating":  "4.4",
+                      "reviewCount":  "487",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Midnight Bloom",
+                      "img":  "/assets/Book%20Covers/30.png",
+                      "author":  "Isabelle Rowan",
+                      "genres":  [
+                                     "Military",
+                                     "Travel"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "376",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Chasing Northern Lights",
+                      "img":  "/assets/Book%20Covers/31.png",
+                      "author":  "Julian Ashcroft",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "367",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Glass Kingdom",
+                      "img":  "/assets/Book%20Covers/32.png",
+                      "author":  "Sophia Ellison",
+                      "genres":  [
+                                     "Personal Development",
+                                     "Psychology"
+                                 ],
+                      "industry":  "Psychology and Counseling",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "366",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Between Shadows and Stars",
+                      "img":  "/assets/Book%20Covers/33.png",
+                      "author":  "Caleb Holloway",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Finance and Accounting",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "364",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Spark Brilliance",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/JackieInsinger_WebsiteCover.jpg",
+                      "author":  "Jackie Insinger",
+                      "genres":  [
+                                     "Leadership"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "350",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Recruit Rockstars",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/recruit-rockstars.jpg",
+                      "author":  "Jeff Hyman",
+                      "genres":  [
+                                     "Leadership"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "344",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Second in Command",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/CameronHerold4_WebsiteCover.jpg",
+                      "author":  "Cameron Herold",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "332",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Debt Cleanse",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/debt-cleanse.jpg",
+                      "author":  "Jorge P. Newbery",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Finance and Accounting",
+                      "imprint":  "",
+                      "rating":  "4.2",
+                      "reviewCount":  "331",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Automated Stock Trading Systems",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/AutomatedStockTradingSystems_186.jpg",
+                      "author":  "Laurens Bensdorp",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Financial Planning",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.4",
+                      "reviewCount":  "313",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Demand-Side Sales 101",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Demand-Side-Sales-101-1.jpg",
+                      "author":  "Bob Moesta",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Sales",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "299",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Anthology of Balaji",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/EricJorgenson_EbookCover_Final-scaled.jpg",
+                      "author":  "Eric Jorgenson",
+                      "genres":  [
+                                     "Business",
+                                     "Technology"
+                                 ],
+                      "industry":  "Business Management,Technology",
+                      "imprint":  "",
+                      "rating":  "4.6",
+                      "reviewCount":  "268",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Change Your Life in 3 Minutes",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/change-your-life-in-3-minutes.jpg",
+                      "author":  "Regan Hillyer",
+                      "genres":  [
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Training and Development",
+                      "imprint":  "",
+                      "rating":  "4.1",
+                      "reviewCount":  "243",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Exit-Strategy Playbook",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-exit-strategy-playbook.jpg",
+                      "author":  "Adam Coffey",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "239",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "NARANJAS VERDES",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/91N7uolP3HL._SL1500_.jpg",
+                      "author":  "Shin Fujiyama",
+                      "genres":  [
+
+                                 ],
+                      "industry":  "Translations",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "5.0",
+                      "reviewCount":  "232",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Book in a Box Method",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/the-book-in-a-box-method.jpg",
+                      "author":  "Tucker Max",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Writing and Arts",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.2",
+                      "reviewCount":  "227",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The Scribe Method",
+                      "img":  "https://m.media-amazon.com/images/I/41YXhRHxNqL._SL500_.jpg",
+                      "author":  "Tucker Max",
+                      "genres":  [
+                                     "Business",
+                                     "Personal Development"
+                                 ],
+                      "industry":  "Writing and Arts",
+                      "imprint":  "",
+                      "rating":  "4.5",
+                      "reviewCount":  "227",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "More Money, Less Hustle",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/JessLenouvel_WebsiteCover.jpg",
+                      "author":  "Jess Lenouvel",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.6",
+                      "reviewCount":  "215",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Love Is Free. Guac Is Extra",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/Love-is-Free-2.jpg",
+                      "author":  "Monty Moran",
+                      "genres":  [
+                                     "Leadership"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "212",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Free PR",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/free-PR.jpg",
+                      "author":  "Cameron Herold",
+                      "genres":  [
+                                     "Marketing",
+                                     "Business"
+                                 ],
+                      "industry":  "Marketing and Advertising",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.7",
+                      "reviewCount":  "208",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "The EXITPreneur\u0027s Playbook",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/The_Exitpreneurs_Playbook.jpg",
+                      "author":  "Joe Valley",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.9",
+                      "reviewCount":  "203",
+                      "industryLink":  null
+                  },
+                  {
+                      "title":  "Acting Up",
+                      "img":  "https://244422516.fs1.hubspotusercontent-na2.net/hubfs/244422516/images/books/acting-up-1-1.webp",
+                      "author":  "Janice Bryant Howroyd",
+                      "genres":  [
+                                     "Business"
+                                 ],
+                      "industry":  "Business Management",
+                      "imprint":  "Lioncrest Publishing",
+                      "rating":  "4.8",
+                      "reviewCount":  "194",
+                      "industryLink":  null
+                  }
+              ],
+    "industries":  [
+                       {
+                           "value":  "All",
+                           "label":  "All Industries"
+                       },
+                       {
+                           "value":  "Legal",
+                           "label":  "Industry: Legal"
+                       },
+                       {
+                           "value":  "Healthcare and Medicine",
+                           "label":  "Industry: Healthcare \u0026 Medicine"
+                       },
+                       {
+                           "value":  "Finance and Accounting",
+                           "label":  "Industry: Finance \u0026 Accounting"
+                       },
+                       {
+                           "value":  "Financial Planning",
+                           "label":  "Industry: Financial Planning"
+                       },
+                       {
+                           "value":  "Technology",
+                           "label":  "Industry: Technology"
+                       },
+                       {
+                           "value":  "Real Estate and Architecture",
+                           "label":  "Industry: Real Estate"
+                       },
+                       {
+                           "value":  "Education",
+                           "label":  "Industry: Education"
+                       },
+                       {
+                           "value":  "Entrepreneurship",
+                           "label":  "Industry: Entrepreneurship"
+                       },
+                       {
+                           "value":  "B2B Consulting",
+                           "label":  "Industry: B2B Consulting"
+                       },
+                       {
+                           "value":  "Sales",
+                           "label":  "Industry: Sales"
+                       },
+                       {
+                           "value":  "Marketing and Advertising",
+                           "label":  "Industry: Marketing"
+                       },
+                       {
+                           "value":  "Psychology and Counseling",
+                           "label":  "Industry: Psychology"
+                       },
+                       {
+                           "value":  "Military",
+                           "label":  "Industry: Military"
+                       },
+                       {
+                           "value":  "AI",
+                           "label":  "Industry: AI"
+                       }
+                   ],
+    "imprints":  [
+                     {
+                         "value":  "All",
+                         "label":  "All Imprints"
+                     },
+                     {
+                         "value":  "Lioncrest Publishing",
+                         "label":  "Imprint: Lioncrest"
+                     },
+                     {
+                         "value":  "Houndstooth Press",
+                         "label":  "Imprint: Houndstooth"
+                     },
+                     {
+                         "value":  "Scribe Media",
+                         "label":  "Imprint: Scribe Media"
+                     }
+                 ],
+    "genres":  [
+                   "All",
+                   "Business",
+                   "Memoir",
+                   "Health",
+                   "Leadership",
+                   "Personal Development",
+                   "Fiction",
+                   "Education",
+                   "Science",
+                   "Technology"
+               ]
 }

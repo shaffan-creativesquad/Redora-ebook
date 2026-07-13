@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 import PricingMarketing from './PricingMarketing'
 
 export const metadata = {
-  title: 'Book Marketing Pricing | Scribe Media',
+  title: 'Book Marketing Pricing | Readora',
   description: 'Professional book marketing services for published authors. Select from readership, media, advertising, and content packages. Configure and purchase online.',
 }
 

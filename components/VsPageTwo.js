@@ -36,7 +36,7 @@ const reasons = [
   {
     num: '03',
     title: 'Move faster.',
-    desc: '9–12 months for Scribe Professional vs. longer timelines for boutique-paced hybrid models.',
+    desc: '9–12 months for Readora Professional vs. longer timelines for boutique-paced hybrid models.',
   },
 ]
 
@@ -52,7 +52,7 @@ const differentiators = [
 
 const pricingTiers = [
   {
-    tier: 'Scribe Publishing',
+    tier: 'Readora Publishing',
     amount: '$29,000',
     note: 'flat · 6 months',
     desc: 'For authors who have a completed manuscript and need professional editing, design, audiobook, and full distribution.',
@@ -65,7 +65,7 @@ const pricingTiers = [
     featured: false,
   },
   {
-    tier: 'Scribe Professional',
+    tier: 'Readora Professional',
     amount: '$56,000',
     note: 'flat · 12 months',
     desc: "Our flagship — chosen by ~80% of authors. You don't write a word. We pair you with a senior scribe and capture your voice through structured interviews.",
@@ -80,7 +80,7 @@ const pricingTiers = [
     featured: true,
   },
   {
-    tier: 'Scribe Elite',
+    tier: 'Readora Elite',
     amount: '$135,000',
     note: 'flat · 15 months',
     desc: 'White-glove, prestige-tier service for legacy-defining books. In-person collaboration option, top scribe circle, $25K discretionary marketing budget.',
@@ -115,10 +115,10 @@ const faqs = [
   },
   {
     q: 'How long does it take?',
-    a: "9–12 months for Scribe Professional. 12–16 months for Scribe Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
+    a: "9–12 months for Readora Professional. 12–16 months for Readora Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
   },
   {
-    q: 'What about the Scribe 1.0 issues I read about?',
+    q: 'What about Readora's early history I read about?',
     a: "New ownership and leadership took over in 2023 and made structural improvements across the board — financial oversight (we have a CFO now), governance (board meets weekly), transparency (weekly cash flow reporting), and installment-based payment structures so you see progress before making additional payments. We've now published approximately 120 books for affected authors at cost. Full transparency about what happened — happy to walk through it on a call.",
   },
 ]
@@ -131,7 +131,7 @@ export default function VsPageTwo() {
         <div className="vs-page__container">
           <span className="vs-page__eyebrow">Page Two Alternative</span>
           <h1>Branding polish is <em>nice</em>.<br />Editorial firepower is <em>better</em>.</h1>
-          <p className="vs-page__subhead">Page Two runs an elegant, boutique operation founded by ex–traditional publishers. Scribe goes deeper on editorial, strategic positioning, and speed. If you want the prestige feel plus the firepower, here&apos;s the comparison.</p>
+          <p className="vs-page__subhead">Page Two runs an elegant, boutique operation founded by ex–traditional publishers. Readora goes deeper on editorial, strategic positioning, and speed. If you want the prestige feel plus the firepower, here&apos;s the comparison.</p>
           <div className="vs-page__hero-ctas">
             <a href="#consult" className="vs-page__btn vs-page__btn--primary">Book a Free Consult</a>
             <a href="#compare" className="vs-page__btn vs-page__btn--secondary">See the Comparison →</a>
@@ -156,7 +156,7 @@ export default function VsPageTwo() {
       <section className="vs-page__section" id="compare">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">The Comparison</div>
-          <h2>Page Two Books vs. <em>Scribe Media</em></h2>
+          <h2>Page Two Books vs. <em>Readora</em></h2>
           <p className="vs-page__section-lead">Both companies are real and have served real authors. Here&apos;s how the sales-team&apos;s own competitive briefing describes the difference — verbatim — so you can decide which one matches what you actually need.</p>
           <div className="vs-page__two-col">
             <div className="vs-page__col vs-page__col--them">
@@ -165,7 +165,7 @@ export default function VsPageTwo() {
               <ul>{themPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
             <div className="vs-page__col">
-              <div className="vs-page__col-label">Scribe Media</div>
+              <div className="vs-page__col-label">Readora</div>
               <h3>A book that builds <em>brand, credibility, and legacy</em>.</h3>
               <ul>{usPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
@@ -177,8 +177,8 @@ export default function VsPageTwo() {
       <section className="vs-page__quote">
         <div className="vs-page__container">
           <div className="vs-page__quote-eyebrow">How Our Sales Team Describes the Difference</div>
-          <p className="vs-page__quote-lead">&ldquo;We go deeper than branding polish. Our editorial and positioning chops are second to none. You&apos;ll get an even higher level of creative and strategic partnership with Scribe — and you&apos;ll move faster.&rdquo;</p>
-          <p className="vs-page__quote-attrib">— From the Scribe Media internal Competitive Comparison briefing for Page Two Books.</p>
+          <p className="vs-page__quote-lead">&ldquo;We go deeper than branding polish. Our editorial and positioning chops are second to none. You&apos;ll get an even higher level of creative and strategic partnership with Readora — and you&apos;ll move faster.&rdquo;</p>
+          <p className="vs-page__quote-attrib">— From the Readora internal Competitive Comparison briefing for Page Two Books.</p>
         </div>
       </section>
 
@@ -186,7 +186,7 @@ export default function VsPageTwo() {
       <section className="vs-page__section">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">Why Authors Switch</div>
-          <h2>Three reasons people choose Scribe<br />over Page Two Books.</h2>
+          <h2>Three reasons people choose Readora<br />over Page Two Books.</h2>
           <div className="vs-page__reasons">
             {reasons.map((r, i) => (
               <div key={i} className="vs-page__reason">
@@ -202,7 +202,7 @@ export default function VsPageTwo() {
       {/* Differentiators */}
       <section className="vs-page__section">
         <div className="vs-page__container">
-          <div className="vs-page__section-eyebrow">What Makes Scribe Different</div>
+          <div className="vs-page__section-eyebrow">What Makes Readora Different</div>
           <h2>Seven things authors consistently<br />tell us <em>made the difference</em>.</h2>
           <div className="vs-page__reasons vs-page__reasons--two-col">
             {differentiators.map((d, i) => (
@@ -265,7 +265,7 @@ export default function VsPageTwo() {
       {/* Sources */}
       <section className="vs-page__sources">
         <div className="vs-page__container">
-          Sources: Scribe Media internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Scribe Professional &amp; Scribe Elite Sales Call Scripts · scribemedia.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
+          Sources: Readora internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Readora Professional &amp; Readora Elite Sales Call Scripts · readora.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
         </div>
       </section>
     </div>

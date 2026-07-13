@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Figure Out Your Book Idea | The Scribe Method | Scribe Media',
+  title: 'Figure Out Your Book Idea | The Readora Method | Readora',
   description: 'Learn how to nail down your book idea with two key questions that ensure your concept resonates with your audience.',
 }
 
@@ -15,7 +15,7 @@ export default function FigureOutYourBookIdeaPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 2: POSITION YOUR BOOK</p>
@@ -70,9 +70,8 @@ export default function FigureOutYourBookIdeaPage() {
             <p>Writing a book isn&apos;t just about sharing what you know—it&apos;s about delivering value in a way that connects with readers.</p>
 
             <h2>Ready to Start Writing?</h2>
-            <p>If you&apos;re ready to take the next step in your writing journey, check out <em>The Scribe Method</em>!</p>
+            <p>If you&apos;re ready to take the next step in your writing journey, check out <em>The Readora Method</em>!</p>
             <ul>
-              <li><a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the free online copy here.</a></li>
               <li><a href="/consult" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
             </ul>
             <p>This guide will walk you through every step of writing and publishing a book, ensuring you not only finish but create something truly impactful.</p>
@@ -91,7 +90,7 @@ export default function FigureOutYourBookIdeaPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

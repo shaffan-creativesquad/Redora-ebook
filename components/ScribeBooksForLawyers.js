@@ -61,13 +61,13 @@ export default function ScribeBooksForLawyers() {
       {/* Hero */}
       <div className="ind__hero">
         <h1>The Book That Wins You Clients Before They Walk In</h1>
-        <p>Top attorneys use books to establish authority, attract high-value clients, and differentiate their practice. Scribe has helped lawyers at every level turn their expertise into published books.</p>
+        <p>Top attorneys use books to establish authority, attract high-value clients, and differentiate their practice. Readora has helped lawyers at every level turn their expertise into published books.</p>
         <a href="/consult" className="ind__cta-btn">Schedule a Free Consult</a>
       </div>
 
       {/* Legal Leaders */}
       <div className="ind__section">
-        <h2>Legal Leaders Who Published with Scribe</h2>
+        <h2>Legal Leaders Who Published with Readora</h2>
         <p className="subtitle">These legal professionals turned their expertise into bestselling books.</p>
         <div className="ind__authors-grid">
           {authors.map((a, i) => (

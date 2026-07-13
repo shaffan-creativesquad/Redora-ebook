@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Services for Published Authors | Scribe Media',
+  title: 'Services for Published Authors | Readora',
   description: 'Our team will review your author services submission and follow up with the next steps.',
   robots: 'noindex, nofollow',
 }

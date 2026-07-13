@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'How to Write Your First Draft (The Vomit Method) | The Scribe Method | Scribe Media',
+  title: 'How to Write Your First Draft (The Vomit Method) | The Readora Method | Readora',
   description: 'Learn the Vomit Draft method — the fastest way to write your first draft without letting perfectionism slow you down.',
 }
 
@@ -13,7 +13,7 @@ export default function VomitMethodPage() {
       <Navbar />
       <main id="main-content">
         <div className="chapter">
-          <a href="/scribe-method-book" className="chapter__back">← The Scribe Method</a>
+          <a href="/scribe-method-book" className="chapter__back">← The Readora Method</a>
           <p className="chapter__part">PART 4: WRITE YOUR BOOK</p>
           <p className="chapter__num">Chapter 15</p>
           <h1 className="chapter__title">How to Write Your First Draft (The Vomit Method)</h1>
@@ -89,8 +89,8 @@ export default function VomitMethodPage() {
             <h2>Final Thoughts: Just Keep Writing</h2>
             <p>The Vomit Draft method is about progress, not perfection. Your first draft is only the beginning. Once it&apos;s done, <em>then</em> you can refine, polish, and make it great.</p>
             <p>So stop overthinking, get your ideas out, and start writing today.</p>
-            <p>Need more guidance? Download <em>The Scribe Method</em> for free{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
+            <p>Need more guidance? Download <em>The Readora Method</em> for free{' '}
+              
               {' '}or grab a hard copy{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
@@ -99,17 +99,17 @@ export default function VomitMethodPage() {
           <div className="chapter__nav">
             <a href="/scribe-method-book/the-scribe-guide-to-writing-effective-nonfiction" className="chapter__nav-link chapter__nav-link--prev">
               <span className="chapter__nav-label">Previous Chapter</span>
-              <span className="chapter__nav-title">The Scribe Guide to Writing Effective Nonfiction</span>
+              <span className="chapter__nav-title">The Readora Guide to Writing Effective Nonfiction</span>
             </a>
             <a href="/scribe-method-book/how-to-write-your-first-draft-the-scribe-method" className="chapter__nav-link chapter__nav-link--next">
               <span className="chapter__nav-label">Next Chapter</span>
-              <span className="chapter__nav-title">How to Write Your First Draft (The Scribe Method)</span>
+              <span className="chapter__nav-title">How to Write Your First Draft (The Readora Method)</span>
             </a>
           </div>
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
         </div>

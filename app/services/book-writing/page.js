@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Book Writing Services | Scribe Media',
+  title: 'Book Writing Services | Readora',
   description: 'Professional book writing services for nonfiction authors. Choose from guided writing, professional ghostwriting, or elite ghostwriting.',
 }
 

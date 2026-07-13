@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Media vs. Peaceful Profits | Comparison',
-  description: 'Peaceful Profits builds books as funnels for high-ticket coaching offers. Scribe builds books as long-term brand and legacy assets. See the full side-by-side comparison.',
+  title: 'Readora vs. Peaceful Profits | Comparison',
+  description: 'Peaceful Profits builds books as funnels for high-ticket coaching offers. Readora builds books as long-term brand and legacy assets. See the full side-by-side comparison.',
 }
 
 export default function VsPeacefulProfitsPage() {

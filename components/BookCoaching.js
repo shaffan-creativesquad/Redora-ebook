@@ -25,10 +25,10 @@ const faqs = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -45,31 +45,31 @@ const testimonials = [
     avatar: '/assets/sarma-mengailis.png',
   },
   {
-    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe — the perfect match between self-publishing but still getting that professional level of publication.",
+    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Readora — the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
+    quote: 'As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     avatar: '/assets/AdamSkolnick_Headshot.jpg',
   },
   {
-    quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
+    quote: 'The amount that we spent on the Readora project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    quote: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
     avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
   {
-    quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
+    quote: "Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
     avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
@@ -183,7 +183,7 @@ export default function BookCoaching() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

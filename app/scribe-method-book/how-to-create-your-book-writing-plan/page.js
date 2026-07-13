@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'How to Create Your Book Writing Plan | The Scribe Method | Scribe Media',
+  title: 'How to Create Your Book Writing Plan | The Readora Method | Readora',
   description: 'Learn how to create a structured book writing plan with daily goals, deadlines, and accountability strategies.',
 }
 
@@ -15,7 +15,7 @@ export default function BookWritingPlanPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 4: WRITE YOUR BOOK</p>
@@ -68,7 +68,7 @@ export default function BookWritingPlanPage() {
             <p>The process outlined above is a proven method, but it&apos;s not the only one. The best writing plan is the one that works for you. If you find a unique strategy that keeps you writing consistently, embrace it.</p>
             <p>The key to completing your book is <strong>commitment, discipline, and action.</strong></p>
             <p>Ready to start writing?{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Get a free copy of The Scribe Method online</strong></a>
+              
               {' '}here or{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
               {' '}today!
@@ -82,13 +82,13 @@ export default function BookWritingPlanPage() {
             </a>
             <a href="/scribe-method-book/the-scribe-guide-to-writing-effective-nonfiction" className="chapter__nav-link chapter__nav-link--next">
               <span className="chapter__nav-label">Next Chapter</span>
-              <span className="chapter__nav-title">The Scribe Guide to Writing Effective Nonfiction</span>
+              <span className="chapter__nav-title">The Readora Guide to Writing Effective Nonfiction</span>
             </a>
           </div>
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

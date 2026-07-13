@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Publishing | Professional Book Publishing | Scribe Media',
-  description: 'Scribe Publishing is for authors with a finished manuscript who want professional design, publishing, and distribution — without giving up rights or royalties.',
+  title: 'Readora Publishing | Professional Book Publishing | Readora',
+  description: 'Readora Publishing is for authors with a finished manuscript who want professional design, publishing, and distribution — without giving up rights or royalties.',
 }
 
 export default function ScribePublishingPage() {

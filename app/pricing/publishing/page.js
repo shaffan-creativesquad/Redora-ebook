@@ -56,9 +56,9 @@ const MORE_ADDONS = [
 ]
 
 const AGREEMENT_TEXT = `
-<h4>Scribe Agreement</h4>
+<h4>Readora Agreement</h4>
 <p>This agreement is intentionally written in plain English. We think the impenetrable lawyer-speak of modern contracts inhibits understanding, cooperation, and mutual benefit, which helps no one (except the lawyers). We want what's best for both of us, now and in the future, and we think plain English agreements help achieve that.</p>
-<p>In short, the purpose of this agreement is simple: You are hiring us, Scribe Media, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
+<p>In short, the purpose of this agreement is simple: You are hiring us, Readora, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
 <h4>Timeline</h4>
 <p>The minimum time-to-publish for this experience is 7 months from your kickoff call. That's as fast as we can move. It's completely normal for authors to take closer to 9 or 10 months, so that's what we recommend you budget.</p>
 <h4>What We Will Do for You</h4>
@@ -68,7 +68,7 @@ const AGREEMENT_TEXT = `
 <p><strong>Book Cover Design:</strong> Our design team will create a high-quality book cover for your print and eBook versions. You will get at least three cover design options and up to five rounds of edits.</p>
 <p><strong>Interior Layout Design & eBook Conversion:</strong> An interior layout designer will craft the interior for your hardcover, paperback, and eBook editions.</p>
 <p><strong>Copyright & ISBN Registration:</strong> Your manuscript will be copyrighted with the U.S. Copyright Office. Your book will be registered in Bowker's Books In Print database with all necessary ISBNs and barcodes.</p>
-<p><strong>Publishing Imprint:</strong> You will publish under our Lioncrest Publishing imprint. You may publish under your own imprint for an additional cost.</p>
+<p><strong>Publishing Imprint:</strong> You will publish under our Ember Press Publishing imprint. You may publish under your own imprint for an additional cost.</p>
 <p><strong>Publishing:</strong> We will format, publish, and distribute your title on Kindle Direct Publishing and IngramSpark platforms.</p>
 <p><strong>Author Copies:</strong> We will provide 50 paperback copies or 25 hardcover copies at no extra charge. You can order unlimited additional copies at the printer's cost.</p>
 <p><strong>Audiobook Creation and Distribution:</strong> We will facilitate the creation and publication of an audiobook version. Your audiobook will be available on Amazon, Audible, Apple Books, Scribd, Google Play, and more.</p>
@@ -87,8 +87,8 @@ const AGREEMENT_TEXT = `
 <p><strong>The Opt Out Clause:</strong> If our Executive Editor determines we cannot publish a manuscript in its current form, and you don't want to revise it, both parties can opt out without penalty. We will refund all monies paid minus the first non-refundable invoice.</p>
 <p><strong>Total Length Clause:</strong> Our price works for books up to 50,000 words. If the manuscript is over 50k words at manuscript evaluation, we charge an additional $100 per 1,000 words.</p>
 <h4>Legal Terms</h4>
-<p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Scribe Media, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
-<p><strong>Liability & Indemnification:</strong> You are solely responsible for the content of your book. You agree to indemnify Scribe Media for any liability arising from your book's content.</p>
+<p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Readora, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
+<p><strong>Liability & Indemnification:</strong> You are solely responsible for the content of your book. You agree to indemnify Readora for any liability arising from your book's content.</p>
 <p><strong>Cancellation:</strong> If either party decides to part ways, we will discuss next steps. If paid invoices (beyond the non-refundable first invoice) exceed incurred creative costs, we will refund the difference.</p>
 <p><strong>No Hidden Costs:</strong> We will never do additional work that costs you money without first getting your explicit approval.</p>
 `
@@ -124,7 +124,7 @@ export default function PricingPublishing() {
   const [signElectronic, setSignElectronic] = useState(false)
   const [signSig, setSignSig] = useState('')
 
-  const imprintCost = imprint === 'custom-scribe' ? 750 : imprint === 'custom-own' ? 375 : 0
+  const imprintCost = imprint === 'custom-readora' ? 750 : imprint === 'custom-own' ? 375 : 0
 
   const addonTotal = useMemo(() => {
     let t = 0
@@ -160,7 +160,7 @@ export default function PricingPublishing() {
       const res = await fetch(API_BASE + '/api/email-quote', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: quoteEmail, tier: 'Scribe Publishing', totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, addons: Object.keys(selectedAddons).filter(k => selectedAddons[k]), basePrice: BASE_PRICE }),
+        body: JSON.stringify({ email: quoteEmail, tier: 'Readora Publishing', totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, addons: Object.keys(selectedAddons).filter(k => selectedAddons[k]), basePrice: BASE_PRICE }),
       })
       const data = await res.json()
       setQuoteStatus(data.success ? { msg: 'Quote sent! Check your inbox.', ok: true } : { msg: data.error || 'Something went wrong.', ok: false })
@@ -176,7 +176,7 @@ export default function PricingPublishing() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          tier: 'Scribe Publishing',
+          tier: 'Readora Publishing',
           addons: Object.keys(selectedAddons).filter(k => selectedAddons[k]),
           totalAmount: total,
           monthlyPayment: monthly,
@@ -254,7 +254,7 @@ export default function PricingPublishing() {
               <div>
                 <div className="pub-hero">
                   <div className="pub-hero__badge">Your Complete Publishing Package</div>
-                  <h1 className="pub-hero__title">Scribe Publishing</h1>
+                  <h1 className="pub-hero__title">Readora Publishing</h1>
                   <p className="pub-hero__subtitle">Everything you need to turn your completed manuscript into a professionally published book, audiobook, and global launch. You retain 100% of your royalties and full ownership.</p>
                   <div className="pub-hero__price-row">
                     <span className="pub-hero__price">{fmt(BASE_PRICE)}</span>
@@ -294,7 +294,7 @@ export default function PricingPublishing() {
                   </button>
                   {showMore && MORE_ADDONS.map(item => <MktCard key={item.id} item={item} />)}
 
-                  <p style={{ fontSize: '12px', color: '#a0a0a0', marginTop: '14px' }}>Want to bundle multiple services? Ask your Scribe representative about package discounts.</p>
+                  <p style={{ fontSize: '12px', color: '#a0a0a0', marginTop: '14px' }}>Want to bundle multiple services? Ask your Readora representative about package discounts.</p>
                 </div>
 
                 <button className={`pub-customize-toggle${showCustomize ? ' open' : ''}`} onClick={() => setShowCustomize(v => !v)}>
@@ -304,10 +304,10 @@ export default function PricingPublishing() {
                 {showCustomize && (
                   <div className="pub-card" style={{ marginTop: 0 }}>
                     <div className="pub-card-section-label">Publishing Imprint</div>
-                    <p style={{ fontSize: '13px', color: '#a0a0a0', marginBottom: '12px' }}>Choose how your book is branded. Most authors publish under our Lioncrest Publishing imprint at no extra cost.</p>
+                    <p style={{ fontSize: '13px', color: '#a0a0a0', marginBottom: '12px' }}>Choose how your book is branded. Most authors publish under our Ember Press Publishing imprint at no extra cost.</p>
                     {[
-                      { val: 'lioncrest', label: 'Lioncrest Publishing (included)' },
-                      { val: 'custom-scribe', label: 'Custom Publishing Imprint (Scribe designs your logo) +$750' },
+                      { val: 'lioncrest', label: 'Ember Press Publishing (included)' },
+                      { val: 'custom-readora', label: 'Custom Publishing Imprint (Readora designs your logo) +$750' },
                       { val: 'custom-own', label: 'Custom Imprint (bring your own logo) +$375' },
                     ].map(opt => (
                       <label key={opt.val} className="pub-radio">
@@ -321,7 +321,7 @@ export default function PricingPublishing() {
                       <input type="checkbox" checked={returningAuthor} onChange={e => setReturningAuthor(e.target.checked)} />
                       <div className="pub-check__info">
                         <div className="pub-check__name">Returning Author Discount</div>
-                        <div className="pub-check__desc">Previously published with Scribe</div>
+                        <div className="pub-check__desc">Previously published with Readora</div>
                       </div>
                       <div className="pub-check__price">−$1,000</div>
                     </label>
@@ -345,7 +345,7 @@ export default function PricingPublishing() {
                   <p>Your investment is paid over <strong>${NUM_MONTHS}</strong> months at <strong>${monthlyStr}</strong>/month. A $1,000 deposit is due at signing and will be deducted from your first monthly payment. There is a 3% processing fee for all credit card payments. Full payment is required before publishing.</p>
                   <table>
                     <tbody>
-                      <tr><td>Scribe Publishing</td><td style="text-align:right;font-weight:600;">$21,000</td></tr>
+                      <tr><td>Readora Publishing</td><td style="text-align:right;font-weight:600;">$21,000</td></tr>
                       <tr><td>Audiobook</td><td style="text-align:right;font-weight:600;">$8,000</td></tr>
                       ${imprintCost > 0 ? `<tr><td>Custom Imprint</td><td style="text-align:right;font-weight:600;">${fmt(imprintCost)}</td></tr>` : ''}
                       ${returningAuthor ? `<tr><td>Returning Author Discount</td><td style="text-align:right;color:#4ade80;font-weight:600;">-$1,000</td></tr>` : ''}
@@ -488,7 +488,7 @@ export default function PricingPublishing() {
           <div className="pub-sidebar">
             <div className="pub-summary">
               <h3>Project Summary</h3>
-              <div className="pub-summary__line"><span className="label">Scribe Publishing</span><span className="value">$21,000</span></div>
+              <div className="pub-summary__line"><span className="label">Readora Publishing</span><span className="value">$21,000</span></div>
               <div className="pub-summary__line"><span className="label">Audiobook</span><span className="value">$8,000</span></div>
               {imprintCost > 0 && (
                 <div className="pub-summary__line"><span className="label">Custom imprint</span><span className="value">+{fmt(imprintCost)}</span></div>

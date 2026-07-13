@@ -76,7 +76,7 @@ export default function ScribeIndustries() {
     <div className="ind-index">
       <div className="ind-index__hero">
         <h1>Books for Every Industry</h1>
-        <p>Scribe has helped professionals across every industry write and publish books that build authority and grow their business. Find authors in your field.</p>
+        <p>Readora has helped professionals across every industry write and publish books that build authority and grow their business. Find authors in your field.</p>
       </div>
       <div className="ind-index__grid">
         {industries.map((ind, i) => (

@@ -4,9 +4,9 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Books for Every Industry | Scribe Media',
+  title: 'Books for Every Industry | Readora',
   description:
-    'Scribe Media has helped professionals across every industry write and publish books that build authority and grow their business. Find published authors in your field: lawyers, doctors, coaches, entrepreneurs, and more.',
+    'Readora has helped professionals across every industry write and publish books that build authority and grow their business. Find published authors in your field: lawyers, doctors, coaches, entrepreneurs, and more.',
 }
 
 export default function BooksForIndustriesPage() {
@@ -19,7 +19,7 @@ export default function BooksForIndustriesPage() {
           <div className="ind-index__hero">
             <h1>Books for Every Industry</h1>
             <p>
-              Scribe has helped professionals across every industry write and publish books that
+              Readora has helped professionals across every industry write and publish books that
               build authority and grow their business. Find authors in your field.
             </p>
           </div>

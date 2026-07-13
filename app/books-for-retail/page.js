@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Retail | Scribe Media',
+  title: 'Books for Retail | Readora',
   description:
-    'Scribe Media helps retail professionals write and publish books that build authority, attract clients, and grow their business. See our retail authors.',
+    'Readora helps retail professionals write and publish books that build authority, attract clients, and grow their business. See our retail authors.',
 }
 
 export default function BooksForRetail() {
@@ -22,14 +22,14 @@ export default function BooksForRetail() {
           </div>
 
           <div className="ind__section">
-            <h2>Retail Leaders Who Published with Scribe</h2>
+            <h2>Retail Leaders Who Published with Readora</h2>
             <p className="subtitle">These retail professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
               {/* Melissa Gonzalez */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-pop-up-paradigm.jpg" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/the-pop-up-paradigm.jpg" alt="The Pop Up Paradigm" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Melissa Gonzalez</div>
                 <div className="ind__author-title">The Pop Up Paradigm</div>
@@ -38,8 +38,8 @@ export default function BooksForRetail() {
               {/* Ron Thurston */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Ron_Thurston_Headshot.jpg" alt="Ron Thurston" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/Retail-Pride-2.jpg" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Ron_Thurston_Headshot.jpg" alt="Ron Thurston" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/Retail-Pride-2.jpg" alt="Retail Pride" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Ron Thurston</div>
                 <div className="ind__author-title">Retail Pride</div>
@@ -48,7 +48,7 @@ export default function BooksForRetail() {
               {/* Joe Geng */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/rethinking-hand-safety.jpg" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/rethinking-hand-safety.jpg" alt="Rethinking Hand Safety" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Joe Geng</div>
                 <div className="ind__author-title">Rethinking Hand Safety</div>

@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Publishing: Formatting Tips for Authors | Scribe Media',
-  description: 'Essential formatting tips for authors preparing their manuscript for publishing with Scribe Media — from copy editing and headings to images and book descriptions.',
+  title: 'Readora Publishing: Formatting Tips for Authors | Readora',
+  description: 'Essential formatting tips for authors preparing their manuscript for publishing with Readora — from copy editing and headings to images and book descriptions.',
 }
 
 export default function PublishingFormattingTipsPage() {

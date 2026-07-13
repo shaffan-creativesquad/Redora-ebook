@@ -1,9 +1,9 @@
 export default function WhyScribeCTA() {
   return (
     <div className="ws-cta">
-      <h2 className="font-playfair">Ready to Write Your Book?</h2>
-      <p>Our author strategists can help you determine which plan is right for you.</p>
-      <a href="/consult" className="cta-btn">Schedule a Consult</a>
+      <h2 className="font-playfair">Your book won&apos;t write itself. Let&apos;s change that.</h2>
+      <p>Talk to a Readora publishing strategist and get a clear plan for your book in one call — no pressure, no obligation.</p>
+      <a href="/consult" className="cta-btn">Book a Free Strategy Call</a>
     </div>
   )
 }

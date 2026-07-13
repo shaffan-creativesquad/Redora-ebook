@@ -24,7 +24,7 @@ const reviews = [
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     img: '/assets/AdamSkolnick_Headshot.jpg',
     book: 'American Tiger', bookHref: '/published-books/american-tiger',
-    quote: '"As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up."',
+    quote: '"As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -32,7 +32,7 @@ const reviews = [
     credential: 'Founder & CEO, Barcelona SAE',
     img: '/assets/RichKurtzman_Headshot.jpg',
     book: 'Like a Fish in Water', bookHref: '/published-books/like-a-fish-in-water',
-    quote: '"I wasn\'t a \'writer.\' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn\'t have reached any other way."',
+    quote: '"I wasn\'t a \'writer.\' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn\'t have reached any other way."',
     themes: ['process-praise', 'roi-revenue', 'authority-credibility'], featured: true,
   },
   {
@@ -40,7 +40,7 @@ const reviews = [
     credential: 'Former FBI Legal Attaché',
     img: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
     book: 'Beyond the Badge', bookHref: '/published-books/john-beyond-the-badge',
-    quote: '"Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Scribe, there\'s no way, if the process wasn\'t anything but great, that I would say I want to do this again."',
+    quote: '"Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Readora, there\'s no way, if the process wasn\'t anything but great, that I would say I want to do this again."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -64,7 +64,7 @@ const reviews = [
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
-    quote: '"From the first conversation [with the Scribe team] all the way through to the final production of the book, to where we are now talking about it six years later, it\'s just been a great experience working with [Scribe]."',
+    quote: '"From the first conversation [with the Readora team] all the way through to the final production of the book, to where we are now talking about it six years later, it\'s just been a great experience working with [Readora]."',
     themes: ['process-praise', 'long-tail-compound'], featured: true,
   },
   {
@@ -88,7 +88,7 @@ const reviews = [
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
-    quote: '"There\'s a real silo in publishing for, there are voices that aren\'t heard that Scribe is allowing to be heard."',
+    quote: '"There\'s a real silo in publishing for, there are voices that aren\'t heard that Readora is allowing to be heard."',
     themes: ['beats-trad-pub'], featured: true,
   },
   {
@@ -96,7 +96,7 @@ const reviews = [
     credential: 'Co-Founders, Nth Degree Financial Solutions',
     img: '/assets/Eby-Headshots.jpg',
     book: 'The Invisible Threat', bookHref: '/published-books/the-invisible-threat',
-    quote: '"The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn\'t have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional."',
+    quote: '"The incredible praise we received from our industry colleagues for The Invisible Threat validates the effort and dedication we poured into the book. We couldn\'t have reached this milestone without the support of Readora — especially Mark. He has been fantastic to work with. A truly skilled professional."',
     themes: ['production-quality', 'long-tail-compound', 'bestseller-awards'], featured: true,
   },
   {
@@ -104,7 +104,7 @@ const reviews = [
     credential: 'Co-Founder, Camo & Wind',
     img: '/assets/Linden-v2.jpg',
     book: 'Your Hunting Healthspan', bookHref: '/published-books/your-hunting-healthspan',
-    quote: '"Writing that book and working with [Scribe] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined."',
+    quote: '"Writing that book and working with [Readora] is one of the best decisions I have ever made. There have been doors opened and connections formed I would have never had imagined."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -120,7 +120,7 @@ const reviews = [
     credential: 'UGA Football Walk-On, Finance Professional',
     img: '/assets/candler-cook.jpg',
     book: 'From Underdog to Bulldog', bookHref: '/published-books/from-underdog-to-bulldog',
-    quote: '"I wanted to let all of you know that I leveraged my book into getting a job that I absolutely love. I remember reading the Scribe article about ways to get a great return on your book outside of just sales, but I never imagined it would lead to a job."',
+    quote: '"I wanted to let all of you know that I leveraged my book into getting a job that I absolutely love. I remember reading the Readora article about ways to get a great return on your book outside of just sales, but I never imagined it would lead to a job."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -128,7 +128,7 @@ const reviews = [
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
-    quote: '"It felt like I wasn\'t just a name on a sheet. Even when my mom was sick, [the publishing manager] was reaching out to me, not about when is the book coming out. It was just like, hey, is there anything I can do for you. We\'ve never met in person. It felt like I was a member of the Scribe family even before I signed with them."',
+    quote: '"It felt like I wasn\'t just a name on a sheet. Even when my mom was sick, [the publishing manager] was reaching out to me, not about when is the book coming out. It was just like, hey, is there anything I can do for you. We\'ve never met in person. It felt like I was a member of the Readora family even before I signed with them."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -136,7 +136,7 @@ const reviews = [
     credential: 'Plant-Based Wellness Advocate',
     img: '/assets/StuartWaldner_Headshot.jpg',
     book: 'Escape the Meatrix', bookHref: '/published-books/escape-the-meatrix',
-    quote: '"As a Scribe Alumni, I\'m extremely grateful to read your post. It seems things are heading in the right direction. The world is a better place with Scribe Media in it. I\'m glad you\'re back home."',
+    quote: '"As a Readora Alumni, I\'m extremely grateful to read your post. It seems things are heading in the right direction. The world is a better place with Readora Media in it. I\'m glad you\'re back home."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -152,7 +152,7 @@ const reviews = [
     credential: 'Managing Director, Muñoz & Company',
     img: '/assets/Pablo-Munoz-Headshot.jpg',
     book: "The Leader's Algorithm", bookHref: '/published-books/the-leaders-algorithm',
-    quote: '"Scribe is the best. You all helped me take an idea and make it into a book that I hope helps people. Hopefully, we can write more books together."',
+    quote: '"Readora is the best. You all helped me take an idea and make it into a book that I hope helps people. Hopefully, we can write more books together."',
     themes: ['reader-impact'], featured: true,
   },
   {
@@ -160,7 +160,7 @@ const reviews = [
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
-    quote: '"I wanted to write a better book and I was really intrigued by the Scribe process. As soon as we signed, we jumped into it. We hit all the deadlines. It was amazing."',
+    quote: '"I wanted to write a better book and I was really intrigued by the Readora process. As soon as we signed, we jumped into it. We hit all the deadlines. It was amazing."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -176,7 +176,7 @@ const reviews = [
     credential: 'Wealth Advisor, SeaCrest Wealth Management',
     img: '/assets/DouglasStone_Headshot.jpg',
     book: 'Navigate the Investment Jungle', bookHref: '/published-books/navigate-the-investment-jungle',
-    quote: '"I appreciate all your hard work and owe much of my success to you and Scribe! Thanks so much!"',
+    quote: '"I appreciate all your hard work and owe much of my success to you and Readora! Thanks so much!"',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -184,7 +184,7 @@ const reviews = [
     credential: 'Advanced Certified Life Coach & TEDx Speaker',
     img: 'https://scribemedia.com/hubfs/author-headshots/yarona-boster-headshot.jpg',
     book: 'Unspoken Signals', bookHref: '/published-books/unspoken-signals',
-    quote: '"I would definitely highly, highly recommend jumping into that mess with Scribe, because you guys gave me exactly, in my opinion, what I needed to do this with the right kind of support mechanisms that weren\'t overly authoritarian and weren\'t overly late and weren\'t chaotic and disorganized. So it was just the right amount."',
+    quote: '"I would definitely highly, highly recommend jumping into that mess with Readora, because you guys gave me exactly, in my opinion, what I needed to do this with the right kind of support mechanisms that weren\'t overly authoritarian and weren\'t overly late and weren\'t chaotic and disorganized. So it was just the right amount."',
     themes: ['process-praise'], featured: true,
   },
   {
@@ -192,7 +192,7 @@ const reviews = [
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
-    quote: '"Adam said, and I agree, that [Scribe] is every bit as professional as having gone through a Penguin Random House."',
+    quote: '"Adam said, and I agree, that [Readora] is every bit as professional as having gone through a Penguin Random House."',
     themes: ['production-quality', 'beats-trad-pub'], featured: true,
   },
 
@@ -202,7 +202,7 @@ const reviews = [
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
-    quote: '"I always wanted to get back to that original level [of McGraw Hill quality] but without having to take the kind of pay cut that you do through a major publisher. And so that\'s when I found Scribe. And it was kind of the perfect match between self-publishing but still getting that professional level of publication."',
+    quote: '"I always wanted to get back to that original level [of McGraw Hill quality] but without having to take the kind of pay cut that you do through a major publisher. And so that\'s when I found Readora. And it was kind of the perfect match between self-publishing but still getting that professional level of publication."',
     themes: ['production-quality', 'beats-trad-pub', 'long-tail-compound'], featured: false,
   },
   {
@@ -210,7 +210,7 @@ const reviews = [
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
-    quote: '"[The Scribe team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves."',
+    quote: '"[The Readora team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves."',
     themes: ['process-praise', 'production-quality', 'beats-trad-pub'], featured: false,
   },
   {
@@ -218,7 +218,7 @@ const reviews = [
     credential: 'CEO, Prep Expert',
     img: '/assets/shaan-patel.png',
     book: 'Prep Expert Digital SAT Playbook', bookHref: '/published-books/prep-expert-digital-sat-playbook',
-    quote: '"The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x."',
+    quote: '"The amount that we spent on the Readora project has generated a 10x plus return ever since, if not 20x."',
     themes: ['roi-revenue'], featured: false,
   },
   {
@@ -242,7 +242,7 @@ const reviews = [
     credential: 'Author, A Journey Without a Map',
     img: null,
     book: 'A Journey Without a Map', bookHref: '/published-books/a-journey-without-a-map',
-    quote: '"I found A Journey Without a Map, the most powerful part of that process, was the collaboration with [the Scribe team]. My collaboration with all the people involved was amazing. And that helped to just drive that book to where it became the success that it\'s become."',
+    quote: '"I found A Journey Without a Map, the most powerful part of that process, was the collaboration with [the Readora team]. My collaboration with all the people involved was amazing. And that helped to just drive that book to where it became the success that it\'s become."',
     themes: ['process-praise'], featured: false,
   },
   {
@@ -266,7 +266,7 @@ const reviews = [
     credential: 'Author, Raising Athena',
     img: '/assets/mylinh-shattan-headshot.png',
     book: 'Raising Athena', bookHref: '/published-books/raising-athena',
-    quote: '"[The editor] at Scribe just reads a gazillion books. He said, we\'re all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character."',
+    quote: '"[The editor] at Readora just reads a gazillion books. He said, we\'re all dying to know who this Cara is. So one of the last, probably the last two rewrites, I developed her character."',
     themes: ['process-praise'], featured: false,
   },
   {
@@ -298,7 +298,7 @@ const reviews = [
     credential: 'Author, The Call I Almost Missed',
     img: '/assets/tommy-short-headshot-opt.jpg',
     book: 'The Call I Almost Missed', bookHref: '/published-books/the-call-i-almost-missed-short',
-    quote: '"Just from the editors and proofreaders that touched the book at Scribe, some of the notes I got from them of just certain parts of the book, how it touched them. If I didn\'t hear any other comment or review, just those handful of comments and notes from the people at Scribe, that made everything worth it."',
+    quote: '"Just from the editors and proofreaders that touched the book at Readora, some of the notes I got from them of just certain parts of the book, how it touched them. If I didn\'t hear any other comment or review, just those handful of comments and notes from the people at Readora, that made everything worth it."',
     themes: ['process-praise'], featured: false,
   },
   {
@@ -314,7 +314,7 @@ const reviews = [
     credential: 'Author, Painted Baby',
     img: '/assets/Matt_Shoup_Headshot.jpg',
     book: 'Painted Baby', bookHref: '/published-books/painted-baby',
-    quote: '"When I landed and did Painted Baby with [Scribe], I remember that was published, it was in hand, it was best content I\'ve ever put out. That was when I pitched my first five-figure gig and landed it, and then landed another one, and then another one. The book really helped elevate the speaking."',
+    quote: '"When I landed and did Painted Baby with [Readora], I remember that was published, it was in hand, it was best content I\'ve ever put out. That was when I pitched my first five-figure gig and landed it, and then landed another one, and then another one. The book really helped elevate the speaking."',
     themes: ['speaking-engagements'], featured: false,
   },
   {
@@ -338,7 +338,7 @@ const reviews = [
     credential: 'Co-Founder, Nth Degree Financial Solutions',
     img: '/assets/Eby-Headshots.jpg',
     book: 'The Invisible Threat', bookHref: '/published-books/the-invisible-threat',
-    quote: '"We couldn\'t have reached this milestone without the support of Scribe — especially Mark. He has been fantastic to work with. A truly skilled professional."',
+    quote: '"We couldn\'t have reached this milestone without the support of Readora — especially Mark. He has been fantastic to work with. A truly skilled professional."',
     themes: ['production-quality'], featured: false,
   },
   {
@@ -346,7 +346,7 @@ const reviews = [
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
-    quote: '"I had a great experience with Scribe. You\'re not paying me to say that."',
+    quote: '"I had a great experience with Readora. You\'re not paying me to say that."',
     themes: ['process-praise'], featured: false,
   },
   {
@@ -362,7 +362,7 @@ const reviews = [
     credential: 'Author of One Last Question Before You Go',
     img: null,
     book: 'One Last Question Before You Go', bookHref: '/published-books/one-last-question-before-you-go',
-    quote: '"[Scribe] really encourage[s] people to be as honest as possible. And I felt that with the feedback that I got in the book. It was very thoughtful human feedback."',
+    quote: '"[Readora] really encourage[s] people to be as honest as possible. And I felt that with the feedback that I got in the book. It was very thoughtful human feedback."',
     themes: ['process-praise'], featured: false,
   },
 ]
@@ -399,7 +399,7 @@ export default function Reviews() {
     <div className="reviews-page">
       <div className="reviews-page__header">
         <h1 className="font-playfair">What Our Authors Say</h1>
-        <p>Real stories from real authors who trusted Scribe to bring their books to life.</p>
+        <p>Real stories from real authors who partnered with Readora to bring their books to life.</p>
       </div>
 
       <div className="reviews-filter">

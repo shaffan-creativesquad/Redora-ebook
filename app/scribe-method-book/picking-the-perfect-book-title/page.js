@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Picking The Perfect Book Title | The Scribe Method | Scribe Media',
+  title: 'Picking The Perfect Book Title | The Readora Method | Readora',
   description: 'Learn 13 proven strategies for crafting a compelling book title that captures attention and drives sales.',
 }
 
@@ -13,7 +13,7 @@ export default function PerfectBookTitlePage() {
       <Navbar />
       <main id="main-content">
         <div className="chapter">
-          <a href="/scribe-method-book" className="chapter__back">← The Scribe Method</a>
+          <a href="/scribe-method-book" className="chapter__back">← The Readora Method</a>
           <p className="chapter__part">PART 6: FINISH YOUR MANUSCRIPT</p>
           <p className="chapter__num">Chapter 19</p>
           <h1 className="chapter__title">Picking The Perfect Book Title</h1>
@@ -142,8 +142,8 @@ export default function PerfectBookTitlePage() {
             </ul>
 
             <p>By following these principles, you&apos;ll craft a title that captures attention, engages readers, and ultimately drives book sales.</p>
-            <p>Need more guidance? Download <em>The Scribe Method</em> for free{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
+            <p>Need more guidance? Download <em>The Readora Method</em> for free{' '}
+              
               {' '}or grab a hard copy{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
@@ -162,7 +162,7 @@ export default function PerfectBookTitlePage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
         </div>

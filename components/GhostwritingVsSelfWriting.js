@@ -52,7 +52,7 @@ export default function GhostwritingVsSelfWriting() {
 
         <h2>The Middle Ground</h2>
         <p>It&apos;s not all or nothing. There&apos;s a third option that most people don&apos;t consider: writing the book yourself with professional coaching and support.</p>
-        <p>At Scribe, our <a href="/services/guided-author">Guided Author</a> program is built for this. You write the book. Our team provides structure, coaching, editing, design, and publishing. You get the personal satisfaction of writing it yourself with the professional quality of a full-service publisher.</p>
+        <p>At Readora, our <a href="/services/guided-author">Guided Author</a> program is built for this. You write the book. Our team provides structure, coaching, editing, design, and publishing. You get the personal satisfaction of writing it yourself with the professional quality of a full-service publisher.</p>
         <p>This is a good fit if you want to write, can commit the time, but want a structured process and professional team to make sure the finished product is excellent.</p>
 
         <h2>Side-by-Side Comparison</h2>
@@ -112,10 +112,10 @@ export default function GhostwritingVsSelfWriting() {
         <p><strong>Use a guided/coached program if:</strong> You want to write the book yourself but need structure, accountability, and a professional team to make the final product excellent. You can commit 5 to 10 hours per week to writing.</p>
         <p><strong>Hire a ghostwriter if:</strong> Your time is your most valuable asset. You have the ideas and expertise but not the bandwidth to write 50,000 words. You want a professional book done right, and you&apos;re willing to invest accordingly.</p>
 
-        <h2>What Scribe Offers</h2>
+        <h2>What Readora Offers</h2>
         <p>We&apos;ve published 3,000+ books across all three approaches:</p>
         <ul>
-          <li><a href="/services/ghostwriting">Scribe Elite Ghostwriting</a> ($135,000+) and <a href="/services/professional-book-writers">Professional</a> ($56,000) for authors who want us to write it</li>
+          <li><a href="/services/ghostwriting">Readora Elite Ghostwriting</a> ($135,000+) and <a href="/services/professional-book-writers">Professional</a> ($56,000) for authors who want us to write it</li>
           <li><a href="/services/guided-author">Guided Author</a> ($44,000) for authors who want to write with support</li>
           <li><a href="/services/publishing">Publishing</a> ($29,000) for authors who&apos;ve already written their manuscript</li>
         </ul>

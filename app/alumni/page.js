@@ -4,8 +4,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Schedule a Consult - Alumni Only | Scribe Media',
-  description: 'Welcome back, Scribe Alumni. Schedule a time to speak with one of our Author Strategists.',
+  title: 'Schedule a Consult - Alumni Only | Readora',
+  description: 'Welcome back, Readora Alumni. Schedule a time to speak with one of our Author Strategists.',
 }
 
 export default function AlumniPage() {
@@ -20,11 +20,11 @@ export default function AlumniPage() {
           </div>
 
           <div className="alumni-welcome">
-            <h2 className="alumni-welcome__heading">Welcome back, Scribe Alumni!</h2>
+            <h2 className="alumni-welcome__heading">Welcome back, Readora Alumni!</h2>
             <blockquote className="alumni-welcome__blockquote">
               <img
                 src="/assets/miles-rikki-1.png"
-                alt="Two Scribe team members smiling"
+                alt="Two Readora team members smiling"
                 width="80"
                 height="54"
                 loading="lazy"

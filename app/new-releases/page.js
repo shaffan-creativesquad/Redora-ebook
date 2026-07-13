@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import books from './books.json'
 
 export const metadata = {
-  title: 'New Releases | Published Books | Scribe Media',
-  description: 'Books published by Scribe authors in the last 90 days.',
+  title: 'New Releases | Published Books | Readora',
+  description: 'Books published by Readora authors in the last 90 days.',
 }
 
 function BookCard({ b }) {
@@ -43,7 +43,7 @@ export default function NewReleasesPage() {
 
           <h1 className="new-releases__heading">New Releases</h1>
           <p className="new-releases__subheading">
-            Books published by Scribe authors in the last 90 days. Updated automatically.
+            Books published by Readora authors in the last 90 days. Updated automatically.
           </p>
 
 

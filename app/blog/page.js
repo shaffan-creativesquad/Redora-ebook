@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Blog — Writing, Publishing & Book Marketing Insights | Scribe Media',
+  title: 'Blog — Writing, Publishing & Book Marketing Insights | Readora',
   description: 'Expert insights from 2,000+ published authors. Strategies and stories to help you write, publish, and market your nonfiction book.',
 }
 

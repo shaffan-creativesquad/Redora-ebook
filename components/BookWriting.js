@@ -2,8 +2,8 @@
 import { useState } from 'react'
 
 const features = [
-  { title: 'Scribe Guided Author', desc: 'You write the book with professional coaching, community support, and a full digital course. $44,000 over 15 months.' },
-  { title: 'Scribe Professional', desc: 'We interview you and write the book in your voice with professional editing and publishing. $56,000 over 12 months.' },
+  { title: 'Readora Guided Author', desc: 'You write the book with professional coaching, community support, and a full digital course. $44,000 over 15 months.' },
+  { title: 'Readora Professional', desc: 'We interview you and write the book in your voice with professional editing and publishing. $56,000 over 12 months.' },
   { title: 'Elite Ghostwriting', desc: 'A bestselling writer creates your book with a fully customized process. Starting at $135,000.' },
 ]
 
@@ -20,14 +20,14 @@ const notFor = [
 
 const faqs = [
   { q: 'Which writing service is right for me?', a: 'Schedule a consult and our Author Strategists will help you determine the best fit based on your goals, timeline, and preferences.' },
-  { q: 'Do I keep the rights to my book?', a: 'Yes, you retain all rights, creative control, and 100% of royalties with every Scribe service.' },
+  { q: 'Do I keep the rights to my book?', a: 'Yes, you retain all rights, creative control, and 100% of royalties with every Readora service.' },
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -44,31 +44,31 @@ const testimonials = [
     avatar: '/assets/sarma-mengailis.png',
   },
   {
-    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe — the perfect match between self-publishing but still getting that professional level of publication.",
+    quote: "I always wanted to get back to that original level but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Readora — the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
+    quote: 'As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     avatar: '/assets/AdamSkolnick_Headshot.jpg',
   },
   {
-    quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
+    quote: 'The amount that we spent on the Readora project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    quote: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
     avatar: '/assets/RichKurtzman_Headshot.jpg',
   },
   {
-    quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
+    quote: "Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
     avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
@@ -113,7 +113,7 @@ export default function BookWriting() {
         {/* Hero */}
         <div className="svc-detail__hero">
           <h1>Professional book writing services for non-fiction authors.</h1>
-          <p className="svc-detail__subtitle">Whether you want to write your book yourself with guidance or have a professional writer capture your voice, Scribe has a service that fits.</p>
+          <p className="svc-detail__subtitle">Whether you want to write your book yourself with guidance or have a professional writer capture your voice, Readora has a service that fits.</p>
           <div className="svc-detail__price">From $44,000</div>
           <div className="svc-detail__price-note">Multiple writing services available</div>
           <a href="/consult" className="svc-detail__cta-btn">Schedule a Consult</a>
@@ -182,7 +182,7 @@ export default function BookWriting() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

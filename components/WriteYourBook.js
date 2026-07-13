@@ -107,7 +107,7 @@ export default function WriteYourBook() {
         <div className="consult-books__inner">
           <div className="consult-books__header">
             <h2 className="consult-books__heading">Join 2,000+ Published Authors</h2>
-            <p className="consult-books__sub">These authors trusted Scribe to bring their books to life. Sorted by most Amazon reviews.</p>
+            <p className="consult-books__sub">These authors trusted Readora to bring their books to life. Sorted by most Amazon reviews.</p>
           </div>
           <div className="consult-books__grid">
             {books.map((book, i) => (

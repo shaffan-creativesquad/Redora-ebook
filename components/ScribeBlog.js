@@ -126,7 +126,7 @@ export default function ScribeBlog() {
     <div className="blog-listing">
       {/* Hero */}
       <div className="blog-hero">
-        <span className="blog-hero__tag">The Scribe Blog</span>
+        <span className="blog-hero__tag">The Readora Blog</span>
         <h1 className="blog-hero__title">Writing, Publishing, and Book Marketing Insights</h1>
         <p className="blog-hero__desc">Expert insights from 2,000+ published authors. Strategies and stories to help you write, publish, and market your nonfiction book.</p>
       </div>
@@ -202,7 +202,7 @@ export default function ScribeBlog() {
       {/* CTA */}
       <div className="blog-cta">
         <h2 className="blog-cta__title">Ready to Write Your Book?</h2>
-        <p className="blog-cta__text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
+        <p className="blog-cta__text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult to get started.</p>
         <a href="/consult" className="blog-cta__btn">Schedule a Consult</a>
       </div>
     </div>

@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import ScribeMethodForm from '@/components/ScribeMethodForm'
 
 export const metadata = {
-  title: 'The Scribe Method - Free Book | Scribe Media',
-  description: 'Read The Scribe Method for free. A Wall Street Journal bestseller covering everything you need to write, publish, and own your non-fiction book.',
+  title: 'The Readora Method - Free Book | Readora',
+  description: 'Read The Readora Method for free. A Wall Street Journal bestseller covering everything you need to write, publish, and own your non-fiction book.',
 }
 
 const tocParts = [
@@ -46,9 +46,9 @@ const tocParts = [
     title: 'PART 4: WRITE YOUR BOOK',
     chapters: [
       { num: 13, title: 'How to Create Your Book Writing Plan', slug: 'how-to-create-your-book-writing-plan' },
-      { num: 14, title: 'The Scribe Guide to Writing Effective Nonfiction', slug: 'the-scribe-guide-to-writing-effective-nonfiction' },
+      { num: 14, title: 'The Readora Guide to Writing Effective Nonfiction', slug: 'the-scribe-guide-to-writing-effective-nonfiction' },
       { num: 15, title: 'How to Write Your First Draft (The Vomit Method)', slug: 'how-to-write-your-first-draft-the-vomit-method' },
-      { num: 16, title: 'How to Write Your First Draft (The Scribe Method)', slug: 'how-to-write-your-first-draft-the-scribe-method' },
+      { num: 16, title: 'How to Write Your First Draft (The Readora Method)', slug: 'how-to-write-your-first-draft-the-scribe-method' },
     ],
   },
   {
@@ -117,15 +117,15 @@ export default function ScribeMethodBookPage() {
           {/* Hero */}
           <div className="smb__hero">
             <div className="smb__hero-text">
-              <h1>The Scribe Method</h1>
+              <h1>The Readora Method</h1>
               <h3>A Wall Street Journal Bestseller</h3>
-              <p>We believe the world needs more writers and that everyone has a story worth telling. That&apos;s why we&apos;re giving away The Scribe Method for free. No catch, just everything you need to write, publish, and own your book.</p>
+              <p>We believe the world needs more writers and that everyone has a story worth telling. That&apos;s why we&apos;re giving away The Readora Method for free. No catch, just everything you need to write, publish, and own your book.</p>
               <a href="#smb-form" className="smb__cta-btn">Get the Free Book</a>
             </div>
             <div className="smb__hero-img">
               <img
                 src="/assets/scribe-method-cover-200x300.png"
-                alt="The Scribe Method book cover"
+                alt="The Readora Method book cover"
                 width="200"
                 height="300"
               />
@@ -135,13 +135,13 @@ export default function ScribeMethodBookPage() {
           {/* What You'll Learn */}
           <div className="smb__section smb__section--alt">
             <h2>What You&apos;ll Learn</h2>
-            <p className="smb__about">The Scribe Method covers the complete process for writing, publishing, and marketing a non-fiction book. Written by Tucker Max and Zach Obront, it distills everything they learned helping 2,000+ authors publish their books.</p>
+            <p className="smb__about">The Readora Method covers the complete process for writing, publishing, and marketing a non-fiction book. Written by Tucker Max and Zach Obront, it distills everything they learned helping 2,000+ authors publish their books.</p>
           </div>
 
           {/* Get Free Copy Form */}
           <div className="smb__form-section" id="smb-form">
             <h2>Get Your Free Copy</h2>
-            <p>Enter your information below to get free access to The Scribe Method.</p>
+            <p>Enter your information below to get free access to The Readora Method.</p>
             <div className="smb__form-wrapper">
               <ScribeMethodForm />
             </div>
@@ -152,7 +152,7 @@ export default function ScribeMethodBookPage() {
         <div className="sm-features">
           <p className="sm-features__label">What&apos;s Inside</p>
           <h2 className="sm-features__heading">Everything You Need to Write, Publish, and Market Your Book</h2>
-          <p className="sm-features__sub">The Scribe Method is the definitive guide used by 2,000+ authors. Written by Tucker Max and Zach Obront, it covers the entire journey from idea to published book.</p>
+          <p className="sm-features__sub">The Readora Method is the definitive guide used by 2,000+ authors. Written by Tucker Max and Zach Obront, it covers the entire journey from idea to published book.</p>
           <div className="sm-features__grid">
             <div className="sm-features__card">
               <div className="sm-features__icon"><i className="ph ph-target"></i></div>
@@ -191,7 +191,7 @@ export default function ScribeMethodBookPage() {
         <div className="sm-toc">
           <p className="sm-toc__label">Read It Free</p>
           <h2 className="sm-toc__heading">Table of Contents</h2>
-          <p className="sm-toc__sub">Read the entire Scribe Method online for free, chapter by chapter.</p>
+          <p className="sm-toc__sub">Read the entire Readora Method online for free, chapter by chapter.</p>
           <div className="sm-toc__parts">
             {tocParts.map((part) => (
               <div className="sm-toc__part" key={part.title}>

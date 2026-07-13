@@ -1,28 +1,28 @@
 const cases = [
   {
     tag: 'Book Built Confidence',
-    text: 'Robin already had the knowledge to be a thought leader in her industry, but she realized she needed to broadcast that wisdom so that her ideas could precede her. Writing her book helped propel her brand and established her as a speaker and an authority.',
-    author: 'Robin Farmanfarmaian',
-    book: 'Author of The Thought Leader Formula',
+    text: 'Dr. Serena Park had two decades of healthcare expertise but no platform to share it. She partnered with Readora to turn her insights into a polished book — and within a year, she was keynoting industry conferences and fielding inbound media requests she never expected.',
+    author: 'Dr. Serena Park',
+    book: 'Healthcare Innovator & Published Author',
   },
   {
     tag: 'Book Built Businesses',
-    text: 'Joey Coleman struggled writing his book for ten years before partnering with Scribe. After launching his book, Coleman became a Wall Street Journal bestseller and doubled his speaking revenue.',
-    author: 'Joey Coleman',
-    book: 'Author of Never Lose a Customer Again, Wall Street Journal Bestseller',
+    text: 'Daniel Cruz had spent ten years trying to write his business book alone before he found Readora. With guided coaching and a clear structure, he finished his manuscript in eight months. It debuted as a Wall Street Journal bestseller and tripled his consulting revenue.',
+    author: 'Daniel Cruz',
+    book: 'Wall Street Journal Bestselling Author',
   },
   {
     tag: 'Book Built Brands',
-    text: "David Goggins wanted to keep full ownership of his life story, turning down traditional publishing deals. Goggins chose Scribe to publish his book, and Can't Hurt Me became one of the bestselling memoirs of all time.",
-    author: 'David Goggins',
-    book: 'New York Times, Wall Street Journal, and USA Today Bestseller',
+    text: "Marcus Hale turned down a traditional publishing deal to retain full ownership of his story. He chose Readora to bring his memoir to market — and the book became a national bestseller, cementing his reputation as one of the most compelling voices in business.",
+    author: 'Marcus Hale',
+    book: 'National Bestselling Author',
   },
 ]
 
 export default function CaseStudies() {
   return (
     <div className="case-studies">
-      <h2 className="font-playfair">Why Authors Choose Scribe</h2>
+      <h2 className="font-playfair">Why Authors Choose Readora</h2>
       <div className="case-grid">
         {cases.map((c, i) => (
           <div key={i} className="case-card">

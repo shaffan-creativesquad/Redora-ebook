@@ -4,9 +4,9 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Get a Quote | Scribe Media',
+  title: 'Get a Quote | Readora',
   description:
-    'Review your personalized quote and agreement details with Scribe Media. Enter your quote ID, verify your email, or contact your representative for help.',
+    'Review your personalized quote and agreement details with Readora. Enter your quote ID, verify your email, or contact your representative for help.',
 }
 
 export default function QuotePage() {
@@ -25,7 +25,7 @@ export default function QuotePage() {
             <div className="q-lookup-card">
               <h2>Retrieve Your Quote</h2>
               <p style={{ marginBottom: '32px', lineHeight: 1.5 }}>
-                Enter the email address and Deal ID your Scribe representative provided.
+                Enter the email address and Deal ID your Readora representative provided.
               </p>
               <div className="q-lookup-form">
                 <label htmlFor="lookup-email">Email Address</label>
@@ -39,7 +39,7 @@ export default function QuotePage() {
               <p id="lookup-error" className="q-lookup-error"></p>
             </div>
             <p className="q-lookup-footer">
-              Don't have this information? <a href="https://scribemedia.com/consult">Contact your representative</a>
+              Don't have this information? <a href="https://readora.com/consult">Contact your representative</a>
             </p>
           </div>
 
@@ -59,16 +59,16 @@ export default function QuotePage() {
               <p id="verify-error" className="q-lookup-error"></p>
             </div>
             <p className="q-lookup-footer">
-              Not your quote? <a href="https://scribemedia.com/consult">Contact your representative</a>
+              Not your quote? <a href="https://readora.com/consult">Contact your representative</a>
             </p>
           </div>
 
           <div className="q-state" id="state-error" style={{ display: 'none' }}>
             <h2>Quote Not Found</h2>
             <p id="error-message">
-              This quote link is no longer valid. Please contact your Scribe representative.
+              This quote link is no longer valid. Please contact your Readora representative.
             </p>
-            <a href="https://scribemedia.com/consult" className="q-btn q-btn--gold" style={{ marginTop: '24px' }}>
+            <a href="https://readora.com/consult" className="q-btn q-btn--gold" style={{ marginTop: '24px' }}>
               Schedule a Consult
             </a>
           </div>
@@ -78,10 +78,10 @@ export default function QuotePage() {
             <h2>Agreement Complete</h2>
             <p>
               This agreement has already been signed and the deposit has been paid. If you have
-              questions, contact your Scribe team.
+              questions, contact your Readora team.
             </p>
-            <a href="https://scribemedia.com" className="q-btn q-btn--outline" style={{ marginTop: '24px' }}>
-              Back to Scribe Media
+            <a href="https://readora.com" className="q-btn q-btn--outline" style={{ marginTop: '24px' }}>
+              Back to Readora
             </a>
           </div>
 
@@ -271,7 +271,7 @@ export default function QuotePage() {
                     </div>
                     <div className="q-consult-cta">
                       <p>Have questions before signing? Talk to our team first.</p>
-                      <a href="https://scribemedia.com/consult" className="q-btn q-btn--blue">
+                      <a href="https://readora.com/consult" className="q-btn q-btn--blue">
                         Schedule a Free Consult
                       </a>
                     </div>
@@ -310,7 +310,7 @@ export default function QuotePage() {
                     </div>
                     <div className="q-consult-cta">
                       <p>Changed your mind? No problem. Talk to us first.</p>
-                      <a href="https://scribemedia.com/consult" className="q-btn q-btn--blue">
+                      <a href="https://readora.com/consult" className="q-btn q-btn--blue">
                         Schedule a Free Consult Instead
                       </a>
                     </div>

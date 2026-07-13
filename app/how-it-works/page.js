@@ -4,8 +4,8 @@ import Footer from '@/components/Footer'
 import NewsletterForm from '@/components/NewsletterForm'
 
 export const metadata = {
-  title: 'How It Works | Scribe Media',
-  description: 'From first conversation to published book. Learn the full Scribe Media process — consultation, positioning, writing, editing, design, and distribution.',
+  title: 'How It Works | Readora',
+  description: 'From first conversation to published book. Learn the full Readora process — consultation, positioning, writing, editing, design, and distribution.',
 }
 
 export default function HowItWorksPage() {
@@ -16,7 +16,7 @@ export default function HowItWorksPage() {
 
         <section className="content-page">
           <div className="content-page__header">
-            <h1 className="content-page__heading">How Scribe Works</h1>
+            <h1 className="content-page__heading">How Readora Works</h1>
             <p className="content-page__subheading">From first conversation to published book. Here&apos;s the process.</p>
           </div>
 
@@ -109,7 +109,7 @@ export default function HowItWorksPage() {
             <p>It depends on how involved you want to be in the writing and what your budget looks like.</p>
 
             <ul>
-              <li><strong><a href="/services/ghostwriting">Scribe Elite</a></strong> ($135,000+): Premier ghostwriting. Top-tier writers, fully customized.</li>
+              <li><strong><a href="/services/ghostwriting">Readora Elite</a></strong> ($135,000+): Premier ghostwriting. Top-tier writers, fully customized.</li>
               <li><strong><a href="/services/professional-book-writers">Professional</a></strong> ($56,000): We interview you and write the book. Full publishing included.</li>
               <li><strong><a href="/services/guided-author">Guided Author</a></strong> ($44,000): You write with our coaching. We edit and publish.</li>
               <li><strong><a href="/services/publishing">Publishing</a></strong> ($29,000): You&apos;ve written the manuscript. We handle everything else.</li>
@@ -132,7 +132,7 @@ export default function HowItWorksPage() {
               </svg>
             </div>
             <h2 className="cta-form-section__heading">Learn how professionals write and publish their books.</h2>
-            <p className="cta-form-section__subheading">Join 57,000+ readers receiving expert writing and publishing insights from our Scribe team.</p>
+            <p className="cta-form-section__subheading">Join 57,000+ readers receiving expert writing and publishing insights from our Readora team.</p>
             <div className="cta-form-section__pill-list" aria-hidden="true">
               <span className="cta-form-section__pill">Writing frameworks</span>
               <span className="cta-form-section__pill">Publishing playbooks</span>

@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Coaches | Scribe Media',
+  title: 'Books for Coaches | Readora',
   description: 'Executive coaches, business coaches, and life coaches use books to codify their methodology, attract premium clients, and scale their impact.',
 }
 

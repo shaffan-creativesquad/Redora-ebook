@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Outline The Introduction | The Scribe Method | Scribe Media',
+  title: 'Outline The Introduction | The Readora Method | Readora',
   description: 'Learn the proven formula for writing a book introduction that hooks readers and keeps them engaged.',
 }
 
@@ -15,7 +15,7 @@ export default function OutlineTheIntroductionPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 3: OUTLINE YOUR BOOK</p>
@@ -97,8 +97,8 @@ export default function OutlineTheIntroductionPage() {
 
             <h2>Ready to Write an Introduction That Hooks Readers?</h2>
             <p>By following this proven formula, you can craft an introduction that pulls readers in and keeps them engaged until the last page.</p>
-            <p>Want more expert guidance on writing and publishing your book? Read <em>The Scribe Method</em> for free online{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
+            <p>Want more expert guidance on writing and publishing your book? Read <em>The Readora Method</em> for free online{' '}
+              
               {' '}or grab a hard copy{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
@@ -117,7 +117,7 @@ export default function OutlineTheIntroductionPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

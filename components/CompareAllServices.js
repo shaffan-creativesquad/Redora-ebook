@@ -12,7 +12,7 @@ const included = [
   { icon: '🚀', title: 'Launch Week Support', desc: 'Amazon Best Seller campaign, custom social media graphics, email templates, Goodreads giveaway, Amazon A+ content, and local media outreach — all included.' },
   { icon: '©️', title: 'Copyright & Cataloging', desc: 'Your manuscript registered with the United States copyright office, Bowker\'s Books In Print database, and assigned all ISBN and BISAC codes for retail distribution.' },
   { icon: '👑', title: 'Full Ownership', desc: 'You own all of your content and royalties. We set up all distributor and retailer accounts in your name. 100% creative control, 100% of royalties.' },
-  { icon: '🏷️', title: 'Publishing Imprint', desc: 'Your book published under one of Scribe\'s premier imprints, Lioncrest or Houndstooth, or under a custom imprint of your own brand and choosing.' },
+  { icon: '🏷️', title: 'Publishing Imprint', desc: 'Your book published under one of Readora\'s premier imprints, Ember Press or Thornfield Books, or under a custom imprint of your own brand and choosing.' },
   { icon: '📸', title: 'Author Photo', desc: 'A great author photo is a powerful tool. We can recommend a professional photographer, or use your existing professional photos.' },
 ]
 
@@ -33,7 +33,7 @@ const quizSteps = [
     question: 'Would you rather write the book yourself, or have us write it for you?',
     options: [
       { label: 'I want to write it myself with coaching', next: 'result-ga' },
-      { label: 'I want Scribe to write it for me', next: 'step3' },
+      { label: 'I want Readora to write it for me', next: 'step3' },
     ],
     back: 'step1',
   },
@@ -53,7 +53,7 @@ const quizResults = {
   'result-pub': {
     label: 'We recommend',
     featured: false,
-    name: 'Scribe Publishing',
+    name: 'Readora Publishing',
     price: '$29,000',
     desc: 'You bring the finished book. We professionally edit, design, publish, and distribute it. A fully managed, end-to-end publishing experience. Paid over 6 months.',
     back: 'step1',
@@ -61,7 +61,7 @@ const quizResults = {
   'result-ga': {
     label: 'We recommend',
     featured: false,
-    name: 'Scribe Guided Author',
+    name: 'Readora Guided Author',
     price: '$44,000',
     desc: 'We coach you through writing your book with 10 dedicated Book Coach calls, a structured framework, and a peer community. Then we edit, design, publish, and distribute. Paid over 15 months.',
     back: 'step2',
@@ -70,7 +70,7 @@ const quizResults = {
     label: 'We recommend',
     featured: true,
     badge: 'Most popular',
-    name: 'Scribe Professional',
+    name: 'Readora Professional',
     price: '$56,000',
     desc: 'We interview you over a series of calls, capture your ideas and voice, then write the entire book for you. You review drafts and give feedback. We handle everything else. Paid over 12 months.',
     back: 'step3',
@@ -78,7 +78,7 @@ const quizResults = {
   'result-elite': {
     label: 'We recommend',
     featured: false,
-    name: 'Scribe Elite',
+    name: 'Readora Elite',
     price: '$135,000+',
     desc: 'Work with one of our most elite and experienced ghostwriters, who interviews you, conducts outside research, references multiple sources, and helps create the highest-quality book possible. Flexible payment plan.',
     back: 'step3',
@@ -156,7 +156,7 @@ export default function CompareAllServices() {
           <div className="sv2-card sv2-card--featured">
             <div className="sv2-badge">Most popular</div>
             <div className="sv2-card-label">Our flagship service</div>
-            <h3>Scribe Professional</h3>
+            <h3>Readora Professional</h3>
             <p>We interview you over a series of calls, capture your ideas and voice, then write the entire book for you. You review drafts and give feedback. We handle everything else.</p>
             <div className="sv2-price">$56,000</div>
             <div className="sv2-price-note">Paid over 12 months</div>
@@ -168,13 +168,13 @@ export default function CompareAllServices() {
           </div>
           <div className="sv2-card">
             <div className="sv2-card-label">The premium experience</div>
-            <h3>Scribe Elite</h3>
+            <h3>Readora Elite</h3>
             <p>Work with one of our most elite and experienced ghostwriters, who interviews you, conducts outside research, references multiple sources, and helps create the highest-quality book possible.</p>
             <div className="sv2-price">$135,000+</div>
             <div className="sv2-price-note">Flexible payment plan</div>
             <div className="sv2-time-box">
               <div className="sv2-time-label">What sets Elite apart</div>
-              <div className="sv2-time-value">Our most tenured scribes + $25K marketing budget included.</div>
+              <div className="sv2-time-value">Our most tenured writers + $25K marketing budget included.</div>
             </div>
             <a href="/services/ghostwriting" className="sv2-card-link">Learn more about Elite →</a>
           </div>
@@ -187,7 +187,7 @@ export default function CompareAllServices() {
           <div className="sv2-card sv2-card--featured">
             <div className="sv2-badge">Coaching + Publishing</div>
             <div className="sv2-card-label">Write it yourself with expert support</div>
-            <h3>Scribe Guided Author</h3>
+            <h3>Readora Guided Author</h3>
             <p>We coach you through writing your book with 10 dedicated Book Coach calls, a structured framework, and a peer community. Then we edit, design, publish, and distribute.</p>
             <div className="sv2-price">$44,000</div>
             <div className="sv2-price-note">Paid over 15 months</div>
@@ -199,7 +199,7 @@ export default function CompareAllServices() {
           </div>
           <div className="sv2-card">
             <div className="sv2-card-label">Already have a manuscript?</div>
-            <h3>Scribe Publishing</h3>
+            <h3>Readora Publishing</h3>
             <p>You bring the finished book. We professionally edit, design, publish, and distribute it. A fully managed, end-to-end publishing experience.</p>
             <div className="sv2-price">$29,000</div>
             <div className="sv2-price-note">Paid over 6 months</div>
@@ -227,7 +227,7 @@ export default function CompareAllServices() {
               </tr>
             </thead>
             <tbody>
-              <tr><td>Who writes the book?</td><td>You</td><td>You, with coaching</td><td className="sv2-hl-col">Scribe, from your interviews</td><td>Elite scribe, from your interviews</td></tr>
+              <tr><td>Who writes the book?</td><td>You</td><td>You, with coaching</td><td className="sv2-hl-col">Readora, from your interviews</td><td>Elite Readora, from your interviews</td></tr>
               <tr><td>Author time required</td><td>1-3 hrs/week (30-50 hrs total)</td><td>2-6 hrs/week (varies)</td><td className="sv2-hl-col">2-4 hrs/week (60-100 hrs total)</td><td>2-4 hrs/week (80-120 hrs total)</td></tr>
               <tr><td>Project length</td><td>6-7 months</td><td>12-18 months</td><td className="sv2-hl-col">9-12 months</td><td>9-12 months</td></tr>
               <tr><td>Content editing</td><td>Optional add-on</td><td>3 editing passes</td><td className="sv2-hl-col">Ongoing</td><td>Ongoing</td></tr>

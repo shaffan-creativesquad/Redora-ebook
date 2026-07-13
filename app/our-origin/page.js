@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Our Origin Story | Scribe Media',
-  description: 'How Tucker Max and Zach Obront launched Book In A Box in 2014 — and built it into Scribe Media, the first professional publisher for thought leaders.',
+  title: 'Our Origin Story | Readora',
+  description: 'How Tucker Max and Zach Obront launched Book In A Box in 2014 — and built it into Readora, the first professional publisher for thought leaders.',
 }
 
 export default function OurOriginPage() {
@@ -17,7 +17,7 @@ export default function OurOriginPage() {
 
             <p className="origin-kicker">Our Origin Story</p>
             <h1 className="origin-title">It Began with a Question</h1>
-            <p className="origin-sub">By Tucker Max, Scribe Co-Founder and 4x New York Times Bestselling Author</p>
+            <p className="origin-sub">By Tucker Max, Readora Co-Founder and 4x New York Times Bestselling Author</p>
 
             {/* Founders */}
             <div className="origin-founders">
@@ -63,7 +63,7 @@ export default function OurOriginPage() {
             <div className="origin-story">
               <p>It started with a simple question from Melissa Gonzalez: "I want to author a book, but I don't have the time to write it and the normal publishing process is too frustrating. Is there another way?"</p>
               <p>For weeks, I obsessed over the problem. Then the solution hit me: what if we could get an author's ideas out by talking instead of forcing them to sit at a keyboard for hundreds of hours?</p>
-              <p>I brought Zach Obront into the conversation, and we tested the process together. It worked. In August 2014, we launched Book In A Box, now Scribe Media, to take authors from idea to professionally published book through a clear, repeatable process.</p>
+              <p>I brought Zach Obront into the conversation, and we tested the process together. It worked. In August 2014, we launched Book In A Box, now Readora, to take authors from idea to professionally published book through a clear, repeatable process.</p>
             </div>
 
             {/* Origin cards */}
@@ -77,7 +77,7 @@ export default function OurOriginPage() {
                 <h2>From Then to Now</h2>
                 <p><strong>2014:</strong> Book In A Box launches after early product-market fit signals.</p>
                 <p><strong>Growth:</strong> The process is refined across thousands of author engagements.</p>
-                <p><strong>Today:</strong> As Scribe Media, we help experts write, publish, and market books while keeping full ownership.</p>
+                <p><strong>Today:</strong> As Readora, we help experts write, publish, and market books while keeping full ownership.</p>
               </article>
             </div>
 

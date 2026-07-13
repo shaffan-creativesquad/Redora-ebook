@@ -4,15 +4,15 @@ import Image from 'next/image'
 const imprints = [
   {
     logo: '/assets/lioncrest-logo-footer.svg',
-    name: 'Lioncrest Publishing',
-    desc: 'Our premier imprint, accessible to authors who engage with Scribe for editorial work on their manuscript.',
-    href: 'https://lioncrest.com/?__hstc=89630276.9c96874b08a0746eb606a60248785dc0.1781703526564.1782150149194.1782219487519.17&__hssc=89630276.68.1782219487519&__hsfp=018cea44835d7e2f516fef0d7e5e320e',
+    name: 'Ember Press',
+    desc: 'Our premier imprint for authors who complete editorial work with Readora — built for books that demand the highest standard of craft.',
+    href: '/services/publishing',
   },
   {
     logo: '/assets/ht-logo.svg',
-    name: 'Houndstooth Press',
-    desc: 'Our largest imprint, accessible to authors who engage with Scribe for publishing services.',
-    href: 'https://houndstoothpublishing.com/?__hstc=89630276.9c96874b08a0746eb606a60248785dc0.1781703526564.1782150149194.1782219487519.17&__hssc=89630276.68.1782219487519&__hsfp=018cea44835d7e2f516fef0d7e5e320e',
+    name: 'Thornfield Books',
+    desc: 'Our flagship publishing imprint, available to all authors who partner with Readora for full publishing services.',
+    href: '/services/publishing',
   },
 ]
 
@@ -25,10 +25,10 @@ export default function PublishingImprints() {
       borderTop: '1px solid rgba(220,45,45,0.08)',
     }}>
       <h2 className="font-playfair" style={{ fontSize: 'clamp(2rem,3vw,2.25rem)', fontWeight: 700, color: '#ffffff', margin: '0 0 0.75rem' }}>
-        Our Publishing Imprints
+        Your book deserves a proper home.
       </h2>
       <p style={{ color: '#9ca3af', fontSize: '1rem', lineHeight: 1.6, maxWidth: '620px', margin: '0 auto 2.5rem' }}>
-        Scribe Media publishes across two imprints, each serving authors with premium writing and publishing services.
+        Readora authors publish under one of two carefully curated imprints — each built to give your work the credibility, distribution, and shelf presence it has earned.
       </p>
 
       <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap', maxWidth: '1000px', margin: '0 auto' }}>

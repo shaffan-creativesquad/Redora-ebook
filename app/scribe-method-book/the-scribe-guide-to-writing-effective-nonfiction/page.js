@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'The Scribe Guide to Writing Effective Nonfiction | The Scribe Method | Scribe Media',
-  description: 'Learn the four Scribe writing principles for crafting nonfiction that is short, simple, direct, and reader-focused.',
+  title: 'The Readora Guide to Writing Effective Nonfiction | The Readora Method | Readora',
+  description: 'Learn the four Readora writing principles for crafting nonfiction that is short, simple, direct, and reader-focused.',
 }
 
 export default function ScribeGuideNonfictionPage() {
@@ -13,17 +13,17 @@ export default function ScribeGuideNonfictionPage() {
       <Navbar />
       <main id="main-content">
         <div className="chapter">
-          <a href="/scribe-method-book" className="chapter__back">← The Scribe Method</a>
+          <a href="/scribe-method-book" className="chapter__back">← The Readora Method</a>
           <p className="chapter__part">PART 4: WRITE YOUR BOOK</p>
           <p className="chapter__num">Chapter 14</p>
-          <h1 className="chapter__title">The Scribe Guide to Writing Effective Nonfiction</h1>
+          <h1 className="chapter__title">The Readora Guide to Writing Effective Nonfiction</h1>
           <div className="chapter__content">
             <p>Remember writing essays in school with a minimum word count? If you were like most students, you probably stretched every sentence as far as possible—turning a simple phrase like &quot;they said&quot; into &quot;they then proceeded to vocally exclaim...&quot;</p>
             <p>That&apos;s a terrible way to learn how to write.</p>
             <p>Instead of teaching us how to engage readers, schools often force students to meet arbitrary length requirements, leading to bloated, unreadable prose. But great nonfiction isn&apos;t about word count—it&apos;s about clarity and impact.</p>
             <p>If you want to write a compelling nonfiction book, focus on what readers actually want: content that is short, simple, direct, and relevant to them.</p>
 
-            <h2>The Four Scribe Writing Principles</h2>
+            <h2>The Four Readora Writing Principles</h2>
             <ol>
               <li>
                 <strong>Make It Short</strong>
@@ -81,7 +81,7 @@ export default function ScribeGuideNonfictionPage() {
             <p>These principles may seem straightforward, but they go against much of what traditional education teaches about writing. By following these guidelines, you&apos;ll create nonfiction that grabs attention, keeps readers engaged, and delivers real value.</p>
             <p><strong><em>Ready to Write a Book That Readers Love?</em></strong></p>
             <p>Access the{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>full Scribe Method</strong></a>
+              
               {' '}for free, or grab a hard copy{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>here</strong></a>.
             </p>
@@ -100,7 +100,7 @@ export default function ScribeGuideNonfictionPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
         </div>

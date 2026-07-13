@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Speakers | Scribe Media',
+  title: 'Books for Speakers | Readora',
   description:
-    'Scribe Media helps speakers professionals write and publish books that build authority, attract clients, and grow their business. See our speakers authors.',
+    'Readora helps speakers professionals write and publish books that build authority, attract clients, and grow their business. See our speakers authors.',
 }
 
 const authors = [
@@ -14,7 +14,7 @@ const authors = [
     nameHref: '/authors/shep-hyken',
     book: 'Be Amazing or Go Home',
     bookHref: '/published-books/be-amazing-or-go-home',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/be-amazing-or-go-home.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/be-amazing-or-go-home.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.6 (210+)',
@@ -26,7 +26,7 @@ const authors = [
     nameHref: null,
     book: 'Never Lose a Customer Again',
     bookHref: '/published-books/never-lose-a-customer-again-joey-coleman',
-    bookImg: 'https://scribemedia.com/hubfs/lioncrest/covers/NLaCA.jpg',
+    bookImg: 'https://readora.com/hubfs/lioncrest/covers/NLaCA.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.7 (3,200+)',
@@ -38,8 +38,8 @@ const authors = [
     nameHref: '/authors/jesse-cole',
     book: 'Fans First',
     bookHref: '/published-books/fans-first',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/JesseCole_eBookCover_Final-1.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Jesse_Cole_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/JesseCole_eBookCover_Final-1.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/Jesse_Cole_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.7 (950+)',
     desc: 'Built the Savannah Bananas into the most entertaining brand in sports, fueled by his book.',
@@ -84,7 +84,7 @@ export default function BooksForSpeakersPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Speakers Leaders Who Published with Scribe</h2>
+            <h2>Speakers Leaders Who Published with Readora</h2>
             <p className="ind__section-sub">
               These speakers professionals turned their expertise into bestselling books.
             </p>

@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Introduction: Why Write a Book? | The Scribe Method | Scribe Media',
-  description: 'Introduction: Why Write a Book? The Ultimate Guide to Starting Your Author Journey. Read The Scribe Method for free.',
+  title: 'Introduction: Why Write a Book? | The Readora Method | Readora',
+  description: 'Introduction: Why Write a Book? The Ultimate Guide to Starting Your Author Journey. Read The Readora Method for free.',
 }
 
 export default function IntroductionWhyWriteABook() {
@@ -15,7 +15,7 @@ export default function IntroductionWhyWriteABook() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__num">Chapter 1</p>
@@ -49,9 +49,9 @@ export default function IntroductionWhyWriteABook() {
 
             <h2>Why Most People Don&apos;t Write a Book</h2>
             <p>Despite the benefits, many aspiring authors never make it past the starting line. The fear of writing a &quot;bad book&quot; or not knowing how to begin keeps them stuck. Others start with enthusiasm but lose momentum when they encounter obstacles.</p>
-            <p>The good news? With the right guidance and tools, anyone can write a great book. That&apos;s where <em>The Scribe Method</em> comes in.</p>
+            <p>The good news? With the right guidance and tools, anyone can write a great book. That&apos;s where <em>The Readora Method</em> comes in.</p>
 
-            <h2>What You&apos;ll Learn in <em>The Scribe Method</em></h2>
+            <h2>What You&apos;ll Learn in <em>The Readora Method</em></h2>
             <p>This book is your step-by-step guide to writing, publishing, and marketing a book that makes an impact. Here&apos;s a preview of what you&apos;ll discover:</p>
             <ul>
               <li>How to choose the perfect topic for your book.</li>
@@ -63,7 +63,7 @@ export default function IntroductionWhyWriteABook() {
             </ul>
 
             <h2>What This Book Won&apos;t Promise</h2>
-            <p>Let&apos;s be clear: <em>The Scribe Method</em> isn&apos;t about quick fixes or unrealistic promises.</p>
+            <p>Let&apos;s be clear: <em>The Readora Method</em> isn&apos;t about quick fixes or unrealistic promises.</p>
             <ul>
               <li>You won&apos;t learn how to write a book in a week—great books take time.</li>
               <li>It&apos;s not about overnight fame or instant riches.</li>
@@ -71,13 +71,7 @@ export default function IntroductionWhyWriteABook() {
             </ul>
 
             <h2>Ready to Start Your Journey?</h2>
-            <p>If you&apos;ve been waiting for the right moment to write your book, this is it. Don&apos;t let fear or doubt hold you back. Take the first step today with <em>The Scribe Method</em>.</p>
-            <p>
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>Read the full book online here</strong></a>
-              {' '}or{' '}
-              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>Order your hard copy now</strong></a>
-              {' '}to begin your journey to becoming an author.
-            </p>
+            <p>If you&apos;ve been waiting for the right moment to write your book, this is it. Don&apos;t let fear or doubt hold you back. Take the first step today — schedule a free consult with our team and let&apos;s build your book together.</p>
           </div>
 
           <div className="chapter__nav">
@@ -89,7 +83,7 @@ export default function IntroductionWhyWriteABook() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

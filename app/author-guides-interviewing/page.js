@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Author Guides: Interviewing | Scribe Media',
-  description: 'The point of your interview calls is very simple: get all the knowledge of your book topic out of your head, and onto an audio recording, so your Scribe can help you turn your ideas into a great book.',
+  title: 'Author Guides: Interviewing | Readora',
+  description: 'The point of your interview calls is very simple: get all the knowledge of your book topic out of your head, and onto an audio recording, so your Readora can help you turn your ideas into a great book.',
 }
 
 export default function AuthorGuidesInterviewingPage() {

@@ -16,7 +16,7 @@ const themPoints = [
 
 const usPoints = [
   'Full publishing + positioning: writing, editing, design, audiobook, distribution, launch',
-  'Scribe Elite ($135,000) includes a $25,000 discretionary marketing budget',
+  'Readora Elite ($135,000) includes a $25,000 discretionary marketing budget',
   'Strategic positioning around your business, brand, and goals',
   'Editorial team with the same caliber of pedigree — at a flat fee',
   'You retain 100% IP, royalties, and rights',
@@ -26,7 +26,7 @@ const reasons = [
   {
     num: '01',
     title: 'You get a book — and a strategy.',
-    desc: 'KAA writes a manuscript. Scribe builds a brand asset with a launch and marketing engine wrapped around it.',
+    desc: 'KAA writes a manuscript. Readora builds a brand asset with a launch and marketing engine wrapped around it.',
   },
   {
     num: '02',
@@ -52,7 +52,7 @@ const differentiators = [
 
 const pricingTiers = [
   {
-    tier: 'Scribe Publishing',
+    tier: 'Readora Publishing',
     amount: '$29,000',
     note: 'flat · 6 months',
     desc: 'For authors who have a completed manuscript and need professional editing, design, audiobook, and full distribution.',
@@ -65,7 +65,7 @@ const pricingTiers = [
     featured: false,
   },
   {
-    tier: 'Scribe Professional',
+    tier: 'Readora Professional',
     amount: '$56,000',
     note: 'flat · 12 months',
     desc: "Our flagship — chosen by ~80% of authors. You don't write a word. We pair you with a senior scribe and capture your voice through structured interviews.",
@@ -80,7 +80,7 @@ const pricingTiers = [
     featured: true,
   },
   {
-    tier: 'Scribe Elite',
+    tier: 'Readora Elite',
     amount: '$135,000',
     note: 'flat · 15 months',
     desc: 'White-glove, prestige-tier service for legacy-defining books. In-person collaboration option, top scribe circle, $25K discretionary marketing budget.',
@@ -115,10 +115,10 @@ const faqs = [
   },
   {
     q: 'How long does it take?',
-    a: "9–12 months for Scribe Professional. 12–16 months for Scribe Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
+    a: "9–12 months for Readora Professional. 12–16 months for Readora Elite. We won't lie to you about timelines just to close a deal. Our timeline reflects what it takes to do this right the first time, and our most successful authors will tell you they're grateful they didn't settle for faster.",
   },
   {
-    q: 'What about the Scribe 1.0 issues I read about?',
+    q: 'What about the Readora 1.0 issues I read about?',
     a: "New ownership and leadership took over in 2023 and made structural improvements across the board — financial oversight (we have a CFO now), governance (board meets weekly), transparency (weekly cash flow reporting), and installment-based payment structures so you see progress before making additional payments. We've now published approximately 120 books for affected authors at cost. Full transparency about what happened — happy to walk through it on a call.",
   },
 ]
@@ -156,7 +156,7 @@ export default function VsKevinAndersonAssociates() {
       <section className="vs-page__section" id="compare">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">The Comparison</div>
-          <h2>Kevin Anderson &amp; Associates vs. <em>Scribe Media</em></h2>
+          <h2>Kevin Anderson &amp; Associates vs. <em>Readora</em></h2>
           <p className="vs-page__section-lead">Both companies are real and have served real authors. Here&apos;s how the sales-team&apos;s own competitive briefing describes the difference — verbatim — so you can decide which one matches what you actually need.</p>
           <div className="vs-page__two-col">
             <div className="vs-page__col vs-page__col--them">
@@ -165,7 +165,7 @@ export default function VsKevinAndersonAssociates() {
               <ul>{themPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
             <div className="vs-page__col">
-              <div className="vs-page__col-label">Scribe Media</div>
+              <div className="vs-page__col-label">Readora</div>
               <h3>A book that builds <em>brand, credibility, and legacy</em>.</h3>
               <ul>{usPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
             </div>
@@ -177,8 +177,8 @@ export default function VsKevinAndersonAssociates() {
       <section className="vs-page__quote">
         <div className="vs-page__container">
           <div className="vs-page__quote-eyebrow">How Our Sales Team Describes the Difference</div>
-          <p className="vs-page__quote-lead">&ldquo;They&apos;re writers for hire — we&apos;re a full publishing and positioning partner. With Scribe, you get a world-class book and the creative, business, and brand strategy to back it.&rdquo;</p>
-          <p className="vs-page__quote-attrib">— From the Scribe Media internal Competitive Comparison briefing for Kevin Anderson &amp; Associates.</p>
+          <p className="vs-page__quote-lead">&ldquo;They&apos;re writers for hire — we&apos;re a full publishing and positioning partner. With Readora, you get a world-class book and the creative, business, and brand strategy to back it.&rdquo;</p>
+          <p className="vs-page__quote-attrib">— From the Readora internal Competitive Comparison briefing for Kevin Anderson &amp; Associates.</p>
         </div>
       </section>
 
@@ -186,7 +186,7 @@ export default function VsKevinAndersonAssociates() {
       <section className="vs-page__section">
         <div className="vs-page__container">
           <div className="vs-page__section-eyebrow">Why Authors Switch</div>
-          <h2>Three reasons people choose Scribe<br />over Kevin Anderson &amp; Associates.</h2>
+          <h2>Three reasons people choose Readora<br />over Kevin Anderson &amp; Associates.</h2>
           <div className="vs-page__reasons">
             {reasons.map((r, i) => (
               <div key={i} className="vs-page__reason">
@@ -202,7 +202,7 @@ export default function VsKevinAndersonAssociates() {
       {/* Differentiators */}
       <section className="vs-page__section">
         <div className="vs-page__container">
-          <div className="vs-page__section-eyebrow">What Makes Scribe Different</div>
+          <div className="vs-page__section-eyebrow">What Makes Readora Different</div>
           <h2>Seven things authors consistently<br />tell us <em>made the difference</em>.</h2>
           <div className="vs-page__reasons vs-page__reasons--two-col">
             {differentiators.map((d, i) => (
@@ -265,7 +265,7 @@ export default function VsKevinAndersonAssociates() {
       {/* Sources */}
       <section className="vs-page__sources">
         <div className="vs-page__container">
-          Sources: Scribe Media internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Scribe Professional &amp; Scribe Elite Sales Call Scripts · scribemedia.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
+          Sources: Readora internal Competitive Comparison briefing · Revamped Objection Handling Master Reference · Readora Professional &amp; Readora Elite Sales Call Scripts · readora.com/pricing. All competitor positioning quoted verbatim from the sales-team briefing. No invented stats, customer quotes, or product details.
         </div>
       </section>
     </div>

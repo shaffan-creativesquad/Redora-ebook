@@ -1,13 +1,12 @@
 'use client'
 import { useState, useRef, useEffect } from 'react'
-import Image from 'next/image'
 
 
 const navItems = [
   {
-    label: 'Why Scribe?',
+    label: 'Why Readora?',
     dropdown: [
-      { label: 'Why Scribe', href: '/why-scribe' },
+      { label: 'Why Readora', href: '/why-scribe' },
       { label: 'Reviews', href: '/reviews' },
     ],
   },
@@ -17,13 +16,13 @@ const navItems = [
       { label: 'Compare All Services →', href: '/services', highlight: true },
       { divider: true },
       { groupLabel: 'Core Services' },
-      { label: 'Scribe Elite', href: '/services/ghostwriting' },
-      { label: 'Scribe Professional', href: '/services/professional-book-writers' },
+      { label: 'Readora Elite', href: '/services/ghostwriting' },
+      { label: 'Readora Professional', href: '/services/professional-book-writers' },
       { label: 'Guided Author', href: '/services/guided-author' },
-      { label: 'Scribe Publishing', href: '/services/publishing' },
+      { label: 'Readora Publishing', href: '/services/publishing' },
       { divider: true },
       { groupLabel: 'Add-Ons' },
-      { label: 'Scribe Compass', href: '/services/scribe-compass' },
+      { label: 'Readora Compass', href: '/services/scribe-compass' },
       { label: 'Audiobook', href: '/services/audiobook' },
       { label: 'Book Marketing', href: '/services/book-marketing' },
       { divider: true },
@@ -38,7 +37,7 @@ const navItems = [
     label: 'Free Resources',
     dropdown: [
       { label: 'Blog', href: '/blog' },
-      { label: 'The Scribe Method Book', href: '/scribe-method-book' },
+      { label: 'The Readora Method Book', href: '/scribe-method-book' },
     ],
   },
   { label: 'FAQs', href: '/faqs' },
@@ -127,7 +126,9 @@ export default function Navbar() {
       <div style={{ width: '100%', maxWidth: '1360px', margin: '0 auto', padding: '0 1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '100%' }}>
         {/* Logo */}
         <a href="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none', flexShrink: 0 }}>
-          <Image src="/assets/logo-sm-on-dark.svg" alt="Scribe Media" width={160} height={52} unoptimized priority style={{ height: '42px', width: 'auto' }} />
+          <span style={{ fontSize: '1.75rem', fontWeight: 800, color: '#f3f4f6', fontFamily: 'var(--font-playfair), Georgia, serif', letterSpacing: '-0.03em', lineHeight: 1 }}>
+            Readora
+          </span>
         </a>
 
         {/* Desktop Nav */}

@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import ContactForm from '@/components/ContactForm'
 
 export const metadata = {
-  title: 'Contact Scribe | Scribe Media',
+  title: 'Contact Readora | Readora',
   description: 'For general inquiries, please fill out the form below and our team will get back to you.',
 }
 
@@ -15,7 +15,7 @@ export default function ContactPage() {
       <main id="main-content" style={{ paddingTop: '84px' }}>
         <section className="contact-page">
           <div className="contact-page__inner">
-            <h1 className="contact-page__heading">Contact Scribe</h1>
+            <h1 className="contact-page__heading">Contact Readora</h1>
             <p className="contact-page__subheading">For general inquiries, please fill out the form below and our team will get back to you.</p>
 
             <div className="contact-page__form-wrapper">

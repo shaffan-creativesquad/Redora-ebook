@@ -125,7 +125,7 @@ export default function PricingMarketing() {
               <div className="pub-hero__badge">Standalone Service for Published Authors</div>
               <h1 className="pub-hero__title">Book Marketing Services</h1>
               <p className="pub-hero__subtitle">Maximize your book&apos;s reach, credibility, and impact with professional marketing services. Select any combination of services below.</p>
-              <p className="pub-hero__note">This is a standalone service. You will not be assigned a Scribe Publishing Manager. Work is fulfilled by our vetted production partners.</p>
+              <p className="pub-hero__note">This is a standalone service. You will not be assigned a Readora Publishing Manager. Work is fulfilled by our vetted production partners.</p>
             </div>
 
             <div className="pub-review-warning">
@@ -170,7 +170,7 @@ export default function PricingMarketing() {
               <p style={{ color: '#8a9bc2', fontSize: 13, margin: '4px 0 16px' }}>Please review the full agreement below. Scroll to read all sections.</p>
               <div className="pub-agreement">
                 <h4>Marketing Services Agreement</h4>
-                <p>This agreement is intentionally written in plain English. The purpose is simple: you are hiring us, Scribe Media, to provide professional marketing services for your published book.</p>
+                <p>This agreement is intentionally written in plain English. The purpose is simple: you are hiring us, Readora, to provide professional marketing services for your published book.</p>
 
                 <h4>What You Are Purchasing</h4>
                 <p>You have selected the following marketing services:</p>

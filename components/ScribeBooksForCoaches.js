@@ -20,7 +20,7 @@
     headshot: '/assets/Cameron_Herold_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (1,200+)',
-    desc: 'Published 4 books with Scribe, building a global empire as the CEO Whisperer.',
+    desc: 'Published 4 books with Readora, building a global empire as the CEO Whisperer.',
     storyHref: null,
   },
   {
@@ -69,7 +69,7 @@ export default function ScribeBooksForCoaches() {
 
       {/* Authors */}
       <div className="ind__section">
-        <h2>Coaching Leaders Who Published with Scribe</h2>
+        <h2>Coaching Leaders Who Published with Readora</h2>
         <p className="subtitle">These coaching professionals turned their expertise into bestselling books.</p>
         <div className="ind__authors-grid">
           {authors.map((a, i) => (

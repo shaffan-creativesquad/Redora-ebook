@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Forbes Books vs. Scribe Media | Comparison',
-  description: 'Considering Forbes Books? See how it compares to Scribe Media — pulled directly from our sales team\'s competitive briefing. 3,000+ authors. 250,000+ books in print. Flat-fee pricing.',
+  title: 'Forbes Books vs. Readora | Comparison',
+  description: 'Considering Forbes Books? See how it compares to Readora — pulled directly from our sales team\'s competitive briefing. 3,000+ authors. 250,000+ books in print. Flat-fee pricing.',
 }
 
 export default function VsForbesBooksPage() {

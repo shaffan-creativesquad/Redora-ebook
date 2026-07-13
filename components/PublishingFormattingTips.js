@@ -2,7 +2,7 @@ export default function PublishingFormattingTips() {
   return (
     <section className="content-page">
       <div className="content-page__header">
-        <h1 className="content-page__heading">Scribe Publishing: Formatting Tips for Authors</h1>
+        <h1 className="content-page__heading">Readora Publishing: Formatting Tips for Authors</h1>
       </div>
 
       <div className="content-page__body">

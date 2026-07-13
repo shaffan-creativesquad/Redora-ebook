@@ -4,7 +4,7 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Books for Marketers | Scribe Media',
+  title: 'Books for Marketers | Readora',
   description:
     'Marketing executives, agency founders, and CMOs use books to demonstrate thought leadership, attract clients, and establish their unique methodology.',
 }
@@ -25,15 +25,15 @@ export default function BooksForMarketersPage() {
 
           {/* ── Authors ── */}
           <div className="ind__section">
-            <h2>Marketing Leaders Who Published with Scribe</h2>
+            <h2>Marketing Leaders Who Published with Readora</h2>
             <p className="subtitle">These marketing professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
               {/* Deb Gabor */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg" alt="Deb Gabor" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/DebGabor_WebsiteCover.jpg" alt="Person-ality" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Deb_Gabor_Headshot.jpg" alt="Deb Gabor" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/DebGabor_WebsiteCover.jpg" alt="Person-ality" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Deb Gabor</div>
                 <div className="ind__author-title">Person-ality</div>
@@ -42,7 +42,7 @@ export default function BooksForMarketersPage() {
               {/* Randy Frisch */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/fck-content-marketing.jpg" alt="F#ck Content Marketing" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/fck-content-marketing.jpg" alt="F#ck Content Marketing" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Randy Frisch</div>
                 <div className="ind__author-title">F#ck Content Marketing</div>
@@ -51,7 +51,7 @@ export default function BooksForMarketersPage() {
               {/* Phillip Stutts */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/fire-them-now.jpg" alt="Fire Them Now" loading="lazy" style={{ width: '70px', height: '105px' }} />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/fire-them-now.jpg" alt="Fire Them Now" loading="lazy" style={{ width: '70px', height: '105px' }} />
                 </div>
                 <div className="ind__author-name">Phillip Stutts</div>
                 <div className="ind__author-title">Fire Them Now</div>

@@ -6,8 +6,8 @@ import FaqAccordion from './FaqAccordion'
 import faqsData from './faqs.json'
 
 export const metadata = {
-  title: 'Frequently Asked Questions | Scribe Media',
-  description: 'Everything you need to know about working with Scribe Media.',
+  title: 'Frequently Asked Questions | Readora',
+  description: 'Everything you need to know about working with Readora.',
 }
 
 export default function FaqsPage() {
@@ -19,7 +19,7 @@ export default function FaqsPage() {
           <div className="faq-page__header">
             <h1 className="faq-page__heading">Frequently Asked Questions</h1>
             <p className="faq-page__subheading">
-              Everything you need to know about working with Scribe Media.
+              Everything you need to know about working with Readora.
             </p>
           </div>
           <FaqAccordion categories={faqsData.categories} />

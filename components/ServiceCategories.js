@@ -8,8 +8,8 @@ const services = [
 export default function ServiceCategories() {
   return (
     <div className="service-cats">
-      <h2 className="font-playfair">How Can We Help You?</h2>
-      <p className="subtitle">Scribe has a bespoke service for every step of the book-writing journey.</p>
+      <h2 className="font-playfair">What Would You Like to Accomplish?</h2>
+      <p className="subtitle">Readora has a tailored service for every stage of your book journey — from first idea to published author.</p>
       <div className="service-cats-grid">
         {services.map((s, i) => (
           <div key={i} className="svc-cat-card">

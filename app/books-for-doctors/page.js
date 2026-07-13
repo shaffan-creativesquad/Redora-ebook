@@ -4,9 +4,9 @@ import Footer from '@/components/Footer'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Books for Doctors & Healthcare Professionals | Scribe Media',
+  title: 'Books for Doctors & Healthcare Professionals | Readora',
   description:
-    'Scribe Media has helped doctors and healthcare professionals write and publish books that educate patients at scale and establish thought leadership in their specialty.',
+    'Readora has helped doctors and healthcare professionals write and publish books that educate patients at scale and establish thought leadership in their specialty.',
 }
 
 const authors = [
@@ -87,7 +87,7 @@ export default function BooksForDoctorsPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Healthcare Authors Published by Scribe</h2>
+            <h2>Healthcare Authors Published by Readora</h2>
             <p className="ind__section-sub">
               Real doctors and healthcare professionals who turned their expertise into bestselling books.
             </p>
@@ -133,7 +133,7 @@ export default function BooksForDoctorsPage() {
           <div className="ind__section">
             <h2>How It Works</h2>
             <p className="ind__section-sub">
-              Scribe handles everything so you can focus on your practice.
+              Readora handles everything so you can focus on your practice.
             </p>
             <div className="ind__process-grid">
               {steps.map(s => (

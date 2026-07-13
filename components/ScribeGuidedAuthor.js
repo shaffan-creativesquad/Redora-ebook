@@ -49,20 +49,20 @@ const audiobookItems = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Professional', price: '$56,000', desc: 'We interview you, write, and publish', href: '/services/professional-book-writers' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
   {
-    quote: 'The amount that we spent on the Scribe project has generated a 10x plus return ever since, if not 20x.',
+    quote: 'The amount that we spent on the Readora project has generated a 10x plus return ever since, if not 20x.',
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '/assets/shaan-patel.png',
   },
   {
-    quote: "Something that I can tell you now probably because of Scribe and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Scribe, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
+    quote: "Something that I can tell you now probably because of Readora and how great an experience it was for me, I am crazily thinking about writing a second book… that is, if I can give a testament to Readora, there's no way, if the process wasn't anything but great, that I would say I want to do this again.",
     name: 'John Schachnovsky',
     credential: 'Former FBI Legal Attaché',
     avatar: '/assets/JohnSchachnovsky_AuthorCentral_H.jpg',
@@ -106,7 +106,7 @@ function FaqItem({ q, a }) {
   )
 }
 
-export default function ScribeGuidedAuthor() {
+export default function ReadoraGuidedAuthor() {
   return (
     <>
       <div className="svc-detail">
@@ -220,7 +220,7 @@ export default function ScribeGuidedAuthor() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

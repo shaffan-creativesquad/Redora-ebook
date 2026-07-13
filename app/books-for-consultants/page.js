@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Consulting | Scribe Media',
+  title: 'Books for Consulting | Readora',
   description:
-    'Scribe Media helps consulting professionals write and publish books that build authority, attract clients, and grow their business. See our consulting authors.',
+    'Readora helps consulting professionals write and publish books that build authority, attract clients, and grow their business. See our consulting authors.',
 }
 
 const authors = [
@@ -14,7 +14,7 @@ const authors = [
     nameHref: null,
     book: 'Never Lose a Customer Again',
     bookHref: '/published-books/never-lose-a-customer-again-joey-coleman',
-    bookImg: 'https://scribemedia.com/hubfs/lioncrest/covers/NLaCA.jpg',
+    bookImg: 'https://readora.com/hubfs/lioncrest/covers/NLaCA.jpg',
     headshot: null,
     stars: '★★★★★',
     rating: '4.7 (3,200+)',
@@ -26,8 +26,8 @@ const authors = [
     nameHref: '/authors/mona-patel',
     book: 'Reframe',
     bookHref: '/published-books/reframe',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/reframe.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/Shaan_Patel_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/reframe.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/Shaan_Patel_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (95+)',
     desc: 'Her innovation framework Reframe is used by teams at Google, Nike, and the United Nations.',
@@ -38,8 +38,8 @@ const authors = [
     nameHref: '/authors/jeff-kavanaugh',
     book: 'Practical Sustainability',
     bookHref: '/published-books/practical-sustainability',
-    bookImg: 'https://scribemedia.com/hubfs/images/books/practical-sustainability.jpg',
-    headshot: 'https://scribemedia.com/hubfs/author-headshots/_Headshot.jpg',
+    bookImg: 'https://readora.com/hubfs/images/books/practical-sustainability.jpg',
+    headshot: 'https://readora.com/hubfs/author-headshots/_Headshot.jpg',
     stars: '★★★★★',
     rating: '4.5 (150+)',
     desc: 'The definitive guide to consulting essentials, used in MBA programs worldwide.',
@@ -84,7 +84,7 @@ export default function BooksForConsultantsPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Consulting Leaders Who Published with Scribe</h2>
+            <h2>Consulting Leaders Who Published with Readora</h2>
             <p className="ind__section-sub">
               These consulting professionals turned their expertise into bestselling books.
             </p>

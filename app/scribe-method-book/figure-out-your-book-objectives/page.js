@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Figure Out Your Book Objectives | The Scribe Method | Scribe Media',
+  title: 'Figure Out Your Book Objectives | The Readora Method | Readora',
   description: 'Learn how to define clear book objectives that shape your content and guide you through the publishing process.',
 }
 
@@ -15,7 +15,7 @@ export default function BookObjectivesPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 2: POSITION YOUR BOOK</p>
@@ -23,7 +23,7 @@ export default function BookObjectivesPage() {
           <h1 className="chapter__title">Figure Out Your Book Objectives</h1>
 
           <div className="chapter__content">
-            <p>When it comes to writing a book, the foundation for success starts with clarity—specifically, clarity about your <strong>objectives</strong>. At Scribe, we&apos;ve helped thousands of authors position their books for success, and it all begins by identifying what you want to accomplish with your book. Knowing your objectives will not only shape your content but also guide your decisions through the publishing process.</p>
+            <p>When it comes to writing a book, the foundation for success starts with clarity—specifically, clarity about your <strong>objectives</strong>. At Readora, we&apos;ve helped thousands of authors position their books for success, and it all begins by identifying what you want to accomplish with your book. Knowing your objectives will not only shape your content but also guide your decisions through the publishing process.</p>
             <p>Here&apos;s a step-by-step guide to help you figure out your book&apos;s objectives and ensure your efforts lead to meaningful results.</p>
 
             <ol>
@@ -88,10 +88,10 @@ export default function BookObjectivesPage() {
             <h2>Take the Next Step</h2>
             <p>Writing a book is one of the most powerful ways to achieve your goals—but only if you start with clear objectives.</p>
             <p><strong>Want to dive deeper into the book-writing process?</strong> Access a{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer"><strong>free online copy of <em>The Scribe Method</em></strong></a> here.
+               here.
             </p>
             <p>Prefer the feel of a physical book? Purchase the{' '}
-              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Scribe Method</em></strong></a> here.
+              <a href="/consult" target="_blank" rel="noopener noreferrer"><strong>hard copy of <em>The Readora Method</em></strong></a> here.
             </p>
             <p>Get started today and make your book the tool that transforms your future!</p>
           </div>
@@ -109,7 +109,7 @@ export default function BookObjectivesPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

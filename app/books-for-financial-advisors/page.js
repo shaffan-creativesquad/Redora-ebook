@@ -5,9 +5,9 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export const metadata = {
-  title: 'Books for Finance | Scribe Media',
+  title: 'Books for Finance | Readora',
   description:
-    'Scribe Media helps finance professionals write and publish books that build authority, attract clients, and grow their business. See our finance authors.',
+    'Readora helps finance professionals write and publish books that build authority, attract clients, and grow their business. See our finance authors.',
 }
 
 export default function BooksForFinancialAdvisorsPage() {
@@ -32,7 +32,7 @@ export default function BooksForFinancialAdvisorsPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Finance Leaders Who Published with Scribe</h2>
+            <h2>Finance Leaders Who Published with Readora</h2>
             <p className="ind__section-sub">
               These finance professionals turned their expertise into bestselling books.
             </p>
@@ -42,7 +42,7 @@ export default function BooksForFinancialAdvisorsPage() {
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
                   <Image
-                    src="https://scribemedia.com/hubfs/images/books/GreedyBastards.jpg"
+                    src="https://readora.com/hubfs/images/books/GreedyBastards.jpg"
                     alt="Greedy Bastards"
                     width={70}
                     height={105}

@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-const pills = ['Writing frameworks', 'Publishing playbooks', 'Launch case studies']
+const pills = ['Author mindset', 'Publishing roadmaps', 'Launch breakdowns', 'Industry insights']
 const HS_FORM_URL = 'https://forms-na2.hsforms.com/submissions/v3/public/submit/formsnext/multipart/244422516/415e6721-54a0-47fc-923f-4ae02e43bf64'
 
 export default function Newsletter() {
@@ -38,10 +38,10 @@ export default function Newsletter() {
         </div>
 
         <h2 style={{ fontSize: 'clamp(1.5rem,3vw,2.15rem)', fontWeight: 700, color: '#ffffff', marginBottom: '0.55rem', lineHeight: 1.2 }}>
-          Learn how professionals write and publish their books.
+          The insider&apos;s guide to writing a book that actually works.
         </h2>
         <p style={{ fontSize: 'clamp(0.96rem,1.2vw,1.08rem)', color: '#bfbfbf', marginBottom: '1.45rem', lineHeight: 1.5 }}>
-          Join 57,000+ readers receiving expert writing and publishing insights from our Scribe team.
+          Get practical insights on writing, publishing, and launching — delivered straight from the Readora team to your inbox.
         </p>
 
         {/* Topic pills */}
@@ -67,7 +67,7 @@ export default function Newsletter() {
         }}>
           {submitted ? (
             <p style={{ textAlign: 'center', color: '#ffffff', fontSize: '1rem', padding: '1rem 0' }}>
-              Thanks for subscribing! Check your inbox for writing and publishing insights.
+              You&apos;re in! Watch your inbox — your first issue from the Readora team is on its way.
             </p>
           ) : (
           <form onSubmit={handleSubmit}>

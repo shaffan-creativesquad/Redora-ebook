@@ -7,8 +7,8 @@ const panelCopy = {
     heading:  "Let's talk about writing your book together",
     body:     "Book a free 15-minute strategy call. We'll learn about your idea, your voice, and your goals, then walk you through exactly how our ghostwriting process works.",
     products: [
-      { name: 'Scribe Professional', price: '$4,667', unit: '/mo', note: '12 payments · $56K total' },
-      { name: 'Scribe Elite',        price: '$9,000', unit: '/mo', note: '15 payments · $135K total' },
+      { name: 'Readora Professional', price: '$4,667', unit: '/mo', note: '12 payments · $56K total' },
+      { name: 'Readora Elite',        price: '$9,000', unit: '/mo', note: '15 payments · $135K total' },
     ],
     bullets: [
       'Collaborative interview-based writing process',
@@ -23,7 +23,7 @@ const panelCopy = {
     heading:  "Let's get your manuscript published the right way",
     body:     "Book a free 15-minute strategy call. We'll review where your manuscript stands, walk through your publishing options, and help you choose the right path forward.",
     products: [
-      { name: 'Scribe Publishing', price: '$4,833', unit: '/mo', note: '6 payments · $29K total' },
+      { name: 'Readora Publishing', price: '$4,833', unit: '/mo', note: '6 payments · $29K total' },
       { name: 'Guided Author',     price: '$2,933', unit: '/mo', note: '15 payments · $44K total' },
     ],
     bullets: [
@@ -31,7 +31,7 @@ const panelCopy = {
       'Full publishing and worldwide distribution',
       'Audiobook production included',
       'Up to 50,000 words',
-      'Published under our Houndstooth Press imprint',
+      'Published under our Thornfield Books Press imprint',
     ],
   },
 }
@@ -138,7 +138,7 @@ export default function ConsultSection() {
                 <p className="cs-form-box__sub">Fill out the form below and you&apos;ll be able to pick a time that works for you.</p>
                 <div className="cs-form-placeholder">
                   Booking form will be configured soon.<br />
-                  <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@scribemedia.com" style={{ color: '#e02d2d' }}>privacy@scribemedia.com</a> in the meantime.</span>
+                  <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>privacy@readora.com</a> in the meantime.</span>
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@ export default function ConsultSection() {
         </div>
         <div className="cs-form-placeholder">
           Marketing inquiry form will be configured soon.<br />
-          <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@scribemedia.com" style={{ color: '#e02d2d' }}>privacy@scribemedia.com</a> in the meantime.</span>
+          <span style={{ fontSize: '0.8rem', opacity: 0.6 }}>Contact us at <a href="mailto:privacy@readora.com" style={{ color: '#e02d2d' }}>privacy@readora.com</a> in the meantime.</span>
         </div>
       </div>
     </>

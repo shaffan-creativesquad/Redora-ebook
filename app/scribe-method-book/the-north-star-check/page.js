@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'The North Star Check | The Scribe Method | Scribe Media',
+  title: 'The North Star Check | The Readora Method | Readora',
   description: 'Learn how to distill your book\'s purpose into one powerful sentence using the North Star Check framework.',
 }
 
@@ -15,7 +15,7 @@ export default function NorthStarCheckPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 2: POSITION YOUR BOOK</p>
@@ -23,7 +23,7 @@ export default function NorthStarCheckPage() {
           <h1 className="chapter__title">The North Star Check</h1>
 
           <div className="chapter__content">
-            <p>If you&apos;re considering writing a book, there&apos;s one critical step you can&apos;t skip: ensuring your book&apos;s purpose is crystal clear. At Scribe, we call this the <strong>North Star Check</strong>, and it&apos;s the culmination of all your book&apos;s positioning work.</p>
+            <p>If you&apos;re considering writing a book, there&apos;s one critical step you can&apos;t skip: ensuring your book&apos;s purpose is crystal clear. At Readora, we call this the <strong>North Star Check</strong>, and it&apos;s the culmination of all your book&apos;s positioning work.</p>
             <p>Why is this so important? Because a clear North Star ensures your book has focus, resonates with your target audience, and ultimately helps you achieve your personal or professional goals. If you can&apos;t distill your book&apos;s purpose into one powerful sentence, chances are your book idea needs more work.</p>
 
             <h2>The North Star Template</h2>
@@ -84,9 +84,8 @@ export default function NorthStarCheckPage() {
 
             <h2>Next Steps</h2>
             <p>If your North Star sentence is solid, congratulations! You&apos;re ready to move forward with confidence. If not, take the time to refine your positioning until everything clicks.</p>
-            <p>For more detailed guidance on creating and publishing a book that achieves your goals, check out the free online copy of <em>The Scribe Method</em> or purchase a hard copy today.</p>
+            <p>For more detailed guidance on creating and publishing a book that achieves your goals, check out the free online copy of <em>The Readora Method</em> or purchase a hard copy today.</p>
             <ul>
-              <li><a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the free online copy here.</a></li>
               <li><a href="/consult" target="_blank" rel="noopener noreferrer">Purchase your hard copy here.</a></li>
             </ul>
             <p>With your North Star in place, you&apos;ll have the clarity and focus needed to write a book that not only stands out but also delivers real results.</p>
@@ -105,7 +104,7 @@ export default function NorthStarCheckPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

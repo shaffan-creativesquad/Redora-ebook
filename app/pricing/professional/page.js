@@ -59,14 +59,14 @@ const MORE_ADDONS = [
 ]
 
 const AGREEMENT_TEXT = `
-<h4>Scribe Agreement</h4>
+<h4>Readora Agreement</h4>
 <p>This agreement is intentionally written in plain English. We think the impenetrable lawyer-speak of modern contracts inhibits understanding, cooperation, and mutual benefit, which helps no one (except the lawyers). We want what's best for both of us, now and in the future, and we think plain English agreements help achieve that.</p>
-<p>You are hiring us, Scribe Media, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
+<p>You are hiring us, Readora, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
 <h4>What We Will Do for You</h4>
 <p><strong>Project Management:</strong> You will be assigned a dedicated Publishing Manager who functions as the project manager for your book, ensuring all next steps are clearly outlined, deadlines are met, and the entire process runs smoothly.</p>
 <p><strong>North Star & Book Roadmap Creation:</strong> We begin with 2 positioning calls to define your North Star. Then we conduct 3 additional calls to build your Book Roadmap, a detailed chapter-by-chapter outline that guides the entire writing process.</p>
-<p><strong>Content Interviews:</strong> Once the Book Roadmap is done, we start 10 content interviews based on your Book Roadmap. What you say on these calls creates the manuscript. Your Scribe turns your spoken words into a cohesive, well-written book that reflects your voice and vision.</p>
-<p><strong>Manuscript Writing:</strong> Your dedicated Scribe turns the interview transcriptions into a cohesive, polished book manuscript. We handle the heavy lifting of writing so you don't have to.</p>
+<p><strong>Content Interviews:</strong> Once the Book Roadmap is done, we start 10 content interviews based on your Book Roadmap. What you say on these calls creates the manuscript. Your Readora turns your spoken words into a cohesive, well-written book that reflects your voice and vision.</p>
+<p><strong>Manuscript Writing:</strong> Your dedicated Readora turns the interview transcriptions into a cohesive, polished book manuscript. We handle the heavy lifting of writing so you don't have to.</p>
 <p><strong>Revisions:</strong> You will have 4 revision calls where we review your manuscript chapter by chapter. You will also have the opportunity to review the full manuscript. We refine until you're happy with the result.</p>
 <p><strong>Proofreading:</strong> Your book will go through full quality assurance and technical preparation to ensure it is ready to publish.</p>
 <p><strong>Book Cover Design:</strong> Our design team will create a high-quality book cover for your print and eBook versions. You will get at least three cover design options and up to five rounds of edits, incorporating market research feedback. The cover decision is yours alone.</p>
@@ -89,8 +89,8 @@ const AGREEMENT_TEXT = `
 <p><strong>Unlock Fees:</strong> If you need to change something you've already locked in, we can do so, but it will add time and incur additional cost.</p>
 <p><strong>Audiobook Overage:</strong> Professional narrator covers up to 75,430 words / 8.38 hours. Self-narration covers up to 56,298 words / 6.26 hours with 18 hours of studio time. Overages will be quoted before recording begins.</p>
 <h4>Legal Terms</h4>
-<p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Scribe Media, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
-<p><strong>Liability & Indemnification:</strong> You are solely responsible for the content of your book. You agree to indemnify Scribe Media for any liability arising from your book's content.</p>
+<p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Readora, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
+<p><strong>Liability & Indemnification:</strong> You are solely responsible for the content of your book. You agree to indemnify Readora for any liability arising from your book's content.</p>
 <p><strong>Cancellation:</strong> If either party decides to part ways, we will discuss next steps. If paid invoices (beyond the non-refundable first invoice) exceed incurred creative costs, we will refund the difference.</p>
 <p><strong>No Hidden Costs:</strong> We will never do additional work that costs you money without first getting your explicit approval.</p>
 <p><strong>Pricing Expiration:</strong> The price you commit to is good for 3 months. If you don't start within 3 months and prices have increased, an amended agreement will be required.</p>
@@ -123,7 +123,7 @@ export default function PricingProfessional() {
   const [signElectronic, setSignElectronic] = useState(false)
   const [signSig, setSignSig] = useState('')
 
-  const imprintCost = imprint === 'custom-scribe' ? 750 : imprint === 'custom-own' ? 375 : 0
+  const imprintCost = imprint === 'custom-readora' ? 750 : imprint === 'custom-own' ? 375 : 0
 
   const addonTotal = useMemo(() => {
     let t = 0
@@ -150,7 +150,7 @@ export default function PricingProfessional() {
     if (!quoteEmail || !quoteEmail.includes('@')) { setQuoteStatus({ msg: 'Please enter a valid email address.', ok: false }); return }
     setQuoteStatus({ msg: 'Sending...', ok: null })
     try {
-      const res = await fetch(API_BASE + '/api/email-quote', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: quoteEmail, tier: 'Scribe Professional', totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, addons: allAddons.filter(a => selectedAddons[a.id]).map(a => a.name), basePrice: BASE_PRICE }) })
+      const res = await fetch(API_BASE + '/api/email-quote', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: quoteEmail, tier: 'Readora Professional', totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, addons: allAddons.filter(a => selectedAddons[a.id]).map(a => a.name), basePrice: BASE_PRICE }) })
       const data = await res.json()
       setQuoteStatus(data.success ? { msg: 'Quote sent! Check your inbox.', ok: true } : { msg: data.error || 'Something went wrong.', ok: false })
     } catch { setQuoteStatus({ msg: 'Network error. Please try again.', ok: false }) }
@@ -159,7 +159,7 @@ export default function PricingProfessional() {
   const handleCheckout = async () => {
     setPayBtnLoading(true)
     try {
-      const res = await fetch(API_BASE + '/api/create-checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tier: 'Scribe Professional', addons: allAddons.filter(a => selectedAddons[a.id]).map(a => a.name), totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, authorName: signName, email: signEmail, phone: signPhone, address: signAddress, city: signCity, state: signState, zip: signZip, agreementSignature: signSig, agreementTimestamp: new Date().toISOString() }) })
+      const res = await fetch(API_BASE + '/api/create-checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ tier: 'Readora Professional', addons: allAddons.filter(a => selectedAddons[a.id]).map(a => a.name), totalAmount: total, monthlyPayment: monthly, numMonths: NUM_MONTHS, authorName: signName, email: signEmail, phone: signPhone, address: signAddress, city: signCity, state: signState, zip: signZip, agreementSignature: signSig, agreementTimestamp: new Date().toISOString() }) })
       const data = await res.json()
       if (data.url) { window.location.href = data.url } else { alert('Error: ' + (data.error || 'Could not create checkout session')); setPayBtnLoading(false) }
     } catch { alert('Network error. Please try again.'); setPayBtnLoading(false) }
@@ -209,7 +209,7 @@ export default function PricingProfessional() {
               <div>
                 <div className="pub-hero">
                   <div className="pub-hero__badge">Your Complete Writing &amp; Publishing Package</div>
-                  <h1 className="pub-hero__title">Scribe Professional</h1>
+                  <h1 className="pub-hero__title">Readora Professional</h1>
                   <p className="pub-hero__subtitle">We interview you. We write your book. You get a professionally published book, audiobook, and global launch. What you say in your 10 content interviews becomes your manuscript. You retain 100% of your royalties.</p>
                   <div className="pub-hero__price-row">
                     <span className="pub-hero__price">{fmt(BASE_PRICE)}</span>
@@ -246,7 +246,7 @@ export default function PricingProfessional() {
                     <span>More options</span><span className="arrow">▼</span>
                   </button>
                   {showMore && MORE_ADDONS.map(item => <MktCard key={item.id} item={item} />)}
-                  <p style={{ fontSize: '12px', color: '#a0a0a0', marginTop: '14px' }}>Want to bundle multiple services? Ask your Scribe representative about package discounts.</p>
+                  <p style={{ fontSize: '12px', color: '#a0a0a0', marginTop: '14px' }}>Want to bundle multiple services? Ask your Readora representative about package discounts.</p>
                 </div>
 
                 <button className={`pub-customize-toggle${showCustomize ? ' open' : ''}`} onClick={() => setShowCustomize(v => !v)}>
@@ -255,10 +255,10 @@ export default function PricingProfessional() {
                 {showCustomize && (
                   <div className="pub-card" style={{ marginTop: 0 }}>
                     <div className="pub-card-section-label">Publishing Imprint</div>
-                    <p style={{ fontSize: '13px', color: '#a0a0a0', marginBottom: '12px' }}>Choose how your book is branded. Most authors publish under our Lioncrest Publishing imprint at no extra cost.</p>
+                    <p style={{ fontSize: '13px', color: '#a0a0a0', marginBottom: '12px' }}>Choose how your book is branded. Most authors publish under our Ember Press Publishing imprint at no extra cost.</p>
                     {[
-                      { val: 'lioncrest',    label: 'Lioncrest Publishing (included)' },
-                      { val: 'custom-scribe', label: 'Custom Publishing Imprint (Scribe designs your logo) +$750' },
+                      { val: 'lioncrest',    label: 'Ember Press Publishing (included)' },
+                      { val: 'custom-readora', label: 'Custom Publishing Imprint (Readora designs your logo) +$750' },
                       { val: 'custom-own',   label: 'Custom Imprint (bring your own logo) +$375' },
                     ].map(opt => (
                       <label key={opt.val} className="pub-radio">
@@ -285,7 +285,7 @@ export default function PricingProfessional() {
                       <input type="checkbox" checked={returningAuthor} onChange={e => setReturningAuthor(e.target.checked)} />
                       <div className="pub-check__info">
                         <div className="pub-check__name">Returning Author Discount</div>
-                        <div className="pub-check__desc">Previously published with Scribe</div>
+                        <div className="pub-check__desc">Previously published with Readora</div>
                       </div>
                       <div className="pub-check__price">−{fmt(RETURNING_DISCOUNT)}</div>
                     </label>
@@ -309,7 +309,7 @@ export default function PricingProfessional() {
                   <p>Your investment is paid over <strong>${NUM_MONTHS}</strong> months at <strong>${monthlyStr}</strong>/month. A $1,000 deposit is due at signing and will be deducted from your first monthly payment. There is a 3% processing fee for all credit card payments. If we're still working on your book beyond 15 months, payments continue at $2,000/month. Full payment is required before publishing.</p>
                   <table>
                     <tbody>
-                      <tr><td>Scribe Professional</td><td style="text-align:right;font-weight:600;">$48,000</td></tr>
+                      <tr><td>Readora Professional</td><td style="text-align:right;font-weight:600;">$48,000</td></tr>
                       <tr><td>Audiobook Production &amp; Distribution</td><td style="text-align:right;font-weight:600;">$8,000</td></tr>
                       ${imprintCost > 0 ? `<tr><td>Custom Imprint</td><td style="text-align:right;font-weight:600;">${fmt(imprintCost)}</td></tr>` : ''}
                       ${extraAuthors > 0 ? `<tr><td>Additional Author${extraAuthors > 1 ? 's' : ''} (×${extraAuthors})</td><td style="text-align:right;font-weight:600;">+${fmt(extraAuthors * EXTRA_AUTHOR_PRICE)}</td></tr>` : ''}
@@ -396,7 +396,7 @@ export default function PricingProfessional() {
           <div className="pub-sidebar">
             <div className="pub-summary">
               <h3>Project Summary</h3>
-              <div className="pub-summary__line"><span className="label">Scribe Professional</span><span className="value">$48,000</span></div>
+              <div className="pub-summary__line"><span className="label">Readora Professional</span><span className="value">$48,000</span></div>
               <div className="pub-summary__line"><span className="label">Audiobook Production</span><span className="value">$8,000</span></div>
               {imprintCost > 0 && <div className="pub-summary__line"><span className="label">Custom imprint</span><span className="value">+{fmt(imprintCost)}</span></div>}
               {extraAuthors > 0 && <div className="pub-summary__line"><span className="label">Additional Author{extraAuthors > 1 ? 's' : ''} ×{extraAuthors}</span><span className="value" style={{ color: '#e02d2d' }}>+{fmt(extraAuthors * EXTRA_AUTHOR_PRICE)}</span></div>}

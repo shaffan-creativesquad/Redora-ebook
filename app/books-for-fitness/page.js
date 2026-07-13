@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Fitness & Wellness | Scribe Media',
+  title: 'Books for Fitness & Wellness | Readora',
   description:
-    'Scribe Media helps fitness & wellness professionals write and publish books that build authority, attract clients, and grow their business. See our fit...',
+    'Readora helps fitness & wellness professionals write and publish books that build authority, attract clients, and grow their business. See our fit...',
 }
 
 export default function BooksForFitnessPage() {
@@ -24,15 +24,15 @@ export default function BooksForFitnessPage() {
 
           {/* ── Featured Authors ── */}
           <div className="ind__section">
-            <h2>Fitness &amp; Wellness Leaders Who Published with Scribe</h2>
+            <h2>Fitness &amp; Wellness Leaders Who Published with Readora</h2>
             <p className="subtitle">These fitness &amp; wellness professionals turned their expertise into bestselling books.</p>
             <div className="ind__authors-grid">
 
               {/* Ben Bergeron */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Ben_Bergeron_Headshot.jpg" alt="Ben Bergeron" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Ben_Bergeron_Headshot.jpg" alt="Ben Bergeron" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/713RC4IYyeL._SL1360_.jpg" alt="Mission: Motherhood" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Ben Bergeron</div>
                 <div className="ind__author-title">Mission: Motherhood</div>
@@ -41,8 +41,8 @@ export default function BooksForFitnessPage() {
               {/* Jade Teta */}
               <div className="ind__author-card" style={{ textAlign: 'center' }}>
                 <div className="ind__author-img-wrap" style={{ justifyContent: 'center' }}>
-                  <img className="ind__author-headshot" src="https://scribemedia.com/hubfs/author-headshots/Jade_Teta_Headshot.jpg" alt="Jade Teta" loading="lazy" />
-                  <img className="ind__author-book" src="https://scribemedia.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
+                  <img className="ind__author-headshot" src="https://readora.com/hubfs/author-headshots/Jade_Teta_Headshot.jpg" alt="Jade Teta" loading="lazy" />
+                  <img className="ind__author-book" src="https://readora.com/hubfs/images/books/the-next-level-metabolism.jpg" alt="Next-Level Metabolism" loading="lazy" />
                 </div>
                 <div className="ind__author-name">Jade Teta</div>
                 <div className="ind__author-title">Next-Level Metabolism</div>

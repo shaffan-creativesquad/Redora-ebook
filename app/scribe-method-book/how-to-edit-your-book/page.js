@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'How to Edit Your Book | The Scribe Method | Scribe Media',
+  title: 'How to Edit Your Book | The Readora Method | Readora',
   description: 'Learn the three-step editing process to refine your manuscript into a polished, professional book.',
 }
 
@@ -13,7 +13,7 @@ export default function HowToEditYourBookPage() {
       <Navbar />
       <main id="main-content">
         <div className="chapter">
-          <a href="/scribe-method-book" className="chapter__back">← The Scribe Method</a>
+          <a href="/scribe-method-book" className="chapter__back">← The Readora Method</a>
           <p className="chapter__part">PART 5: EDIT YOUR BOOK</p>
           <p className="chapter__num">Chapter 17</p>
           <h1 className="chapter__title">How to Edit Your Book</h1>
@@ -73,9 +73,9 @@ export default function HowToEditYourBookPage() {
             </ol>
 
             <h2>Final Thoughts: Your Book is Almost Ready!</h2>
-            <p>Editing is a crucial part of the publishing process, but you don&apos;t have to do it alone. At Scribe, we help authors like you refine their books into professional, impactful works that resonate with readers.</p>
-            <p>For more in-depth guidance, check out the free online copy of <em>The Scribe Method</em>{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">here</a>
+            <p>Editing is a crucial part of the publishing process, but you don&apos;t have to do it alone. At Readora, we help authors like you refine their books into professional, impactful works that resonate with readers.</p>
+            <p>For more in-depth guidance, check out the free online copy of <em>The Readora Method</em>{' '}
+              
               {' '}or purchase a hard copy{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
@@ -84,7 +84,7 @@ export default function HowToEditYourBookPage() {
           <div className="chapter__nav">
             <a href="/scribe-method-book/how-to-write-your-first-draft-the-scribe-method" className="chapter__nav-link chapter__nav-link--prev">
               <span className="chapter__nav-label">Previous Chapter</span>
-              <span className="chapter__nav-title">How to Write Your First Draft (The Scribe Method)</span>
+              <span className="chapter__nav-title">How to Write Your First Draft (The Readora Method)</span>
             </a>
             <a href="/scribe-method-book/should-you-ask-people-for-feedback" className="chapter__nav-link chapter__nav-link--next">
               <span className="chapter__nav-label">Next Chapter</span>
@@ -94,7 +94,7 @@ export default function HowToEditYourBookPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
         </div>

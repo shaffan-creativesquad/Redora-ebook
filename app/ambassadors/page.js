@@ -4,8 +4,8 @@ import Footer from '@/components/Footer'
 import AmbassadorsForm from '@/components/AmbassadorsForm'
 
 export const metadata = {
-  title: 'Ambassador Program | Scribe Media',
-  description: 'Join the Scribe Ambassador Program. Earn referral commissions when your connections publish books with Scribe Media.',
+  title: 'Ambassador Program | Readora',
+  description: 'Join the Readora Ambassador Program. Earn referral commissions when your connections publish books with Readora.',
 }
 
 export default function AmbassadorsPage() {
@@ -18,9 +18,9 @@ export default function AmbassadorsPage() {
           {/* Hero */}
           <section className="amb__hero">
             <div className="amb__hero-content">
-              <p className="amb__hero-eyebrow">Scribe Ambassador Program</p>
-              <h1>Earn up to <em className="amb__hero-amount">$12,000</em> for every new Scribe author you refer.</h1>
-              <p className="amb__hero-sub">Connect us with experts in your network, and get paid when they publish their book with Scribe Media.</p>
+              <p className="amb__hero-eyebrow">Readora Ambassador Program</p>
+              <h1>Earn up to <em className="amb__hero-amount">$12,000</em> for every new Readora author you refer.</h1>
+              <p className="amb__hero-sub">Connect us with experts in your network, and get paid when they publish their book with Readora.</p>
               <a className="amb__hero-cta" href="#ambassador-form">Apply Now</a>
             </div>
           </section>
@@ -47,33 +47,33 @@ export default function AmbassadorsPage() {
           <section className="amb__tiers-section">
             <div className="amb__container">
               <h2 className="amb__tiers-heading">What you earn for every author you refer</h2>
-              <p className="amb__tiers-sub">Your commission depends on which Scribe service your referral chooses.</p>
+              <p className="amb__tiers-sub">Your commission depends on which Readora service your referral chooses.</p>
               <div className="amb__tiers-grid">
                 <article className="amb__tier-card gold">
                   <p className="amb__tier-amount">$12,000</p>
                   <p className="amb__tier-per">per referral</p>
-                  <h3 className="amb__tier-name">Scribe Elite Ghostwriting</h3>
+                  <h3 className="amb__tier-name">Readora Elite Ghostwriting</h3>
                   <p className="amb__tier-desc">White-glove ghostwriting with a senior writer.</p>
                   <a className="amb__tier-link" href="/services/ghostwriting">View Service</a>
                 </article>
                 <article className="amb__tier-card blue">
                   <p className="amb__tier-amount">$4,000</p>
                   <p className="amb__tier-per">per referral</p>
-                  <h3 className="amb__tier-name">Scribe Professional</h3>
+                  <h3 className="amb__tier-name">Readora Professional</h3>
                   <p className="amb__tier-desc">Interview-driven ghostwriting.</p>
                   <a className="amb__tier-link" href="/services/professional-book-writers">View Service</a>
                 </article>
                 <article className="amb__tier-card green">
                   <p className="amb__tier-amount">$3,000</p>
                   <p className="amb__tier-per">per referral</p>
-                  <h3 className="amb__tier-name">Scribe Guided Author</h3>
+                  <h3 className="amb__tier-name">Readora Guided Author</h3>
                   <p className="amb__tier-desc">Author writes with our coaching. We publish.</p>
                   <a className="amb__tier-link" href="/services/guided-author">View Service</a>
                 </article>
                 <article className="amb__tier-card red">
                   <p className="amb__tier-amount">$1,000</p>
                   <p className="amb__tier-per">per referral</p>
-                  <h3 className="amb__tier-name">Scribe Publishing</h3>
+                  <h3 className="amb__tier-name">Readora Publishing</h3>
                   <p className="amb__tier-desc">Editing and publishing for finished manuscripts.</p>
                   <a className="amb__tier-link" href="/services/publishing">View Service</a>
                 </article>
@@ -139,7 +139,7 @@ export default function AmbassadorsPage() {
           <section className="amb__how">
             <div className="amb__container">
               <h2>How it works</h2>
-              <p className="amb__how-sub">Here&apos;s a real-world example of how the Scribe Ambassador Program actually works.</p>
+              <p className="amb__how-sub">Here&apos;s a real-world example of how the Readora Ambassador Program actually works.</p>
               <div className="amb__step-list">
                 <article className="amb__step">
                   <div className="amb__step-media">
@@ -152,11 +152,11 @@ export default function AmbassadorsPage() {
                 </article>
                 <article className="amb__step">
                   <div className="amb__step-media">
-                    <img src="/assets/step-2-cam.png" alt="Cameron sharing Scribe with his network" loading="lazy" />
+                    <img src="/assets/step-2-cam.png" alt="Cameron sharing Readora with his network" loading="lazy" />
                   </div>
                   <div className="amb__step-copy">
-                    <h3>2. Cameron Shared Scribe with His Network</h3>
-                    <p>He knew his colleague John Ruhlin and his sister Kristi Herold both had wisdom worth sharing. He sent an introduction email to ambassador@scribemedia.com with John and Kristi CC&apos;d, so the referral was credited to him before they ever booked their consults.</p>
+                    <h3>2. Cameron Shared Readora with His Network</h3>
+                    <p>He knew his colleague John Ruhlin and his sister Kristi Herold both had wisdom worth sharing. He sent an introduction email to ambassador@readora.com with John and Kristi CC&apos;d, so the referral was credited to him before they ever booked their consults.</p>
                   </div>
                 </article>
                 <article className="amb__step">
@@ -165,7 +165,7 @@ export default function AmbassadorsPage() {
                   </div>
                   <div className="amb__step-copy">
                     <h3>3. Two New Books Were Born</h3>
-                    <p>John and Kristi both signed on as Scribe authors. Cameron got paid as each book hit its milestones.</p>
+                    <p>John and Kristi both signed on as Readora authors. Cameron got paid as each book hit its milestones.</p>
                   </div>
                 </article>
               </div>
@@ -179,38 +179,38 @@ export default function AmbassadorsPage() {
               <p className="amb__faq-intro">Everything you need to know about referring authors and getting paid.</p>
               <div className="amb__faq-list">
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">How do I introduce someone to Scribe?</summary>
+                  <summary className="amb__faq-q">How do I introduce someone to Readora?</summary>
                   <div className="amb__faq-a">
-                    <p>Send an email introduction to <a href="mailto:ambassador@scribemedia.com">ambassador@scribemedia.com</a> and CC the person you are introducing on the email. That single step both introduces them to our team and registers your introduction.</p>
-                    <p><strong>Your email must arrive at ambassador@scribemedia.com before the person you&apos;re introducing submits their own consultation form on scribemedia.com.</strong> Once a prospective client is already logged in our system, no commission can be paid for that author.</p>
+                    <p>Send an email introduction to <a href="mailto:ambassador@readora.com">ambassador@readora.com</a> and CC the person you are introducing on the email. That single step both introduces them to our team and registers your introduction.</p>
+                    <p><strong>Your email must arrive at ambassador@readora.com before the person you&apos;re introducing submits their own consultation form on readora.com.</strong> Once a prospective client is already logged in our system, no commission can be paid for that author.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">Who is a good fit for Scribe?</summary>
+                  <summary className="amb__faq-q">Who is a good fit for Readora?</summary>
                   <div className="amb__faq-a">
-                    <p>Founders, executives, coaches, speakers, investors, and other experts who have a story or a framework worth publishing, and who can invest in a premium service. Scribe is non-fiction only.</p>
+                    <p>Founders, executives, coaches, speakers, investors, and other experts who have a story or a framework worth publishing, and who can invest in a premium service. Readora is non-fiction only.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">How should I talk about Scribe to a potential author?</summary>
+                  <summary className="amb__faq-q">How should I talk about Readora to a potential author?</summary>
                   <div className="amb__faq-a">
-                    <p>Lead with the outcome. Scribe takes a busy expert from idea to published book without them writing a word (or with as much coaching as they want). Authors keep 100% creative, legal, and financial control of their work.</p>
+                    <p>Lead with the outcome. Readora takes a busy expert from idea to published book without them writing a word (or with as much coaching as they want). Authors keep 100% creative, legal, and financial control of their work.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">What if they say Scribe is too expensive?</summary>
+                  <summary className="amb__faq-q">What if they say Readora is too expensive?</summary>
                   <div className="amb__faq-a">
-                    <p>Scribe is for authors who prioritize their time and brand over their budget. The book becomes a credibility asset for life: a premium ghostwritten book typically pays for itself many times over in speaking, consulting, and client work.</p>
+                    <p>Readora is for authors who prioritize their time and brand over their budget. The book becomes a credibility asset for life: a premium ghostwritten book typically pays for itself many times over in speaking, consulting, and client work.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
                   <summary className="amb__faq-q">How much do I earn?</summary>
                   <div className="amb__faq-a">
                     <ul>
-                      <li><strong>$12,000</strong> for each Scribe Elite Ghostwriting author</li>
-                      <li><strong>$4,000</strong> for each Scribe Professional author</li>
-                      <li><strong>$3,000</strong> for each Scribe Guided Author</li>
-                      <li><strong>$1,000</strong> for each Scribe Publishing author</li>
+                      <li><strong>$12,000</strong> for each Readora Elite Ghostwriting author</li>
+                      <li><strong>$4,000</strong> for each Readora Professional author</li>
+                      <li><strong>$3,000</strong> for each Readora Guided Author</li>
+                      <li><strong>$1,000</strong> for each Readora Publishing author</li>
                     </ul>
                   </div>
                 </details>
@@ -229,31 +229,31 @@ export default function AmbassadorsPage() {
                 <details className="amb__faq-item">
                   <summary className="amb__faq-q">Can I introduce more than one person?</summary>
                   <div className="amb__faq-a">
-                    <p>Yes. There&apos;s no cap on how many people you can introduce, and you get paid for each one who becomes a Scribe author.</p>
+                    <p>Yes. There&apos;s no cap on how many people you can introduce, and you get paid for each one who becomes a Readora author.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">What if I have other ideas for promoting Scribe?</summary>
+                  <summary className="amb__faq-q">What if I have other ideas for promoting Readora?</summary>
                   <div className="amb__faq-a">
-                    <p>Great. Email us at <a href="mailto:authorstrategy@scribemedia.com">authorstrategy@scribemedia.com</a>. We love getting creative with ambassadors on speaking gigs, podcast features, content collaborations, and event partnerships.</p>
+                    <p>Great. Email us at <a href="mailto:authorstrategy@readora.com">authorstrategy@readora.com</a>. We love getting creative with ambassadors on speaking gigs, podcast features, content collaborations, and event partnerships.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
-                  <summary className="amb__faq-q">Do I need to be a published Scribe author to be an ambassador?</summary>
+                  <summary className="amb__faq-q">Do I need to be a published Readora author to be an ambassador?</summary>
                   <div className="amb__faq-a">
-                    <p>No. If you have a network of experts, founders, executives, or thought leaders, you can join. Past Scribe authorship is not required.</p>
+                    <p>No. If you have a network of experts, founders, executives, or thought leaders, you can join. Past Readora authorship is not required.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
                   <summary className="amb__faq-q">What happens after I introduce someone?</summary>
                   <div className="amb__faq-a">
-                    <p>Our Author Strategy team picks up the introduction from your email, replies to schedule a strategy call with the person you introduced, and tags them as your referral in our system. If they sign with Scribe, your commission kicks in at their first project milestone.</p>
+                    <p>Our Author Strategy team picks up the introduction from your email, replies to schedule a strategy call with the person you introduced, and tags them as your referral in our system. If they sign with Readora, your commission kicks in at their first project milestone.</p>
                   </div>
                 </details>
                 <details className="amb__faq-item">
                   <summary className="amb__faq-q">Can my author get a discount?</summary>
                   <div className="amb__faq-a">
-                    <p>Scribe doesn&apos;t discount its services, so introducing someone isn&apos;t a way to get them a price break. Your author pays the standard rate, and you earn the standard commission.</p>
+                    <p>Readora doesn&apos;t discount its services, so introducing someone isn&apos;t a way to get them a price break. Your author pays the standard rate, and you earn the standard commission.</p>
                   </div>
                 </details>
               </div>
@@ -264,7 +264,7 @@ export default function AmbassadorsPage() {
           <div className="amb__form-section" id="ambassador-form">
             <h2>Apply to Become an Ambassador</h2>
             <p>Fill out the form below and we&apos;ll send you your unique link.</p>
-            <p className="amb__terms-note">Before submitting, review the <a href="/ambassador-terms-of-service">Scribe Ambassador Program Terms &amp; Conditions</a>.</p>
+            <p className="amb__terms-note">Before submitting, review the <a href="/ambassador-terms-of-service">Readora Ambassador Program Terms &amp; Conditions</a>.</p>
             <div className="amb__form-wrapper">
               <AmbassadorsForm />
             </div>

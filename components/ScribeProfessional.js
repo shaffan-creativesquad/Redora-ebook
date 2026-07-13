@@ -5,13 +5,13 @@ const features = [
   { title: 'Completed Book Manuscript', desc: 'We validate your idea, structure your book, and conduct comprehensive interviews to capture your expertise in your authentic voice.' },
   { title: 'Published Book', desc: 'Professional cover and interior design, full publishing coordination including ISBN and metadata. Hardcover, paperback, and eBook formats included.' },
   { title: 'Distribution', desc: 'Major retailer distribution (Amazon, Barnes & Noble, iBooks). Printing services with unlimited reorder capability. You keep 100% of royalties.' },
-  { title: 'Launch & Promotion', desc: "Amazon Best Seller strategy, social media graphics, email templates, Goodreads giveaway coordination, and media opportunities through Scribe's network." },
+  { title: 'Launch & Promotion', desc: "Amazon Best Seller strategy, social media graphics, email templates, Goodreads giveaway coordination, and media opportunities through Readora's network." },
   { title: 'Audiobook Included', desc: 'Your professionally produced audiobook, recorded and distributed on Audible, Amazon, Apple Books, and Spotify.', link: true },
 ]
 
 const steps = [
   { num: 1, title: 'Book Strategy Consult', desc: 'Validation call with an Author Strategist covering your idea, target audience, and book objectives.' },
-  { num: 2, title: 'Assemble Publishing Team', desc: 'Meet your Publishing Manager who coordinates creative team assembly and Scribe writer selection.' },
+  { num: 2, title: 'Assemble Publishing Team', desc: 'Meet your Publishing Manager who coordinates creative team assembly and Readora writer selection.' },
   { num: 3, title: 'North Star and Roadmap', desc: 'Refinement of your North Star, Table of Contents, and chapter-by-chapter Roadmap.' },
   { num: 4, title: 'Roadmap', desc: 'Table of Contents and interview guide development.' },
   { num: 5, title: 'Interviews', desc: '10 interview calls (90–120 minutes each) capturing your content via natural conversation.' },
@@ -39,10 +39,10 @@ const notFor = [
 
 const faqs = [
   { q: 'Am I the author? Is the book in my voice?', a: 'Yes, you are the sole author. All content comes from your interviews and expertise. The book is written in your voice and reflects your ideas.' },
-  { q: 'How is this different from ghostwriting?', a: 'Unlike traditional ghostwriting, all content originates directly from you through interviews. Your Scribe captures your authentic voice rather than inventing content.' },
-  { q: 'How do you select my Scribe writer?', a: 'We match you with a writer based on your subject matter, writing style preferences, and personality. You can interview up to three candidates.' },
+  { q: 'How is this different from ghostwriting?', a: 'Unlike traditional ghostwriting, all content originates directly from you through interviews. Your Readora captures your authentic voice rather than inventing content.' },
+  { q: 'How do you select my Readora writer?', a: 'We match you with a writer based on your subject matter, writing style preferences, and personality. You can interview up to three candidates.' },
   { q: 'Can I incorporate existing writing?', a: 'Yes. We can incorporate existing writing such as blog posts, articles, and notes when it strengthens the manuscript and aligns with your book strategy.' },
-  { q: 'How long will the book be?', a: 'Most business books are around 150 pages, but final length depends on your goals, audience, and content. You decide the target length with guidance from your Scribe team.' },
+  { q: 'How long will the book be?', a: 'Most business books are around 150 pages, but final length depends on your goals, audience, and content. You decide the target length with guidance from your Readora team.' },
   { q: 'Do I have control over the cover design?', a: 'Absolutely. You have full creative approval over your cover and interior design.' },
 ]
 
@@ -53,9 +53,9 @@ const audiobookItems = [
 ]
 
 const relatedServices = [
-  { name: 'Scribe Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
-  { name: 'Scribe Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
-  { name: 'Scribe Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
+  { name: 'Readora Publishing', price: '$29,000', desc: 'You write the book, we handle publishing', href: '/services/publishing' },
+  { name: 'Readora Guided Author', price: '$44,000', desc: 'We guide your writing, then publish', href: '/services/guided-author' },
+  { name: 'Readora Elite', price: '$135,000+', desc: 'Premium customized ghostwriting', href: '/services/ghostwriting' },
 ]
 
 const testimonials = [
@@ -71,25 +71,25 @@ const testimonials = [
     credential: 'Former Owner, Pure Food and Wine',
     avatar: '../assets/sarma-mengailis.png'  },
   {
-    quote: "I always wanted to get back to that original level [of McGraw Hill quality] but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Scribe. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
+    quote: "I always wanted to get back to that original level [of McGraw Hill quality] but without having to take the kind of pay cut that you do through a major publisher. And so that's when I found Readora. And it was kind of the perfect match between self-publishing but still getting that professional level of publication.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '../assets/shaan-patel.png',
   },
   {
-    quote: 'As soon as I made the commitment to publish this book with Scribe and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
+    quote: 'As soon as I made the commitment to publish this book with Readora and go through you guys and just see it through, as soon as that contract was signed, everything else opened up.',
     name: 'Adam Skolnick',
     credential: "Co-Author of Can't Hurt Me, NYT Contributor",
     avatar: '../assets/AdamSkolnick_Headshot.png',
   },
   {
-    quote: "[The Scribe team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.",
+    quote: "[The Readora team] made it happen, putting the book together in such a short time frame and then making all of that come to life in such an amazing and professional way, that we can compete with the Princeton Reviews and the Kaplans and the juggernauts in our space without having to go through a major publisher and still keep all that ROI for ourselves.",
     name: 'Shaan Patel',
     credential: 'CEO, Prep Expert',
     avatar: '../assets/shaan-patel.png',
   },
   {
-    quote: "I wasn't a 'writer.' Scribe turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
+    quote: "I wasn't a 'writer.' Readora turned years of workshops into a clear book—and the book turned into credibility, revenue, and relationships I couldn't have reached any other way.",
     name: 'Rich Kurtzman',
     credential: 'Founder & CEO, Barcelona SAE',
     avatar: '../assets/RichKurtzman_Headshot.jpg',
@@ -109,14 +109,14 @@ function FaqItem({ q, a }) {
   )
 }
 
-export default function ScribeProfessional() {
+export default function ReadoraProfessional() {
   return (
     <>
       <div className="svc-detail">
         {/* Hero */}
         <div className="svc-detail__hero">
           <h1>How professionals write and publish their books.</h1>
-          <p className="svc-detail__subtitle">Scribe Professional is for entrepreneurs, consultants, and executives who want a professionally published book in their words and in their voice, but don&apos;t have time to write it themselves.</p>
+          <p className="svc-detail__subtitle">Readora Professional is for entrepreneurs, consultants, and executives who want a professionally published book in their words and in their voice, but don&apos;t have time to write it themselves.</p>
           <div className="svc-detail__price">$56,000</div>
           <div className="svc-detail__price-note">Paid over 12 months</div>
           <div className="svc-detail__timeline">Typical timeline: 10–12 months</div>
@@ -223,7 +223,7 @@ export default function ScribeProfessional() {
         <div className="svc-testimonials__inner">
           <div className="svc-testimonials__heading">
             <h2>What Our Authors Say</h2>
-            <p>Hear from authors who brought their books to life with Scribe</p>
+            <p>Hear from authors who brought their books to life with Readora</p>
           </div>
           <div className="svc-testimonials__grid">
             {testimonials.map((t, i) => (

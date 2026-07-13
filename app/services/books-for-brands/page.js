@@ -5,8 +5,8 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Books for Brands | Scribe Media',
-  description: "Turn your brand's knowledge into a professionally published book. Scribe partners with corporate brands for thought leadership publishing.",
+  title: 'Books for Brands | Readora',
+  description: "Turn your brand's knowledge into a professionally published book. Readora partners with corporate brands for thought leadership publishing.",
 }
 
 export default function BooksForBrandsPage() {

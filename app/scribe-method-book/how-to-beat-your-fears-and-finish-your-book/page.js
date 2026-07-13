@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'How To Beat Your Fears and Finish Your Book | The Scribe Method | Scribe Media',
-  description: 'Learn how to overcome the fears that stop authors from finishing their books with proven strategies from The Scribe Method.',
+  title: 'How To Beat Your Fears and Finish Your Book | The Readora Method | Readora',
+  description: 'Learn how to overcome the fears that stop authors from finishing their books with proven strategies from The Readora Method.',
 }
 
 export default function BeatYourFearsPage() {
@@ -15,7 +15,7 @@ export default function BeatYourFearsPage() {
         <div className="chapter">
 
           <a href="/scribe-method-book" className="chapter__back">
-            ← The Scribe Method
+            ← The Readora Method
           </a>
 
           <p className="chapter__part">PART 1: PREPARE TO WRITE YOUR BOOK</p>
@@ -68,8 +68,8 @@ export default function BeatYourFearsPage() {
             <h2>You Can Overcome Fear</h2>
             <p>Fear is natural, but it doesn&apos;t have to define your journey as an author. By reframing fear, focusing on your audience, and embracing the benefits of writing, you can push through and finish your book.</p>
             <p>Your book matters. Someone out there is waiting for the wisdom and insights only you can provide. Don&apos;t let fear hold you back from making that impact.</p>
-            <p>Ready to take the next step? Dive deeper into <em>The Scribe Method</em> and discover actionable strategies to help you write, publish, and market your book.{' '}
-              <a href="https://scribemedia.com/hubfs/scribe-method/The-Scribe-Method-Book.pdf" target="_blank" rel="noopener noreferrer">Read the full book online</a>
+            <p>Ready to take the next step? Dive deeper into <em>The Readora Method</em> and discover actionable strategies to help you write, publish, and market your book.{' '}
+              
               {' '}or{' '}
               <a href="/consult" target="_blank" rel="noopener noreferrer">purchase a hard copy</a>
               {' '}to have all the tools at your fingertips.
@@ -89,7 +89,7 @@ export default function BeatYourFearsPage() {
 
           <div className="chapter__cta-section">
             <h2 className="chapter__cta-title">Want Help Writing Your Book?</h2>
-            <p className="chapter__cta-text">Scribe has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
+            <p className="chapter__cta-text">Readora has helped 2,000+ authors turn their ideas into published books. Schedule a free consult.</p>
             <a href="/consult" className="chapter__cta-btn">Schedule a Consult</a>
           </div>
 

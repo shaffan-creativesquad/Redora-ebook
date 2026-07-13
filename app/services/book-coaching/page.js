@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Book Coaching Services | Scribe Media',
+  title: 'Book Coaching Services | Readora',
   description: 'Expert book coaching to guide your writing journey. Get the structure, accountability, and professional feedback you need to write a great book in your own voice.',
 }
 

@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Scribe Signature | Scribe Media',
+  title: 'Readora Signature | Readora',
   description: 'A premium, customized book writing and publishing experience designed around your specific needs, timeline, and vision.',
 }
 

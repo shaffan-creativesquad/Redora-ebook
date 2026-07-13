@@ -5,7 +5,7 @@ import Newsletter from '@/components/Newsletter'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Book Publicity & PR Services | Scribe Media',
+  title: 'Book Publicity & PR Services | Readora',
   description: 'Professional book PR and publicity services. Media placements, podcast bookings, and comprehensive visibility campaigns.',
 }
 

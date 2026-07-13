@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'Careers | Scribe Media',
-  description: 'Join the Scribe Media team. The first, the biggest, and the best professional publisher.',
+  title: 'Careers | Readora',
+  description: 'Join the Readora team. The first, the biggest, and the best professional publisher.',
 }
 
 const team = [
@@ -17,10 +17,10 @@ const team = [
 ]
 
 const videos = [
-  { title: 'Working as a Scribe Freelancer',       desc: 'Hear what day-to-day collaboration looks like for our freelancer network.',           href: 'https://scribemedia.com/hubfs/video/scribe-media-trailers/scribe-freelancer-trailer.mp4' },
-  { title: '7 Surprising Facts About Scribe\'s Culture', desc: 'A candid look at how we work, make decisions, and support each other.',          href: 'https://scribemedia.com/hubfs/video/general/7-surprising-facts-about-scribes-culture.mp4' },
-  { title: 'Who Should Not Work at Scribe',        desc: 'Clear expectations so candidates can self-select for the right fit.',                   href: 'https://scribemedia.com/hubfs/video/general/who-should-not-work-at-scribe.mp4' },
-  { title: '3 Things Applicants Need to Know',     desc: 'What to expect in our process and how we evaluate applicants.',                         href: 'https://scribemedia.com/hubfs/video/general/3-things-applicants-need-to-know.mp4' },
+  { title: 'Working as a Readora Freelancer',       desc: 'Hear what day-to-day collaboration looks like for our freelancer network.',           href: 'https://readora.com/hubfs/video/scribe-media-trailers/scribe-freelancer-trailer.mp4' },
+  { title: '7 Surprising Facts About Readora\'s Culture', desc: 'A candid look at how we work, make decisions, and support each other.',          href: 'https://readora.com/hubfs/video/general/7-surprising-facts-about-scribes-culture.mp4' },
+  { title: 'Who Should Not Work at Readora',        desc: 'Clear expectations so candidates can self-select for the right fit.',                   href: 'https://readora.com/hubfs/video/general/who-should-not-work-at-scribe.mp4' },
+  { title: '3 Things Applicants Need to Know',     desc: 'What to expect in our process and how we evaluate applicants.',                         href: 'https://readora.com/hubfs/video/general/3-things-applicants-need-to-know.mp4' },
 ]
 
 const awards = [
@@ -33,7 +33,7 @@ const awards = [
 const benefits = [
   {
     title: 'Insurance Benefits',
-    items: ['90% Scribe-paid health, dental, and vision for crew members.', 'Option to add spouse and dependents.'],
+    items: ['90% Readora-paid health, dental, and vision for crew members.', 'Option to add spouse and dependents.'],
   },
   {
     title: 'Financial Benefits',
@@ -73,9 +73,9 @@ export default function CareersPage() {
             {/* Scam alert */}
             <section className="careers-block careers-alert">
               <h3>Notice: Recruitment Scam Alert</h3>
-              <p>We are not hiring at this time. If you have been contacted by someone claiming to represent Scribe, please verify these points:</p>
+              <p>We are not hiring at this time. If you have been contacted by someone claiming to represent Readora, please verify these points:</p>
               <ul>
-                <li>Official communication only comes from an <strong>@scribemedia.com</strong> email address.</li>
+                <li>Official communication only comes from an <strong>@readora.com</strong> email address.</li>
                 <li>We do not use Microsoft Teams for interviews.</li>
                 <li>We never request payment or personal financial information in hiring.</li>
               </ul>
@@ -84,11 +84,11 @@ export default function CareersPage() {
 
             {/* What is it like */}
             <section className="careers-block">
-              <h2>What Is It Like Working with Scribe?</h2>
-              <p>At Scribe, we do not have jobs, we have careers and an environment for Crew members to bring their whole selves to.</p>
+              <h2>What Is It Like Working with Readora?</h2>
+              <p>At Readora, we do not have jobs, we have careers and an environment for Crew members to bring their whole selves to.</p>
               <p>You will grow professionally, and you will also have the chance to grow personally. We are always looking for exceptional culture adds.</p>
 
-              <div className="careers-gallery" aria-label="Scribe team">
+              <div className="careers-gallery" aria-label="Readora team">
                 {team.map(({ img, name, title }) => (
                   <article key={name} className="careers-person">
                     <div className="careers-person__photo">
@@ -111,9 +111,9 @@ export default function CareersPage() {
               </div>
             </section>
 
-            {/* Why work with Scribe */}
+            {/* Why work with Readora */}
             <section className="careers-block">
-              <h2>Why Should You Work with Scribe?</h2>
+              <h2>Why Should You Work with Readora?</h2>
               <p style={{ textAlign: 'center' }}>We have been recognized as one of the best companies to work with in America.</p>
               <div className="careers-press-grid">
                 {awards.map(({ title, source }) => (
@@ -149,12 +149,12 @@ export default function CareersPage() {
                 <article className="careers-role">
                   <h3>Full-Time Careers (Remote, USA / Austin, TX)</h3>
                   <p><strong>No full-time roles available.</strong></p>
-                  <p>Get an email when we open a new role (about 1x per month): <a href="mailto:careers@scribemedia.com?subject=New%20Role%20Notifications">Sign up for notifications</a>.</p>
+                  <p>Get an email when we open a new role (about 1x per month): <a href="mailto:careers@readora.com?subject=New%20Role%20Notifications">Sign up for notifications</a>.</p>
                 </article>
                 <article className="careers-role">
                   <h3>Freelance and Part-Time Roles (Remote, USA / Austin, TX)</h3>
                   <p><strong>No freelance roles available.</strong></p>
-                  <p>Get an email when we open a new role (about 1-2x per month): <a href="mailto:careers@scribemedia.com?subject=Freelance%20Role%20Notifications">Sign up for notifications</a>.</p>
+                  <p>Get an email when we open a new role (about 1-2x per month): <a href="mailto:careers@readora.com?subject=Freelance%20Role%20Notifications">Sign up for notifications</a>.</p>
                 </article>
               </div>
             </section>

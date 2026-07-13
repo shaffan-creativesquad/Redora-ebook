@@ -92,7 +92,7 @@ export default function ElitePage() {
 
   const toggle = id => setSelected(s => ({ ...s, [id]: !s[id] }))
 
-  const imprintCost = imprint === 'custom-scribe' ? 750 : imprint === 'custom-own' ? 375 : 0
+  const imprintCost = imprint === 'custom-readora' ? 750 : imprint === 'custom-own' ? 375 : 0
   const authorCost = extraAuthors * EXTRA_AUTHOR_PRICE
   const returningDisc = returning ? RETURNING_DISCOUNT : 0
 
@@ -122,24 +122,24 @@ export default function ElitePage() {
   const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
 
   const agreementHTML = `
-    <h4>Scribe Agreement</h4>
+    <h4>Readora Agreement</h4>
     <p>This agreement is intentionally written in plain English. We think the impenetrable lawyer-speak of modern contracts inhibits understanding, cooperation, and mutual benefit, which helps no one (except the lawyers). We want what's best for both of us, now and in the future, and we think plain English agreements help achieve that.</p>
     <p>In short, the purpose of this agreement is simple:</p>
-    <p>You are hiring us, Scribe Media, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
+    <p>You are hiring us, Readora, to perform the services described below. This agreement is the official record of our relationship, and it lays out what we can both expect, who should do what and when, and what will happen if something goes wrong.</p>
 
     <h4>What We Will Do for You</h4>
-    <p>The Scribe Elite experience is the premier ghostwriting service. White-glove, start to finish. We handle everything so you can focus on your ideas.</p>
+    <p>The Readora Elite experience is the premier ghostwriting service. White-glove, start to finish. We handle everything so you can focus on your ideas.</p>
     <p><strong>Project Management:</strong> You will be assigned a dedicated Publishing Manager who functions as the project manager for your book, ensuring all next steps are clearly outlined, deadlines are met, and the entire process runs smoothly. They will serve as your main point of contact and coordinate all aspects to keep everything on track and aligned with your vision.</p>
     <p><strong>Book Positioning &amp; Book Roadmap Creation:</strong> Several in-depth collaborative calls to position your book in the market and create a comprehensive Book Roadmap that serves as the blueprint for your manuscript.</p>
     <p><strong>Content Interviews:</strong> Interviews based on the Book Roadmap create the raw material for your manuscript. We work around your schedule with as many sessions as needed.</p>
-    <p><strong>Transcription and Manuscript Writing:</strong> Scribe turns your words into a cohesive, polished book. An elite Scribe writer crafts your manuscript from the interviews.</p>
+    <p><strong>Transcription and Manuscript Writing:</strong> Readora turns your words into a cohesive, polished book. An elite Readora writer crafts your manuscript from the interviews.</p>
     <p><strong>Revisions:</strong> You will receive 10 revision calls, chapter by chapter, to refine and perfect your manuscript until it matches your vision.</p>
     <p><strong>Research:</strong> 20 hours of research included. Our team will reference your materials, books, podcasts, and other sources to enrich and support your content.</p>
     <p><strong>Proofreading:</strong> Your book will go through full quality assurance and technical preparation to ensure it is ready to publish.</p>
     <p><strong>Book Cover Design:</strong> Our design team will create a high-quality book cover for your print and eBook versions. You will get at least three cover design options and up to five rounds of edits, backed by market research. The cover decision is yours alone.</p>
     <p><strong>Interior Layout Design &amp; eBook Conversion:</strong> An interior layout designer will craft the interior for your hardcover, paperback, and eBook editions. You can provide up to 25 print-ready visual images. Custom graphics incur an additional cost.</p>
     <p><strong>Copyright &amp; ISBN Registration:</strong> Your manuscript will be copyrighted with the U.S. Copyright Office. Your book will be registered in Bowker's Books In Print database with all necessary ISBNs and barcodes.</p>
-    <p><strong>Publishing Imprint:</strong> You will publish under our Lioncrest Imprint. You may publish under your own custom imprint at no additional cost.</p>
+    <p><strong>Publishing Imprint:</strong> You will publish under our Ember Press Imprint. You may publish under your own custom imprint at no additional cost.</p>
     <p><strong>Pre-Launch Physical Proof:</strong> We'll order you a physical proof copy of your paperback and hardcover to review before setting a launch date.</p>
     <p><strong>Publishing:</strong> We will format, publish, and distribute your title on Kindle Direct Publishing and IngramSpark platforms.</p>
     <p><strong>Author Copies:</strong> We will provide 50 paperback copies or 25 hardcover copies at no extra charge. You can order unlimited additional copies at the printer's cost.</p>
@@ -162,7 +162,7 @@ export default function ElitePage() {
     <p><strong>Audiobook Overage:</strong> Professional narrator covers up to 75,430 words / 8.38 hours. Self-narration covers up to 56,298 words / 6.26 hours with 18 hours of studio time. Overages will be quoted before recording begins.</p>
 
     <h4>Post-Publishing Support</h4>
-    <p>Within three months of your book's launch date, we will fix one round of typos for free. Beyond this, contact alumni@scribemedia.com for post-publishing support quotes.</p>
+    <p>Within three months of your book's launch date, we will fix one round of typos for free. Beyond this, contact alumni@readora.com for post-publishing support quotes.</p>
 
     <h4>AI Content</h4>
     <p>We reserve the right to use AI as a productivity tool. You may request details of AI use at any time, or explicitly ask us not to use AI on your project. You must notify us of any AI-generated content (text, images, translations) in your manuscript.</p>
@@ -175,15 +175,15 @@ export default function ElitePage() {
     <h4>Legal Terms</h4>
     <p><strong>Call Recordings:</strong> Our calls will be recorded and may be monitored. By signing, you consent to this recording.</p>
     <p><strong>Intellectual Property:</strong> Until full payment is received, your manuscript will not be published. If the project is terminated before full payment, you retain ownership of the content paid for up to that point.</p>
-    <p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Scribe Media, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
-    <p><strong>Liability &amp; Indemnification:</strong> You are solely responsible for the content of your book. You represent and warrant that the content does not infringe the rights of any third party. You agree to indemnify Scribe Media for any liability arising from your book's content.</p>
+    <p><strong>Royalties and Profits:</strong> You get all the profit from your work. Neither Readora, nor any third party is entitled to any share of book profits. All book and distribution accounts are yours.</p>
+    <p><strong>Liability &amp; Indemnification:</strong> You are solely responsible for the content of your book. You represent and warrant that the content does not infringe the rights of any third party. You agree to indemnify Readora for any liability arising from your book's content.</p>
     <p><strong>Image and IP Licensing:</strong> If you provide images, you must have the right to use them. If we source images, we will obtain proper licenses. Both parties indemnify each other for their respective media sourcing.</p>
     <p><strong>Cancellation:</strong> If either party decides to part ways, we will discuss next steps. If paid invoices (beyond the non-refundable first invoice) exceed incurred creative costs, we will refund the difference.</p>
     <p><strong>Delay:</strong> If you need to pause, we cannot guarantee the same timeline or team when you restart. Projects are auto-paused after 4 unreturned contact attempts. Pauses of 3+ months may require a price update.</p>
     <p><strong>The Sunset Clause:</strong> If you are non-responsive for 12 months or more, we have the right to cancel the project and retain payment.</p>
     <p><strong>No Hidden Costs:</strong> We will never do additional work that costs you money without first getting your explicit approval.</p>
     <p><strong>Pricing Expiration:</strong> The price you commit to is good for 3 months. If you don't start within 3 months and prices have increased, an amended agreement will be required.</p>
-    <p><strong>Outside Work:</strong> You agree not to hire Scribe team members for independent work identical or similar to our services without explicit approval.</p>
+    <p><strong>Outside Work:</strong> You agree not to hire Readora team members for independent work identical or similar to our services without explicit approval.</p>
 
     <h4>Your Investment</h4>
     <p>Your investment is paid over <span class="pub-dynamic-field">${NUM_MONTHS}</span> months at <span class="pub-dynamic-field">${fmtM(monthly)}</span>/month. A $1,000 deposit is due at signing and will be deducted from your first monthly payment. Remaining payments will be set up via ACH. There is a 3% processing fee for all credit card payments. If we're still working on your book beyond the payment term, payments continue at $2,500/month. Unpaid invoices past 14 days will pause work on your project. Full payment is required before publishing.</p>
@@ -191,7 +191,7 @@ export default function ElitePage() {
     <table style="width:100%;border-collapse:collapse;margin:16px 0;">
       <tbody>
         <tr style="border-bottom:1px solid rgba(255,255,255,0.1);">
-          <td style="padding:10px 0;color:#a0a0a0;">Scribe Elite Ghostwriting Services (includes audiobook)</td>
+          <td style="padding:10px 0;color:#a0a0a0;">Readora Elite Ghostwriting Services (includes audiobook)</td>
           <td style="padding:10px 0;text-align:right;color:#f0f0f0;font-weight:600;">$135,000</td>
         </tr>
         ${extraAuthors > 0 ? `<tr style="border-bottom:1px solid rgba(255,255,255,0.1);"><td style="padding:10px 0;color:#a0a0a0;">Additional Authors (${extraAuthors})</td><td style="padding:10px 0;text-align:right;color:#f0f0f0;font-weight:600;">${fmt(authorCost)}</td></tr>` : ''}
@@ -216,7 +216,7 @@ export default function ElitePage() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           email: quoteEmail,
-          tier: 'Scribe Elite',
+          tier: 'Readora Elite',
           total,
           monthly,
           months: NUM_MONTHS,
@@ -236,7 +236,7 @@ export default function ElitePage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          tier: 'Scribe Elite',
+          tier: 'Readora Elite',
           amount: 1000,
           name: signName,
           email: signEmail,
@@ -281,7 +281,7 @@ export default function ElitePage() {
                 {/* Hero */}
                 <div className="pub-hero">
                   <div className="pub-hero__badge">The Premier Ghostwriting Experience</div>
-                  <h1 className="pub-hero__title">Scribe Elite</h1>
+                  <h1 className="pub-hero__title">Readora Elite</h1>
                   <p className="pub-hero__subtitle">Our most comprehensive writing and publishing package. A dedicated ghostwriter captures your voice and ideas through in-depth interviews, delivering a polished, publish-ready manuscript. You retain 100% of your royalties and full ownership.</p>
                   <div className="pub-hero__price-row">
                     <span className="pub-hero__price">$135,000</span>
@@ -376,7 +376,7 @@ export default function ElitePage() {
                     </div>
                   )}
 
-                  <p style={{ fontSize: '12px', color: '#777', marginTop: '16px' }}>Want to bundle multiple services? Ask your Scribe representative about package discounts.</p>
+                  <p style={{ fontSize: '12px', color: '#777', marginTop: '16px' }}>Want to bundle multiple services? Ask your Readora representative about package discounts.</p>
                 </div>
 
                 {/* Customize */}
@@ -391,10 +391,10 @@ export default function ElitePage() {
                 {showCustomize && (
                   <div className="pub-card" style={{ marginTop: 0 }}>
                     <h3 style={{ marginTop: 0 }}>Publishing Imprint</h3>
-                    <p style={{ fontSize: '13px', color: '#777', marginBottom: '12px' }}>Choose how your book is branded. Elite authors publish under Lioncrest Publishing at no extra cost.</p>
+                    <p style={{ fontSize: '13px', color: '#777', marginBottom: '12px' }}>Choose how your book is branded. Elite authors publish under Ember Press Publishing at no extra cost.</p>
                     {[
-                      { value: 'lioncrest',    label: 'Lioncrest Publishing (included)' },
-                      { value: 'custom-scribe', label: 'Custom Publishing Imprint (Scribe designs your logo) +$750' },
+                      { value: 'lioncrest',    label: 'Ember Press Publishing (included)' },
+                      { value: 'custom-readora', label: 'Custom Publishing Imprint (Readora designs your logo) +$750' },
                       { value: 'custom-own',    label: 'Custom Imprint (bring your own logo) +$375' },
                     ].map(opt => (
                       <label key={opt.value} className="pub-radio">
@@ -422,7 +422,7 @@ export default function ElitePage() {
                       <input type="checkbox" checked={returning} onChange={e => setReturning(e.target.checked)} />
                       <div className="pub-check__info">
                         <div className="pub-check__name">Returning Author Discount</div>
-                        <div className="pub-check__desc">For authors who have previously published with Scribe</div>
+                        <div className="pub-check__desc">For authors who have previously published with Readora</div>
                       </div>
                       <div className="pub-check__price">-{fmt(RETURNING_DISCOUNT)}</div>
                     </label>
@@ -583,7 +583,7 @@ export default function ElitePage() {
             <div className="pub-summary">
               <h3>Project Summary</h3>
               <div className="pub-summary__line">
-                <span className="label">Scribe Elite (includes audiobook)</span>
+                <span className="label">Readora Elite (includes audiobook)</span>
                 <span className="value">$135,000</span>
               </div>
               {extraAuthors > 0 && (
@@ -594,7 +594,7 @@ export default function ElitePage() {
               )}
               {imprintCost > 0 && (
                 <div className="pub-summary__line">
-                  <span className="label">{imprint === 'custom-scribe' ? 'Custom Imprint (Scribe designed)' : 'Custom Imprint (own logo)'}</span>
+                  <span className="label">{imprint === 'custom-readora' ? 'Custom Imprint (Readora designed)' : 'Custom Imprint (own logo)'}</span>
                   <span className="value">+{fmt(imprintCost)}</span>
                 </div>
               )}

@@ -3,20 +3,20 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: 'What exactly does Scribe do?',
-    a: 'Scribe helps people write, publish, and market their books. We were founded in 2014 by a 4x New York Times Bestselling Author, and have worked on over 3,000 books. Our two most popular services are Guided Author ($44k) and Scribe Professional ($56k). We can also publish your finished manuscript.',
+    q: 'What exactly does Readora do?',
+    a: 'Readora helps people write, publish, and market their books. We were founded in 2014 by a 4x New York Times Bestselling Author, and have worked on over 3,000 books. Our two most popular services are Guided Author ($44k) and Readora Professional ($56k). We can also publish your finished manuscript.',
   },
   {
-    q: 'Does Scribe work with anyone?',
+    q: 'Does Readora work with anyone?',
     a: "No, we typically reject about 30% of authors who want to work with us. We use two criteria: Does the author know the subject matter deeply enough? And does the author have a clear understanding of how books work and reasonable expectations for ROI? That is why the first step in our process is a qualification process.",
   },
   {
     q: 'How do I decide between the $44k and $56k options?',
-    a: 'Ask yourself two questions: Do you like sitting down and writing? And do you have enough time to write yourself? If yes to both, Guided Author ($44k) is probably right. If no to both, Scribe Professional ($56k) is probably right. Generally, Guided Author requires 1-2 hours a day for a year, and Scribe Professional requires 2 hours a week for 9 months.',
+    a: 'Ask yourself two questions: Do you like sitting down and writing? And do you have enough time to write yourself? If yes to both, Guided Author ($44k) is probably right. If no to both, Readora Professional ($56k) is probably right. Generally, Guided Author requires 1-2 hours a day for a year, and Readora Professional requires 2 hours a week for 9 months.',
   },
   {
-    q: 'What is Scribe Elite ($135k+)?',
-    a: 'Scribe Elite is intended for authors who require an authentic ghostwriting experience that often involves interviewing outside sources, conducting background research, and creating a bespoke process. Almost all authors are better off with Scribe Guided Author ($44k) or Scribe Professional ($56k).',
+    q: 'What is Readora Elite ($135k+)?',
+    a: 'Readora Elite is intended for authors who require an authentic ghostwriting experience that often involves interviewing outside sources, conducting background research, and creating a bespoke process. Almost all authors are better off with Readora Guided Author ($44k) or Readora Professional ($56k).',
   },
   {
     q: 'Do you do fiction books?',
@@ -27,7 +27,7 @@ const faqs = [
     a: 'No, not right now.',
   },
   {
-    q: 'Is there anyone who should not work with Scribe?',
+    q: 'Is there anyone who should not work with Readora?',
     a: 'Yes. People who do not know their topic well, people who are not sure how a book can help them, and people who have no idea why they want to write a book. Our process requires an investment of both money and effort, so you should have an idea of why you are doing it.',
   },
 ]
