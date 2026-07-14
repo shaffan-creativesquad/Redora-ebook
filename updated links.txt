@@ -1,12 +1,14 @@
 READORA — ALL ACTIVE PAGE LINKS
-Updated: 2026-07-13
+Updated: 2026-07-14
 ============================================================
 
-── MAIN (19) ──
+── MAIN (22) ──
   https://redora-ebook-olive.vercel.app/
   https://redora-ebook-olive.vercel.app/allservices
   https://redora-ebook-olive.vercel.app/alumni
+  https://redora-ebook-olive.vercel.app/ambassador-terms-of-service
   https://redora-ebook-olive.vercel.app/ambassadors
+  https://redora-ebook-olive.vercel.app/book-school
   https://redora-ebook-olive.vercel.app/careers
   https://redora-ebook-olive.vercel.app/consult
   https://redora-ebook-olive.vercel.app/contact
@@ -137,8 +139,8 @@ Updated: 2026-07-13
   https://redora-ebook-olive.vercel.app/blog
 
 ============================================================
-TOTAL: 117 pages
-  MAIN ................ 20
+TOTAL: 119 pages
+  MAIN ................ 22
   SERVICES ............ 17
   PRICING .............. 8
   BOOKS FOR INDUSTRIES . 13
