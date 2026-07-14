@@ -8,12 +8,12 @@ export const metadata = {
 }
 
 const team = [
-  { img: 'GailFay.jpg',          name: 'Gail Fay',          title: 'Book Coach' },
-  { img: 'IanClaudius.jpg',      name: 'Ian Claudius',      title: 'Book Production Director' },
-  { img: 'EllieCole.jpg',        name: 'Ellie Cole',        title: 'Head of Author Experience' },
-  { img: 'EmilySisto.jpg',       name: 'Emily Sisto',       title: 'Service Operations Manager' },
-  { img: 'FlorenciaLarraza.jpg', name: 'Florencia Larraza', title: 'Book Production Admin' },
-  { img: 'EleaLeguizamon.jpg',   name: 'Elea Leguizamon',   title: 'Author Experience Admin' },
+  { img: 'AdamSkolnick_Headshot.jpg',          name: 'Gail Fay',          title: 'Book Coach' },
+  { img: 'Andrew_Thorp_King_Headshot.jpg',      name: 'Ian Claudius',      title: 'Book Production Director' },
+  { img: 'Bob_Moesta_Headshot.jpg',             name: 'Ellie Cole',        title: 'Head of Author Experience' },
+  { img: 'Cameron_Herold_Headshot.jpg',         name: 'Emily Sisto',       title: 'Service Operations Manager' },
+  { img: 'Dan_Sullivan_Headshot.jpg',           name: 'Florencia Larraza', title: 'Book Production Admin' },
+  { img: 'Emily_Lewis_Bowers_Headshot.jpg',     name: 'Elea Leguizamon',   title: 'Author Experience Admin' },
 ]
 
 const videos = [
