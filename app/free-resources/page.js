@@ -77,14 +77,7 @@ export default function FreeResourcesPage() {
             <h2 className="fr__section-title">Quick Reads</h2>
             <div className="fr__grid">
 
-              <a href="/blog/tag/book-bites" className="fr__card">
-                <div className="fr__card-icon">🍔</div>
-                <h3>Book Bites</h3>
-                <p>Short, actionable summaries of the best Readora-published books. Get the key takeaways in under 5 minutes.</p>
-                <span className="fr__card-link">Read Book Bites →</span>
-              </a>
-
-              <a href="/faq" className="fr__card">
+<a href="/faqs" className="fr__card">
                 <div className="fr__card-icon">❓</div>
                 <h3>FAQs</h3>
                 <p>Common questions about the Readora process, timelines, pricing, and what to expect when writing your book.</p>
