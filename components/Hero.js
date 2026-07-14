@@ -2,10 +2,10 @@
 import Image from 'next/image'
 
 const heroBooks = [
-  { src: '/assets/Goggins_Book.webp', alt: "Can't Hurt Me" },
-  { src: '/assets/Robin_Book.webp', alt: 'The Thought Leader Formula' },
-  { src: '/assets/Joey_Book.webp', alt: 'Never Lose a Customer Again' },
-  { src: '/assets/Will_Book.webp', alt: 'Marketing to Mindstates' },
+  { src: '/assets/Book Covers/003.jpg', alt: 'Book cover' },
+  { src: '/assets/Book Covers/010.png', alt: 'Book cover' },
+  { src: '/assets/Book Covers/019.png', alt: 'Book cover' },
+  { src: '/assets/Book Covers/27.png', alt: 'Book cover' },
 ]
 
 const bookStyles = [

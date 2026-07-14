@@ -24,7 +24,7 @@ const services = [
     learnMoreText: 'Explore Publishing Services',
     learnMoreHref: '/services',
     authorImage: '/assets/Goggins_Homepage-rev.webp',
-    bookImage: '/assets/Goggins_Book.webp',
+    bookImage: '/assets/Book Covers/007.jpg',
     imageRight: true,
   },
   {
@@ -38,7 +38,7 @@ const services = [
     learnMoreText: 'Explore Writing Services',
     learnMoreHref: '/services',
     authorImage: '/assets/Robin.webp',
-    bookImage: '/assets/Robin_Book.webp',
+    bookImage: '/assets/Book Covers/015.png',
     imageRight: false,
   },
   {
@@ -49,7 +49,7 @@ const services = [
     learnMoreText: 'Explore Book Coaching',
     learnMoreHref: '/services/guided-author',
     authorImage: '/assets/Joey.webp',
-    bookImage: '/assets/Joey_Book.webp',
+    bookImage: '/assets/Book Covers/23.png',
     imageRight: true,
   },
   {
@@ -60,7 +60,7 @@ const services = [
     learnMoreText: 'Explore Marketing Services',
     learnMoreHref: '/services/book-marketing',
     authorImage: '/assets/Will.webp',
-    bookImage: '/assets/Will_Book.webp',
+    bookImage: '/assets/Book Covers/30.png',
     imageRight: false,
   },
 ]

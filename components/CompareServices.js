@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const cards = [
-  { image: '/assets/Bottom_Readora_Method.webp', alt: 'Free writing and publishing guides from Readora', title: 'Free Guides, Frameworks, and Publishing Playbooks', href: '/free-resources' },
+  { image: '/assets/readora-bbok.png', alt: 'Free writing and publishing guides from Readora', title: 'Free Guides, Frameworks, and Publishing Playbooks', href: '/free-resources', imgBg: '#0d1b3e', contain: true },
   { image: '/assets/Bottom_Books.webp', alt: 'Browse books published by Readora authors', title: 'Browse the Full Catalogue of Readora-Published Books', href: '/#published-books' },
 ]
 
@@ -51,14 +51,27 @@ export default function CompareServices() {
               border: '1px solid rgba(168,168,168,0.22)',
               background: 'linear-gradient(180deg,rgba(22,22,22,0.94),rgba(18,18,18,0.96))',
             }}>
-              <Image
-                src={card.image} alt={card.alt}
-                width={988} height={500}
-                style={{ width: '100%', display: 'block', aspectRatio: '16/9', objectFit: 'cover' }}
-                unoptimized
-                loading={i === 1 ? 'eager' : 'lazy'}
-                priority={i === 1}
-              />
+              <div style={{
+                width: '100%', aspectRatio: '16/9',
+                background: card.imgBg || 'transparent',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                overflow: 'hidden',
+                padding: card.contain ? '1.5rem' : 0,
+                boxSizing: 'border-box',
+              }}>
+                <Image
+                  src={card.image} alt={card.alt}
+                  width={988} height={500}
+                  style={{
+                    width: '100%', height: '100%', display: 'block',
+                    objectFit: card.contain ? 'contain' : 'cover',
+                    objectPosition: 'center',
+                  }}
+                  unoptimized
+                  loading={i === 1 ? 'eager' : 'lazy'}
+                  priority={i === 1}
+                />
+              </div>
               <div style={{ padding: '0.95rem' }}>
                 <h3 style={{ margin: '0 0 0.7rem', color: '#f0f0f0', fontSize: '1.07rem', lineHeight: 1.34, fontWeight: 700 }}>
                   {card.title}
